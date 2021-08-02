@@ -292,6 +292,8 @@ LaTeX equation editor:  https://www.codecogs.com/latex/eqneditor.php
 <!--chapter:end:01-Introduction.Rmd-->
 
 
+# WRITING EMPIRICAL MANUSCRIPTS {-}
+
 # The APA Style Manuscript {#APAstyle}
 
 [Screencasted Lecture Link](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=8ca9d96d-0ff6-4068-a570-ac290189a4d4) 
@@ -318,7 +320,7 @@ This lesson focuses on APA style. While a significant portion of the material fo
 
 ## Navigating this Lesson
 
-There is about # hour and ## minutes of lecture.  
+There is about 1 hour and 45 minutes of lecture.  
 
 The R markdown file used to create this lecture as well as all of the figures are available at the [OER's GitHub site](https://github.com/lhbikos/ReC_Topics).
 
@@ -410,23 +412,24 @@ Please keep the perspectives of these authors in mind.
 
 Let’s also look at the characteristics of White Supremacy Culture in organizations [@noauthor_white_nodate].  As we tour through the components of APA style, what resonates with this list?  Refer to the .pdf handout or website for more definitions, descriptions, examples, and antidotes.
 
-*	Perfectionism
+* Perfectionism
   - Perfectionistic culture
   - Worship of the written word
   - Only one right way
   - Either/or thinking
-*	Concentration of power
+* Concentration of power
   - Power hoarding
-*Paternalism
+* Paternalism
   - Defensiveness
-*	Right to comfort
+* Right to comfort
   - Fear of open conflict
-*	Individualism
-  - I’m the only one
-*	Progress is more/bigger
+* Individualism
+  - I'm the only one
+* Progress is more/bigger
   - Objectivity
   - Quantity over quality
   - Sense of urgency
+  
 
 ## The JARS:  The Core of APA Style
 
@@ -767,16 +770,16 @@ Repeated are the characteristics of White supremacy culture.  I have italized th
   - *Worship of the written word*
   - *Only one right way*
   - Either/or thinking
-*	Concentration of power
+* Concentration of power
   - *Power hoarding*
-*Paternalism*
+* Paternalism
   - Defensiveness
-*	Right to comfort
+* Right to comfort
   - *Fear of open conflict*
-*	Individualism
-  - I’m the only one
-*	Progress is more/bigger
-  - Objectivity
+* Individualism
+  - I'm the only one
+* Progress is more/bigger
+  - *Objectivity*
   - Quantity over quality
   - Sense of urgency
 
@@ -790,4 +793,478 @@ sessionInfo()
 
 
 <!--chapter:end:02-APAstyle.Rmd-->
+
+
+# Reference Management with Zotero {#Zotero}
+
+[Screencasted Lecture Link](HTTPS://SPU.HOSTED.PANOPTO.COM/PANOPTO/PAGES/VIEWER.ASPX?ID=CB5B69D1-EDCC-45A5-97B1-AC250189047A) 
+ 
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+```
+
+```{r }
+options(scipen=999)#eliminates scientific notation
+```
+
+
+In the past – I discouraged the use of reference management programs (e.g., EndNote, RefWorks) because they often made mistakes and it was easy to spot papers where they had been used (because of the errors). I was introduced to Zotero when I sought to create a bibliography in Rmarkdown.  Then I learned it could be used in Word.  Even after submitting two articles for publication, I have yet to find it make an error(that is, when each reference has been correctly entered [only once] in Zotero).  Thus – I’m a fan.  Count me in!
+
+This lecturette demonstrates the use of Zotero in the context of the APA style paper.  I have a separate lecturette (in an .rmd file) for using Zotero in R.  This quick introduction includes a Zotero demonstration for:
+
+* acquiring references
+* text references
+* creating a reference list
+* for use as your own personal library
+* with the potential for collaboration 
+  - admittedly, I have not yet tried collaboraiton (stay tuned)
+
+Reference management systems include resources like RefWorks, Endnote, Mendeley, and Citationsy.  Microsoft Word even has its own process.  
+
+
+## Navigating this Lessonette
+
+There is less than 30 minutes of lecture.  If you work through the materials with me it would be plan for an additional hour.
+
+### Learning Objectives
+
+Learning objectives from this lesson include the following:
+
+* Recognizing the ways that a reference management system will contribute to the efficiency (and quality) of a research project
+* Saving references (including full text copies of publications) in the Zotero system
+* Using Zotero to add citations in the text; and then create a reference list
+* Organizing materials into your own "library" of resources
+
+## Go Get It!
+
+Zotero is available for Windows, Mac, and Linus.
+
+https://www.zotero.org/ 
+
+Once you download it to your computer, you will also want to install the Connector – I use Firefox.
+
+## Your Library
+
+Never lose another pub!  Zotero can become your library.
+
+* Folders
+* Attachments
+  - Full-text
+  - Snapshots with web addres
+* Reference/bibliographic information is grabbed (Zotero's "best guess") or each entry and can be updated if it is incorrect
+
+![Image the Zotero library](images/Zotero/Zotero_library.png)
+
+## Grabbing & Storing Pubs
+
+Whether it’s through the library search engine, PsychInfo (or similar), or something you have found on a website, Zotero will grab either a snapshot of the website (so you can get back to it) or the full-text article and store it for you.  To do this:
+
+1. Open Zotero
+   - This is even easier if, in Zoter, you have opened the file folder of the desired destination. If not, you can simply drag-and-drop entries into the desired folder(s).
+2. In your browser, user the Zotero Connector to navigate to t he closest you can get to full-text.
+3. Click the Zotero icon in your browser.
+4. Heading to Zotero, check to see what was cpatured.
+  - If the ull-text is missing, either try again (from a different place on the web), or
+  - Download the full-text and attach it separately by right-clicking on the entry and selecting "add attachment."
+5. Double-check the "info" (in the far right column of your Zotero app) that was captured. Edit any errors (this will save you time later).
+  - Zotero captures ormal library items fairly well. It struggles more when you grab an item from a webpage.
+  - Sometimes Zotero cannot discern the "Item Type." This can be problematic because it provides the wrong fields.  You can change the item type by changing the selection in the top item in the bibliographic information.
+
+![Screenshot of the process of saving a full-text document to a Zotero library](images/Zotero/SavingFullText.png)
+
+
+![Screenshot of the process of adding an attachment to an existing citation](images/Zotero/AddingAttachment.png)
+
+## Inserting Citations
+
+Zotero has a plug-in for Microsoft Word.  When installed, a Zotero tab will be added to your toolbar.
+
+
+![Screenshot of the first step in adding a text citation to a document in Microsoft Word](images/Zotero/InsertingCitations.png)
+
+To insert a citation, simply select, “Add/Edit” citation.
+
+* Select the style you wish – APA 7th edition was available very shortly after the introduction of the 7th ed!  You have a choice of single-spaced or double-spaced.
+* Then simply type in any word on which you want Zotero to search your library (e.g., author name, partial title).  Zotero will produce a list of items that match the criteria.  Simply select it.
+  -	Zotero will follow the 7th edition rules, shortening any citation that has 3 more authors to “et al.” for all citations.
+  _ Zotero will automatically order citations alphabetically and/or by year of entry.  AND, it will add the “a,” “b,” and “c” designations for identical pubs.
+  - If there are errors, simply return to the Zotero entry, fix it, and then “Refresh” (on the Zotero tab) and it should auto-correct.
+  
+![Screenshot of the second step in adding a text citation to a document in Microsoft Word](images/Zotero/InsertingCitations2.png)
+  
+## Creating the Reference List
+
+At the end of your document (or wherever you want it), return to the Zotero ribbon and select, “Add/Edit Bibliography.”  That’s it.  You just select it.
+
+## Other Reasons I Love it So Much
+
+* I have moved from having folders of “Reading Rooms” everywhere.  Now I have them all in one place.
+* If I open the full-text from Zotero, it will open in my PDF reader/editor.  I can use my PDF editing tools and everything is saved.  Permanently.  And I don’t have to remember where I saved the document.
+* It is possible to collaborate in Zotero.  I can export the library to be imported by a collaborator and they should have “all the things.”  I’m not an expert in this and I think there is even more potential for this (but I’m still learning).
+* I can export the Zotero libraries as a “BibTeX” that can be used in my .rmd files where I can similarly do text citations and ref lists.
+
+
+
+
+
+```{r }
+sessionInfo()
+```
+
+
+
+<!--chapter:end:03-Zotero.Rmd-->
+
+
+# Table Magic {#Tables}
+
+[Screencasted Lecture Link](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=5f6035f2-0aff-476b-829c-ac240184c580) 
+ 
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+```
+
+```{r }
+options(scipen=999)#eliminates scientific notation
+```
+
+
+Fluency with the skills in this lecturette will be essential as you format tables for papers, journal articles, posters, and your dissertation.  When you use formal table skills (in Word or Excel…and the basics transfer well from one to the other), then the tables are less likely to corrupt and require reformatting when you transfer them from document to document.
+
+
+## Navigating this Lessonette
+
+There is about 30 minutes of lecture.  If you work through the materials with me it would be plan for an additional hour.
+
+### Learning Objectives
+
+Learning objectives from this lesson include the following:
+
+* Explore the tabs and commands in the table ribbons in word processing packages.
+* Utilize basic table skills such as adding/deleting rows and borders and aligning cell content.
+* Experiment with advancedtable skills such as splitting/merging cells and redistributing columns.
+* Apply these skills to subsequent homework assignments and manuscript submissions.
+
+![Screenshot of a complex table integrating CFA models and their corresponding output](images/TableMagic/CFAtable.png)
+
+![Screenshot of a complex table integrating numerous regression models](images/TableMagic/RegTable.png)
+
+In this lecturette, I will tour the basic skills, then replicate the above table from scratch.  This table, though…is pretty simple.  We use a number of nested and stacked tables to represent our complex analyses.
+
+![Screenshot of a table integrating thumbnail sketches and output for assessing univariate normalilty of three variables](images/TableMagic/TAble1.jpg)
+
+## Magic Happens When You...
+
+Place individual elements into separate cells of a table (as opposed to tabs and spacing) tool “holds them place”.
+
+* Item stems will word-wrap.
+* Decimals are easy to manage.
+* The table borders allow the author to identify formatting choices and make changes without impacting the remainder of the table (when relying on tabs and margins, existing formatting is not always obvious).
+
+### Starting the Table
+
+Start with the insert ribbon and the table icon.
+
+![Screenshot of a the location of the Table tab in the Microsoft Word toolbar](images/TableMagic/Insert.png)
+![Screenshot of selecting the "Insert Table" option from the Table dropdown menu](images/TableMagic/Insert1.png)
+
+
+Either "color in" the row x column dimensions or click Insert Table to get a dialogue box where you can enter the number of columns and rows.
+
+![Screenshot of the window allowing the user to specify the number of columns and rows in a table](images/TableMagic/Insert2.png)
+
+### A Few Handy Tools
+
+For **borders and shading**
+
+* To obtain the borders/shading menu, right click on the table or select it from the table menu in the upper toolbar.
+* Select “none” to make the table lines invisible.
+* In some cases you may want to leave table lines (or some of the grid).
+* Hint:  I turn on (and leave on) ALL the borders until I’m finished…then selectively make them invisible.
+
+![Screenshot of the location of the Table Design toolbar](images/TableMagic/TableDesign.png)
+![Screenshot of options on the borders menu](images/TableMagic/TableDesign1.png)
+
+![Screenshot of tools used to add shading to rows, columns, and cells](images/TableMagic/Borders.png)
+
+For **cell alignment**, right click on the cells of interest. The Cell Alignment tool allows you to specify by cell(s), row(s), or column(s) how the text should align.
+
+
+![Screenshot of tools available for specifying horizontal and vertical cell alignment](images/TableMagic/CellAlignment.png)
+
+
+**Merging cells** allows two or more cells to become one.  This can occur vertically or horizontally.  Drag across the cells you want to merge.  Right click, then select *Merge Cells*.
+
+![Screenshot of the Merge Cells option](images/TableMagic/MergeCells.png)
+
+Need two cells separted?  The **split cells** tools will subdivide a single cell into the desired rows and columns. Place your cursor into the desired cell. Right-click, then select *Split Cells*. 
+
+Columns or rows out-of-whack?  The **Distribute Rows and Distribute Columns** tools are incredibly powerful and can be used to “even-out-the-space” of either. 
+
+![Screenshot of the Distribute Rows and Distribute Columns tools](images/TableMagic/Distribute.png)
+
+
+Didn't quite plan right? Right-click in the cell to *Insert* or *Delete* rows, columns, or cells.
+
+![Screenshot of the Insert and Delete tools](images/TableMagic/InsertDelete.png)
+
+Alternatively, if you just want to add a row, position your cursor just outside of the row immediately above where you want the row added and ENTER.
+
+
+### Decimal Magic
+
+Tabs (for alignment in columns) are in teh upper right, below the toolbars.  Clicking through the tabs changes the option.  "Click" until the decimal symbol appears.
+
+Once it shows, highlight the column (or row) for which you want to set a decimal place.
+
+If numbers don't automatically align, try backspacing or CTRL_TAB.
+
+![Screenshot of the Decimal Tab](images/TableMagic/DecimalTab.png)
+
+### More Help from Table Properties
+
+The Table Properties window can offer advanced options or rows, columns, cells, and the table as a whole.
+
+![Screenshot of the Table Properties dialogue box](images/TableMagic/TableProperties.png)
+
+```{r }
+sessionInfo()
+```
+
+
+
+<!--chapter:end:04-TableMagic.Rmd-->
+
+
+# Writing in Excel {#Excel}
+
+[Screencasted Lecture Link]( HTTPS://SPU.HOSTED.PANOPTO.COM/PANOPTO/PAGES/VIEWER.ASPX?PID=DA5981E8-39FF-4E2D-A940-AAD3013C5A19) 
+ 
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+```
+
+```{r }
+options(scipen=999)#eliminates scientific notation
+```
+
+In high school and college the method for writing *term papers* involved taking notes on index cards (note on front, citation on back), sorting them into sections of the paper, sorting each section into its proper order, and writing it up.
+
+Some years ago, I adapted that process to Excel. Getting some positive feedback or it, I wrote up a lecture on it.  Even with improved reference management systems (like Excel) and R programs like *papaja* (for writing APA style manuscripts), I continue to use Excel for notetaking and organizing my thoughts. As you will see in this lesson, it also helps me separate the "plaigarized" material so that I do not unintentionally use it.
+
+Although the  Excel spreadsheet is easy to create, the template I use in the lecture is in the [Github book site](https://github.com/lhbikos/ReC_Topics).
+
+## Navigating this Lessonette
+
+There is about 35 minutes of lecture.  If you work through the materials with me it would be plan for an additional hour.
+
+### Learning Objectives
+
+Learning objectives from this lesson include the following:
+
+* Capture notes from primary source materials (along with the APA style citation) in Excel.
+* Prevent plagiarism by clearly noting original material.
+* Use the worksheets to organize sections of the paper.
+* Use the sorting features of Excel to origanize the materials to facilitate easier writing.
+* Use the Directory Merge tools to dump the written paper into Microsoft Word.
+
+## Where to Start
+
+### Bottom Up
+
+Starting from the bottom up means identifying the primary variables in my study and begin researching each of them.  I start “bottom up” when:
+
+* I know the general topics that I want to investigate, 
+* but I don’t know the literature well (or as well as I’d like), 
+* and I need to develop a strong narrative thread
+
+For example, if I know I want to explore the relations between the following variables, I will begin with a “bottom up” approach, 
+
+* Archiving information about each construct
+* Documenting the ways that the variables relate to each other
+
+
+![Screenshot of bubbles representing the three variables:  vocational identity, psychological well-being, and calling](images/Excel/TopDown.png)
+
+### Top Down
+
+Starting from the top down occurs when I know the precise model I want to investigate and the relations I'm predicting. I will frequently draw the model so that I can keep it in front of me as I am researching and writing
+
+For example, if I am going to write a research proposal testing the following model, I will likely begin with top down approach.  
+
+![Screenshot of a moderated mediation involving the variables search and presence of calling, vocational identity, and psychological well-being](images/Excel/TopDown2.png)
+
+After the introductory paragraph(s), my paper will focus on the importance of the DV, psychological wellbeing.
+
+Building backwards, I would then talk about the relationship between vocational identity and psychological well-being.
+
+
+1. Vocational identity contributes to psychological well-being in college students
+2. The effects of calling on these variables are not well understood
+   -Positive effects have been documented
+   - There may be a dark side to calling – for those who seek and do not find
+3. Therefore, the purpose of our study is to investigate the mediating role of vocational identity on the relation between search for calling and psychological well-being.
+  - Within this model, we propose that presence of calling moderates the relation between search for calling, such that, those who search for calling and find it, have stronger vocational identity, and, in turn, higher psychological well-being.
+  - And, those who search for calling but do not find it, have lower vocational identity, and lower psychological well-being.
+
+### Mostly I Start in the Middle
+
+That is, I often know that the variables I"m interested in relate to each other, but I want to use the literature to further solidify the paths I will specify in my research mode.
+
+![Screenshot of a moderated mediation involving the variables search and presence of calling, vocational identity, and psychological well-being](images/Excel/Middle.png)
+
+## In Any Case, I Use Excel
+
+I use Excel to organize my notes:
+
+* In empirical papers for introduction and discussion (not method or results)
+* For qualitative results
+* For book chapters, literature review, theoretical papers
+
+There are numerous benefits to this approach.  I believe that it:
+
+* Facilitates group writing
+* Creates an archive/cannon/library of our most used resources
+* Clearly identifies plagiarized material and allows us to understand how/where we have integrated and adapted the material
+* Makes tracking primary and secondary references *so much easier*
+* Easy to order/re-order through revisions
+
+The process of writing in Excel includes:
+
+* Note-taking from primary sources to include
+  –	Direct copy plagiarized material from the source
+  –	Taking notes on why we wanted it
+  –	Proper reference documentation at first use
+* Iteratively working on the outline
+* Refining categories/sections/headings
+* Ordering the notes
+* Writing the first drafts of the ms DIRECTLY into excel
+*Transferring to the word processing software
+
+
+### The Structure of my Spreadsheet
+
+Below is a screenshot of how I set up the worksheets in my spreadsheet.
+
+
+![Screenshot of the tabs of my Excel worksheets](images/Excel/Worksheets.png)
+
+
+Instructions
+
+* Co-authors leave each other notes on the game-plan
+
+Outline
+
+* Developing the outline is iterative/dynamic and, especially when beginning from *bottom up* or *somewhere in the middle*, is updated and revised frequently
+
+
+![Screenshot of the structure of my Outline worksheet](images/Excel/Outline.png)
+
+Tabs for each Section
+
+* Correspond with outline numbers
+* Contain the following columns
+ – Order
+ – Categories
+ – Writing for ms
+ – Plagiarized copy
+ – Notes
+ – First cite
+ – Subsequent cites
+ – Full citation
+ – Page(s)
+ – By
+ 
+References
+
+* Near the end of the project, assemble a full reference list
+
+## Let's Tour
+
+The first tour is quick and hypothetical. In it, I transer the written document from Excel to Word (this is the *supplement* reerred to in the screencast). 
+
+1. Open up a new/blank word document (one for each worksheet of material).
+2. Click on the “Mailings” tab and select 
+3. “Start Mail Merge” and (optionally) “Step by step mail merge wizard”
+4. Select “Directory”  THIS IS THE MOST CRITICAL STEP
+5. “Select Recipients. 
+   - Use “Browse” to locate the spreadsheet (if the spreadsheet is on a SP [or other cloud] folder and you can’t select it from a networked drive, you may first need to download it to your computer).
+   - In Word, select the worksheet whose data you want to import.  It should be sorted properly (first).
+6. Click “Edit Recipient List.”  You may wish to turn “off” the 999s.
+7. Select “Insert Merge Field.”  I chose, “Writing for ms.”  I added 2 spaces after the element.
+8. Select “Finish & Merge.” 
+   - “Edit individual documents”
+   - “All”
+
+The text will be organized as one big paragraph, will likely need formatting updates, and may have spelling errors (that  you didn’t make.).
+
+At present, I only know how to merge 1 worksheet at a time into separate documents (then those should be copied together).
+
+![Screenshot from the Directory Merge process](images/Excel/DirectoryMerge.png)
+
+The second tour includes a series of screencasts that are authentically a new project from the very first step.  The RVT (and I, separately) have several projects coming that involved calling/vocation.  I’ve dabbled in the calling literature, but don’t know it thoroughly.  I’m using the spreadsheets to begin to 
+
+* Capture the info
+* Organize it in my head (and in excel worksheets)
+* And then craft it into arguments for a handful of empirical manuscripts
+These screencasts will document that process from start, to, I hope a published manuscript (or at least one that’s submitted.
+
+Ideas included
+
+* Starting with the empty excel spreadsheet
+* Assuming *no knowledge* (or very little) of the literature, therefore
+ – Categories are broad and non-directional; just capturing info
+ – A priori, I can guess I want categories of: definitions, outcomes, measures, norms
+* These won’t all make it into papers; I’m just getting my footing
+* Reviewing the literature/marking-it-up before notetaking
+ - Research team members often keep common "Reading Room" folders in the cloud
+* As soon as I get my footing, I can assign some of these articles to team members who can also collect the data into the spreadsheets.
+
+**8 months, 1 presentation, 2 white papers, and 1 journal article later...
+
+What worked well:
+
+* One core spreadsheet gave was the source for 4 projects
+  - We learned to “save as” a copy of the original raw notes because those “gross groupings” were a fantastic well for substantial revisions and related projects
+* When we received editorial feedback and I thought it would be a “quick revision,” I still found it easier to return to the spreadsheets, supplement-and-reorder my notes, write in excel and transfer back into word.
+
+What didn’t go as well:
+
+* Likely because of the deadlines, the substantial requests for revision, and a full year, I didn’t use the team as much as I would have liked
+* We didn’t follow “all the rules”
+  - Didn’t capture a lot of page #s
+  - Didn’t have detailed outlines (or update outlines with revisions)
+
+Would I do it again? Some years later -- yes, I still write in Excel (even with the presence of other tools like Zotero). 
+
+## FAQs
+
+* (For students in our doctoral program) Am I required to Write in Excel for my mentored research project (MRP)?
+ – YES, if you are in the Bikos RVT.
+ – NO, if you are anyone else.
+
+* What’s the difference between Editing in Excel Online and Editing in Full Excel.
+  – Excel ONLINE allows multiple editors at once, BUT
+  - You have to be working on different worksheets
+  - You don’t have some of the full benefits of excel (I find it difficult to sort and so some other functions that I really like))
+  - You don’t need to hit SAVE. Everything you type is automatically saved.  So be careful, we’ve unintentionally deleted stuff and didn’t realize it. OUCH.
+* Using the full EXCEL package gives you full EXCEL functionality, there are nuances:
+  - If one person is working in full excel, it locks everyone out from everything except viewing.  That is, no one else can work IN ANY CAPACITY on the document at the same time.
+  - It looks like you’ve “downloaded” it, but you have not.  When you hit SAVE, it saves back to SP.  If you intentionally or unintentionally disconnect from Internet, it updates once you are reconnected.
+  - You must hit SAVE in order for your changes to be saved.
+* I prefer to work in full Excel and it’s only rarely a problem that teammates have my same schedule and want to work at the same time.  When they do, we just coordinate.
+
+# References
+
+```{r }
+sessionInfo()
+```
+
+
+
+<!--chapter:end:05-Excel.Rmd-->
 

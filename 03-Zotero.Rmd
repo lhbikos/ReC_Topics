@@ -1,0 +1,119 @@
+
+# Reference Management with Zotero {#Zotero}
+
+[Screencasted Lecture Link](HTTPS://SPU.HOSTED.PANOPTO.COM/PANOPTO/PAGES/VIEWER.ASPX?ID=CB5B69D1-EDCC-45A5-97B1-AC250189047A) 
+ 
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+```
+
+```{r }
+options(scipen=999)#eliminates scientific notation
+```
+
+
+In the past – I discouraged the use of reference management programs (e.g., EndNote, RefWorks) because they often made mistakes and it was easy to spot papers where they had been used (because of the errors). I was introduced to Zotero when I sought to create a bibliography in Rmarkdown.  Then I learned it could be used in Word.  Even after submitting two articles for publication, I have yet to find it make an error(that is, when each reference has been correctly entered [only once] in Zotero).  Thus – I’m a fan.  Count me in!
+
+This lecturette demonstrates the use of Zotero in the context of the APA style paper.  I have a separate lecturette (in an .rmd file) for using Zotero in R.  This quick introduction includes a Zotero demonstration for:
+
+* acquiring references
+* text references
+* creating a reference list
+* for use as your own personal library
+* with the potential for collaboration 
+  - admittedly, I have not yet tried collaboraiton (stay tuned)
+
+Reference management systems include resources like RefWorks, Endnote, Mendeley, and Citationsy.  Microsoft Word even has its own process.  
+
+
+## Navigating this Lessonette
+
+There is less than 30 minutes of lecture.  If you work through the materials with me it would be plan for an additional hour.
+
+### Learning Objectives
+
+Learning objectives from this lesson include the following:
+
+* Recognizing the ways that a reference management system will contribute to the efficiency (and quality) of a research project
+* Saving references (including full text copies of publications) in the Zotero system
+* Using Zotero to add citations in the text; and then create a reference list
+* Organizing materials into your own "library" of resources
+
+## Go Get It!
+
+Zotero is available for Windows, Mac, and Linus.
+
+https://www.zotero.org/ 
+
+Once you download it to your computer, you will also want to install the Connector – I use Firefox.
+
+## Your Library
+
+Never lose another pub!  Zotero can become your library.
+
+* Folders
+* Attachments
+  - Full-text
+  - Snapshots with web addres
+* Reference/bibliographic information is grabbed (Zotero's "best guess") or each entry and can be updated if it is incorrect
+
+![Image the Zotero library](images/Zotero/Zotero_library.png)
+
+## Grabbing & Storing Pubs
+
+Whether it’s through the library search engine, PsychInfo (or similar), or something you have found on a website, Zotero will grab either a snapshot of the website (so you can get back to it) or the full-text article and store it for you.  To do this:
+
+1. Open Zotero
+   - This is even easier if, in Zoter, you have opened the file folder of the desired destination. If not, you can simply drag-and-drop entries into the desired folder(s).
+2. In your browser, user the Zotero Connector to navigate to t he closest you can get to full-text.
+3. Click the Zotero icon in your browser.
+4. Heading to Zotero, check to see what was cpatured.
+  - If the ull-text is missing, either try again (from a different place on the web), or
+  - Download the full-text and attach it separately by right-clicking on the entry and selecting "add attachment."
+5. Double-check the "info" (in the far right column of your Zotero app) that was captured. Edit any errors (this will save you time later).
+  - Zotero captures ormal library items fairly well. It struggles more when you grab an item from a webpage.
+  - Sometimes Zotero cannot discern the "Item Type." This can be problematic because it provides the wrong fields.  You can change the item type by changing the selection in the top item in the bibliographic information.
+
+![Screenshot of the process of saving a full-text document to a Zotero library](images/Zotero/SavingFullText.png)
+
+
+![Screenshot of the process of adding an attachment to an existing citation](images/Zotero/AddingAttachment.png)
+
+## Inserting Citations
+
+Zotero has a plug-in for Microsoft Word.  When installed, a Zotero tab will be added to your toolbar.
+
+
+![Screenshot of the first step in adding a text citation to a document in Microsoft Word](images/Zotero/InsertingCitations.png)
+
+To insert a citation, simply select, “Add/Edit” citation.
+
+* Select the style you wish – APA 7th edition was available very shortly after the introduction of the 7th ed!  You have a choice of single-spaced or double-spaced.
+* Then simply type in any word on which you want Zotero to search your library (e.g., author name, partial title).  Zotero will produce a list of items that match the criteria.  Simply select it.
+  -	Zotero will follow the 7th edition rules, shortening any citation that has 3 more authors to “et al.” for all citations.
+  _ Zotero will automatically order citations alphabetically and/or by year of entry.  AND, it will add the “a,” “b,” and “c” designations for identical pubs.
+  - If there are errors, simply return to the Zotero entry, fix it, and then “Refresh” (on the Zotero tab) and it should auto-correct.
+  
+![Screenshot of the second step in adding a text citation to a document in Microsoft Word](images/Zotero/InsertingCitations2.png)
+  
+## Creating the Reference List
+
+At the end of your document (or wherever you want it), return to the Zotero ribbon and select, “Add/Edit Bibliography.”  That’s it.  You just select it.
+
+## Other Reasons I Love it So Much
+
+* I have moved from having folders of “Reading Rooms” everywhere.  Now I have them all in one place.
+* If I open the full-text from Zotero, it will open in my PDF reader/editor.  I can use my PDF editing tools and everything is saved.  Permanently.  And I don’t have to remember where I saved the document.
+* It is possible to collaborate in Zotero.  I can export the library to be imported by a collaborator and they should have “all the things.”  I’m not an expert in this and I think there is even more potential for this (but I’m still learning).
+* I can export the Zotero libraries as a “BibTeX” that can be used in my .rmd files where I can similarly do text citations and ref lists.
+
+
+
+
+
+```{r }
+sessionInfo()
+```
+
+
