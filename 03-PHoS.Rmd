@@ -1,0 +1,293 @@
+
+# Epistemology and Philosophy of Science {#PHoS}
+
+[Screencasted Lecture Link](HTTPS://SPU.HOSTED.PANOPTO.COM/PANOPTO/PAGES/VIEWER.ASPX?PID=E521F3D0-BE61-4099-A108-AC40003B45E2) 
+ 
+```{r  include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+```
+
+```{r include=FALSE}
+options(scipen=999)#eliminates scientific notation
+```
+
+This lesson provides a high level review of epistemology (including the contribution of race-based epistemologies) and philosophy of science and considers the differences in these paradigms.
+
+## Navigating this Lesson
+
+There is about 45 minutes of lecture.  
+
+
+### Learning Objectives
+
+Learning objectives from this lecture include the following:
+
+* Identify, define, and provide examples of the standard ways of knowing. * Describe how a race-based epistemology (e.g., Black feminist epistemology) could add value to a research study.
+* Distinguish between emic and etic.
+* Define critical research concepts:  components of science, methodology, research design, parsimony, plausible rival hypotheses, statistical inference.
+* Define four primary philosophies of science, being able to identify the epistemology, axiology, rhetorical structure, and methodology for each.
+
+### Readings & Resources
+
+In preparing this chapter, I drew heavily from the following resource(s). Other resources are cited (when possible, linked) in the text with complete citations in the reference list.
+
+* Jhangiani, R. S., Chiang, I.-C. A., Cuttler, C., & Leighton, D. C. (2019). *Research Methods in Psychology*. https://doi.org/10.17605/OSF.IO/HF7DQ
+  - Chapter 1:  Methods of Knowing
+  - Chapter 2:  Understanding Science
+  - Chapter 3:  Goals of Science
+  - These quick chapters are framing for some of the deeper concepts.
+* Rajack-Talley, T. A., Smith, S. E., Best, L., Della, L. J., D’Silva, M. U., Potter, D. A., & Carthan, Q. (2017). Epistemological inclusiveness in researching the African American community. *International Journal of Social Research Methodology: Theory & Practice, 20*(4), 411–423. https://doi.org/10.1080/13645579.2016.1187460
+  -  This is an incredible article describing how a multi-ethnic, multi-disciplinary team engaged race-based epistemology to improve their NIH study.
+* Gephart, Jr., R. P. (2013). Doing research with words: Qualitative methodologies and industrial/organizational psychology. In J. M. Cortina & R. S. Landis (Eds.), Modern Research Methods for the Study of Behavior in Organizations (pp. 266–318). Taylor & Francis Group. http://ebookcentral.proquest.com/lib/spu/detail.action?docID=1154313
+  - More recent than the Ponterotto article and written for an I/O audience.  Excellent review of philosophies of science.  Gephart and Ponterotto (below) “chop up” philosophies of science a bit differently.
+* Ponterotto, J. G. (2005). Qualitative research in counseling psychology: A primer on research paradigms and philosophy of science. Journal of Counseling Psychology, 52, 126-136. 
+  - Although the primary purpose of the ms is to introduce a special JCP section on Qualitative Methodology, Ponterotto does an excellent job of defining research paradigms and then contrasting the primary approaches. 
+
+
+## Core Themes in Research Methodology
+
+**But first a bicycling vignette**
+
+What would you think of allowing cyclists to have the option of treating stop signs as yield signs?    What are your first impressions?  Think for a minute what you know about riding a bicycle, where you know it from, and then what you would think about “freeing up” the stop-sign rule to let cyclists pass through (without a full stop) if it were safe to do so.
+
+
+### Ways of Knowing
+
+**Epistemology**: the branch of philosophy that studies the nature of knowledge, its presuppositions and foundations, and its extent and validity.
+
+One epistemological interest is in determining how we know what we know.
+
+Jhangiani [-@jhangiani_research_2019] and colleages listed five sources of knowledge. There are benefits and liabilities to each of these:
+
+* *Intuiton*:  relying on emotions and instincts; believing what feels true.
+  - Because instincts are driven by cognitive and motivational biases, they can be wrong.
+  - When weighing alternatives and thinking of all the different possibilities can be paralyzing, some intuitive decisions are superior to those based on analyses.
+* *Authority*:  accepting new ideas because an authority figure states it is true (parents, media, doctors, religious officials, the government, your professor 😊).
+  - If authorities are wrong or corrupt, following without questioning is problematic.
+  - If authorities are correct, following is time-saving and more efficient.
+* *Rationalism*: using logic and reasoning to acquire new knowledge.  Premises are stated and logical rules are followed to arrive at sound conclusion.
+  - If the premises are wrong or there is an error in logic, then the conclusion is invalid.
+  - If the premises are correct and logical rules are followed appropriately – it works!
+* *Empiricism*:  acquiring knowledge through observation and experience.  
+  - We are limited in what we can experience (e.g., the world as flat) and observe and our senses deceive us; our prior experiences can alter perception.
+  - Empiricism is at the heart of the scientific method.
+* *The Scientific Method*:  A process of systematically collecting and evaluating evidence to test ideas and answer questions.  Scientists engage systematic empiricism to make careful observations under various controlled conditions in order to test their ideas; they use rationalism to arrive at valid conclusions.
+  - The most likely method to arrive at valid conclusions/knowledge
+  - It’s costly – time, resources.  And cannot be applied to all questions – only empirical ones.
+
+Jhangiani et al.'s [-@jhangiani_research_2019] five categories have a long history:
+
+Cohen and Nagel's [-@cohen_introduction_1934] *Sources of Knowledge* included:
+
+* Personal Observation and Experience
+* Intuition
+* Belief and tradition
+* Authority
+* Science
+
+**Back to the bicycling vignette**
+
+There’s more to this story.
+
+As of October 1st, 2020, cyclists in Washington State have been able to treat stop signs (not stoplights, railway crossings, or stop signal displayed by school busses) as yield signs (Dahl, 2020, 2020).  The two articles from the Bellingham Herald walk us through some of the ways of knowing that led the Washington legislature to its widely passing margins (77 to 20 House; 44 to 1 Senate; [@fucoloro_bipartisan_2020]).  
+
+Let’s think through the ways of knowing to understand the components that brought about this new law.
+
+*Intuition*:  Depending on your own emotions and instincts, you may have widely-varying impressions.  Mine?  YES!  That will make my life easier – and other drivers won’t be angry when I lose momentum in the slowing and stopping.  On the other hand, drivers may get really mad if they think I’m breaking the law.
+
+*Experience*:  It’s my experience that I’m more efficient (faster, smoother) if I can “slow-through” a stop-sign; particularly on right turns.  This in turn, would make it faster for drivers.
+
+*Authority*: Idaho passed a similar in 1982 (dubbed the “Idaho stop”), Delaware in 2017 (the “Delaware Yield), Oregon in 2019.
+
+*Empiricism*:  Many cycling accidents happen in intersections.  Traveling quickly through an intersection minimizes risk.  Thus, momentum matters.  Dahl [-@dahl_heres_2020]gathered his own data.  After a complete stop, it took 5.4 seconds to clear the intersection; entering at 5mph took only 3.8 seconds.  This is 30% of time spent in one of the most probable places for cyclist/driver collisions.
+
+*The Scientific Method*:  
+
+* A year after the Idaho law went into effect, bicycle injuries dropped 14%.
+* A UC Berkeley transportation researcher (Jason Meggs) found that cyling was 30% to 60% safer in Boise (home of the Idaho Stop law) than in Sacramento and 150 to 252 times safer than in Bakersfield California.
+
+Things to ponder:  How would you have voted?  Are there arguments for fairness/equity/equality in this argument (e.g., bicycles should have to follow same rules as cars)?
+
+### A Faith-Based Model
+
+For a faith-based, Methodist, take, John Wesley built on the Anglican faith tradition by adding a fourth emphases (experience), to create what is now termed the Wesleyan Quadrilateral [@noauthor_glossary_nodate].
+
+* *Scripture*: defined as the primary source and standard for Christian doctrine
+* *Tradition*: experience and the witness of development of growth of the faith through the past centuries and in many nations and cultures
+* *Experience*:  the individual’s understanding and appropriating of the faith in the light of his or her own life.
+* *Reason*: discernment and cogent thought.
+
+These traditions are clearly White, Western, and male.  There are, of course, other ways do ask the question How do we know?  As well as different answers to the question.
+
+### Race-Based Epistemologies
+
+Rajack-Talley et al. [-@rajack-talley_epistemological_2017] address this in a paper describing how they were intentional to include researchers with different epistemologies (“race-based epistemologies”) in an NIH-funded study of three Black communities in Kentucky.
+
+The NIH-study [@della_modeling_2016] was a multi-staged, mixed methods, NIH-funded study examining individual, community, and cultural-level determinants of increasing fruit and vegetable consumption in Black residents in two low-income cities in Kentucky (Louisville, Hopkinsville).
+
+Proponents of race-based epistemologies argue:
+
+* If the life experiences of African descent are integral to the analysis of research, then there should be some degree of an Afro-centric, Black, or race-based epistemological framework 
+* This includes the adoption of the *emic* approach that recognizes there are distinct historical and cultural experiences of African people; the emic approach includes the community’s understandings and interpretations of their conditions and experiences
+* “Outsiders” who are researching the other are wise to maintain a critical relationship to the research topic (and population) through self-reflexivity (self-reflection by the researchers and acknowledgement that there are differences between the researcher and those being studied).
+
+One distinction is the difference in insider and outsider perspectives:
+* **etic**: 
+  - standing far enough away, on the outside,
+  - with the purpose of observing similarities/differences from other cultures;
+  - the primary interest is in testing hypotheses, identifying common/universal aspects of human behavior that transcend cultural differences.
+  - assumes all cultures can be observed as generalizable phenomena with comparable features and universalistic measures
+* **emic**:
+  - standing on the inside
+  - with the purpose of identifying culture-specific elements or human behavior that are not comparable across cultures
+  - measures are relative
+  - argues that meaningful distinctions can only be made by people within the cultures
+  - assumes that the best way to understand a culture is from the perspectives and values of those being observed
+
+**Black feminist epistemology** (as cited in [@hill_collins_black_2000]) as an example of a race-based epistemology
+
+* Concrete experiences are treated as a criterion of meaning
+* Dialogues are used in assessing knowledge claims
+* An ethic of caring is developed
+* An ethic of personal accountability is accepted
+
+## Defining Research (And [Some Of]) Its Key Concepts
+
+*Science* is generally characterized by three components [@jhangiani_research_2019]:
+
+* **Systematic empiricism**:  planning, making, recording, analyzing observations of the natural world
+* **Empirical questions**: concerning the way the world *is* not the way the world *ought to be*. 
+* **Public knowledge**: the data contributes to public knowledge; publication in academia (sharing knowledge and self-correcting); open science movement.
+
+The purpose of research is to draw valid inferences about the relationships between variables [@kazdin_research_2017]
+
+**Methodology**
+
+* the diverse principles, procedures, and practices that govern research.
+* those practices that help to arrange the circumstances so as to minimize ambiguity in reaching the inferences.
+* more than a compilation of specific practices, procedures, and strategies.
+* a way of thinking
+
+**Research Design**. The plan or arrangement used to examine the question of interest (*research design is subordinate to the concept of methodology*).
+
+**Parsimony**. This concept is sometimes referred to the principle of economy, the principle of unnecessary plurality, the principle of simplicity, and Occam’s razor).
+
+* Parsimony directs us to select the simplest version or account of the data among the alternatives that are available.
+* Parsimony means that plurality should not be posited without necessity (Occam’s razor)
+* Parsimony asks, "Must we introduce new concepts to explain the data? What about new variables?"
+
+**Plausible Rival Hypotheses**
+
+* An interpretation of the results of an investigation on the basis of some other influence than the one the investigator has studied or wishes to discuss. 
+* Are there other interpretations that are plausible to explain the findings?
+
+**Statistical inference**
+
+* related to experimentation because of the extensive reliance on statistical tests in research to draw conclusions from the data. 
+* statistical controls help to reduce the plausibility of rival interpretations of the results.
+* agreed-upon decision rules
+
+At the completion of a study the explanation one wishes to provide ought to be the most plausible interpretation. This is achieved not by arguing persuasively, but rather by designing the study in such a way that other explanations do not seem very plausible or parsimonious [@kazdin_research_2017].
+
+## Philosophy of Science as it Relates to Research Methodology
+
+**Philosophy of Science**
+
+* Considers the logical and epistemological underpinnings of the scientific method in general.
+* Historically, experimentation has been closely tied to philosophical thought. The very notion of hypothesis derives from philosophy.
+* (among other things) reveals fundamental limitations in the logical underpinnings of observational and experimental methods.
+
+Two great articles that were written about qualitative methods, provide an accessible and concise review of philosophy of science as it connects to research in clinical [@ponterotto_qualitative_2005] and industrial-organizational [@cortina_doing_2013] psychology. Much of this chapter is based on these articles. 
+
+**Paradigm**
+
+* A set of interrelated assumptions about the social world which provides a philosophical and conceptual framework for the organized study of that world.
+* The paradigm sets the context for an investigator’s study.
+
+**Positivism** is the research paradigm that will guide most of our work in this class. 
+
+* A form of philosophical realism adhering closely to the hypothetico-deductive model.
+* Primary goal: explanation that leads to prediction and control of phenomena.
+* The received view (the one everyone is working under)
+* There is one, true, knowable reality.
+
+**Postpositivism**
+
+* Acknowledge an objective reality that is only imperfectly apprehendable; thus we can never fully capture a “true” reality (although it exists).
+* While positivists stress “theory verification,” postpositivists engage in “theory falsification.”
+
+**Positivism & Postpositivism shared variance**
+
+* Explanation that leads to prediction and control.
+* Emphasis of cause-effect linkages.
+* An objective, detached, researcher role.
+* Operation from nomothetic (application to people generally)  and etic (universal laws and behaviors that transcend nations and cultures and apply to all humans) perspectives.
+* Primary foundation/anchor for quantitative research.
+
+**Constructivism – Interpretivism**
+
+* Relativist position assumes multiple, apprehendable, and equally valid realities.
+* Reality is constructed.
+* Hermeneutical approach – researcher/participant dialogue
+* Meaning is hidden and must be brought to the surface through deep reflection. 
+* Goals are idiographic (applying to the individual) and emic (constructs or behaviors that are unique to an individual, sociocultural context, that are not generalizable).
+* Emphasis on understanding the Erlebnis (lived experience)
+
+**Critical-Ideological**
+
+* Serves to disrupt and challenge the status quo
+* Paradigm is one of emancipation and transformation
+* The researchers’ proactive values are central to the task, purpose, and methods of research
+* Critical theory is traced to the 1920s at the Institute of Social Research at the University of Frankfurt.  In Nazi-controlled Germany, the scholars fled to California to be “shocked by American culture…by the contradictions between progressive American rhetoric of egalitarianism and the reality of racial and class discrimination.”
+* There is no single critical theory; a criticalist use his/her work as a form of cultural or social criticism.
+
+### Paradigmatic Impact on Onology, Epistemology, Axiology, Rhetorical Structure, and Methodology
+
+**Ontology**: the nature and reality of being. Answers the questions, “What is the form and nature of reality? What can be known about reality?
+
+* *Positivists*: There is one true reality that is apprehendable, identifiable, measurable (i.e., naïve realism).
+* *Post positivists*: There is one true reality, but it can only be apprehended and measured imperfectly (i.e., critical realism).
+* *Constructivists—interpretivists*: There are multiple, constructed realities (i.e., relativism). Reality is subjective and influenced by the context of the situation, namely the individual’s experience and perceptions, the social environment, and the interaction between the individual and the researcher.
+* *Criticalists*:  Reality is constructed within a social-historical context.  The criticalist focuses on power-relations.  They will assume that marginalized clients are likely have different levels of access and will present research data to pressure those in power to change.
+
+**Epistemology**: the relationship between the “knower” (research participant) and the “would be knower” (researcher).
+
+* *Positivists*: emphasize dualism (i.e., researcher and the research participant and topic are assumed to be independent of one another) and objectivism (i.e., by following rigorous, standard procedures, the participant and topic can be studied by the researcher without bias). 
+* *Post positivists*: advocate a modified dualism/objectivism. The researcher may have some influence on that being researched, but the objectivity and researcher-subject independence remain important guidelines for the research process.
+* *Constructivists-interpretivists*: advocate a transactional and subjectivist stance that maintains that reality is socially constructed, and therefore, the dynamic interaction between researcher and participant is central to capturing and describing the lived experience of the participant. 
+* *Criticalists*:  concern with dialogic (gaining research insight through interaction) and dialectic (transforming research participants toward empowerment and emancipation).  Collaboration with the research participants includes the goal of helping them gain insights that contribute toward their own liberation.
+
+**Axiology**: the role of researcher values in the scientific process.
+
+* *Positivists/post positivists*: There is no place for values in the research process. The psychology researcher should remain emotionally detached from the investigative inquiry. Values, hopes, expectations, feelings have no place in scientific inquiry. Standardized, systematic investigative methods allowed elimination and/or strict control over any influence the researcher may have on the process.
+* *Constructivists-interpretivists*: Maintain that the researcher’s values and lived experience cannot be divorced from the research process. The researcher should acknowledge, describe, and “bracket” his/her values, but not eliminate them.
+* *Criticalists*:  Explicitly hope and expect that their value biases influence the research process and outcome.   A preset goal of the research is to empower participants to transform the status quo and emancipate themselves from ongoing oppression.
+
+**Rhetorical Structure**: the language used to present the procedures and results of research to one’s intended audience. Rhetoric flows closely from one’s epistemological and axiological stance.
+
+* *Positivist/Post positivists*: Rhetoric is precise and “scientific,” presented in an objective manner.
+* *Constructivist-interpretivists/Criticalists*:  Final research report is in first person and often personalized. The researcher’s own experience, expectations, biases, and values are detailed comprehensively.
+
+**Methodology**: the process and procedures of the research.
+
+* *Positivists/Post positivists*: attempt to simulate, as closely as possible, strict scientific methods and procedures where variables are carefully controlled or manipulated and where the researcher’s emotional or expectant stance on the problem under the study is irrelevant. Heavy reliance on true experiments and analog methods; quasi-experimental methods when no alternative is available.
+* *Constructivist-interpretivists/Criticalists*: embrace naturalistic designs in which the researcher is ensconced in the community and day-to-day life of their research participants. Research methods include in-depth face-to-face interviewing and participant observation.
+
+**One of Ponterotto’s (2005) finest moments!**
+It is important that counseling researchers understand and clearly explicate their operating paradigm in the reporting of studies…it is essential that researchers, as well as journal editorial board members and grant reviewers “locate” research studies within a specific research paradigm. (p. 132).
+
+### Things I'm Thinking About
+
+* Why is it important to include race-based epistemologies?
+  - Mistrust comes from factual and perceived instances of exploitation and discrimination in a history of medical abuse, racism, failure to provide information/fully-informed-consent, racial stigmas, poor recruitment [@rajack-talley_epistemological_2017]
+  - “Although these recommendations can be seen as ‘simply good field research,’ they are particularly important in researching the African American community because of the group’s history and because more recent data collection has been used to negatively depict this racial group” ([@rajack-talley_epistemological_2017] p. 413).
+  - The Rajack-Talley et al. [-@rajack-talley_epistemological_2017] manuscript demonstrates how a multi-ethnic and multi-disciplinary team worked together to develop approaches that contributed to success in a complex NIH-funded research project from participation, engagement, and interpretation of results.  Techniques included self-reflexivity, transect walks, conducting interviews in participants’ homes or familiar places with Black team members, collecting data in community locations including other trusted members of the community (e.g., family, friend, pastor, barber). 
+  - Finally, let me recommend a very cool (38-minute) [episode of Hidden Brain](https://www.npr.org/2020/07/27/895858974/creativity-and-diversity-how-exposure-to-different-people-affects-our-thinking) where Shankar Vedantam talks with researchers about the benefits of diversity on outcomes – including scientific research:   
+
+
+```{r include=FALSE }
+sessionInfo()
+```
+
+

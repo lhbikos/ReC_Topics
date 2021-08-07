@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Psychometrics Crash Course: A quick and dirty review of the primary elements of reliability and validity | ReCentering Psych Stats: Topics in Research Methods</title>
+  <meta name="description" content="This is an open-access, book-in-progress. My goal in offering it is to re-center the materials used in training statistics and research methods in graduate and post-graduate psychology programs." />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Psychometrics Crash Course: A quick and dirty review of the primary elements of reliability and validity | ReCentering Psych Stats: Topics in Research Methods" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is an open-access, book-in-progress. My goal in offering it is to re-center the materials used in training statistics and research methods in graduate and post-graduate psychology programs." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Psychometrics Crash Course: A quick and dirty review of the primary elements of reliability and validity | ReCentering Psych Stats: Topics in Research Methods" />
+  
+  <meta name="twitter:description" content="This is an open-access, book-in-progress. My goal in offering it is to re-center the materials used in training statistics and research methods in graduate and post-graduate psychology programs." />
+  
+
+<meta name="author" content="Lynette H Bikos, PhD, ABPP" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="Experimental.html"/>
+<link rel="next" href="JEDI.html"/>
+<script src="libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><strong>ReCentering Psych Stats: Topics in Research Methods</strong><br>by Lynette H Bikos, PhD, ABPP</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>BOOK COVER</a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>PREFACE</a>
+<ul>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html#copyright-with-open-access"><i class="fa fa-check"></i>Copyright with Open Access</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>ACKNOWLEDGEMENTS</a></li>
+<li class="chapter" data-level="1" data-path="ReCintro.html"><a href="ReCintro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="ReCintro.html"><a href="ReCintro.html#what-to-expect-in-each-chapter"><i class="fa fa-check"></i><b>1.1</b> What to expect in each chapter</a></li>
+<li class="chapter" data-level="1.2" data-path="ReCintro.html"><a href="ReCintro.html#strategies-for-accessing-and-using-this-oer"><i class="fa fa-check"></i><b>1.2</b> Strategies for Accessing and Using this OER</a></li>
+<li class="chapter" data-level="1.3" data-path="ReCintro.html"><a href="ReCintro.html#if-you-are-new-to-r"><i class="fa fa-check"></i><b>1.3</b> If You are New to R</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="ReCintro.html"><a href="ReCintro.html#base-r"><i class="fa fa-check"></i><b>1.3.1</b> Base R</a></li>
+<li class="chapter" data-level="1.3.2" data-path="ReCintro.html"><a href="ReCintro.html#r-studio"><i class="fa fa-check"></i><b>1.3.2</b> R Studio</a></li>
+<li class="chapter" data-level="1.3.3" data-path="ReCintro.html"><a href="ReCintro.html#r-hygiene"><i class="fa fa-check"></i><b>1.3.3</b> R Hygiene</a>
+<ul>
+<li class="chapter" data-level="1.3.3.1" data-path="ReCintro.html"><a href="ReCintro.html#everything-is-documented-in-the-.rmd-file"><i class="fa fa-check"></i><b>1.3.3.1</b> Everything is documented in the .rmd file</a></li>
+<li class="chapter" data-level="1.3.3.2" data-path="ReCintro.html"><a href="ReCintro.html#file-organization"><i class="fa fa-check"></i><b>1.3.3.2</b> File organization</a></li>
+<li class="chapter" data-level="1.3.3.3" data-path="ReCintro.html"><a href="ReCintro.html#chunks"><i class="fa fa-check"></i><b>1.3.3.3</b> Chunks</a></li>
+<li class="chapter" data-level="1.3.3.4" data-path="ReCintro.html"><a href="ReCintro.html#packages"><i class="fa fa-check"></i><b>1.3.3.4</b> Packages</a></li>
+<li class="chapter" data-level="1.3.3.5" data-path="ReCintro.html"><a href="ReCintro.html#knitting"><i class="fa fa-check"></i><b>1.3.3.5</b> Knitting</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3.4" data-path="ReCintro.html"><a href="ReCintro.html#troubleshooting-in-r-markdown"><i class="fa fa-check"></i><b>1.3.4</b> tRoubleshooting in R maRkdown</a></li>
+<li class="chapter" data-level="1.3.5" data-path="ReCintro.html"><a href="ReCintro.html#strategies-for-success"><i class="fa fa-check"></i><b>1.3.5</b> stRategies for success</a></li>
+<li class="chapter" data-level="1.3.6" data-path="ReCintro.html"><a href="ReCintro.html#resources-for-getting-started"><i class="fa fa-check"></i><b>1.3.6</b> Resources for getting staRted</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="TrainMod.html"><a href="TrainMod.html"><i class="fa fa-check"></i><b>2</b> Training Models in Professional Psychology</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="TrainMod.html"><a href="TrainMod.html#navigating-this-lesson"><i class="fa fa-check"></i><b>2.1</b> Navigating this Lesson</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="TrainMod.html"><a href="TrainMod.html#learning-objectives"><i class="fa fa-check"></i><b>2.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.1.2" data-path="TrainMod.html"><a href="TrainMod.html#readings-resources"><i class="fa fa-check"></i><b>2.1.2</b> Readings &amp; Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="TrainMod.html"><a href="TrainMod.html#the-push-and-pull-of-science-and-practice"><i class="fa fa-check"></i><b>2.2</b> The Push and Pull of Science and Practice</a></li>
+<li class="chapter" data-level="2.3" data-path="TrainMod.html"><a href="TrainMod.html#training-models-accreditation"><i class="fa fa-check"></i><b>2.3</b> Training Models &amp; Accreditation</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="TrainMod.html"><a href="TrainMod.html#scientistpractitioner-sp-model"><i class="fa fa-check"></i><b>2.3.1</b> Scientist~Practitioner (SP) Model</a></li>
+<li class="chapter" data-level="2.3.2" data-path="TrainMod.html"><a href="TrainMod.html#scholar-practitioner-sch-p-model"><i class="fa fa-check"></i><b>2.3.2</b> Scholar-Practitioner (SCH-P) Model</a></li>
+<li class="chapter" data-level="2.3.3" data-path="TrainMod.html"><a href="TrainMod.html#clinical-scientist-model"><i class="fa fa-check"></i><b>2.3.3</b> Clinical Scientist Model</a></li>
+<li class="chapter" data-level="2.3.4" data-path="TrainMod.html"><a href="TrainMod.html#local-clinical-scientist-model-lcs"><i class="fa fa-check"></i><b>2.3.4</b> Local Clinical Scientist Model (LCS)</a></li>
+<li class="chapter" data-level="2.3.5" data-path="TrainMod.html"><a href="TrainMod.html#and-what-does-it-mean"><i class="fa fa-check"></i><b>2.3.5</b> And What Does It Mean?</a></li>
+<li class="chapter" data-level="2.3.6" data-path="TrainMod.html"><a href="TrainMod.html#what-lies-ahead"><i class="fa fa-check"></i><b>2.3.6</b> What Lies Ahead?</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="TrainMod.html"><a href="TrainMod.html#suggestions-for-practice"><i class="fa fa-check"></i><b>2.4</b> Suggestions for Practice</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="PHoS.html"><a href="PHoS.html"><i class="fa fa-check"></i><b>3</b> Epistemology and Philosophy of Science</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="PHoS.html"><a href="PHoS.html#navigating-this-lesson-1"><i class="fa fa-check"></i><b>3.1</b> Navigating this Lesson</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="PHoS.html"><a href="PHoS.html#learning-objectives-1"><i class="fa fa-check"></i><b>3.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.1.2" data-path="PHoS.html"><a href="PHoS.html#readings-resources-1"><i class="fa fa-check"></i><b>3.1.2</b> Readings &amp; Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="PHoS.html"><a href="PHoS.html#core-themes-in-research-methodology"><i class="fa fa-check"></i><b>3.2</b> Core Themes in Research Methodology</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="PHoS.html"><a href="PHoS.html#ways-of-knowing"><i class="fa fa-check"></i><b>3.2.1</b> Ways of Knowing</a></li>
+<li class="chapter" data-level="3.2.2" data-path="PHoS.html"><a href="PHoS.html#a-faith-based-model"><i class="fa fa-check"></i><b>3.2.2</b> A Faith-Based Model</a></li>
+<li class="chapter" data-level="3.2.3" data-path="PHoS.html"><a href="PHoS.html#race-based-epistemologies"><i class="fa fa-check"></i><b>3.2.3</b> Race-Based Epistemologies</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="PHoS.html"><a href="PHoS.html#defining-research-and-some-of-its-key-concepts"><i class="fa fa-check"></i><b>3.3</b> Defining Research (And [Some Of]) Its Key Concepts</a></li>
+<li class="chapter" data-level="3.4" data-path="PHoS.html"><a href="PHoS.html#philosophy-of-science-as-it-relates-to-research-methodology"><i class="fa fa-check"></i><b>3.4</b> Philosophy of Science as it Relates to Research Methodology</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="PHoS.html"><a href="PHoS.html#paradigmatic-impact-on-onology-epistemology-axiology-rhetorical-structure-and-methodology"><i class="fa fa-check"></i><b>3.4.1</b> Paradigmatic Impact on Onology, Epistemology, Axiology, Rhetorical Structure, and Methodology</a></li>
+<li class="chapter" data-level="3.4.2" data-path="PHoS.html"><a href="PHoS.html#things-im-thinking-about"><i class="fa fa-check"></i><b>3.4.2</b> Things I’m Thinking About</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="Experimental.html"><a href="Experimental.html"><i class="fa fa-check"></i><b>4</b> Experimental Design</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="Experimental.html"><a href="Experimental.html#navigating-this-lesson-2"><i class="fa fa-check"></i><b>4.1</b> Navigating this Lesson</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="Experimental.html"><a href="Experimental.html#learning-objectives-2"><i class="fa fa-check"></i><b>4.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="4.1.2" data-path="Experimental.html"><a href="Experimental.html#readings-resources-2"><i class="fa fa-check"></i><b>4.1.2</b> Readings &amp; Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="Experimental.html"><a href="Experimental.html#in-the-beginning-there-was"><i class="fa fa-check"></i><b>4.2</b> In the Beginning There Was…</a></li>
+<li class="chapter" data-level="4.3" data-path="Experimental.html"><a href="Experimental.html#quasi-experimental-designs"><i class="fa fa-check"></i><b>4.3</b> Quasi-Experimental Designs</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="Experimental.html"><a href="Experimental.html#one-group-posttest-only-design"><i class="fa fa-check"></i><b>4.3.1</b> One-group posttest only design:</a></li>
+<li class="chapter" data-level="4.3.2" data-path="Experimental.html"><a href="Experimental.html#one-group-pretest-posttest-design"><i class="fa fa-check"></i><b>4.3.2</b> One-group pretest-posttest design:</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="Experimental.html"><a href="Experimental.html#threats-to-internal-validity"><i class="fa fa-check"></i><b>4.4</b> Threats to Internal Validity</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="Experimental.html"><a href="Experimental.html#defining-internal-validity"><i class="fa fa-check"></i><b>4.4.1</b> Defining Internal Validity</a></li>
+<li class="chapter" data-level="4.4.2" data-path="Experimental.html"><a href="Experimental.html#threats-to-internal-validity-as-a-function-of-one-sample-designs"><i class="fa fa-check"></i><b>4.4.2</b> Threats to Internal Validity as a Function of One-Sample Designs</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="Experimental.html"><a href="Experimental.html#experimental-designs"><i class="fa fa-check"></i><b>4.5</b> Experimental Designs</a>
+<ul>
+<li class="chapter" data-level="4.5.1" data-path="Experimental.html"><a href="Experimental.html#between-subject-experiments"><i class="fa fa-check"></i><b>4.5.1</b> Between-Subject Experiments</a></li>
+<li class="chapter" data-level="4.5.2" data-path="Experimental.html"><a href="Experimental.html#within-subject-experiments"><i class="fa fa-check"></i><b>4.5.2</b> Within-Subject Experiments</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="Experimental.html"><a href="Experimental.html#the-validity-family"><i class="fa fa-check"></i><b>4.6</b> The Validity Family</a>
+<ul>
+<li class="chapter" data-level="4.6.1" data-path="Experimental.html"><a href="Experimental.html#defining-internal-validity-1"><i class="fa fa-check"></i><b>4.6.1</b> Defining “Internal Validity”</a>
+<ul>
+<li class="chapter" data-level="4.6.1.1" data-path="Experimental.html"><a href="Experimental.html#threats-to-internal-validity-1"><i class="fa fa-check"></i><b>4.6.1.1</b> Threats to Internal Validity</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6.2" data-path="Experimental.html"><a href="Experimental.html#a-bit-about-the-remedies"><i class="fa fa-check"></i><b>4.6.2</b> A Bit about the Remedies</a></li>
+<li class="chapter" data-level="4.6.3" data-path="Experimental.html"><a href="Experimental.html#strategies-or-equating-non-equivalent-groups"><i class="fa fa-check"></i><b>4.6.3</b> Strategies or Equating Non-Equivalent Groups</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="Experimental.html"><a href="Experimental.html#defining-external-validity"><i class="fa fa-check"></i><b>4.7</b> Defining External Validity</a>
+<ul>
+<li class="chapter" data-level="4.7.1" data-path="Experimental.html"><a href="Experimental.html#threats-to-external-validty"><i class="fa fa-check"></i><b>4.7.1</b> Threats to External Validty</a>
+<ul>
+<li class="chapter" data-level="4.7.1.1" data-path="Experimental.html"><a href="Experimental.html#re-enter-parsimony-and-plausibility"><i class="fa fa-check"></i><b>4.7.1.1</b> Re-Enter Parsimony and Plausibility</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4.8" data-path="Experimental.html"><a href="Experimental.html#balancing-internal-and-external-validity"><i class="fa fa-check"></i><b>4.8</b> Balancing Internal and External Validity</a>
+<ul>
+<li class="chapter" data-level="4.8.1" data-path="Experimental.html"><a href="Experimental.html#the-bubble-hypothesis"><i class="fa fa-check"></i><b>4.8.1</b> The Bubble Hypothesis</a></li>
+</ul></li>
+<li class="chapter" data-level="4.9" data-path="Experimental.html"><a href="Experimental.html#defining-construct-validity"><i class="fa fa-check"></i><b>4.9</b> Defining Construct Validity</a>
+<ul>
+<li class="chapter" data-level="4.9.1" data-path="Experimental.html"><a href="Experimental.html#threats-to-construct-validity"><i class="fa fa-check"></i><b>4.9.1</b> Threats to Construct Validity</a></li>
+</ul></li>
+<li class="chapter" data-level="4.10" data-path="Experimental.html"><a href="Experimental.html#statistical-conclusion-validity"><i class="fa fa-check"></i><b>4.10</b> Statistical Conclusion Validity</a>
+<ul>
+<li class="chapter" data-level="4.10.1" data-path="Experimental.html"><a href="Experimental.html#threats-to-statistical-conclusion-validity"><i class="fa fa-check"></i><b>4.10.1</b> Threats to Statistical Conclusion Validity</a></li>
+</ul></li>
+<li class="chapter" data-level="4.11" data-path="Experimental.html"><a href="Experimental.html#answer-key"><i class="fa fa-check"></i><b>4.11</b> Answer Key</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="Psychometrix.html"><a href="Psychometrix.html"><i class="fa fa-check"></i><b>5</b> Psychometrics Crash Course: A quick and dirty review of the primary elements of reliability and validity</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="Psychometrix.html"><a href="Psychometrix.html#navigating-this-lesson-3"><i class="fa fa-check"></i><b>5.1</b> Navigating this Lesson</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="Psychometrix.html"><a href="Psychometrix.html#learning-objectives-3"><i class="fa fa-check"></i><b>5.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="5.1.2" data-path="Psychometrix.html"><a href="Psychometrix.html#readings-resources-3"><i class="fa fa-check"></i><b>5.1.2</b> Readings &amp; Resources</a></li>
+<li class="chapter" data-level="5.1.3" data-path="Psychometrix.html"><a href="Psychometrix.html#planning-for-practice"><i class="fa fa-check"></i><b>5.1.3</b> Planning for Practice</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="Psychometrix.html"><a href="Psychometrix.html#classical-test-theory"><i class="fa fa-check"></i><b>5.2</b> Classical Test Theory</a></li>
+<li class="chapter" data-level="5.3" data-path="Psychometrix.html"><a href="Psychometrix.html#traditional-estimates-of-reliability"><i class="fa fa-check"></i><b>5.3</b> Traditional Estimates of Reliability</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="Psychometrix.html"><a href="Psychometrix.html#test-retest-reliability"><i class="fa fa-check"></i><b>5.3.1</b> Test Retest Reliability</a></li>
+<li class="chapter" data-level="5.3.2" data-path="Psychometrix.html"><a href="Psychometrix.html#internal-consistency"><i class="fa fa-check"></i><b>5.3.2</b> Internal Consistency</a>
+<ul>
+<li class="chapter" data-level="5.3.2.1" data-path="Psychometrix.html"><a href="Psychometrix.html#alternate-equivalent-form-reliability"><i class="fa fa-check"></i><b>5.3.2.1</b> Alternate (Equivalent)-Form Reliability</a></li>
+<li class="chapter" data-level="5.3.2.2" data-path="Psychometrix.html"><a href="Psychometrix.html#split-half-method"><i class="fa fa-check"></i><b>5.3.2.2</b> Split-Half Method</a></li>
+<li class="chapter" data-level="5.3.2.3" data-path="Psychometrix.html"><a href="Psychometrix.html#internal-consistency-1"><i class="fa fa-check"></i><b>5.3.2.3</b> Internal consistency</a></li>
+<li class="chapter" data-level="5.3.2.4" data-path="Psychometrix.html"><a href="Psychometrix.html#interrater-reliabiliy"><i class="fa fa-check"></i><b>5.3.2.4</b> Interrater Reliabiliy</a></li>
+<li class="chapter" data-level="5.3.2.5" data-path="Psychometrix.html"><a href="Psychometrix.html#on-reliability"><i class="fa fa-check"></i><b>5.3.2.5</b> On Reliability</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="Psychometrix.html"><a href="Psychometrix.html#defining-validity"><i class="fa fa-check"></i><b>5.4</b> Defining Validity</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="Psychometrix.html"><a href="Psychometrix.html#traditional-estimates-of-validty"><i class="fa fa-check"></i><b>5.4.1</b> Traditional Estimates of Validty</a>
+<ul>
+<li class="chapter" data-level="5.4.1.1" data-path="Psychometrix.html"><a href="Psychometrix.html#face-validty-the-un-validty"><i class="fa fa-check"></i><b>5.4.1.1</b> Face Validty: The Un-Validty</a></li>
+<li class="chapter" data-level="5.4.1.2" data-path="Psychometrix.html"><a href="Psychometrix.html#content-validity"><i class="fa fa-check"></i><b>5.4.1.2</b> Content Validity</a></li>
+<li class="chapter" data-level="5.4.1.3" data-path="Psychometrix.html"><a href="Psychometrix.html#construct-validty"><i class="fa fa-check"></i><b>5.4.1.3</b> Construct Validty</a></li>
+<li class="chapter" data-level="5.4.1.4" data-path="Psychometrix.html"><a href="Psychometrix.html#criterion-related-validity"><i class="fa fa-check"></i><b>5.4.1.4</b> Criterion Related Validity</a></li>
+<li class="chapter" data-level="5.4.1.5" data-path="Psychometrix.html"><a href="Psychometrix.html#convergent-and-discriminant-validity"><i class="fa fa-check"></i><b>5.4.1.5</b> Convergent and Discriminant Validity</a></li>
+<li class="chapter" data-level="5.4.1.6" data-path="Psychometrix.html"><a href="Psychometrix.html#structural-validity"><i class="fa fa-check"></i><b>5.4.1.6</b> “Structural” Validity</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="Psychometrix.html"><a href="Psychometrix.html#locating-and-interpreting-reliability-and-validity-in-publications"><i class="fa fa-check"></i><b>5.5</b> Locating and Interpreting Reliability and Validity in Publications</a>
+<ul>
+<li class="chapter" data-level="5.5.1" data-path="Psychometrix.html"><a href="Psychometrix.html#from-tran-and-lee-2014"><i class="fa fa-check"></i><b>5.5.1</b> From Tran and Lee (2014)</a></li>
+<li class="chapter" data-level="5.5.2" data-path="Psychometrix.html"><a href="Psychometrix.html#from-lui-2020"><i class="fa fa-check"></i><b>5.5.2</b> From Lui (2020)</a></li>
+<li class="chapter" data-level="5.5.3" data-path="Psychometrix.html"><a href="Psychometrix.html#exerpt-from-nadal-2011"><i class="fa fa-check"></i><b>5.5.3</b> Exerpt from Nadal (2011)</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="Psychometrix.html"><a href="Psychometrix.html#practice-problem"><i class="fa fa-check"></i><b>5.6</b> Practice Problem</a></li>
+<li class="chapter" data-level="5.7" data-path="Psychometrix.html"><a href="Psychometrix.html#answer-key-1"><i class="fa fa-check"></i><b>5.7</b> Answer Key</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="JEDI.html"><a href="JEDI.html"><i class="fa fa-check"></i><b>6</b> A JEDI Lecture: Promoting Justice, Equity, Diversity, and Inclusion in Research</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="JEDI.html"><a href="JEDI.html#navigating-this-lesson-4"><i class="fa fa-check"></i><b>6.1</b> Navigating this Lesson</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="JEDI.html"><a href="JEDI.html#learning-objectives-4"><i class="fa fa-check"></i><b>6.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="6.1.2" data-path="JEDI.html"><a href="JEDI.html#readings-resources-4"><i class="fa fa-check"></i><b>6.1.2</b> Readings &amp; Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="JEDI.html"><a href="JEDI.html#some-context"><i class="fa fa-check"></i><b>6.2</b> Some Context</a></li>
+<li class="chapter" data-level="6.3" data-path="JEDI.html"><a href="JEDI.html#race-and-ethnicity-guidelines-in-psychology-promoting-responsiveness-and-equity-2019"><i class="fa fa-check"></i><b>6.3</b> Race and Ethnicity Guidelines in Psychology: Promoting Responsiveness and Equity (2019)</a></li>
+<li class="chapter" data-level="6.4" data-path="JEDI.html"><a href="JEDI.html#specific-guidelines-for-research-in-related-guidelines"><i class="fa fa-check"></i><b>6.4</b> Specific Guidelines for Research in Related Guidelines</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="OpenScience.html"><a href="OpenScience.html"><i class="fa fa-check"></i><b>7</b> Orientation to Open Science</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="OpenScience.html"><a href="OpenScience.html#navigating-this-lesson-5"><i class="fa fa-check"></i><b>7.1</b> Navigating this Lesson</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="OpenScience.html"><a href="OpenScience.html#learning-objectives-5"><i class="fa fa-check"></i><b>7.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="7.1.2" data-path="OpenScience.html"><a href="OpenScience.html#readings-resources-5"><i class="fa fa-check"></i><b>7.1.2</b> Readings &amp; Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="OpenScience.html"><a href="OpenScience.html#the-crises"><i class="fa fa-check"></i><b>7.2</b> The Crises</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="OpenScience.html"><a href="OpenScience.html#the-replicability-crisis"><i class="fa fa-check"></i><b>7.2.1</b> The Replicability Crisis</a></li>
+<li class="chapter" data-level="7.2.2" data-path="OpenScience.html"><a href="OpenScience.html#the-reproducibility-crisis"><i class="fa fa-check"></i><b>7.2.2</b> The Reproducibility Crisis</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="OpenScience.html"><a href="OpenScience.html#open-science-what-why"><i class="fa fa-check"></i><b>7.3</b> Open Science: What &amp; Why</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="OpenScience.html"><a href="OpenScience.html#research-transparency"><i class="fa fa-check"></i><b>7.3.1</b> Research Transparency</a></li>
+<li class="chapter" data-level="7.3.2" data-path="OpenScience.html"><a href="OpenScience.html#who-owns-the-data"><i class="fa fa-check"></i><b>7.3.2</b> Who owns the data?</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="OpenScience.html"><a href="OpenScience.html#open-science-where"><i class="fa fa-check"></i><b>7.4</b> Open Science: Where</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="OpenScience.html"><a href="OpenScience.html#data-repositories"><i class="fa fa-check"></i><b>7.4.1</b> Data Repositories:</a></li>
+<li class="chapter" data-level="7.4.2" data-path="OpenScience.html"><a href="OpenScience.html#journals-supplemental-files"><i class="fa fa-check"></i><b>7.4.2</b> Journals: Supplemental files</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="OpenScience.html"><a href="OpenScience.html#open-science-who-are-the-stakeholders"><i class="fa fa-check"></i><b>7.5</b> Open Science: Who are the Stakeholders?</a>
+<ul>
+<li class="chapter" data-level="7.5.1" data-path="OpenScience.html"><a href="OpenScience.html#groups"><i class="fa fa-check"></i><b>7.5.1</b> Groups</a></li>
+<li class="chapter" data-level="7.5.2" data-path="OpenScience.html"><a href="OpenScience.html#individual-research-participants"><i class="fa fa-check"></i><b>7.5.2</b> Individual Research participants</a></li>
+<li class="chapter" data-level="7.5.3" data-path="OpenScience.html"><a href="OpenScience.html#the-common-rule"><i class="fa fa-check"></i><b>7.5.3</b> The Common Rule</a>
+<ul>
+<li class="chapter" data-level="7.5.3.1" data-path="OpenScience.html"><a href="OpenScience.html#data-creators"><i class="fa fa-check"></i><b>7.5.3.1</b> Data creators</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7.6" data-path="OpenScience.html"><a href="OpenScience.html#open-science-how"><i class="fa fa-check"></i><b>7.6</b> Open Science: How</a>
+<ul>
+<li class="chapter" data-level="7.6.1" data-path="OpenScience.html"><a href="OpenScience.html#regarding-research-transparency"><i class="fa fa-check"></i><b>7.6.1</b> Regarding research transparency</a></li>
+<li class="chapter" data-level="7.6.2" data-path="OpenScience.html"><a href="OpenScience.html#regarding-data-ownership"><i class="fa fa-check"></i><b>7.6.2</b> Regarding data ownership</a></li>
+<li class="chapter" data-level="7.6.3" data-path="OpenScience.html"><a href="OpenScience.html#regarding-data-sharing"><i class="fa fa-check"></i><b>7.6.3</b> Regarding Data Sharing</a></li>
+<li class="chapter" data-level="7.6.4" data-path="OpenScience.html"><a href="OpenScience.html#more-resources"><i class="fa fa-check"></i><b>7.6.4</b> More Resources:</a></li>
+</ul></li>
+<li class="chapter" data-level="7.7" data-path="OpenScience.html"><a href="OpenScience.html#and-also-preregistration"><i class="fa fa-check"></i><b>7.7</b> And also, Preregistration</a></li>
+<li class="chapter" data-level="7.8" data-path="OpenScience.html"><a href="OpenScience.html#im-a-graduate-student-what-does-it-mean-to-me"><i class="fa fa-check"></i><b>7.8</b> I’m a Graduate Student – What does it mean to me?</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="writing-empirical-manuscripts.html"><a href="writing-empirical-manuscripts.html"><i class="fa fa-check"></i>WRITING EMPIRICAL MANUSCRIPTS</a></li>
+<li class="chapter" data-level="8" data-path="APAstyle.html"><a href="APAstyle.html"><i class="fa fa-check"></i><b>8</b> The APA Style Manuscript</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="APAstyle.html"><a href="APAstyle.html#navigating-this-lesson-6"><i class="fa fa-check"></i><b>8.1</b> Navigating this Lesson</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="APAstyle.html"><a href="APAstyle.html#learning-objectives-6"><i class="fa fa-check"></i><b>8.1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="8.1.2" data-path="APAstyle.html"><a href="APAstyle.html#readings-resources-6"><i class="fa fa-check"></i><b>8.1.2</b> Readings &amp; Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="APAstyle.html"><a href="APAstyle.html#apa-style-as-epistemology-or-worse"><i class="fa fa-check"></i><b>8.2</b> APA Style as Epistemology (or Worse)</a></li>
+<li class="chapter" data-level="8.3" data-path="APAstyle.html"><a href="APAstyle.html#as-we-dive-into-the-specifics"><i class="fa fa-check"></i><b>8.3</b> As We Dive into the Specifics</a></li>
+<li class="chapter" data-level="8.4" data-path="APAstyle.html"><a href="APAstyle.html#the-jars-the-core-of-apa-style"><i class="fa fa-check"></i><b>8.4</b> The JARS: The Core of APA Style</a>
+<ul>
+<li class="chapter" data-level="8.4.1" data-path="APAstyle.html"><a href="APAstyle.html#title-authorship-author-note-apa-2.3"><i class="fa fa-check"></i><b>8.4.1</b> Title, Authorship, Author Note (APA 2.3)</a>
+<ul>
+<li class="chapter" data-level="8.4.1.1" data-path="APAstyle.html"><a href="APAstyle.html#title-apa-2.4"><i class="fa fa-check"></i><b>8.4.1.1</b> Title (APA 2.4)</a></li>
+<li class="chapter" data-level="8.4.1.2" data-path="APAstyle.html"><a href="APAstyle.html#authorshipbyline-apa-2.5-affiliation-apa-2.6"><i class="fa fa-check"></i><b>8.4.1.2</b> Authorship/Byline (APA 2.5) &amp; Affiliation (APA 2.6)</a></li>
+<li class="chapter" data-level="8.4.1.3" data-path="APAstyle.html"><a href="APAstyle.html#author-note-apa-2.7"><i class="fa fa-check"></i><b>8.4.1.3</b> Author Note (APA 2.7)</a></li>
+<li class="chapter" data-level="8.4.1.4" data-path="APAstyle.html"><a href="APAstyle.html#running-head-apa-2.8"><i class="fa fa-check"></i><b>8.4.1.4</b> Running Head (APA 2.8)</a></li>
+<li class="chapter" data-level="8.4.1.5" data-path="APAstyle.html"><a href="APAstyle.html#manuscript-page-headerspage-numbers-apa-8.03"><i class="fa fa-check"></i><b>8.4.1.5</b> Manuscript Page Headers/Page Numbers (APA 8.03)</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4.2" data-path="APAstyle.html"><a href="APAstyle.html#abstract-apa-2.8-3.3"><i class="fa fa-check"></i><b>8.4.2</b> Abstract (APA 2.8, 3.3)</a>
+<ul>
+<li class="chapter" data-level="8.4.2.1" data-path="APAstyle.html"><a href="APAstyle.html#recipe-for-an-abstract"><i class="fa fa-check"></i><b>8.4.2.1</b> Recipe for an Abstract</a></li>
+<li class="chapter" data-level="8.4.2.2" data-path="APAstyle.html"><a href="APAstyle.html#keywords"><i class="fa fa-check"></i><b>8.4.2.2</b> Keywords</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4.3" data-path="APAstyle.html"><a href="APAstyle.html#introduction-apa-2.11"><i class="fa fa-check"></i><b>8.4.3</b> Introduction (APA 2.11)</a>
+<ul>
+<li class="chapter" data-level="8.4.3.1" data-path="APAstyle.html"><a href="APAstyle.html#the-brief-introduction"><i class="fa fa-check"></i><b>8.4.3.1</b> The Brief Introduction</a></li>
+<li class="chapter" data-level="8.4.3.2" data-path="APAstyle.html"><a href="APAstyle.html#bikos-developmental-perspective-on-learning-to-write-the-empirical-manuscript"><i class="fa fa-check"></i><b>8.4.3.2</b> Bikos’ Developmental Perspective on Learning to Write the Empirical Manuscript</a></li>
+<li class="chapter" data-level="8.4.3.3" data-path="APAstyle.html"><a href="APAstyle.html#perennial-notes-from-research-project-faculty-graders"><i class="fa fa-check"></i><b>8.4.3.3</b> Perennial Notes from Research-Project Faculty Graders</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4.4" data-path="APAstyle.html"><a href="APAstyle.html#method-apa-2.06-chapter-3"><i class="fa fa-check"></i><b>8.4.4</b> Method (APA 2.06; Chapter 3)</a></li>
+<li class="chapter" data-level="8.4.5" data-path="APAstyle.html"><a href="APAstyle.html#results-discussion-chapter-3"><i class="fa fa-check"></i><b>8.4.5</b> Results &amp; Discussion (Chapter 3)</a></li>
+<li class="chapter" data-level="8.4.6" data-path="APAstyle.html"><a href="APAstyle.html#headings-apa-2.7"><i class="fa fa-check"></i><b>8.4.6</b> Headings (APA 2.7)</a></li>
+<li class="chapter" data-level="8.4.7" data-path="APAstyle.html"><a href="APAstyle.html#reference-list"><i class="fa fa-check"></i><b>8.4.7</b> Reference List</a></li>
+<li class="chapter" data-level="8.4.8" data-path="APAstyle.html"><a href="APAstyle.html#stylistic-issues-apa-chapter-4-on-writing-style-and-grammar"><i class="fa fa-check"></i><b>8.4.8</b> Stylistic Issues (APA Chapter 4 on <em>Writing Style and Grammar</em>)</a></li>
+<li class="chapter" data-level="8.4.9" data-path="APAstyle.html"><a href="APAstyle.html#reducing-bias-apa-chapter-5"><i class="fa fa-check"></i><b>8.4.9</b> Reducing Bias (APA Chapter 5)</a></li>
+<li class="chapter" data-level="8.4.10" data-path="APAstyle.html"><a href="APAstyle.html#closing-thoughts"><i class="fa fa-check"></i><b>8.4.10</b> Closing Thoughts</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="Zotero.html"><a href="Zotero.html"><i class="fa fa-check"></i><b>9</b> Reference Management with Zotero</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="Zotero.html"><a href="Zotero.html#navigating-this-lessonette"><i class="fa fa-check"></i><b>9.1</b> Navigating this Lessonette</a>
+<ul>
+<li class="chapter" data-level="9.1.1" data-path="Zotero.html"><a href="Zotero.html#learning-objectives-7"><i class="fa fa-check"></i><b>9.1.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="Zotero.html"><a href="Zotero.html#go-get-it"><i class="fa fa-check"></i><b>9.2</b> Go Get It!</a></li>
+<li class="chapter" data-level="9.3" data-path="Zotero.html"><a href="Zotero.html#your-library"><i class="fa fa-check"></i><b>9.3</b> Your Library</a></li>
+<li class="chapter" data-level="9.4" data-path="Zotero.html"><a href="Zotero.html#grabbing-storing-pubs"><i class="fa fa-check"></i><b>9.4</b> Grabbing &amp; Storing Pubs</a></li>
+<li class="chapter" data-level="9.5" data-path="Zotero.html"><a href="Zotero.html#inserting-citations"><i class="fa fa-check"></i><b>9.5</b> Inserting Citations</a></li>
+<li class="chapter" data-level="9.6" data-path="Zotero.html"><a href="Zotero.html#creating-the-reference-list"><i class="fa fa-check"></i><b>9.6</b> Creating the Reference List</a></li>
+<li class="chapter" data-level="9.7" data-path="Zotero.html"><a href="Zotero.html#other-reasons-i-love-it-so-much"><i class="fa fa-check"></i><b>9.7</b> Other Reasons I Love it So Much</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="Tables.html"><a href="Tables.html"><i class="fa fa-check"></i><b>10</b> Table Magic</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="Tables.html"><a href="Tables.html#navigating-this-lessonette-1"><i class="fa fa-check"></i><b>10.1</b> Navigating this Lessonette</a>
+<ul>
+<li class="chapter" data-level="10.1.1" data-path="Tables.html"><a href="Tables.html#learning-objectives-8"><i class="fa fa-check"></i><b>10.1.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="10.2" data-path="Tables.html"><a href="Tables.html#magic-happens-when-you"><i class="fa fa-check"></i><b>10.2</b> Magic Happens When You…</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="Tables.html"><a href="Tables.html#starting-the-table"><i class="fa fa-check"></i><b>10.2.1</b> Starting the Table</a></li>
+<li class="chapter" data-level="10.2.2" data-path="Tables.html"><a href="Tables.html#a-few-handy-tools"><i class="fa fa-check"></i><b>10.2.2</b> A Few Handy Tools</a></li>
+<li class="chapter" data-level="10.2.3" data-path="Tables.html"><a href="Tables.html#decimal-magic"><i class="fa fa-check"></i><b>10.2.3</b> Decimal Magic</a></li>
+<li class="chapter" data-level="10.2.4" data-path="Tables.html"><a href="Tables.html#more-help-from-table-properties"><i class="fa fa-check"></i><b>10.2.4</b> More Help from Table Properties</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="Excel.html"><a href="Excel.html"><i class="fa fa-check"></i><b>11</b> Writing in Excel</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="Excel.html"><a href="Excel.html#navigating-this-lessonette-2"><i class="fa fa-check"></i><b>11.1</b> Navigating this Lessonette</a>
+<ul>
+<li class="chapter" data-level="11.1.1" data-path="Excel.html"><a href="Excel.html#learning-objectives-9"><i class="fa fa-check"></i><b>11.1.1</b> Learning Objectives</a></li>
+</ul></li>
+<li class="chapter" data-level="11.2" data-path="Excel.html"><a href="Excel.html#where-to-start"><i class="fa fa-check"></i><b>11.2</b> Where to Start</a>
+<ul>
+<li class="chapter" data-level="11.2.1" data-path="Excel.html"><a href="Excel.html#bottom-up"><i class="fa fa-check"></i><b>11.2.1</b> Bottom Up</a></li>
+<li class="chapter" data-level="11.2.2" data-path="Excel.html"><a href="Excel.html#top-down"><i class="fa fa-check"></i><b>11.2.2</b> Top Down</a></li>
+<li class="chapter" data-level="11.2.3" data-path="Excel.html"><a href="Excel.html#mostly-i-start-in-the-middle"><i class="fa fa-check"></i><b>11.2.3</b> Mostly I Start in the Middle</a></li>
+</ul></li>
+<li class="chapter" data-level="11.3" data-path="Excel.html"><a href="Excel.html#in-any-case-i-use-excel"><i class="fa fa-check"></i><b>11.3</b> In Any Case, I Use Excel</a>
+<ul>
+<li class="chapter" data-level="11.3.1" data-path="Excel.html"><a href="Excel.html#the-structure-of-my-spreadsheet"><i class="fa fa-check"></i><b>11.3.1</b> The Structure of my Spreadsheet</a></li>
+</ul></li>
+<li class="chapter" data-level="11.4" data-path="Excel.html"><a href="Excel.html#lets-tour"><i class="fa fa-check"></i><b>11.4</b> Let’s Tour</a></li>
+<li class="chapter" data-level="11.5" data-path="Excel.html"><a href="Excel.html#faqs"><i class="fa fa-check"></i><b>11.5</b> FAQs</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>12</b> References</a></li>
+<li class="divider"></li>
+#<li><a href="https:link" target="_blank">Open access book-in-progress</br>
+<li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></li>
+  <li><a href="https://bookdown.org" target="_blank">Built with Bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">ReCentering Psych Stats: Topics in Research Methods</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="Psychometrix" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Psychometrics Crash Course: A quick and dirty review of the primary elements of reliability and validity</h1>
+<p><a href="https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=0a485840-5caa-484b-ba16-ac37017d6b05">Screencasted Lecture Link</a></p>
+<p>This lesson presume that you have not had a psychometrics course. In the particular research methods/statistics sequence I teach, psychometrics is the last in the series. This psychometrics primer is intended to demonstrate how to gather and interpret basic reliability and validity information. A lesson later in the ReCentering Psych Stats OER guides you through scoring your measures and conducting the basic psychometric evaluations (alpha coefficients).</p>
+<p>But first, a trivia question. Why is “reliability” abbreviated <span class="math inline">\(r_{xx}\)</span> and “validity” abbreviated <span class="math inline">\(r_{xy}\)</span>? The answer is at the end of the lesson.</p>
+<div id="navigating-this-lesson-3" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Navigating this Lesson</h2>
+<p>There is about 1 hour of lecture.</p>
+<div id="learning-objectives-3" class="section level3" number="5.1.1">
+<h3><span class="header-section-number">5.1.1</span> Learning Objectives</h3>
+<p>Learning objectives from this lesson include the following:</p>
+<ul>
+<li>Memorize the true-score formula.</li>
+<li>Define reliability and validity (for memory), including
+<ul>
+<li>Types of reliability</li>
+<li>Types of validity</li>
+</ul></li>
+<li>Retrieve and interpret reliability and validity information from published articles.</li>
+<li>Write an APA-style instrument entry.</li>
+</ul>
+</div>
+<div id="readings-resources-3" class="section level3" number="5.1.2">
+<h3><span class="header-section-number">5.1.2</span> Readings &amp; Resources</h3>
+<p>In preparing this chapter, I drew heavily from the following resource. Other resources are cited (when possible, linked) in the text with complete citations in the reference list.</p>
+<ul>
+<li>Jhangiani, R. S., Chiang, I.-C. A., Cuttler, C., &amp; Leighton, D. C. (2019). <em>Research Methods in Psychology</em>. <a href="https://doi.org/10.17605/OSF.IO/HF7DQ" class="uri">https://doi.org/10.17605/OSF.IO/HF7DQ</a>
+<ul>
+<li>Chapter IV: Psychological Measurement</li>
+<li>Understanding psychological measurement</li>
+<li>Reliability and validity of measurement</li>
+<li>Practical strategies for psychological measurement</li>
+</ul></li>
+</ul>
+</div>
+<div id="planning-for-practice" class="section level3" number="5.1.3">
+<h3><span class="header-section-number">5.1.3</span> Planning for Practice</h3>
+<p>At the end of the lesson I provide instructions for one of my favorite classroom assignments, the “Penultimate Psychometric Template.” In this, students find write-ups of 12 measures, mapping the parts-n-pieces of the write-ups, and then creating their own recipe/outline for how to draft descriptions of measures in future empirical papers.</p>
+</div>
+</div>
+<div id="classical-test-theory" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Classical Test Theory</h2>
+<p>Classical test theory (CTT) is based on Spearman’s (1904) true-score model:</p>
+<ul>
+<li>an observed score is conceived of as consisting of two components – a true component and an error component</li>
+<li><span class="math inline">\(X = T + E\)</span></li>
+</ul>
+<p>Where
+X = the fallible, observed score, obtained under ideal or perfect conditions of measurement (these conditions never exist)
+T = the true score, and
+E = random error.</p>
+<p><strong>Measurement</strong> is the assignment of scores to individuals so that the scores represent some characteristic of the individuals <span class="citation">(<a href="#ref-jhangiani_research_2019" role="doc-biblioref">Jhangiani et al., 2019</a>)</span>; measurement of psychological constructs is, <strong>psychometrics</strong>.</p>
+<p>While measurement does not require any specific instrument or process, there must be some systematic procedure for assigning scores so that they represent the characteristics of interest.</p>
+<p>Psychological <strong>constructs</strong> cannot be observed directly – they often represent tendencies to think, feel, or behave in certain ways and they often involve internal processes.</p>
+<p>Examples: intelligence, The Big Five, attitudes</p>
+<p>We can define constructs two ways:</p>
+<p><strong>Conceptual definition</strong>: describes the behaviors and internal processes that make up that construct, along with how it relates to other variables.</p>
+<p><strong>Operational definition</strong>: describes precisely how the construct is to be measured.</p>
+<ul>
+<li><strong>Self-report</strong>: participants report their own thoughts, feelings, actions</li>
+<li><strong>Behavioral measures</strong>: some aspect of participants’ behavior is observed and recorded. This could range from a highly structured lab task or a more natural setting.</li>
+<li><strong>Physiological measures</strong>: involve recording any of a wide variety of physiological processes including heart rate/blood pressure, galvanic skin response, hormone levels, electrical activity, and blood flow in the brain.</li>
+</ul>
+<p>For any given construct/measures there can be a variety of operational definitions. <strong>Converging operations</strong> occurs when scores based on several different operational definitions are closely related to each other and produce similar patterns of results. This constitutes good evidence that the construct is being effectively measured.</p>
+<p>S. S. Stevens (1946) was among the first to suggest that the type of score assigned to individuals communicates more or less quantitative information about the variable of interest. He suggested four different levels of measurement. In the psychometric context it is critical that we know this measurement scale (a synomym).</p>
+<p><em>R recognizes at least 15 different types of data. Below I note the structure of the data you are most likely to see/use with each of the measurement scales <span class="citation">(<a href="#ref-noauthor_rpubs_nodate" role="doc-biblioref"><em><span>RPubs</span> - <span>R</span> <span>Intro</span> <span>Theory</span> of <span>Measurement</span></em>, n.d.</a>)</span>(RPubs - R Intro Theory of Measurement, n.d.)</em>.</p>
+<p><strong>Nominal</strong> (in R, factor): used for categorical variables and the scores are category labels; not considered to be quantitative.</p>
+<p><strong>Ordinal</strong> (in R, integer [whole numbers, no decimal point]): assigning a score so that it represents the rank order of the individuals. Allows us to know if individuals are the same or different – and if who is higher or lower. One problem with ordinal scales is that we cannot presume the difference between two levels on an ordinal scale to be the same as the difference between two other levels (the equal interval problem).</p>
+<p><strong>Interval</strong> (in R, integer or numeric): assigning scores using numerical scales in which intervals have the same interpretation throughout. In Fahrenheit or Celsius temperature scales, the difference between 30 and 40 degrees represents the same temperature difference as the difference between 80 and 90 degrees (each 10 degree interval has the same kinetic energy of molecules). One problem with interval scales is the absence of a true zero point. Therefore we cannot make statements like, “X is twice as large as Y.”</p>
+<p><strong>Ratio</strong> (in R, numeric): has an equal interval scale plus a true zero point. Counts (e.g., cigarettes smoked, number of siblings, money) are ratio scales.</p>
+</div>
+<div id="traditional-estimates-of-reliability" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Traditional Estimates of Reliability</h2>
+<ul>
+<li>Test retest</li>
+<li>Alternate/equivalent forms</li>
+<li>Split-half</li>
+<li>Internal consistency (alphas or KR-20s)</li>
+<li>Inter-rater (kappa, ICC)</li>
+</ul>
+<p>According to CTT, <span class="math inline">\(r_{xx}\)</span> is a test property that derives from observed scores – true scores and measurement error. It reflects the extent to which differences in respondents’ observed scores are consistent with differences in their true scores.</p>
+<div id="test-retest-reliability" class="section level3" number="5.3.1">
+<h3><span class="header-section-number">5.3.1</span> Test Retest Reliability</h3>
+<ul>
+<li>Concerned with the stability of measurement over time.</li>
+<li>We give a test today, then repeat it at a sensible interval to demonstrate the stability.</li>
+<li>How do we determine the sensible interval?</li>
+<li>It depends on the goals of the test.</li>
+<li>Intelligence testing: stable over weeks, months, years</li>
+<li>State anxiety: could change in the next hour</li>
+<li>Practice effects can be problematic for test-retest, therefore…</li>
+</ul>
+</div>
+<div id="internal-consistency" class="section level3" number="5.3.2">
+<h3><span class="header-section-number">5.3.2</span> Internal Consistency</h3>
+<p>In multiple item measures of a single construct, items are supposed to all reflect that construct. This means that the individual items should all be correlated with each other. There are several ways to get at this degree of correlation/consistency.</p>
+<div id="alternate-equivalent-form-reliability" class="section level4" number="5.3.2.1">
+<h4><span class="header-section-number">5.3.2.1</span> Alternate (Equivalent)-Form Reliability</h4>
+<p>Coefficient of equivalence. Give two forms of the test to the same group; potentially measures temporal stability and consistency of response to different item samples (or test forms).</p>
+</div>
+<div id="split-half-method" class="section level4" number="5.3.2.2">
+<h4><span class="header-section-number">5.3.2.2</span> Split-Half Method</h4>
+<p>A measure of internal consistency; give test once. Score two equivalent halves of test (e.g., odd items and even items); correct correlation between halves to fit whole test by Spearman-Brown formula.
+“half-length test reliability estimate.”</p>
+</div>
+<div id="internal-consistency-1" class="section level4" number="5.3.2.3">
+<h4><span class="header-section-number">5.3.2.3</span> Internal consistency</h4>
+<p><strong>Coefficient alpha</strong>: Measure of internal consistency for scales with Likert-type scaling (i.e., 1 to 5). Give test once. Score total test. Apply Cronbach’s Alpha formula.</p>
+<p>This is the most common form of reliability. Synonyms are: internal consistency, Cronbach’s alpha, alpha. We will learn to calculate these in multivariate, but then examine them critically in psychometrics. They are not without controversy; one of the big problems is that more items (~14 items) almost guarantee a satisfactory alpha ( ≥ .80).</p>
+<p><strong>KR-20s</strong>: can provide internal consistency estimates for dichotomously scored items.</p>
+</div>
+<div id="interrater-reliabiliy" class="section level4" number="5.3.2.4">
+<h4><span class="header-section-number">5.3.2.4</span> Interrater Reliabiliy</h4>
+<p>Measure of consistency of ratings of different observers. Used when the “human” is the measure.
+≥2 raters independently score the responses. Reliability is assessed by:</p>
+<p>** correlating the scores assigned by one judge, with those assigned by the other
+** computing the proportion of agreement corrected for chance (kappa coefficient)</p>
+</div>
+<div id="on-reliability" class="section level4" number="5.3.2.5">
+<h4><span class="header-section-number">5.3.2.5</span> On Reliability</h4>
+<ul>
+<li>Reliability refers to the results obtained with an assessment instrument and not to the instrument itself.</li>
+<li>An estimate of reliability always refers to a particular type of consistency.</li>
+<li>Reliability is a necessary but not sufficient condition for validity.</li>
+<li>Reliability is primarily statistical.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="defining-validity" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Defining Validity</h2>
+<ul>
+<li>The ability of a test to measure what it purports to measure.</li>
+<li>Validity concerns what the test measures and how well it does so.</li>
+<li>The extent of matching, congruence, or “goodness of fit” between the operational definition and concept it is supposed to measure</li>
+<li>An instrument is said to be valid if it taps the concept it claims to measure</li>
+</ul>
+<p>Validity is the appropriateness of the interpretation of the results of an assessment procedure for a given group of individuals, not to the procedure itself.</p>
+<ul>
+<li>a matter of degree; it does not exist on an all-or-none basis.</li>
+<li>always specific to some particular use or interpretation.</li>
+<li>a unitary concept.</li>
+<li>involves an overall evaluative judgment.</li>
+</ul>
+<div id="traditional-estimates-of-validty" class="section level3" number="5.4.1">
+<h3><span class="header-section-number">5.4.1</span> Traditional Estimates of Validty</h3>
+<ul>
+<li>Face-validity</li>
+<li>Content validity</li>
+<li>Construct validity (the all-encompassing validity)</li>
+<li>Criterion-related validity
+<ul>
+<li>Concurrent validity</li>
+<li>Predictive Validity</li>
+</ul></li>
+<li>Convergent Validity</li>
+<li>Discriminant Validity</li>
+<li>Structural Validity</li>
+</ul>
+<div id="face-validty-the-un-validty" class="section level4" number="5.4.1.1">
+<h4><span class="header-section-number">5.4.1.1</span> Face Validty: The Un-Validty</h4>
+<p>As its name suggests, face validity is concerned with the appearance of an assessment; “How does an assessment look on the ‘face of it?’”</p>
+<ul>
+<li>can often be improved by reformulating test items in terms that appear relevant and plausible for the context.</li>
+<li>Face validity should NEVER be regarded as a substitute for objectively determined validity.
+<ul>
+<li>Nor can it be assumed that when a (valid and reliable) test has been modified to increase its face validity, that its objective validity and reliability is unaltered. That is, it must be reevaluated.</li>
+</ul></li>
+</ul>
+</div>
+<div id="content-validity" class="section level4" number="5.4.1.2">
+<h4><span class="header-section-number">5.4.1.2</span> Content Validity</h4>
+<p>Content validty asks, “Does the content of the items reflect the domain to be assessed?”</p>
+<ul>
+<li>Procedures for content validation include
+<ul>
+<li>Subject matter experts</li>
+<li>Empirical analysis with relevant indicators</li>
+</ul></li>
+<li>Item-level and total-scale scores with grades or performance indicators</li>
+<li>Correlations with other indicators (e.g., math test correlated with reading achievement to rule-out literacy as prerequisite for success).</li>
+<li>Table of specifications: A two-way chart which indicates the instructionally relevant learning tasks to be measured.
+<ul>
+<li>Percentages in the table indicate the relative degree of emphasis that each content area</li>
+</ul></li>
+</ul>
+<p>Let’s pretend that we were going to create a table of specifications for this particular lecture, it might look like this.</p>
+<table>
+<colgroup>
+<col width="42%" />
+<col width="13%" />
+<col width="12%" />
+<col width="12%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Objective</th>
+<th>Knowledge</th>
+<th>Skills</th>
+<th>Attitudes</th>
+<th>% of test; # items</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Memorize the true-score formula</td>
+<td>10%; 1 item</td>
+<td></td>
+<td></td>
+<td>10%; 1 item</td>
+</tr>
+<tr class="even">
+<td align="left">Define types of reliability</td>
+<td>20%; 2 items</td>
+<td></td>
+<td></td>
+<td>20%; 2 items</td>
+</tr>
+<tr class="odd">
+<td align="left">Define types of validity</td>
+<td>20%; 2 items</td>
+<td></td>
+<td></td>
+<td>20%; 2 items</td>
+</tr>
+<tr class="even">
+<td align="left">Retrieve and interpret reliability and validity coefficients from published articles</td>
+<td></td>
+<td>20%; 2 items</td>
+<td></td>
+<td>20%; 2 items</td>
+</tr>
+<tr class="odd">
+<td align="left">Write an APA-style instrument entry</td>
+<td></td>
+<td>20%; 1 item</td>
+<td></td>
+<td>20%; 1 big item</td>
+</tr>
+<tr class="even">
+<td align="left">Describe why psychometric evaluation is important</td>
+<td></td>
+<td></td>
+<td>10%; 1 item</td>
+<td>10%; 1 item</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Totals</strong></td>
+<td>50%; 5 items</td>
+<td>40%; 4 items</td>
+<td>20%; 1 item</td>
+<td>100%; 9 items</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="construct-validty" class="section level4" number="5.4.1.3">
+<h4><span class="header-section-number">5.4.1.3</span> Construct Validty</h4>
+<p><strong>Constructs</strong> are broad categories, derived from the common features shared by directly observable behavioral variables. They are theoretical entities and not directly observable. <strong>Construct validity</strong>, then, is the fundamental and all-inclusive validity concept, insofar as it specifies what the test measures.</p>
+<p>Construct validity was introduced in 1954 in the first edition of APA’s testing standards. It is:</p>
+<ul>
+<li>the extent to which the test may be said to measure a theoretical construct or trait</li>
+<li>focused on the role of psychological theory in test construction and on the need to formulate hypotheses that can be supported or refuted in the validation process.</li>
+<li>involves the gradual accumulation of information from a variety of sources that supports its construct validation.</li>
+</ul>
+</div>
+<div id="criterion-related-validity" class="section level4" number="5.4.1.4">
+<h4><span class="header-section-number">5.4.1.4</span> Criterion Related Validity</h4>
+<p><strong>Criterion related validity</strong> involves correlating the test scores with a relevant present (concurrent) or future (predictive) outcomes.</p>
+<p><strong>Concurrent validity</strong> occurs when the criterion is collected approximately the same time as the scores. Examples might include:</p>
+<ul>
+<li>Correlation of BDI (Beck Depression Inventory) score with the diagnosis from a licensed psychologist</li>
+<li>Correlation of performance self-assessment with a supervisor rating</li>
+</ul>
+<p><strong>Predictive validity</strong> occurs when the criterion is collected after a specified time interval. Examples might include:</p>
+<ul>
+<li>Correlation of a screening test with future diagnosis or occurrence of a screened-for event (e.g., suicide, disease, diagnosis)</li>
+<li>Correlation of employment screening test score with supervisor’s performance evaluation 6 months after the hire</li>
+</ul>
+</div>
+<div id="convergent-and-discriminant-validity" class="section level4" number="5.4.1.5">
+<h4><span class="header-section-number">5.4.1.5</span> Convergent and Discriminant Validity</h4>
+<p>We expect “moderately high” correlations (<strong>convergence</strong>) of our new test and similarly earlier tests (e.g., correlation of a quantitative reasoning test with a subsequent grade in a math course)</p>
+<ul>
+<li>If our correlations are “too high,” then we are creating needless duplication of a test (unless our test is cheaper or shorter).</li>
+<li>We also need to show that it does NOT correlate significantly with variables from which it should differ (discriminant).
+<ul>
+<li>low and insignificant correlation of the quantitative reasoning test with scores on a reading comprehension test</li>
+</ul></li>
+<li>The multitrait-multimethod demonstrates convergent and discriminant validity.The classic image used to illustrate this matrix can be found <a href="https://conjointly.com/kb/multitrait-multimethod-matrix/">here</a>
+<span class="citation">(<a href="#ref-trochim_multitrait-multimethod_nodate" role="doc-biblioref">Trochim, n.d.</a>)</span></li>
+</ul>
+</div>
+<div id="structural-validity" class="section level4" number="5.4.1.6">
+<h4><span class="header-section-number">5.4.1.6</span> “Structural” Validity</h4>
+<p><strong>Structural validity</strong> uses exploratory and confirmatory factor analysis to understand the dimensionality of the measure.</p>
+<ul>
+<li>For example, IQ is composed of 2 (or more) factors (e.g., verbal and performance)</li>
+<li>Provides support (or not) for using total or subscale scores.</li>
+</ul>
+<div class="figure">
+<img src="images/PsychoM/CFA.png" alt="" />
+<p class="caption">Image of a CFA model illustrating three factors of IQ</p>
+</div>
+</div>
+</div>
+</div>
+<div id="locating-and-interpreting-reliability-and-validity-in-publications" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Locating and Interpreting Reliability and Validity in Publications</h2>
+<p>What follows are my personal markups of the measures sections of three manuscripts. Each is well-written and each serves the purpose the research with which it was associated.</p>
+<p>I review these so that you can begin to</p>
+<ul>
+<li>Locate and interpret psychometric information from published articles, and</li>
+<li>Learn how to describe measures/instruments in your own schoalrship.</li>
+</ul>
+<div id="from-tran-and-lee-2014" class="section level3" number="5.5.1">
+<h3><span class="header-section-number">5.5.1</span> From Tran and Lee (2014)</h3>
+<p>The first example is from Tran and Lee’s <span class="citation">(<a href="#ref-tran_you_2014" role="doc-biblioref">2014</a>)</span> stuy. This was a brief report and instruments/measures were not presented in an itemized way.</p>
+<ul>
+<li>Appraisal and evaluation were 6-items each and were administered pre and post.
+<ul>
+<li>The reliability measure of internal consistency (alpha coefficient) was .80 at pre-test; and .89 and .85 at post-test.</li>
+<li>Because they are 6-items each, with each item summed (or mean), I would suggest it is appropriately used as an interval-scale measure.</li>
+<li>No other reliability or validity information is given.</li>
+</ul></li>
+</ul>
+<div class="figure">
+<img src="images/PsychoM/TranLee1.png" alt="" />
+<p class="caption">Screenshot of Tran and Lee’s measures of appraisal and evaluation</p>
+</div>
+<ul>
+<li>Single-items measure enjoyability, similarity, accuracy, and how-much-longer.
+<ul>
+<li>There is no reliability or validity information is provided about them.</li>
+<li>Because they are single-items, they will likely be treated as interval-level, but are probably more appropriately categorized as ordinal.</li>
+</ul></li>
+</ul>
+<div class="figure">
+<img src="images/PsychoM/TranLee2.png" alt="" />
+<p class="caption">Screenshot of Tran and Lee’s single-item measures</p>
+</div>
+</div>
+<div id="from-lui-2020" class="section level3" number="5.5.2">
+<h3><span class="header-section-number">5.5.2</span> From Lui (2020)</h3>
+<p>These were from a full research report <span class="citation">(<a href="#ref-lui_racial_2020" role="doc-biblioref">Lui, 2020</a>)</span>. Each measure was presented individually with more conventional summary.</p>
+<ul>
+<li>Experiences with overt racial discrimination were assessed with 9 items.</li>
+<li>Scaling is 4 points.</li>
+<li>Given multiple items, it could be utilized on the interval level.</li>
+<li>Cronbach’s alpha (internal consistency, a measure of reliability) was .90</li>
+<li>No other reliability or validity info is provided.</li>
+</ul>
+<div class="figure">
+<img src="images/PsychoM/Lui1.png" alt="" />
+<p class="caption">Screenshot of Lui’s assessment of overt racism</p>
+</div>
+<ul>
+<li>Neuroticism was assessed with 4 items.</li>
+<li>No indication of scaling; assume it is Likert; interval scaling.</li>
+<li>Two items were negatively worded so would need to be res-cored.</li>
+<li>Cronbach’s alpha (internal consistency, a measure of reliability) was .62; because this is low they argued that the inter-item correlations (.28) would substantiate their adequacy.</li>
+</ul>
+<div class="figure">
+<img src="images/PsychoM/Lui2.png" alt="" />
+<p class="caption">Screenshot of Lui’s assessment of neuroticism</p>
+</div>
+<ul>
+<li>Hazardous alcohol use was assessed on a 10-item measure.</li>
+<li>4-point scaling; interval scale of measurement.</li>
+<li>Citations provide some support for validity information.</li>
+</ul>
+<div class="figure">
+<img src="images/PsychoM/Lui3.png" alt="" />
+<p class="caption">Screenshot of Lui’s assessment of alcohol use disorders</p>
+</div>
+</div>
+<div id="exerpt-from-nadal-2011" class="section level3" number="5.5.3">
+<h3><span class="header-section-number">5.5.3</span> Exerpt from Nadal (2011)</h3>
+<ul>
+<li>Perceptions of racism with 9 items</li>
+<li>2 subscales</li>
+<li>Prior reports of internal consistency (.90, .83)</li>
+<li>Prior reports of convergent validity (.24 to .46)</li>
+<li>Current reports of internal consistency (.878, .673); no justification for the lower alpha.</li>
+</ul>
+<div class="figure">
+<img src="images/PsychoM/Nadal1.png" alt="" />
+<p class="caption">Screenshot of Nadal’s assessment of racism</p>
+</div>
+</div>
+</div>
+<div id="practice-problem" class="section level2" number="5.6">
+<h2><span class="header-section-number">5.6</span> Practice Problem</h2>
+<p>The suggested practice problem for this chapter is to create your own “penultimate psychometric template.” The goal of this project is to expose you (deeply and interactively) with a variety of write-ups.</p>
+<p>Please locate 12 write-ups of measures used in research projects.</p>
+<ul>
+<li>Include at least 4 write-ups (but no more than 6) of ONE measure.</li>
+<li>The remaining 8 write-ups can be from different measures or same measures.</li>
+</ul>
+<p>This assignment happens in two stages. First, you will map each of the measures you select (i.e., parallel to diagramming a sentence). Second, looking across the write-ups of those measures, you will create your own template (i.e., a recipe card) for how you will write up a measures in your own papers.</p>
+<p>Here’s an example of how I would map the following write-up of the Mental Health Inventory used in Bikos et al. <span class="citation">(<a href="#ref-bikos_repeated_2007" role="doc-biblioref">2007</a>)</span></p>
+<p>First, the screenshot:
+<img src="images/PsychoM/MHI.png" alt="Screenshot of Bikos’ writeup of the MHI" /></p>
+<p>Heading: name of construct</p>
+<ol style="list-style-type: decimal">
+<li>Instrument identification:
+<ul>
+<li>Name of instrument.</li>
+<li>Abbreviation.</li>
+<li>Text-citation.</li>
+</ul></li>
+<li>Brief description:
+<ul>
+<li>Number of items</li>
+<li>Constructs assessed</li>
+<li>Intended sample/population</li>
+</ul></li>
+<li>More detailed description
+<ul>
+<li>Scaling and anchors.</li>
+<li>Sample items.</li>
+</ul></li>
+<li>Statement about why instrument format worked well with this research project.</li>
+<li>Psychometric history
+<ul>
+<li>Number of psychometric trials with N.</li>
+<li>Description of factor structure.</li>
+<li>Mention of support for using a global scale or separate scales.</li>
+<li>Report of alpha coefficient from previous studies.</li>
+</ul></li>
+<li>Psychometric properties in the published ms.
+<ul>
+<li>Report of alpha coefficient from current study.</li>
+</ul></li>
+</ol>
+<table>
+<colgroup>
+<col width="79%" />
+<col width="10%" />
+<col width="10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Assignment Component</th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1. Screen shots, the APA style citation (7th ed), and an outline of 12 measure write-ups are required.</td>
+<td align="center">20</td>
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="left">2. Your psychometric template. Map out an APA-style/JARS-consistent formula/recipe for writing up a <em>measures</em> section in an empirical manuscript. This sh ould be an ideal-scenario kind of writeup for a full-length manuscript or dissertation.</td>
+<td align="center">15</td>
+<td align="center">_____</td>
+</tr>
+<tr class="odd">
+<td align="left">3. Explanation to a grader</td>
+<td align="center">5</td>
+<td align="center">_____</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Totals</strong></td>
+<td align="center">40</td>
+<td align="center">_____</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="answer-key-1" class="section level2" number="5.7">
+<h2><span class="header-section-number">5.7</span> Answer Key</h2>
+<p>The answer to the question, “Why is ‘reliability’ abbreviated <span class="math inline">\(r_{xx}\)</span> and ‘validity’ abbreviated <span class="math inline">\(r_{xy}\)</span>?”</p>
+<ul>
+<li><em>r</em> is the symbol for correlation</li>
+<li><span class="math inline">\(r_{xx}\)</span> represents the measure (x) correlated with itself (x)</li>
+<li><span class="math inline">\(r_{xy}\)</span> represents the measure (x) correlated with another (y).</li>
+</ul>
+
+</div>
+</div>
+<h3> References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-bikos_repeated_2007" class="csl-entry">
+Bikos, L. H., Çiftçi, A., Güneri, O. Y., Demir, C. E., Sümer, Z. H., Danielson, S., DeVries, S., &amp; Bilgen, W. A. (2007). A repeated measures investigation of the first-year adaptation experiences of the female expatriate spouse living in <span>Turkey</span>. <em>Journal of Career Development</em>, <em>34</em>(1), 5–27. <a href="https://doi.org/10.1177/0894845307304063">https://doi.org/10.1177/0894845307304063</a>
+</div>
+<div id="ref-jhangiani_research_2019" class="csl-entry">
+Jhangiani, R. S., Chiang, I.-C. A., Cuttler, C., &amp; Leighton, D. C. (2019). <em>Research <span>Methods</span> in <span>Psychology</span></em>. <a href="https://doi.org/10.17605/OSF.IO/HF7DQ">https://doi.org/10.17605/OSF.IO/HF7DQ</a>
+</div>
+<div id="ref-lui_racial_2020" class="csl-entry">
+Lui, P. P. (2020). Racial <span>Microaggression</span>, <span>Overt</span> <span>Discrimination</span>, and <span>Distress</span>: (<span>In</span>)<span>Direct</span> <span>Associations</span> <span>With</span> <span>Psychological</span> <span>Adjustment</span>. <em>The Counseling Psychologist</em>, 32.
+</div>
+<div id="ref-noauthor_rpubs_nodate" class="csl-entry">
+<em><span>RPubs</span> - <span>R</span> <span>Intro</span> <span>Theory</span> of <span>Measurement</span></em>. (n.d.). Retrieved September 15, 2020, from <a href="https://rpubs.com/tomhopper/r_intro_measurement">https://rpubs.com/tomhopper/r_intro_measurement</a>
+</div>
+<div id="ref-tran_you_2014" class="csl-entry">
+Tran, A. G. T. T., &amp; Lee, R. M. (2014). You speak <span>English</span> well! <span>Asian</span> <span>Americans</span>’ reactions to an exceptionalizing stereotype. <em>Journal of Counseling Psychology</em>, <em>61</em>(3), 484–490. <a href="https://doi.org/10.1037/cou0000034">https://doi.org/10.1037/cou0000034</a>
+</div>
+<div id="ref-trochim_multitrait-multimethod_nodate" class="csl-entry">
+Trochim, W. M. K. (n.d.). <em>Multitrait-<span>Multimethod</span> <span>Matrix</span></em>. Retrieved August 7, 2021, from <a href="https://conjointly.com/kb/multitrait-multimethod-matrix/">https://conjointly.com/kb/multitrait-multimethod-matrix/</a>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="Experimental.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="JEDI.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/ontheline/otl-bookdown/blob/master/05-PsychoM.Rmd",
+"text": null
+},
+"download": ["ReC_Topics.pdf"],
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"search": true
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

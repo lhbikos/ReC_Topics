@@ -31,7 +31,7 @@ output:
         scroll_highlight: yes
         collapse: section
         before: |
-          <li><a href="./"><strong>ReCentering Psych Stats: Multivariate Modeling</strong><br>by Lynette H Bikos, PhD, ABPP</a></li>
+          <li><a href="./"><strong>ReCentering Psych Stats: Topics in Research Methods</strong><br>by Lynette H Bikos, PhD, ABPP</a></li>
         after: |
           #<li><a href="https:link" target="_blank">Open access book-in-progress</br>
           <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a></li>
@@ -62,6 +62,8 @@ output:
 # PREFACE {-}
 
 **If you are viewing this document, you should know that this is a book-in-progress.  Early drafts are released for the purpose teaching my classes and gaining formative feedback from a host of stakeholders.  The document was last updated on `r format (Sys.Date(), '%d %b %Y')`**
+
+**There are lectures accompanying each lesson. At present, these screencast of these lectures are from prior lecture notes and not directly from this OER. While the content should be parallel, you might find it to be somewhat discordant.  I do plan to relecture these using the formatting of the OER; I just can't get to it this year. Please accept my apologies.**
 
 [Screencasted Lecture Link](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c932455e-ef06-444a-bdca-acf7012d759a)
 
@@ -291,6 +293,1835 @@ LaTeX equation editor:  https://www.codecogs.com/latex/eqneditor.php
 
 <!--chapter:end:01-Introduction.Rmd-->
 
+# Training Models in Professional Psychology {#TrainMod}
+
+[Screencasted Lecture Link](HTTPS://SPU.HOSTED.PANOPTO.COM/PANOPTO/PAGES/VIEWER.ASPX?PID=CC70F027-CDA5-4D3B-B000-AC33000B49B5) 
+ 
+```{r  include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+```
+
+```{r include=FALSE}
+options(scipen=999)#eliminates scientific notation
+```
+
+This lesson compares and contrasts training models in professional psychology. To that end, I review:
+
+* The push and pull of science and practice 
+* Training models (and accreditation)
+  - Scientist-practitioner
+  - Scholar practitioner
+  - Clinical scientist
+  - Local clinical scientist
+* Programmatic differences as a function of training model
+* The future of models – and one in particular
+* The *Research & Dissertation Guidelines* in the doctoral psychology programs at SPU. 
+
+## Navigating this Lesson
+
+There is about 1 hour and 10 minutes of lecture.  
+
+### Learning Objectives
+
+Learning objectives from this lecture include the following:
+
+* Identify the key differences between training models.
+* Distinguish one training model from another based on expected outcomes.  
+* Identify the “place” of the Local Clinical Science model, relative to other models.
+* Describe the training model for your particular graduate program.
+* What citations would you cite to defend any description or comparison?
+
+### Readings & Resources
+
+In preparing this chapter, I drew heavily from the following resource(s). Other resources are cited (when possible, linked) in the text with complete citations in the reference list.
+
+* Bell, D. J., & Hausman, E. M. (2014). Training Models in Professional Psychology Doctoral Programs (Chapter 3). In W. B. Johnson & N. Kaslow (Eds.), The Oxford Handbook of Education and Training in Professional Psychology.
+  - Much of our first class will be spent talking about training models in graduate psychology. This chapter is an excellent review of the origin of training models, their defining characteristics, and how they strengthen as well as challenge our training programs.  The authors have both been long-involved in the issue of training models and accreditation.
+
+
+## The Push and Pull of Science and Practice
+
+Meehl's [-@meehl_clinical_1954, p. 4] catharsis regarding the dissociated state of science and practice is below.  We'll turn it into *Reader's Theater* by following Stricker's [-@stricker_are_1997] recommendation to substitute *scientist* for the statistical metnod and *practitioner* or the clinical method. If you were in my classroom I would ask or volunteers to be the NARRATOR, the advocate for the *scientist* (italics) and advocate forthe **practitioner** (bold).
+
+The (statistical method) scientist is often called **operational, communicable, verifiable, public, objective, reliable, behavioral, testable, rigorous, scientific, precise, careful, trustworthy, experimental, quantitative, down-to-earth, hardheaded, empirical, mathematical, and sound.** Those who dislike the method scientist consider them to be *mechanical, atomistic, additive, cut and dried, artificial, unreal, arbitrary, incomplete, dead, pedantic, fractionated, trivial, forced, static, superficial, rigid, sterile, academic, oversimplified, pseudoscientific, and blind.* The (clinical method) practitioner, on the other hand, is labeled by their proponents as *dynamic, global, meaningful, holistic, subtle, sympathetic, configural, patterned, organized, rich, deep, genuine, sensitive, sophisticated, real, living, concrete, natural, true to life, and understanding*. The critics of the (clinical method) practitioner are likely to view them as **mystical, transcendent, metaphysical, super-mundane, vague, hazy, subjective, unscientific, unreliable, crude, private, unverifiable, qualitative, primitive, prescientific, sloppy, uncontrolled, careless, verbalistic, intuitive, and muddleheaded**. 
+
+
+## Training Models & Accreditation
+
+APA accredited programs must (but most all grad psych programs do):
+
+* define and articulate their own training philosophies,
+* demonstrate that the outcomes of the training are consistent with the model
+* do so because of the need for (and value of) public accountability
+
+All currently accredited doctoral programs in clinical have a "pure" model affiliation or some variation thereof. 
+
+Most common models:
+
+* clinical scientist, 
+* scientist-practitioner, 
+* with updated proposal for scientist-practitioner-advocate (Mallinckrodt et al., 2014)
+* practitioner-scholar models 
+
+### Scientist~Practitioner (SP) Model
+
+The scientist~practitioner model is also known as the Boulder Model.  It originated in 1949 with formal articulation in 1950 [@conference_on_graduate_education_in_clinical_psychology_training_1950].  It is characterized by the following:  
+
+* Primary goal: equal provision of extensive training in psychological research and the applications of that research to eventual practice—that is, to the creation of the SP psychologist (Cherry et al., 2000).
+* Began in clinical psychology; prominent training model in school, counseling, and I/O psych programs
+* Model re-articulated at the National Conference on SP Education and Training for the Professional Practice of Psychology, Gainesville, FL, 1990 (Belar & Perry, 1992).
+* Major theme:  SP ≠ summation; SP ≠ continuum; SP = integration. New symbols:  not S-P, but SXP or S~P
+* Major theme: "The graduate of this training model is capable of functioning as an investigator and as a practitioner, and may function as either or both, consistent with the highest standards in psychology.”
+* Training components of the SP model (Belar & Perry, 1992):
+  - Didactic scientific
+  - Didactic practice core
+  - Experiential scientific
+  - Professional practice experiential
+  - Integration of Education & Training
+  - System components (faculty, setting, evaluation procedures)
+* In spite of this idealism, many argue that the S~P model is really an S model (e.g., Stricker & Trierweiler, 2006).  Just what evidence is there or this?
+
+A mixed methods study [@ridley_scientistpractitioner_2015] surveyed training directors in counseling psychology programs.  Training directors indicated the degree to which each of nine program components fell in the continuum of science-to-practice.  Table 6 in the manuscript shows the results (and is worth a look).  Overall the programs leaned heavily toward "science" with four of the criteria being rated as "heavily science."  These included
+
+* Statistics and resaerch methodology
+* Psychology core course
+* Resaerch experiences
+* Dissertation experiences
+
+Only *practica courses* were rated as heavily practice.  The remaining criteria fell between the two.  These included:
+
+* Criteria for student evaluations.
+* Counseling psychology core courses
+* Our program overall
+* Diagnostic/assessment courses.
+
+### Scholar-Practitioner (SCH-P) Model
+
+The scholar-practitioner model is also known as the Vail model. It originated in 1973 when the National Institute for Mental Health and the American Psychological Association met in Vail, Colorado. It is characterized by the following:
+
+* Primary goal:  the preparation for "delivery of human services in a manner that is effective and responsive to individual needs, societal needs, and diversity" [@mcholland_national_1992, p. 159].
+* Operationalized as the capacity to conduct disciplined inquiry (rather than producing controlled lab or field research)
+* Ivey and Leppaluoto [-@ivey_changes_1975] summarized the major emphases of this model; the original summary is found in Korman [-@korman_national_1974]:
+  - Awareness of values; not promotion of “right values”
+  - Attention to human diversity and culture 
+  - Scientist practitioner:  professional training as a legitimate alternative. 
+  - Individual v program training (e.g., continuing education [CE])
+  - Specifically, the conferands concluded that when primary training emphasis is on the production of new knowledge, the Ph.D. is appropriate; when primary emphasis is on professional services, evaluation, and improving services, the Psy.D. is appropriate.
+
+### Clinical Scientist Model
+
+The clinical science model was created by the Academy of Psychological Clinical Science in 1974.  It is characterized by the following: 
+
+* Primary goal: to provide training in the production of scientific research on clinical problems and its application to those problems (Academy of Psychological Clinical Science, 1997). 
+* "Clinical science" is defined as a psychological science directed at the promotion of adaptive functioning; at the assessment, understanding, amelioration, and prevention of human problems in behavior, affect, cognition or health; and at the application of knowledge in ways consistent with scientific evidence. The Academy's emphasis on the term "science" underscores its commitment to empirical approaches to evaluating the validity and utility of testable hypotheses and to advancing knowledge by this method.
+
+A flavor of this model can be found in a McFall's [-@mcfall_manifesto_1991] [Manifesto for a Science of Clinical Psychology](http://www.psychologicalscience.org/observer/0102/apcs_manifesto.html)http://apsychoserver.psych.arizona.edu/JJBAReprints/PSYC621/McFall_Manifesto_1991.pdf). McFcall declared that "Scientific clinical psychology is the only legitimate and acceptable form of clinical psychology" should be a "Cardinal Principle."  To that end:
+
+* First Corollary: Psychological services should not be administered to the public (except under strict experimental control) until they have satisfied these four   -   - The exact nature of the service must be described clearly.
+  - The claimed benefits of the service must be stated explicitly.
+  - These claimed benefits must be validated scientifically 
+  - Possible negative side effects that might outweigh any benefits must be ruled out empirically.
+*  Second Corollary: The primary and overriding objective of doctoral training programs in clinical psychology must be to produce the most competent clinical scientists possible.
+  - Change is constant;[PCSAS](https://www.pcsas.org/) offers an accreditation program that competes with APA's. 
+
+### Local Clinical Scientist Model (LCS)
+
+The local clinical scientist model emerged in a series of writing [@stricker_are_1997; @stricker_local_1995; @stricker_local_2006; @trierweiler_research_2010; @trierweiler_scientific_1998]. It is characterized by the following:
+
+* Elaborates, extends, optimizes, makes real the Boulder scientist-practitioner model
+* A scientific approach and inquiring attitude of curiosity, skepticism, hypothesis testing and reframing within the local setting
+* Breaking it down:
+  - *clinical scientist* reflects our commitment to psychology as both a scientific discipline and a healthcare profession. 
+  - *local* refers to the particular application of general science, within local cultures, including the idiographic aspects of persons, families, and communities, in specific space-time and relational contexts
+
+
+### And What Does It Mean?
+
+Norcross et al.[-@norcross_doctoral_2020] evaluated 20-year trends of counseling psychology programs in terms of program, student, and faculty comparisons – and also compared it to clinical psychology. The tables in the Norcross et al. manuscript are worth reviewing.  Generally results demonstrated:
+
+* there are more applicants to research-oriented programs
+* a fewer percentage of students are to research-oriented programs
+* there is more funding in research oriented programs
+* there are non-significant differences for gender
+* there is a lower percent of students of color in practice-oriented programs
+* there is a shorter time required to complete practice oriented programs
+* GREs are higher in research oriented programs
+
+Regarding differences between counseling psychology and clinical psychology programs, Norcross et al.[-@norcross_doctoral_2020] reported that there were non-significant differences in the number of incoming students each year, but that there was greater numbers of applications received and, thereore, a smaller proportion of students accepted in clinical psychology programs. There was not a statistically significant diference in the percentage of students receiving full tuition waivers and assistantships. Regarding student characteristics, clinical psychology programs had somewhat higher GRE scores and students were more likely to enter having completed a bachelor's degree.  Regarding counseling psychology programs, more students had completed a master's level degree.  There were more female students in clinical psychology programs; there were more ethnic minority students and international students in counseling psychology programs.
+
+Regarding theoretical orientation, counseling psychology programs were more likely to be psychodynamic/psychoanalytic, family systems/systems, and existential/humanistic. Clinical psychology programs were more likely to be applied behavioral analysis/radical behavioral and cognitive/cognitive-behavioral.Clinical psychology programs reported a stronger research-practice emphasis. 
+
+Cherry et al. [-@cherry_examination_2000] examined outcomes related to training model.  Perhaps not surprisingly, research and publication productivity was highest among programs with a clinical scientist training model, followed by the scientist-practitioner training model, followed by the scholar-practitioner model. Service delivery was the the opposite order.  Regarding post-doctoral employment settings, graduates from clinical psychology programs often held employment in academic settings.  Graduates of scholar-practitioner programs most often held employment in community mental health centers and other/multiple settings.  Graduates from scientist-practitioner programs had more of a diverse profile in post-doctoral employment.
+
+
+![A figure reflecting the research/science and practice/service continuum](images/Tmodels/SciencePracticeContinuum.jpg)
+
+### What Lies Ahead?
+
+Mallinckrodt et al. [-@mallinckrodt_scientist-practitioner-advocate_2014] has proposed a scientist-practitioner-advocate training model for doctoral training in professional psychology, "designed to more effectively meet the needs of clients whose presenting problems are rooted in a sociocultural context of oppression and unjust distribution of resources and opportunities." This model has been represented with three intersecting circles:
+
+* where science and practice overlap, science informs practice and practice generates research ideas,
+* where practice and advocacy overlap, there is advocacy for clients, empowering them to advocate for themselves,
+* where advocacy and science overlap, there is action resaerch and research as advocacy,
+* at the center where all three overlap is a practicum in social justice advocacy.
+
+The scientist-practitioner-advocate model prioritizes four outcomes:
+
+* Developing an understanding how the context of social problems impacts the lives of individuals;
+* Demonstrating skills in the methods of social action research and be able to use empirical skills as tools for advocacy and to promote social change;
+* Developing effective interventions targeted at the level of institutions or systems influencing public policy decisions and evaluating the effectiveness of these interventions; and
+* Learning to work with individual clients to help them make informed choices about the cost and benefits of engaging in advocacy for themselves.
+
+The [University of Tennessee Counseling Psychology Program](https://psychology.utk.edu/grad/spa_model.php ) and provides a practical example of how it has been operationalized in their program.
+
+Accredited programs are required to provide details about their training models in their program materials. These are often foundin doctoral handbooks, research and dissertation guidelines, and clinical trainng guidelines.
+
+
+## Suggestions for Practice
+
+If you are in a graduate training program in psychology (or considering the possibility of further trainng and education):
+
+1. Does your program have a specified and articulated model?  
+   - If yes, what is it? How does it compare to the descriptions in this lesson?
+   - If no, based on what you know about the program how would you describe it?
+2. Interview at least two faculty. How do they identify and describe the trainng model of the program?
+   - Do the programmatic characteristics and outcomes align with those reported in Norcross et al. [-@norcross_doctoral_2020] and Cherry et al [-@cherry_examination_2000]? 
+
+
+```{r include=FALSE}
+sessionInfo()
+```
+
+
+
+<!--chapter:end:02-TrainingModels.Rmd-->
+
+
+# Epistemology and Philosophy of Science {#PHoS}
+
+[Screencasted Lecture Link](HTTPS://SPU.HOSTED.PANOPTO.COM/PANOPTO/PAGES/VIEWER.ASPX?PID=E521F3D0-BE61-4099-A108-AC40003B45E2) 
+ 
+```{r  include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+```
+
+```{r include=FALSE}
+options(scipen=999)#eliminates scientific notation
+```
+
+This lesson provides a high level review of epistemology (including the contribution of race-based epistemologies) and philosophy of science and considers the differences in these paradigms.
+
+## Navigating this Lesson
+
+There is about 45 minutes of lecture.  
+
+
+### Learning Objectives
+
+Learning objectives from this lecture include the following:
+
+* Identify, define, and provide examples of the standard ways of knowing. * Describe how a race-based epistemology (e.g., Black feminist epistemology) could add value to a research study.
+* Distinguish between emic and etic.
+* Define critical research concepts:  components of science, methodology, research design, parsimony, plausible rival hypotheses, statistical inference.
+* Define four primary philosophies of science, being able to identify the epistemology, axiology, rhetorical structure, and methodology for each.
+
+### Readings & Resources
+
+In preparing this chapter, I drew heavily from the following resource(s). Other resources are cited (when possible, linked) in the text with complete citations in the reference list.
+
+* Jhangiani, R. S., Chiang, I.-C. A., Cuttler, C., & Leighton, D. C. (2019). *Research Methods in Psychology*. https://doi.org/10.17605/OSF.IO/HF7DQ
+  - Chapter 1:  Methods of Knowing
+  - Chapter 2:  Understanding Science
+  - Chapter 3:  Goals of Science
+  - These quick chapters are framing for some of the deeper concepts.
+* Rajack-Talley, T. A., Smith, S. E., Best, L., Della, L. J., D’Silva, M. U., Potter, D. A., & Carthan, Q. (2017). Epistemological inclusiveness in researching the African American community. *International Journal of Social Research Methodology: Theory & Practice, 20*(4), 411–423. https://doi.org/10.1080/13645579.2016.1187460
+  -  This is an incredible article describing how a multi-ethnic, multi-disciplinary team engaged race-based epistemology to improve their NIH study.
+* Gephart, Jr., R. P. (2013). Doing research with words: Qualitative methodologies and industrial/organizational psychology. In J. M. Cortina & R. S. Landis (Eds.), Modern Research Methods for the Study of Behavior in Organizations (pp. 266–318). Taylor & Francis Group. http://ebookcentral.proquest.com/lib/spu/detail.action?docID=1154313
+  - More recent than the Ponterotto article and written for an I/O audience.  Excellent review of philosophies of science.  Gephart and Ponterotto (below) “chop up” philosophies of science a bit differently.
+* Ponterotto, J. G. (2005). Qualitative research in counseling psychology: A primer on research paradigms and philosophy of science. Journal of Counseling Psychology, 52, 126-136. 
+  - Although the primary purpose of the ms is to introduce a special JCP section on Qualitative Methodology, Ponterotto does an excellent job of defining research paradigms and then contrasting the primary approaches. 
+
+
+## Core Themes in Research Methodology
+
+**But first a bicycling vignette**
+
+What would you think of allowing cyclists to have the option of treating stop signs as yield signs?    What are your first impressions?  Think for a minute what you know about riding a bicycle, where you know it from, and then what you would think about “freeing up” the stop-sign rule to let cyclists pass through (without a full stop) if it were safe to do so.
+
+
+### Ways of Knowing
+
+**Epistemology**: the branch of philosophy that studies the nature of knowledge, its presuppositions and foundations, and its extent and validity.
+
+One epistemological interest is in determining how we know what we know.
+
+Jhangiani [-@jhangiani_research_2019] and colleages listed five sources of knowledge. There are benefits and liabilities to each of these:
+
+* *Intuiton*:  relying on emotions and instincts; believing what feels true.
+  - Because instincts are driven by cognitive and motivational biases, they can be wrong.
+  - When weighing alternatives and thinking of all the different possibilities can be paralyzing, some intuitive decisions are superior to those based on analyses.
+* *Authority*:  accepting new ideas because an authority figure states it is true (parents, media, doctors, religious officials, the government, your professor 😊).
+  - If authorities are wrong or corrupt, following without questioning is problematic.
+  - If authorities are correct, following is time-saving and more efficient.
+* *Rationalism*: using logic and reasoning to acquire new knowledge.  Premises are stated and logical rules are followed to arrive at sound conclusion.
+  - If the premises are wrong or there is an error in logic, then the conclusion is invalid.
+  - If the premises are correct and logical rules are followed appropriately – it works!
+* *Empiricism*:  acquiring knowledge through observation and experience.  
+  - We are limited in what we can experience (e.g., the world as flat) and observe and our senses deceive us; our prior experiences can alter perception.
+  - Empiricism is at the heart of the scientific method.
+* *The Scientific Method*:  A process of systematically collecting and evaluating evidence to test ideas and answer questions.  Scientists engage systematic empiricism to make careful observations under various controlled conditions in order to test their ideas; they use rationalism to arrive at valid conclusions.
+  - The most likely method to arrive at valid conclusions/knowledge
+  - It’s costly – time, resources.  And cannot be applied to all questions – only empirical ones.
+
+Jhangiani et al.'s [-@jhangiani_research_2019] five categories have a long history:
+
+Cohen and Nagel's [-@cohen_introduction_1934] *Sources of Knowledge* included:
+
+* Personal Observation and Experience
+* Intuition
+* Belief and tradition
+* Authority
+* Science
+
+**Back to the bicycling vignette**
+
+There’s more to this story.
+
+As of October 1st, 2020, cyclists in Washington State have been able to treat stop signs (not stoplights, railway crossings, or stop signal displayed by school busses) as yield signs (Dahl, 2020, 2020).  The two articles from the Bellingham Herald walk us through some of the ways of knowing that led the Washington legislature to its widely passing margins (77 to 20 House; 44 to 1 Senate; [@fucoloro_bipartisan_2020]).  
+
+Let’s think through the ways of knowing to understand the components that brought about this new law.
+
+*Intuition*:  Depending on your own emotions and instincts, you may have widely-varying impressions.  Mine?  YES!  That will make my life easier – and other drivers won’t be angry when I lose momentum in the slowing and stopping.  On the other hand, drivers may get really mad if they think I’m breaking the law.
+
+*Experience*:  It’s my experience that I’m more efficient (faster, smoother) if I can “slow-through” a stop-sign; particularly on right turns.  This in turn, would make it faster for drivers.
+
+*Authority*: Idaho passed a similar in 1982 (dubbed the “Idaho stop”), Delaware in 2017 (the “Delaware Yield), Oregon in 2019.
+
+*Empiricism*:  Many cycling accidents happen in intersections.  Traveling quickly through an intersection minimizes risk.  Thus, momentum matters.  Dahl [-@dahl_heres_2020]gathered his own data.  After a complete stop, it took 5.4 seconds to clear the intersection; entering at 5mph took only 3.8 seconds.  This is 30% of time spent in one of the most probable places for cyclist/driver collisions.
+
+*The Scientific Method*:  
+
+* A year after the Idaho law went into effect, bicycle injuries dropped 14%.
+* A UC Berkeley transportation researcher (Jason Meggs) found that cyling was 30% to 60% safer in Boise (home of the Idaho Stop law) than in Sacramento and 150 to 252 times safer than in Bakersfield California.
+
+Things to ponder:  How would you have voted?  Are there arguments for fairness/equity/equality in this argument (e.g., bicycles should have to follow same rules as cars)?
+
+### A Faith-Based Model
+
+For a faith-based, Methodist, take, John Wesley built on the Anglican faith tradition by adding a fourth emphases (experience), to create what is now termed the Wesleyan Quadrilateral [@noauthor_glossary_nodate].
+
+* *Scripture*: defined as the primary source and standard for Christian doctrine
+* *Tradition*: experience and the witness of development of growth of the faith through the past centuries and in many nations and cultures
+* *Experience*:  the individual’s understanding and appropriating of the faith in the light of his or her own life.
+* *Reason*: discernment and cogent thought.
+
+These traditions are clearly White, Western, and male.  There are, of course, other ways do ask the question How do we know?  As well as different answers to the question.
+
+### Race-Based Epistemologies
+
+Rajack-Talley et al. [-@rajack-talley_epistemological_2017] address this in a paper describing how they were intentional to include researchers with different epistemologies (“race-based epistemologies”) in an NIH-funded study of three Black communities in Kentucky.
+
+The NIH-study [@della_modeling_2016] was a multi-staged, mixed methods, NIH-funded study examining individual, community, and cultural-level determinants of increasing fruit and vegetable consumption in Black residents in two low-income cities in Kentucky (Louisville, Hopkinsville).
+
+Proponents of race-based epistemologies argue:
+
+* If the life experiences of African descent are integral to the analysis of research, then there should be some degree of an Afro-centric, Black, or race-based epistemological framework 
+* This includes the adoption of the *emic* approach that recognizes there are distinct historical and cultural experiences of African people; the emic approach includes the community’s understandings and interpretations of their conditions and experiences
+* “Outsiders” who are researching the other are wise to maintain a critical relationship to the research topic (and population) through self-reflexivity (self-reflection by the researchers and acknowledgement that there are differences between the researcher and those being studied).
+
+One distinction is the difference in insider and outsider perspectives:
+* **etic**: 
+  - standing far enough away, on the outside,
+  - with the purpose of observing similarities/differences from other cultures;
+  - the primary interest is in testing hypotheses, identifying common/universal aspects of human behavior that transcend cultural differences.
+  - assumes all cultures can be observed as generalizable phenomena with comparable features and universalistic measures
+* **emic**:
+  - standing on the inside
+  - with the purpose of identifying culture-specific elements or human behavior that are not comparable across cultures
+  - measures are relative
+  - argues that meaningful distinctions can only be made by people within the cultures
+  - assumes that the best way to understand a culture is from the perspectives and values of those being observed
+
+**Black feminist epistemology** (as cited in [@hill_collins_black_2000]) as an example of a race-based epistemology
+
+* Concrete experiences are treated as a criterion of meaning
+* Dialogues are used in assessing knowledge claims
+* An ethic of caring is developed
+* An ethic of personal accountability is accepted
+
+## Defining Research (And [Some Of]) Its Key Concepts
+
+*Science* is generally characterized by three components [@jhangiani_research_2019]:
+
+* **Systematic empiricism**:  planning, making, recording, analyzing observations of the natural world
+* **Empirical questions**: concerning the way the world *is* not the way the world *ought to be*. 
+* **Public knowledge**: the data contributes to public knowledge; publication in academia (sharing knowledge and self-correcting); open science movement.
+
+The purpose of research is to draw valid inferences about the relationships between variables [@kazdin_research_2017]
+
+**Methodology**
+
+* the diverse principles, procedures, and practices that govern research.
+* those practices that help to arrange the circumstances so as to minimize ambiguity in reaching the inferences.
+* more than a compilation of specific practices, procedures, and strategies.
+* a way of thinking
+
+**Research Design**. The plan or arrangement used to examine the question of interest (*research design is subordinate to the concept of methodology*).
+
+**Parsimony**. This concept is sometimes referred to the principle of economy, the principle of unnecessary plurality, the principle of simplicity, and Occam’s razor).
+
+* Parsimony directs us to select the simplest version or account of the data among the alternatives that are available.
+* Parsimony means that plurality should not be posited without necessity (Occam’s razor)
+* Parsimony asks, "Must we introduce new concepts to explain the data? What about new variables?"
+
+**Plausible Rival Hypotheses**
+
+* An interpretation of the results of an investigation on the basis of some other influence than the one the investigator has studied or wishes to discuss. 
+* Are there other interpretations that are plausible to explain the findings?
+
+**Statistical inference**
+
+* related to experimentation because of the extensive reliance on statistical tests in research to draw conclusions from the data. 
+* statistical controls help to reduce the plausibility of rival interpretations of the results.
+* agreed-upon decision rules
+
+At the completion of a study the explanation one wishes to provide ought to be the most plausible interpretation. This is achieved not by arguing persuasively, but rather by designing the study in such a way that other explanations do not seem very plausible or parsimonious [@kazdin_research_2017].
+
+## Philosophy of Science as it Relates to Research Methodology
+
+**Philosophy of Science**
+
+* Considers the logical and epistemological underpinnings of the scientific method in general.
+* Historically, experimentation has been closely tied to philosophical thought. The very notion of hypothesis derives from philosophy.
+* (among other things) reveals fundamental limitations in the logical underpinnings of observational and experimental methods.
+
+Two great articles that were written about qualitative methods, provide an accessible and concise review of philosophy of science as it connects to research in clinical [@ponterotto_qualitative_2005] and industrial-organizational [@cortina_doing_2013] psychology. Much of this chapter is based on these articles. 
+
+**Paradigm**
+
+* A set of interrelated assumptions about the social world which provides a philosophical and conceptual framework for the organized study of that world.
+* The paradigm sets the context for an investigator’s study.
+
+**Positivism** is the research paradigm that will guide most of our work in this class. 
+
+* A form of philosophical realism adhering closely to the hypothetico-deductive model.
+* Primary goal: explanation that leads to prediction and control of phenomena.
+* The received view (the one everyone is working under)
+* There is one, true, knowable reality.
+
+**Postpositivism**
+
+* Acknowledge an objective reality that is only imperfectly apprehendable; thus we can never fully capture a “true” reality (although it exists).
+* While positivists stress “theory verification,” postpositivists engage in “theory falsification.”
+
+**Positivism & Postpositivism shared variance**
+
+* Explanation that leads to prediction and control.
+* Emphasis of cause-effect linkages.
+* An objective, detached, researcher role.
+* Operation from nomothetic (application to people generally)  and etic (universal laws and behaviors that transcend nations and cultures and apply to all humans) perspectives.
+* Primary foundation/anchor for quantitative research.
+
+**Constructivism – Interpretivism**
+
+* Relativist position assumes multiple, apprehendable, and equally valid realities.
+* Reality is constructed.
+* Hermeneutical approach – researcher/participant dialogue
+* Meaning is hidden and must be brought to the surface through deep reflection. 
+* Goals are idiographic (applying to the individual) and emic (constructs or behaviors that are unique to an individual, sociocultural context, that are not generalizable).
+* Emphasis on understanding the Erlebnis (lived experience)
+
+**Critical-Ideological**
+
+* Serves to disrupt and challenge the status quo
+* Paradigm is one of emancipation and transformation
+* The researchers’ proactive values are central to the task, purpose, and methods of research
+* Critical theory is traced to the 1920s at the Institute of Social Research at the University of Frankfurt.  In Nazi-controlled Germany, the scholars fled to California to be “shocked by American culture…by the contradictions between progressive American rhetoric of egalitarianism and the reality of racial and class discrimination.”
+* There is no single critical theory; a criticalist use his/her work as a form of cultural or social criticism.
+
+### Paradigmatic Impact on Onology, Epistemology, Axiology, Rhetorical Structure, and Methodology
+
+**Ontology**: the nature and reality of being. Answers the questions, “What is the form and nature of reality? What can be known about reality?
+
+* *Positivists*: There is one true reality that is apprehendable, identifiable, measurable (i.e., naïve realism).
+* *Post positivists*: There is one true reality, but it can only be apprehended and measured imperfectly (i.e., critical realism).
+* *Constructivists—interpretivists*: There are multiple, constructed realities (i.e., relativism). Reality is subjective and influenced by the context of the situation, namely the individual’s experience and perceptions, the social environment, and the interaction between the individual and the researcher.
+* *Criticalists*:  Reality is constructed within a social-historical context.  The criticalist focuses on power-relations.  They will assume that marginalized clients are likely have different levels of access and will present research data to pressure those in power to change.
+
+**Epistemology**: the relationship between the “knower” (research participant) and the “would be knower” (researcher).
+
+* *Positivists*: emphasize dualism (i.e., researcher and the research participant and topic are assumed to be independent of one another) and objectivism (i.e., by following rigorous, standard procedures, the participant and topic can be studied by the researcher without bias). 
+* *Post positivists*: advocate a modified dualism/objectivism. The researcher may have some influence on that being researched, but the objectivity and researcher-subject independence remain important guidelines for the research process.
+* *Constructivists-interpretivists*: advocate a transactional and subjectivist stance that maintains that reality is socially constructed, and therefore, the dynamic interaction between researcher and participant is central to capturing and describing the lived experience of the participant. 
+* *Criticalists*:  concern with dialogic (gaining research insight through interaction) and dialectic (transforming research participants toward empowerment and emancipation).  Collaboration with the research participants includes the goal of helping them gain insights that contribute toward their own liberation.
+
+**Axiology**: the role of researcher values in the scientific process.
+
+* *Positivists/post positivists*: There is no place for values in the research process. The psychology researcher should remain emotionally detached from the investigative inquiry. Values, hopes, expectations, feelings have no place in scientific inquiry. Standardized, systematic investigative methods allowed elimination and/or strict control over any influence the researcher may have on the process.
+* *Constructivists-interpretivists*: Maintain that the researcher’s values and lived experience cannot be divorced from the research process. The researcher should acknowledge, describe, and “bracket” his/her values, but not eliminate them.
+* *Criticalists*:  Explicitly hope and expect that their value biases influence the research process and outcome.   A preset goal of the research is to empower participants to transform the status quo and emancipate themselves from ongoing oppression.
+
+**Rhetorical Structure**: the language used to present the procedures and results of research to one’s intended audience. Rhetoric flows closely from one’s epistemological and axiological stance.
+
+* *Positivist/Post positivists*: Rhetoric is precise and “scientific,” presented in an objective manner.
+* *Constructivist-interpretivists/Criticalists*:  Final research report is in first person and often personalized. The researcher’s own experience, expectations, biases, and values are detailed comprehensively.
+
+**Methodology**: the process and procedures of the research.
+
+* *Positivists/Post positivists*: attempt to simulate, as closely as possible, strict scientific methods and procedures where variables are carefully controlled or manipulated and where the researcher’s emotional or expectant stance on the problem under the study is irrelevant. Heavy reliance on true experiments and analog methods; quasi-experimental methods when no alternative is available.
+* *Constructivist-interpretivists/Criticalists*: embrace naturalistic designs in which the researcher is ensconced in the community and day-to-day life of their research participants. Research methods include in-depth face-to-face interviewing and participant observation.
+
+**One of Ponterotto’s (2005) finest moments!**
+It is important that counseling researchers understand and clearly explicate their operating paradigm in the reporting of studies…it is essential that researchers, as well as journal editorial board members and grant reviewers “locate” research studies within a specific research paradigm. (p. 132).
+
+### Things I'm Thinking About
+
+* Why is it important to include race-based epistemologies?
+  - Mistrust comes from factual and perceived instances of exploitation and discrimination in a history of medical abuse, racism, failure to provide information/fully-informed-consent, racial stigmas, poor recruitment [@rajack-talley_epistemological_2017]
+  - “Although these recommendations can be seen as ‘simply good field research,’ they are particularly important in researching the African American community because of the group’s history and because more recent data collection has been used to negatively depict this racial group” ([@rajack-talley_epistemological_2017] p. 413).
+  - The Rajack-Talley et al. [-@rajack-talley_epistemological_2017] manuscript demonstrates how a multi-ethnic and multi-disciplinary team worked together to develop approaches that contributed to success in a complex NIH-funded research project from participation, engagement, and interpretation of results.  Techniques included self-reflexivity, transect walks, conducting interviews in participants’ homes or familiar places with Black team members, collecting data in community locations including other trusted members of the community (e.g., family, friend, pastor, barber). 
+  - Finally, let me recommend a very cool (38-minute) [episode of Hidden Brain](https://www.npr.org/2020/07/27/895858974/creativity-and-diversity-how-exposure-to-different-people-affects-our-thinking) where Shankar Vedantam talks with researchers about the benefits of diversity on outcomes – including scientific research:   
+
+
+```{r include=FALSE }
+sessionInfo()
+```
+
+
+
+<!--chapter:end:03-PHoS.Rmd-->
+
+# Experimental Design {#Experimental}
+
+[Screencasted Lecture Link](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=8b4b668f-3ec7-4c20-93de-ac4a01874ff4) 
+ 
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+```
+
+```{r include=FALSE}
+options(scipen=999)#eliminates scientific notation
+```
+
+This lesson focuses on ...
+ 
+
+## Navigating this Lesson
+
+There is about 1 hour of lecture.  
+
+### Learning Objectives
+
+Learning objectives from this lecture include the following:
+
+* Starting with a simple post-test only design, identify limitations and remedies that lead, incrementally, to more robust conclusions with regard to ruling out confounds and plausible rival hypotheses.
+* Define internal, external, construct, and statistical conclusion validity and well as each of their subtypes.
+* In the context of research design vignettes, specify the threats to validity and identify potential remedies.  
+* Discuss the tension between internal and external validity (and its connection to efficacy and effectiveness research).  Support the discussion with citations.
+ 
+
+### Readings & Resources
+
+In preparing this chapter, I drew heavily from the following resource(s). Other resources are cited (when possible, linked) in the text with complete citations in the reference list.
+
+* Jhangiani, R. S., Chiang, I.-C. A., Cuttler, C., & Leighton, D. C. (2019). Research Methods in Psychology. https://doi.org/10.17605/OSF.IO/HF7DQ 
+  -  Chapter V:  Experiment basics (23), Experimental design (24), Experimentation and validity (25), practical considerations (26)
+  - Chaper VIII:  One group designs (38), Non-equivalent group designs (39)
+* Brewer, M. B. (2000). Research design and issues of validity. In H. T. Reis & C. M. Judd (Eds.), Handbook of research methods in social and personality psychology. Cambridge University Press.
+  - A favorite chapter on validity.  Both accessible and rigorous.
+  
+
+## In the Beginning There Was...
+
+*“The backbone of psychology, rightly so, rests on randomized-studies, analyzed by analysis of variance”* [@kenny_enhancing_2019]
+
+Because I give these lectures in our analysis of variance class, this chapter is:
+
+* located in positivist and post-positivist philosophies of science
+* presumes there is the aspirational goal of inferring causality
+
+It is impossible to discuss causality or ANOVA without discussion of validity.  In [-@campbell_factors_1957], Campbell introduced the concepts of internal and external validity.  Campbell and  Stanley [-@campbell_experimental_1963-1] expanded these ideas.  More than a decade later, Cook and Campbell [-@cook_quasi-experimentation_1979] introduced construct and conclusion  (aka “statistical conclusion” or “statistical conclusive”) validity.  In 2002, those discussions were extended in Shadish, Cook, and Campbell's [-@shadish_experimental_2002] text, Experimental and quasi-experimental designs for generalized causal inference.
+
+This path of articles often focuses on methods associated with the research design.  In his [-@kenny_enhancing_2019] article on enhancing validity in psychological research, Kenny argued for sophisticated statistical approaches (e.g., structural equation modeling, dyadic analysis, mediation) that also support causal inference.  However, the focus of our class is the research design and the use of the ANOVA family of statistics.
+
+As we talk through today’s topics, we’ll use the Tran and Lee [-@tran_you_2014] experimental manipulation of the exceptionalizing stereotype with a sample of Asian  and Asiam American individuals.  In this experiment, Asian American participants (all < 26 y.o., having arrived in the U.S. by age 12) were assigned to three different conditions where a White confederate delivered one of three messages:
+
+* “Nice talking to you.  You speak English well” – low racial loading
+* “Nice talking to you.  You speak English well for an Asian” – high racial loading
+* “Nice talking to you” -- control
+
+There were multiple outcome evaluations in the study:
+
+**Pre & post-interaction (before and after hearing the microaggression)**
+
+* Evaluation:  “How positive is your impression of this person?”
+* Perceived acceptance:  “How much do you think this person will like you?”
+* Enjoyable: “How enjoyable do you believe the interaction will be?”
+* Similar: “How similar do you think your interaction partner will be?”
+
+**Post-interaction only (after hearing the microaggression)**
+
+* Accurate:  how accurate the participant believed the White confederate’s impression was
+* Additional talk time: how much longer they would continue the interaction
+
+
+|Group       |Assignment          |Pre-test observation     |Manipulation     |Post-test observation
+|:-----------|--------------------|-------------------------|-----------------|-------------------------|
+|Low racial loading| Random | Evaluation, Perceived Acceptance, Enjoyable, Similar | Yes: "Nice talking to you. You speak English well." |Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time|
+|High racial loading| Random | Evaluation, Perceived Acceptance, Enjoyable, Similar | Yes: "Nice talking to you. You speak English well for an Asian." |Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time|
+|Control| Random | Evaluation, Perceived Acceptance, Enjoyable, Similar | Yes: "Nice talking to you." |Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time|
+
+Tran and Lee's [-@tran_you_2014] study **is an experiment**.  However, we’ll *imagine* different research designs and use them to illustrate threats to the validity of the conclusions.
+
+## Quasi-Experimental Designs
+
+### One-group posttest only design:  
+
+A treatment is implemented (or an IV is manipulated) and a dependent variable (DV) is measured once after the treatment is implemented.
+
+**Hypothetical scenario**
+
+|Group       |Assignment          |Pre-test observation     |Manipulation     |Post-test observation
+|:-----------|--------------------|-------------------------|-----------------|-------------------------|
+|Low racial loading| Not applicable | None | Yes: "Nice talking to you. You speak English well." |Accuracy, Additional talk time|
+
+This the weakest type of quasi-experimental design.
+
+* Without a control group, we cannot tell if the degree of additional talk time would be different if the racial loading had been different.
+* Without a pre-test (and measures conducive to the pretest) we cannot know if the Asian American participants’ reactions change as a function of the microaggression
+
+How does this change if we add a pretest?
+
+### One-group pretest-posttest design:
+
+The DV is measured once before the treatment/intervention/manipulation is implemented and once after the treatment/intervention/manipulation.
+
+|Group       |Assignment          |Pre-test observation     |Manipulation     |Post-test observation
+|:-----------|--------------------|-------------------------|-----------------|-------------------------|
+|Low racial loading| Not applicable | Evaluation, Perceived Acceptance, Enjoyable, Similar | Yes: "Nice talking to you. You speak English well." |Evaluation, Perceived Acceptance, Enjoyable, Similar|
+
+Now we can at least estimate if there has been change in the score from pre- to post-test.  We cannot conclude this with any certainty – because we do not know if this would have changed as a function of the treatment/intervention/manipulation.
+
+Our inability to draw causal inferences has to do with threats to internal validity.
+
+## Threats to Internal Validity
+
+### Defining Internal Validity
+
+* The veracity of the claim of a cause-effect relationship.
+* Are changes in the DV produced by variations in the IV? 
+  - X --> Y
+* Primary concern:  provide evidence of causal linkages.
+* Advanced cognitive organizer (or a spoiler alert):  a genuine RCT with zero attrition solves most problems associated with internal validity.
+
+### Threats to Internal Validity as a Function of One-Sample Designs
+
+**History**: any event occurring in or outside of the experiment (other than the IV) that may account for the results.
+
+* Tran and Lee [-@tran_you_2014]:  A pre-test defines a period of time and a control group controls for any historical interference (e.g., national levels of racism connected to COVID-19)
+* In other research: 911 occurred in the midst of my longitudinal study on expats (no control group)
+* Commonly occurs in: one-group designs (post-only, or pre-post)
+* Remedy: no-treatment control group with the same schedule
+
+**Maturation**: changing over time; only a problem if the design cannot distinguish the effects of maturational changes from the intervention.
+
+* Tran and Lee [-@tran_you_2014]:  Similarly, a pre-test defines a period of time and a control group controls for any developmental change/growth
+* In other research: expats in my longitudinal study increase their Turkish language skills (just b/c they live in Turkey)
+* Commonly occurs in: one-group designs (post-only, or pre-post)
+* Remedy: no-treatment control group with the same schedule
+
+**Testing**: influence of testing that may impact subsequent performance (i.e., pre-test influences post-test).
+
+* Tran and Lee [-@tran_you_2014]:  Even though there was “filler,” it is possible that pre-test items cued the participants to the topic of micro-aggressions; comparison groups would help detect this
+* In other research: expats in my longitudinal study show increase in sociocultural adaptation – because over the 5 waves, they are cued to its importance
+* Commonly occurs in: designs with a pre-test
+* Remedy: no-treatment control group with the same schedule would allow its measurement; a Solomon 4-square (where a treatment and non-treatment group does not get a pre-test would provide even greater control).
+
+|Group       |Assignment          |Pre-test observation     |Manipulation     |Post-test observation
+|:-----------|--------------------|-------------------------|-----------------|-------------------------|
+|High racial loading|Random |Evaluation, Perceived Acceptance, Enjoyable, Similar |Yes: "Nice talking to you. You speak English well for an Asian." |Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time|
+|Control|Random |Evaluation, Perceived Acceptance, Enjoyable, Similar |Yes: "Nice talking to you." |Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time| 
+|High racial loading|Random |none |Yes: "Nice talking to you. You speak English well for an Asian." |Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time|
+|Control|Random |none | Yes: "Nice talking to you." |Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time| 
+
+**Instrumentation**: changes in the measuring instrument or measurement procedures over time.
+
+* Tran and Lee [-@tran_you_2014]: NA.
+* In other research:  Research team members are categorizing counselor “utterances” (e.g., open-ended questions, closed-ended questions, reframes, restatements, challenges) and the meanings/definitions of these shift over time.
+* Commonly occurs in:  Designs with human raters
+* Remedy: standardized measures, automated scoring devices, manipulation checks, strict standardized procedures, assessing inter-rater reliability
+
+**Statistical Regression toward the mean**: the tendency for extreme scores on any measure to revert (or regress) toward the mean of a distribution at re-administration.
+
+* Tran and Lee [-@tran_you_2014]: If there had been an immediate national news story related to racism toward Asian Americans related to COVID-19 and the study occurred in that day (but then the post-test would have needed to be spaced further out).
+* In other research:  Parental stress is extremely high when the parent enrolls in a parenting class and it is less high at the next measurement
+* Commonly occurs in: Designs where research participants are enrolled when they present for services
+* Remedy:  random assignment to treatment; no-treatment control groups 
+
+**Spontaneous remission**: the tendency for medical and psychological problems to improve over time without any form of treatment
+
+* Tran and Lee [-@tran_you_2014]:  difficult to imagine
+* In other research:  the presence of depression symptoms that are not present six months later
+* Commonly occurs in: Designs where research participants are enrolled when they are patients who present for services
+* Remedy:  random assignment to treatment & no-treatment control groups
+
+
+## Experimental Designs
+
+Research can achieve the state of experimental when
+
+* The analysis seeks to determine whether changes in the independent variable (IV, a factor or predictor variable with two or more conditions/levels) lead to change in the dependent variable (DV, outcome variable);
+* To rule out potential confounds and plausible rival hypotheses, there is maximum control over extraneous variables/noise; this control might be achieved through
+  - Inclusion/exclusion criteria,
+  - Manualized protocols,
+  - Standardization of context/setting.
+* The IV/factor is systematically manipulated;  comparing two groups of people who differ on the IV is not an experiment (see Jhangiani et al.'s [-@jhangiani_research_2019] chapter on non-equivalent group designs); 
+* Random assignment to the conditions.  This is the gold standard; without random assignment there is no experiment.
+  - A random clinical trial involves random assignment to treatment and control conditions,
+  - Causality is often better established when the control condition offers a placebo (a believed-to-be inert condition that looks like the treatment condition).  Placebos often work!  Just for fun (optional) see WNYC's Radiolab story on [Placebo](https://www.wnycstudios.org/podcasts/radiolab/episodes/91539-placebo) and Hidden Brain's episode, All the World's a Stage -- [Including the Doctor's Office](https://www.npr.org/2020/05/11/853753307/all-the-worlds-a-stage-including-the-doctor-s-office)
+* For ethical and practical reasons (i.e., the researchers believe the treatment is effective and wish it to be given to many), there can be a **wait-list control condition**.
+
+Within this broad category of a variety of designs consider the following:
+
+### Between-Subject Experiments
+
+Each person is randomly assigned and tested in only one condition. This would have been the case for Tran and Lee [-@tran_you_2014], had there not been a pre-test observation.  
+
+|Group       |Assignment          |Manipulation     |Post-test observation
+|:-----------|--------------------|-----------------|-------------------------|
+|Low racial loading|Random |Yes: "Nice talking to you. You speak English well." |Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time|
+|High racial loading|Random |Yes: "Nice talking to you. You speak English well for an Asian." |Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time|
+|Control| Random |Yes: "Nice talking to you." |Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time|
+
+Random assignment protocols can be achieved in a variety of programs including R and [randomizer.org](https://www.randomizer.org/). 
+
+Random assignment is often determined one participant at a time (i.e., **simple random assignment** where each person has an equal chance of being randomly assigned to any of the groups).  When there is strict need for **balanced designs** (equal cell/group sizes), a **block randomization** protocol can be specified (i.e., all conditions occur once in the sequence before any of them is repeated; then they all occur again before any is repeated).  Within each of these “blocks” the conditions occur in a random order.
+
+For example, if Tran and Lee had used a block randomization, the first nine assignments might have looked like this:
+
+|Participant |Condition |
+|:-----------|:--------:|
+|1|Low|
+|2|High|
+|3|Control|
+|4|High|
+|5|Low|
+|6|Control|
+|7|Control|
+|8|Low|
+|9|High|
+
+**Matched groups** is an variant of simple random assignment. Here, participants are ranked on some variable the researcher wishes to control.  If Tran and Lee believed that internalized racism would impact the outcomes, the participants could take a pre-test of internalized racism.  Participants could be placed in rank order of score.  The highest three would be randomly assigned to the three conditions; then the next highest three and so forth.
+
+### Within-Subject Experiments
+
+In a **within-subjects experiment** each participant is tested under all conditions.  We can imagine the Tran and Lee [-@tran_you_2014] circumstance – perhaps the participant shows up to Psych 101 experiments 3 weeks in a row and, each time, is somehow exposed to the high racial loading, low-racial loading, and control conditions (we’d need to be a little creative so it wouldn’t be obvious).  
+
+An advantage of any within-subjects/repeated measures experiment is that it provides maximum control of extraneous participant variables (e.g., the participants all have the same SES, IQ, contextual variables).
+
+**Order effects** are a big consideration in within-subjects experiments.   Order effects occur when participants’ responses are affected by the order of conditions.  Still,
+
+* **Carryover effects** could occur, in that the effect of the first experienced condition might impact outcomes in the next condition (e.g., the Tran and Lee participant experiences the high racial loading first and is more cautious at follow up; or withdraws from the study).
+* **Practice effects** occur when there is improved performance over time – owing to practice.
+* **Fatigue effects** occur when there is deteriorating performance from tiredness or boredom. 
+* **Context or contrast effects** occur when knowledge or experiences in a prior trial provide a contrast/context for responses in the next trial.
+
+In Tran and Lee (as with many repeated measures experimental designs), we would want to counterbalance the order such that the order is randomly determined.  In complete counterbalancing, an equal number of participants complete each possible of order of conditions.
+
+Counterbalancing has two primary effects:
+
+* Controls the order of conditions so that it is no longer a confounding variable
+* If there are carryover effects, it is possible to detect them (e.g., analyzing the data separately for each order to see whether it had an effect).
+
+Hypothetical Tran and Lee [-@tran_you_2014], within-subjects, counterbalanced
+
+|ID |Pre-test |Manip #1 |Measures#2 |Manip #2 |Measures#3 |Manip #3 |Measures #4|
+|:--|---------|---------|-----------|---------|-----------|---------|-----------|
+|1  |yes      |High     |yes        |Low      |yes        |Control  |yes        |
+|2  |yes      |Low      |yes        |Control  |yes        |High     |yes        |
+|3  |yes      |Control  |yes        |High     |yes        |Low      |yes        |
+
+When I teach ANOVA, we progress through a series of ANOVA designs that correspond with the following research designs:
+
+|Research Design                     |Corresponding ANOVA                       |
+|:-----------------------------------|------------------------------------------|
+|Post-only (or single time point) group design |One-way ANOVA|
+|Increasing control over an extraneous variable by including it as a covariate |ANCOVA (analysis of covariance)|
+|Factorial design (between subjects) |Factorial (between-subjects) ANOVA |
+|Pre-post group design |One-way repeated measures ANOVA |
+|Pre/post factorial design (the classic RCT model) |Mixed design ANOVA|
+
+## The Validity Family
+
+Earlier in the lecture, we reviewed six common **threats to internal validity** that were common to research designs that lacked pretty basic things:  pre-test, random assignment, comparison groups.  However, validity threats apply to all research designs. 
+
+* **Internal validity**: whether the evidence of a study supports the existence of a causal relationship among its variables. KEYWORD:  CAUSALITY
+* **External validity**: whether the proposed relationship generalizes beyond characteristics of the study in which it was found. KEYWORD: GENERALIZATION
+* **Construct validity**: whether the interpretation of the causal relationship is accurate. KEYWORD: MEANING
+(Statistical conclusion validity: whether the facets of the quantitative evaluation were appropriate.
+* **Test/psychometric validity**: whether or not a particular measurement or observation measures what it purports to measure (much, much, more in psychometrics).
+
+### Defining "Internal Validity"
+
+#### Threats to Internal Validity
+
+The purpose of an **experiment** is to show that two variables are statistically related and to do so in a way that supports the conclusion that the independent variable caused any observed differences in the dependent variable.
+
+You’ve likely heard **correlation does not imply causation** – thus in order to **infer causality** (we never ever ever “prove”), we must design our study in such a way that we rule out **plausible rival hypotheses**.  When we do, our study is high in **internal validity**.  That is, the way the research was conducted supports the conclusion that the IV caused observable differences in the DV.
+
+Kazdin's [-@kazdin_research_2017] text identified a number of factors (outside of experimental design) that threaten internal validity:
+
+**Selection Bias**: systematic differences in groups based upon the selection or assignment of subjects to experimental conditions.
+
+* Remedy: random selection from the population; random assignment to groups; using difference tests on key variables (preliminary analyses)
+
+**Diffusion or Imitation of Treatment**: the intervention given to one group may be provided accidentally to all or some subjects in the control group as well.	
+*Remedy: manipulation checks 
+
+**Special Treatment or Reactions of Controls**: in an investigation where the intervention, treatment, or program is administered to the experimental group, the no-treatment control group may also be accorded special attention, and thus react in unexpected ways. 
+
+**The Third Variable Problem**: two variables are correlated with each other because both are correlates of a third factor, even when there is no direct or indirect causal relationship between the first two [@reis_research_2000].
+
+* Here, the relationship between X and C is not causal
+* Because X and C are correlated, the changes in Y could be misattributed to X when they are actually caused by C
+* Thus, there is spurious correlation between X --> Y
+
+![Illustration of the third variable problem](images/Experiment/ThirdVariable.png)
+
+Therefore, we should ask, “Do we have hidden variables?”	
+
+* Remedy: random assignment; also when covariates are identified, test for moderating or mediating effects
+
+![Illustration of the third variable as moderating or mediating](images/Experiment/ModMed.png)
+
+ 
+
+**Attrition or Experimental Mortality**: subjects dropping out of the experiment over time, particularly when there is a *differential* loss of subjects between groups. 	
+
+*Remedy:  know your pop/lit, start huge, do everything you can to keep your participants (within ethical limitations) 
+
+Boggs et al. [-@boggs_outcomes_2005] examined outcomes of Parent-Child Interaction Therapy (PCIT) participants on the basis of their completion status (i.e., if they dropped out of treatment) one and three years later.
+
+The narration of the article makes clear the problem of attrition in (a) the original study, (b) the follow-up study, and (c) treatment in general (hence they wanted to study the effect of attrition)!
+
+So what to do about attrition:
+
+* Everything you can afford (and do not involve coercion) 0to minimize it
+  * Incentives
+  * Increasing incentives for longitudinal
+  * Pay participants (consider something equivalent to minimum wage)
+* Address it in the statistical analysis.  
+ 
+West et al. [-@reis_causal_2000](pp. 50-51) had a complete data set (simulated) where half of the participants were assigned to control and treatment conditions.  The estimated *true* difference was .5.  The data was further simulated to assign some of the cases to be missing. Knowing the *true* difference, the researchers analyzed the data with three different approaches to managing the missingness.
+
+* Typical analysis
+  - Toss out all participants in treatment group who do not receive treatment. This results in a biased estimate of causal effect; direction of bias is unknown.  Using the typical analysis, the difference was estimated to be 1.045.
+* Intention to treat analysis
+  - Compare mean response of all participants assigned to treatment condition (regardless of whether they received treatment) with mean response of those in control condition.  The intent-to-treat difference was estimated to be .34.
+* CACE (complier average causal effect) analysis
+  - Create an unbiased estimate of treatment effect for those who receive treatment. It is a complicated statistic – but the estimate is .5.
+
+If you have access to the West et al. [-@reis_causal_2000] chapter, it is worth looking at the table where this is demonstrated. In other lessons in the OER I offer additional approaches (i.e., multiple imputation, available item analysis) to managing missing data.
+
+It happened to us!
+
+Below are graphs from Scott Campanario’s doctoral dissertation [@campanario_ignatian_2018; @campanario_ignatian_2020] – a random clinical trial evaluating three versions of SPU’s Online Field Guide.
+
+Control – adjust to college only activities
+Traditional – Control + traditional career planning activities
+Calling – Traditional + Control + Ignatian discernment activities
+
+![Demonstration of problems caused by attrition](images/Experiment/Campanario.png)
+
+Attrition from pre (T1) to post (T2) as high.  The graph on the left uses listwise/pairwise deletion (lose the whole case) if pre or post was missing.  We expected that randomization would cause the three TA starting spots to be closer – but they were not!  
+
+Why not?  We aren’t exactly sure, but it’s likely that the students who persisted in the calling condition (the most demanding), were those who started higher on the outcome in the first place (career decision-making self-efficacy and purpose).
+
+When we used multiple imputation to preserve case with missingness, it brought the means of the pre-test closer together and reflected our hypotheses (and likely the true state of the data) better.  JUST TO BE CLEAR – you can never really know the bias introduced by missingness – but this is a story emphasizing why it is important to minimize it.
+
+** *One more Threat to Internal Validity* **
+
+**Combination of Selection & Other Threats**: selection of groups that are already formed prior to the experiment might lead to a combined confound of selection and some other threat to internal validity. The experience of one of the groups in the study (e.g., history, maturation) may differ systematically from the other group. The *differential influence* of this threat among groups is referred to as an interaction with selection.   
+
+* Remedy: random assignment to treatment groups 
+
+### A Bit about the Remedies
+
+**Random selection**: Drawing subjects from a population in such a way that each member of the population has an equal probability of being drawn.
+
+**Random assignment**: Allocating or assigning subjects to groups in such a way that the probability of each subject appearing in any of the groups is equal. This is usually accomplished by determining the group to which each subject is assigned by a table of random numbers (or now, on R or randomizer.org).
+
+* Comparison of Tx and control groups is only legitimate when the Tx and Control groups are equivalent in terms of all important background characteristics at pre-test. 
+* Random assignment normally absolves concerns about this assumption.
+
+### Strategies or Equating Non-Equivalent Groups
+
+1.	Identify all important covariates; attempt to discern hidden variables.
+2.	Measure each of these covariates with *perfect reliability* (or statistically adjust for imperfection).
+3.	Specify a correct linear relationship b/t the pretest variables and outcome variable.
+4.	Demonstrate that pretest maturation rates do not differ in the Tx and Control groups. (Group * Pretest interactions are bad).
+5.	When each of these strategies has been successfully completed, the researcher has *strong ignorability* (this is good; but achieving it is “extraordinarily difficult and fraught with uncertainty”). 
+
+To offer a change from the lecture/chapter format, match the definition to the type (term) of control group.
+
+|A Matching Exercise (answers provided at the end of the lesson)                  |
+|:-----------------------|--------------------------------------------------------|
+|Term                    |Definition                                              |
+|a. Control Group        |___A group that does not (ever) receive the experimental condition or intervention.|
+|b. Patched-up Control Group |___A control condition designed to ensure that groups are equal with respect to potentially important but conceptually and procedurally irrelevant variables. Groups are equalized with regard to a particular variable(s)|
+|c. Yoked-control Group |___Experimental condition/intervention that is not provided during the period that experimental subjects receive the intervention|
+|d. Wait-list Control Group |___A group that is not randomly composed from the pool of subjects in the study. While its intent is to address some issues of internal validty, its composition is derived from issues of convenience.|
+|e. No-treatment Control Group |___Experimental condition or intervention is not provided during the period that experimental subjects receive the intervention. After this period, subjects in this group receive the intervention.|
+
+## Defining External Validity
+
+The *generalizability* of the causal findings; can the same cause-effect relationship be obtained across different subjects, settings, methods. Three questions:
+
+* **Robustness**:  Can it be replicated in the face of variations of subject populations and settings (Milgram’s 1963 move from Yale lab to a “seedy office”)
+* **Ecological validity**: Is it representative of what happens in everyday life? Findings obtained with college students are interesting, but have no ecological validity until they have been demonstrated to occur in more representative circumstances.
+* **Relevance**:  Does it matter? Akin to ecological validity – is the finding related to events or phenomena that actually occur in the world? Are the results useful or applicable to solving problems and improving quality of life?
+
+### Threats to External Validty
+
+**Sample characteristics**: The extent to which results be generalized to other persons who vary in age, race, ethnic background, education, etc.
+
+**Stimulus characteristics**: The extent to which results can be extended across stimulus characteristics (i.e., features of the study) of the experiment.
+
+**Contextual Characteristics**:
+
+* *Reactivity of experimental arrangements*: the influence of the subjects’ awareness that they are participating in an investigation.
+* *Multiple-treatment interference*: Drawing conclusions about a given treatment when it is evaluated in the context of other treatments.
+* *Novelty effects*: effects of an intervention may, in part, depend upon their innovativeness or novelty.
+
+**Assessment Characteristics**:
+
+* *Reactivity of assessment*: simply because subjects are aware that they are being assessed, they may alter their performance.
+* *Test sensitization*: in designs where pre and posttest measures are completed, the pretest may sensitize the participants so that they are affected differently by the intervention (i.e., pretest sensitization).
+* *Time of measurement and treatment effects*: the possibility that the effects of the experiment are demonstrated at the time of the testing, but might not generalize to a later point of time.
+
+#### Re-Enter Parsimony and Plausibility
+
+* **Plausibility**: an interpretation of the results of an investigation on the basis of some other influence than the one the investigator has studied or wishes to discuss.
+* **Parsimony**: directs us to select the simplest version or account of the data among the alternatives that are available.
+
+## Balancing Internal and External Validity
+
+As a general rule, design features that make an experiment more sensitive as a test of the independent and dependent variables tend to limit the generality of the findings. Conversely, features of an experiment that enhance generality of the results tend to increase variability and to decrease the sensitivity of the experimental test ([-@kazdin_research_2017], p. 79)
+
+Writing in the *American Psychologist* in the 1980s, Mook's [-@mook_defense_1983] statement emphasizes the importance of careful research design:  "I am afraid there is no alternative to thinking through, case by case, (a) what conclusion we want to draw and (b) whether the specifics of our sample or setting will prevent us from drawing it." (386)
+
+### The Bubble Hypothesis
+
+Gelso [-@gelso_research_1979] used "bubble hypothesis" as analogy for balancing internal and external validity. Gelso described the difficulty which arises when someone attempts to place a decal on a window and a bubble appears. When the bubble is depressed in one area, it arises somewhere else. The metaphor back to internal and external validity includes:
+
+* Inevitable trade-offs exist at all stages of research.
+* Knowledge is most powerfully advanced through the use of a variety of methods.
+* Rigor vs. relevance
+  - Rigor:  internal validity
+  - Relevance: external validity
+  
+Key points in the balancing of internal and external validity have been made by the following scholars:
+
+1.	As a priority internal validity is usually regarded as more important than, or at least logically prior in importance to external validity [@kazdin_research_2017].
+2.	Some of the best and most helpful research begins with understanding the phenomena of interest, and studies with that focus may have very little external validity [@mook_defense_1983].
+3.	Rarely can internal, external, (and construct) validity be properly addressed within the context of a single research design…they require systematic, programmatic research studies that address a particular research question across different operations and research settings [@reis_research_2000]. 
+
+## Defining Construct Validity
+
+* The extent to which a causal relationship could be generalized from the particular methods and operations of a specific study to the theoretical constructs and processes they are purported to represent.
+* Construct1 --> Operations --> Construct2
+* Specific operations/measures are merely partial representations of the theoretical constructs of interests (Brewer, 2000).
+
+### Threats to Construct Validity
+
+**Unknown range problem**: the failure to specify precisely what levels of the IV are expected to be causally significant; and over what range of outcomes
+
+* Unknown range of stimulus variation
+*	Unknown range of measurement 
+
+Because of these problems, it is difficult to determine whether a failure to confirm a predicted relationship is a failure of theory or a failure of operation.
+
+**Attention and contact with the clients**: the intervention may have exerted its influence because of the attention provided rather than because of special characteristics unique to the intervention.
+
+**Single Operations and Narrow Stimulus Sampling**: occurs when one cannot discern the construct of interest (i.e., treatment or types of description of treatment) from the conditions of its delivery (i.e., therapist or case vignette).
+
+**Experimenter Expectancies**: the threat that expectancies, beliefs, and desires about the results on the part of the experimenter influences how the subjects perform; unintentional expectancy effects.
+
+**Cues of the Experimental Situation**: seemingly ancillary factors associated with the intervention that may contribute to the results; “demand characteristics of the experimental situation.”
+
+## Statistical Conclusion Validity
+
+Defined as: those facets of the quantitative evaluation that influence the conclusions we reach about the experimental condition and its effect.
+
+### Threats to Statistical Conclusion Validity
+
+**Low Statistical Power**: the failure to reject the null hypothesis when it is false.
+
+**Variability in the Procedures**: if variability is minimized, the likelihood of detecting a true difference between the treatments or treatment conditions and control conditions is increased.
+
+**Subject Heterogeneity**: the greater the heterogeneity or diversity of subject characteristics, the less likelihood there will be to detect a difference between alternative conditions.
+
+**Unreliability of Measures**: the extent to which the measures assess the characteristics of interest in a consistent fashion.
+
+**Multiple Comparisons and Error Rates**:  The more statistical tests that are performed, the more likely a chance difference will be found, even if there are no true differences between conditions (Type I error).  Also called family-wise error, experiment wise-error.
+
+Throughout the statistical portions of the ReCentering Psych Stats OER, I will consistently attend to statistical conclusion validity by attending to power analysis, statistical assumptions (and their violation/nonviolation), effect sizes, confidence intervals.  In sum – we look at the dashboard of metrics we learn from and about our analyses.
+
+## Answer Key  
+
+Answers to the exercise matching the terms to the definitions of control groups
+e, c, a, b, d  
+
+```{r include=FALSE}
+sessionInfo()
+```
+
+
+
+<!--chapter:end:04-Experimentation.Rmd-->
+
+# Psychometrics Crash Course:  A quick and dirty review of the primary elements of reliability and validity {#Psychometrix}
+
+[Screencasted Lecture Link](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=0a485840-5caa-484b-ba16-ac37017d6b05) 
+ 
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+```
+
+```{r include=FALSE}
+options(scipen=999)#eliminates scientific notation
+```
+
+This lesson presume that you have not had a psychometrics course. In the particular research methods/statistics sequence I teach, psychometrics is the last in the series. This psychometrics primer is intended to demonstrate how to gather and interpret basic reliability and validity information. A lesson later in the ReCentering Psych Stats OER guides you through scoring your measures and conducting the basic psychometric evaluations (alpha coefficients).
+
+But first, a trivia question.  Why is "reliability" abbreviated $r_{xx}$ and "validity" abbreviated $r_{xy}$?  The answer is at the end of the lesson.
+
+## Navigating this Lesson
+
+There is about 1 hour of lecture.  
+
+### Learning Objectives
+
+Learning objectives from this lesson include the following:
+
+*	Memorize the true-score formula.
+* Define reliability and validity (for memory), including
+  - Types of reliability
+  - Types of validity
+* Retrieve and interpret reliability and validity information from published articles.
+* Write an APA-style instrument entry.
+
+### Readings & Resources
+
+In preparing this chapter, I drew heavily from the following resource. Other resources are cited (when possible, linked) in the text with complete citations in the reference list.
+
+* Jhangiani, R. S., Chiang, I.-C. A., Cuttler, C., & Leighton, D. C. (2019). *Research Methods in Psychology*. https://doi.org/10.17605/OSF.IO/HF7DQ
+  - Chapter IV:  Psychological Measurement
+  - Understanding psychological measurement
+  - Reliability and validity of measurement
+  - Practical strategies for psychological measurement
+
+### Planning for Practice
+
+At the end of the lesson I provide instructions for one of my favorite classroom assignments, the "Penultimate Psychometric Template."  In this, students find write-ups of 12 measures, mapping the parts-n-pieces of the write-ups, and then creating their own recipe/outline for how to draft descriptions of measures in future empirical papers.  
+
+## Classical Test Theory
+
+Classical test theory (CTT) is based on Spearman’s (1904) true-score model:
+
+* an observed score is conceived of as consisting of two components – a true component and an error component 
+* $X = T + E$
+
+Where
+X = the fallible, observed score, obtained under ideal or perfect conditions of measurement (these conditions never exist)
+T = the true score, and
+E = random error.
+
+**Measurement** is the assignment of scores to individuals so that the scores represent some characteristic of the individuals [@jhangiani_research_2019]; measurement of psychological constructs is, **psychometrics**.
+
+While measurement does not require any specific instrument or process, there must be some systematic procedure for assigning scores so that they represent the characteristics of interest.
+
+Psychological **constructs** cannot be observed directly – they often represent tendencies to think, feel, or behave in certain ways and they often involve internal processes.
+
+Examples:  intelligence, The Big Five, attitudes
+
+We can define constructs two ways:
+
+**Conceptual definition**: describes the behaviors and internal processes that make up that construct, along with how it relates to other variables.
+
+**Operational definition**:  describes precisely how the construct is to be measured.
+
+* **Self-report**:  participants report their own thoughts, feelings, actions
+* **Behavioral measures**: some aspect of participants’ behavior is observed and recorded.  This could range from a highly structured lab task or a more natural setting.
+* **Physiological measures**: involve recording any of a wide variety of physiological processes including heart rate/blood pressure, galvanic skin response, hormone levels, electrical activity, and blood flow in the brain.
+
+For any given construct/measures there can be a variety of operational definitions. **Converging operations** occurs when scores based on several different operational definitions are closely related to each other and produce similar patterns of results.  This constitutes good evidence that the construct is being effectively measured.
+
+S. S. Stevens (1946) was among the first to suggest that the type of score assigned to individuals communicates more or less quantitative information about the variable of interest.  He suggested four different levels of measurement.  In the psychometric context it is critical that we know this measurement scale (a synomym).
+
+*R recognizes at least 15 different types of data.  Below I note the structure of the data you are most likely to see/use with each of the measurement scales [@noauthor_rpubs_nodate](RPubs - R Intro Theory of Measurement, n.d.)*.
+
+**Nominal** (in R, factor):  used for categorical variables and the scores are category labels; not considered to be quantitative.
+
+**Ordinal** (in R, integer [whole numbers, no decimal point]): assigning a score so that it represents the rank order of the individuals.  Allows us to know if individuals are the same or different – and if who is higher or lower.  One problem with ordinal scales is that we cannot presume the difference between two levels on an ordinal scale to be the same as the difference between two other levels (the equal interval problem).
+
+**Interval** (in R, integer or numeric):  assigning scores using numerical scales in which intervals have the same interpretation throughout.  In Fahrenheit or Celsius temperature scales, the difference between 30 and 40 degrees represents the same temperature difference as the difference between 80 and 90 degrees (each 10 degree interval has the same kinetic energy of molecules).  One problem with interval scales is the absence of a true zero point.  Therefore we cannot make statements like, “X is twice as large as Y.”
+
+**Ratio** (in R, numeric):  has an equal interval scale plus a true zero point.  Counts (e.g., cigarettes smoked, number of siblings, money) are ratio scales.
+
+## Traditional Estimates of Reliability
+
+* Test retest
+* Alternate/equivalent forms
+* Split-half
+* Internal consistency (alphas or KR-20s)
+* Inter-rater (kappa, ICC)
+
+According to CTT, $r_{xx}$ is a test property that derives from observed scores – true scores and measurement error.  It reflects the extent to which differences in respondents’ observed scores are consistent with differences in their true scores.
+
+
+### Test Retest Reliability
+
+* Concerned with the stability of measurement over time.
+*	We give a test today, then repeat it at a sensible interval to demonstrate the stability.
+  - How do we determine the sensible interval?
+  - It depends on the goals of the test.
+  - Intelligence testing:  stable over weeks, months, years
+  - State anxiety:  could change in the next hour
+* Practice effects can be problematic for test-retest, therefore… 
+
+### Internal Consistency
+
+In multiple item measures of a single construct, items are supposed to all reflect that construct. This means that the individual items should all be correlated with each other.  There are several ways to get at this degree of correlation/consistency.
+
+#### Alternate (Equivalent)-Form Reliability
+
+Coefficient of equivalence. Give two forms of the test to the same group; potentially measures temporal stability and consistency of response to different item samples (or test forms).
+
+#### Split-Half Method
+
+A measure of internal consistency; give test once. Score two equivalent halves of test (e.g., odd items and even items); correct correlation between halves to fit whole test by Spearman-Brown formula.
+“half-length test reliability estimate.”
+
+#### Internal consistency
+
+**Coefficient alpha**: Measure of internal consistency for scales with Likert-type scaling (i.e., 1 to 5). Give test once. Score total test.  Apply Cronbach’s Alpha formula.
+
+This is the most common form of reliability.  Synonyms are:  internal consistency, Cronbach’s alpha, alpha.  We will learn to calculate these in multivariate, but then examine them critically in psychometrics.  They are not without controversy; one of the big problems is that more items (~14 items) almost guarantee a satisfactory alpha ( ≥ .80).
+
+**KR-20s**: can provide internal consistency estimates for dichotomously scored items.
+
+#### Interrater Reliabiliy
+
+Measure of consistency of ratings of different observers. Used when the “human” is the measure.
+≥2 raters independently score the responses. Reliability is assessed by:
+
+** correlating the scores assigned by one judge, with those assigned by the other
+** computing the proportion of agreement corrected for chance (kappa coefficient)
+
+#### On Reliability
+
+* Reliability refers to the results obtained with an assessment instrument and not to the instrument itself.
+* An estimate of reliability always refers to a particular type of consistency.
+* Reliability is a necessary but not sufficient condition for validity.
+* Reliability is primarily statistical.
+
+## Defining Validity
+
+* The ability of a test to measure what it purports to measure. 
+* Validity concerns what the test measures and how well it does so.
+* The extent of matching, congruence, or “goodness of fit” between the operational definition and concept it is supposed to measure
+* An instrument is said to be valid if it taps the concept it claims to measure
+
+Validity is the appropriateness of the interpretation of the results of an assessment procedure for a given group of individuals, not to the procedure itself.
+
+* a matter of degree; it does not exist on an all-or-none basis.
+* always specific to some particular use or interpretation.
+* a unitary concept.
+* involves an overall evaluative judgment.
+
+### Traditional Estimates of Validty
+
+* Face-validity
+* Content validity
+* Construct validity (the all-encompassing validity)
+* Criterion-related validity
+  - Concurrent validity
+  - Predictive Validity
+* Convergent Validity
+* Discriminant Validity
+* Structural Validity
+
+#### Face Validty:  The Un-Validty
+
+As its name suggests, face validity is concerned with the appearance of an assessment; “How does an assessment look on the 'face of it'?”
+
+* can often be improved by reformulating test items in terms that appear relevant and plausible for the context.
+* Face validity should NEVER be regarded as a substitute for objectively determined validity. 
+  - Nor can it be assumed that when a (valid and reliable) test has been modified to increase its face validity, that its objective validity and reliability is unaltered. That is, it must be reevaluated. 
+
+#### Content Validity
+
+Content validty asks, "Does the content of the items reflect the domain to be assessed?"
+
+* Procedures for content validation include
+  - Subject matter experts
+  - Empirical analysis with relevant indicators
+* Item-level and total-scale scores with grades or performance indicators
+* Correlations with other indicators (e.g., math test correlated with reading achievement to rule-out literacy as prerequisite for success).
+* Table of specifications: A two-way chart which indicates the instructionally relevant learning tasks to be measured. 
+  - Percentages in the table indicate the relative degree of emphasis that each content area
+
+Let's pretend that we were going to create a table of specifications for this particular lecture, it might look like this.
+
+|Objective                              |Knowledge   |Skills     |Attitudes  |% of test; # items|
+|:--------------------------------------|------------|-----------|-----------|------------------|
+|Memorize the true-score formula        |10%;  1 item |           |           |10%; 1 item       |
+|Define types of reliability            |20%;  2 items|           |           |20%; 2 items      |
+|Define types of validity               |20%;  2 items|           |           |20%; 2 items      |
+|Retrieve and interpret reliability and validity coefficients from published articles|  |20%; 2 items|  |20%; 2 items| 
+|Write an APA-style instrument entry    |            |20%;  1 item|           |20%; 1 big item   | 
+|Describe why psychometric evaluation is important | |           |10%;  1 item|10%; 1 item       |
+|**Totals**                             |50%;  5 items|40%;  4 items|20%;  1 item|100%; 9 items|
+
+#### Construct Validty
+
+**Constructs** are broad categories, derived from the common features shared by directly observable behavioral variables. They are theoretical entities and not directly observable.  **Construct validity**, then, is the fundamental and all-inclusive validity concept, insofar as it specifies what the test measures.
+
+Construct validity was introduced in 1954 in the first edition of APA’s testing standards. It is:
+
+* the extent to which the test may be said to measure a theoretical construct or trait
+* focused on the role of psychological theory in test construction and on the need to formulate hypotheses that can be supported or refuted in the validation process. 
+* involves the gradual accumulation of information from a variety of sources that supports its construct validation. 
+
+#### Criterion Related Validity
+
+**Criterion related validity** involves correlating the test scores with a relevant present (concurrent) or future (predictive) outcomes. 
+
+**Concurrent validity** occurs when the criterion is collected approximately the same time as the scores. Examples might include:
+
+* Correlation of BDI (Beck Depression Inventory) score with the diagnosis from a licensed psychologist
+* Correlation of performance self-assessment with a supervisor rating
+
+**Predictive validity** occurs when the criterion is collected after a specified time interval. Examples might include:
+
+* Correlation of a screening test with future diagnosis or occurrence of a screened-for event (e.g., suicide, disease, diagnosis)
+* Correlation of employment screening test score with supervisor’s performance evaluation 6 months after the hire
+
+#### Convergent and Discriminant Validity
+
+We expect “moderately high” correlations (**convergence**) of our new test and similarly earlier tests (e.g., correlation of a quantitative reasoning test with a subsequent grade in a math course)
+
+* If our correlations are “too high,” then we are creating needless duplication of a test (unless our test is cheaper or shorter). 
+* We also need to show that it does NOT correlate significantly with variables from which it should differ (discriminant).
+  - low and insignificant correlation of the quantitative reasoning test with scores on a reading comprehension test
+* The multitrait-multimethod demonstrates convergent and discriminant validity.The classic image used to illustrate this matrix can be found [here](https://conjointly.com/kb/multitrait-multimethod-matrix/) 
+[@trochim_multitrait-multimethod_nodate]
+
+#### "Structural" Validity
+
+**Structural validity** uses exploratory and confirmatory factor analysis to understand the dimensionality of the measure.
+
+* For example, IQ is composed of 2 (or more) factors (e.g., verbal and performance)
+* Provides support (or not) for using total or subscale scores.
+
+![Image of a CFA model illustrating three factors of IQ](images/PsychoM/CFA.png)
+
+## Locating and Interpreting Reliability and Validity in Publications
+
+What follows are my personal markups of the measures sections of three manuscripts. Each is well-written and each serves the purpose the research with which it was associated. 
+
+I review these so that you can begin to
+
+* Locate and interpret psychometric information from published articles, and
+* Learn how to describe measures/instruments in your own schoalrship.
+
+### From Tran and Lee (2014)
+
+The first example is from Tran and Lee's [-@tran_you_2014] stuy.  This was a brief report and instruments/measures were not presented in an itemized way.
+
+* Appraisal and evaluation were 6-items each and were administered pre and post.
+  - The reliability measure of internal consistency (alpha coefficient) was .80 at pre-test; and .89 and .85 at post-test.
+  - Because they are 6-items each, with each item summed (or mean), I would suggest it is appropriately used as an interval-scale measure.
+  - No other reliability or validity information is given.
+  
+![Screenshot of Tran and Lee's measures of appraisal and evaluation](images/PsychoM/TranLee1.png)  
+  
+* Single-items measure enjoyability, similarity, accuracy, and how-much-longer.
+  - There is no reliability or validity information is provided about them.
+  - Because they are single-items, they will likely be treated as interval-level, but are probably more appropriately categorized as ordinal.
+
+![Screenshot of Tran and Lee's single-item measures](images/PsychoM/TranLee2.png)
+
+
+### From Lui (2020)
+
+These were from a full research report [@lui_racial_2020].  Each measure was presented individually with more conventional summary.
+
+* Experiences with overt racial discrimination were assessed with 9 items.
+* Scaling is 4 points.
+* Given multiple items, it could be utilized on the interval level.
+* Cronbach’s alpha (internal consistency, a measure of reliability) was .90
+* No other reliability or validity info is provided.
+
+![Screenshot of Lui's assessment of overt racism](images/PsychoM/Lui1.png)
+
+* Neuroticism was assessed with 4 items.
+* No indication of scaling; assume it is Likert; interval scaling.
+* Two items were negatively worded so would need to be res-cored.
+* Cronbach’s alpha (internal consistency, a measure of reliability) was .62; because this is low they argued that the inter-item correlations (.28) would substantiate their adequacy.
+
+![Screenshot of Lui's assessment of neuroticism](images/PsychoM/Lui2.png)
+
+* Hazardous alcohol use was assessed on a 10-item measure.
+* 4-point scaling; interval scale of measurement.
+* Citations provide some support for validity information.
+
+![Screenshot of Lui's assessment of alcohol use disorders](images/PsychoM/Lui3.png)
+
+### Exerpt from Nadal (2011)
+
+* Perceptions of racism with 9 items
+* 2 subscales
+* Prior reports of internal consistency (.90, .83)
+* Prior reports of convergent validity (.24 to .46) 
+* Current reports of internal consistency (.878, .673); no justification for the lower alpha.
+
+![Screenshot of Nadal's assessment of racism](images/PsychoM/Nadal1.png)
+
+
+## Practice Problem
+
+The suggested practice problem for this chapter is to create your own "penultimate psychometric template."  The goal of this project is to expose you (deeply and interactively) with a variety of write-ups.
+
+Please locate 12 write-ups of measures used in research projects.
+
+* Include at least 4 write-ups (but no more than 6) of ONE measure.
+* The remaining 8 write-ups can be from different measures or same measures.
+
+This assignment happens in two stages.  First, you will map each of the measures you select (i.e., parallel to diagramming a sentence).  Second, looking across the write-ups of those measures, you will create your own template (i.e., a recipe card) for how you will write up a measures in your own papers.
+
+Here's an example of how I would map the following write-up of the Mental Health Inventory used in Bikos et al. [-@bikos_repeated_2007]
+
+First, the screenshot:
+![Screenshot of Bikos' writeup of the MHI](images/PsychoM/MHI.png)
+
+Heading: name of construct
+
+1. Instrument identification:
+   * Name of instrument.
+   * Abbreviation.
+   * Text-citation.
+2.	Brief description:
+    * Number of items
+    * Constructs assessed
+    * Intended sample/population
+3.	More detailed description
+    * Scaling and anchors.
+    * Sample items.
+4.	Statement about why instrument format worked well with this research project.
+5.	Psychometric history
+    * Number of psychometric trials with N.
+    * Description of factor structure.
+    * Mention of support for using a global scale or separate scales.
+    * Report of alpha coefficient from previous studies.
+6.	Psychometric properties in the published ms.
+    * Report of alpha coefficient from current study.
+
+
+
+|Assignment Component  
+|:---------------------------------------------------------------------------------------------|:----------: |:----------:|
+|1. Screen shots, the APA style citation (7th ed), and an outline of 12 measure write-ups are required.|   20   | _____ | 
+|2. Your psychometric template. Map out an APA-style/JARS-consistent formula/recipe for writing up a *measures* section in an empirical manuscript.  This sh ould be an ideal-scenario kind of writeup for a full-length manuscript or dissertation.| 15 |    _____|                                                                                                       
+|3. Explanation to a grader   |      5  | _____ | 
+|**Totals**                                                                                    |    40 |    _____     |
+
+## Answer Key
+
+The answer to the question, "Why is 'reliability' abbreviated $r_{xx}$ and 'validity' abbreviated $r_{xy}$?"
+
+* *r* is the symbol for correlation
+* $r_{xx}$ represents the measure (x) correlated with itself (x)
+* $r_{xy}$ represents the measure (x) correlated with another (y).
+
+```{r include=FALSE}
+sessionInfo()
+```
+
+
+
+<!--chapter:end:05-PsychoM.Rmd-->
+
+
+# A JEDI Lecture:  Promoting Justice, Equity, Diversity, and Inclusion in Research {#JEDI}
+
+[Screencasted Lecture Link](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=4539c65f-aceb-42ce-80ad-ac71001fc36a) 
+ 
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+```
+
+```{r include=FALSE}
+options(scipen=999)#eliminates scientific notation
+```
+
+This lesson introduces a collection of guidelines from the American Psychological Association that address research, education, and practice as it relates to individuals with marginalized identities. After introducing these guidelines broadly, my lesson and lecture focus on the elements that specifically address research.
+
+## Navigating this Lesson
+
+There is about 1 hour  of lecture.  
+
+
+### Learning Objectives
+
+Learning objectives from this lecture include the following:
+
+*	Describe APA’s position on social justice, equity, diversity, and inclusion in research.
+* Recognize ways that psychological research has contributed to marginalization and inequity.
+* Identify ways to design a research project so that it contributes to these larger goals.
+* Access the host of practice guidelines and return to them when they may be useful in professional development.
+
+
+### Readings & Resources
+
+In preparing this chapter, I drew heavily from the following resource(s). Other resources are cited (when possible, linked) in the text with complete citations in the reference list. Together these articles are an incredible resource for understanding the history of the issue(s) in the profession and getting a sense of theory, research, and prior practices.  They are a great reference place if you are seeking to research in these areas.
+
+* American Psychological Association, APA Task Force on Race and Ethnicity Guidelines in Psychology. (2019). *Race and Ethnicity Guidelines in Psychology: Promoting Responsiveness and Equity*. Retrieved from https://www.apa.org/about/policy/guidelines-race-ethnicity.pdf
+  - I primarily draw from pages 3-7 (Introduction), 10-15.5 (Fundamental Guidelines), 27-33 (Research Guidelines)
+* *Multicultural Guidelines: An Ecological Approach to Context, Identity, and Intersectionality*, 2017: (501962018-001). (2017). [Data set]. American Psychological Association. https://doi.org/10.1037/e501962018-001 Retrieved from https://www.apa.org/about/policy/multicultural-guidelines.pdf 
+* American Psychological Association. (2012). Guidelines for psychological practice with lesbian, gay, and bisexual clients. *American Psychologist, 67*(1), 10–42. https://doi.org/10.1037/a0024659
+* American Psychological Association. (2015). Guidelines for psychological practice with transgender and gender nonconforming people. *American Psychologist, 70*(9), 832–864. https://doi.org/10.1037/a0039906
+  
+## Some Context
+
+APA creates (via task forces) and approves (via a process involving a task force, divisional input, and multiple layers of review, finally approved by the Council of Representatives) a variety of [professional practice guidelines](https://www.apa.org/practice/guidelines) that are freely and publicly available.  
+
+There are a couple of distinctions that are important when considering the information provided in the guidelines:
+
+First, are they *aspirational* or *mandatory*?
+
+•	Standards (like the Ethical Principles of Psychologists and Code of Conduct) are mandatory
+•	Guidelines are aspirational and informative regarding practice considerations.
+
+Second, are they for the *practitioner* or the *client*:
+
+•	Treatment guidelines are client-focused and address intervention-specific recommendations for clinical populations or conditions.
+•	Practice guidelines are practitioner-focus and provide guidance for clinical practice, education, research, and consultation
+
+The *Guidelines on Multicultural Education, Training, Research, Practice, and Organizational Change for Psychologists* were first released in [@american_psychological_association_guidelines_2002].
+
+In recent years, with explicit acknowledgment that the U.S. is increasingly diverse and that we are at a “different period in time,” multiple guidelines have been produced and are guided by a foundation of intersectionality. Thus, the 2017 multicultural guidelines [@task_force_on_re-envisioning_the_multicultural_guidelines_for_the_21st_century_multicultural_2017]:
+
+•	Are conceptually grounded in a Bronfenbrenner style model with five concentric circles:  microsystem, mesosystem, exosystem, macrosystem, and chronosystem,
+•	Recognize three dynamic process that influence the model:  power/privilege, tensions, fluidity.
+•	Highlight intersectionality that is “shaped by the multiplicity of the individual’s social contexts.” 
+
+
+![Image of the layered ecological model from the 2017 Multicultural Guidelines](images/JEDI/Bronfenbrenner.png)
+Below, I list each of the six guidelines and outline the concrete, practical recommendations associated within the applications to research subsection [@task_force_on_re-envisioning_the_multicultural_guidelines_for_the_21st_century_multicultural_2017].  These are my paraphrases – and, because I provided the citation in this paragraph, I do not provide secondary citations.  Also, in many of these subsections the Task Force makes recommendations for research topics.  I do not list those. 
+
+**Guideline 1. Psychologists seek to recognize and understand that identity and self-definition are fluid and complex and that the interaction between the two is dynamic. To this end, psychologists appreciate that intersectionality is shaped by the multiplicity of the individual’s social contexts.**
+
+* Research often looks “downstream” for cause (i.e., individual behavior that may be associated with a social category membership) when we can also look “upstream” for macro societal processes that define systems of social inequality (laws, cultural mores, institutional practices, public policies).
+* Quantitative and qualitative can be used effectively to answer some of these questions.
+* That said, qualitative and/or mixed methods may be more sensitive to social complexities because of the use of open-ended versus checkboxes; grounded/emergent rather than a priori theory.
+* If engaged in scholar-activism or participatory action research, be mindful that the project isn’t just serving those on the “scholar side of the equation.”
+* Consider self-identification of demographic data. Recognize multiple identities. 
+
+
+**Guideline 2. Psychologists aspire to recognize and understand that as cultural beings, they hold attitudes and beliefs that can influence their perceptions of and interactions with others as well as their clinical and empirical conceptualizations. As such, psychologists strive to move beyond conceptualizations rooted in categorical assumptions, biases, and/or formulations based on limited knowledge about individuals and communities.**
+
+* Be cognizant and responsive to how design, methodology, and data analysis are shaped by personal worldviews and assumptions.
+* Culturally informed empirical studies strive for collaboration (valuing the perspectives and sociocultural locations and identities of research participants) and self-reflexivity on the part of the researcher.
+
+**Guideline 3. Psychologists strive to recognize and understand the role of language and communication through engagement that is sensitive to the lived experience of the individual, couple, family, group, community, and/or organizations with whom they interact. Psychologists also seek to understand how they bring their own language and communication to these interactions.**
+
+* Culturally adapt measures, research questions, practices (not stated in the article, but [Byrne, 2016] outlines an entire process of culturally adapting measures).
+* Informed consent should be provided in the participants’ primary language.
+* Incorporate members of the community in all aspects of the research planning and implementation.
+
+**Guideline 4. Psychologists endeavor to be aware of the role of the social and physical environment in the lives of clients, students, research participants, and/or consultees.**
+
+* A 1946 call for community action research and practice remains the article’s recommendation.
+* Not mentioned in the article, multi-level (statistics) approaches that can accommodate individual- and contextual- level inputs in the same analysis can be useful.
+
+**Guideline 5. Psychologists aspire to recognize and understand historical and contemporary experiences with power, privilege, and oppression. As such, they seek to address institutional barriers and related inequities, disproportionalities, and disparities of law enforcement, administration of criminal justice, educational, mental health, and other systems as they seek to promote justice, human rights, and access to quality and equitable mental and behavioral health services.** 
+
+* Leverage methodological diversity.  For example, pair quantitative methods with qualitative, discovery-oriented, and/or community-based participatory approaches.
+* Establish relationships with community partners to collect and analyze data with and from those communities.
+* As more research is published, employ meta-analysis to draw broader conclusions.
+* Comparative research between dominant and non-dominant help-seeking individuals may be used to better understand differences in health care and, in particular, identify unique demographic patterns that correlate with mental health disparities.
+
+**Guideline 6. Psychologists seek to promote culturally adaptive interventions and advocacy within and across systems, including prevention, early intervention, and recovery.**
+
+* Foster the development of culture-centered interventions.
+* Seek to include research participants who are diverse across multicultural variables.
+* Develop/adapt research measures for multicultural contexts.
+* Document the evaluation/adaptation of evidence based treatments (EBTs) to culturally and linguistically diverse contexts.
+
+**Guideline 7. Psychologists endeavor to examine the profession’s assumptions and practices within an international context, whether domestically or internationally based, and consider how this globalization has an impact on the psychologist’s self-definition, purpose, role, and function.**
+
+* Contribute to a global helping paradigm that links psychology, psychotherapy, and indigenous healing across national boundaries.
+* International communities may have no (or different) regulatory standards.  In this case, consult with local NGOs, health clinics, and stakeholders to abide by both by U.S. (IRB) and local standards.
+
+**Guideline 8. Psychologists seek awareness and understanding of how developmental stages and life transitions intersect with the larger biosociocultural context, how identity evolves as a function of such intersections, and how these different socialization and maturation experiences influence worldview and identity.**
+
+* Pay close attention and inform themselves of the intersectional considerations that participants present. How do these influence interpretations of findings regarding self, identity, group membership, and the consistency of presentation across groups of a psychological phenomena or concept?
+* A qualitative component may help unravel this.
+
+**Guideline 9. Psychologists strive to conduct culturally appropriate and informed research, teaching, supervision, consultation, assessment, interpretation, diagnosis, dissemination, and evaluation of efficacy as they address the first four levels of the Layered Ecological Model of the Multicultural Guidelines.**
+
+* Recognize the limited generalizability of random clinical trials (RCTs); this may reduce the effectiveness of evidence based treatments (EBTs) with diverse groups.
+* Review culturally adapted interventions or evidence of fidelity to the original approach.
+
+**Guideline 10. Psychologists actively strive to take a strength-based approach when working with individuals, families, groups, communities, and organizations that seeks to build resilience and decrease trauma within the sociocultural context.**
+
+* Determine and employ local definitions of resilience and other strengths-based outcomes.
+* Recognize how these definitions change as a function of intersecting identities (e.g., sex, gender roles).
+* And again:  quant + qual.
+
+..before leaving this article, check out the 65+ pages of reference and the extensive appendices (definitions, case studies).
+
+## Race and Ethnicity Guidelines in Psychology: Promoting Responsiveness and Equity (2019)
+
+The lecture continues with a focus on the 2019 race and ethnicity guidelines [@apa_task_force_on_race_and_ethnicity_guidelines_in_psychology_apa_2019]. Because these are the central focus of the lecture and my hope is that you will check access them [directly](https://www.apa.org/about/policy/guidelines-race-ethnicity.pdf), I have intentionally not written additional notes.
+
+## Specific Guidelines for Research in Related Guidelines
+
+The following research-related guideline is from the *Guidelines for Psychological Practice with Lesbian, Gay and Bisexual Clients* [@american_psychological_association_guidelines_2012].
+
+**Guideline 21. In the use and dissemination of research on sexual orientation and related issues, psychologists strive to represent results fully and accurately and to be mindful of the potential misuse or misrepresentation of research findings.**
+
+* Be aware of the potential influence of overt and covert bias
+* Exercise care that reports are thorough and that limitations are fully disclosed and discussed
+* Remember that there are subgroups within LGBTQ+ communities that are not included in research samples; take their absence into consideration when applying/discussing findings
+* Be extra careful when citing/quoting research findings from third parties
+* Avoid false or deceptive statements; accurately publish research results
+* Remember that media outlets lack psychological training; emphasize to journalists the complexity and limitations of research findings
+
+Another research-specific guideline is from the *Guidelines for Psychological Practice with Transgender and Gender Nonconforming People* [@american_psychological_association_guidelines_2015].
+
+**Guideline 15. Psychologists respect the welfare and rights of TGNC participants in research and strive to represent results accurately and avoid misuse or misrepresentation of findings.**
+
+* Provide a range of options for capturing demographic information about TGNC people so that TGNC people may be included and accurately represented. One group recommends
+  - First asking sex assigned at birth
+  - Following with a question about gender identity
+* Because the TGNC population may be hard to reach (geographically dispersed, diverse, stigmatized, hidden), consider collaborative research methods such as participatory action research in which the members are integrally involved.
+* Be cautious with media. Journalists may have limited knowledge about the scientific method and there is potential for misinterpretation, exploitation, sensationalization.
+
+
+```{r include=FALSE}
+sessionInfo()
+```
+
+
+
+<!--chapter:end:06-JEDI.Rmd-->
+
+# Orientation to Open Science {#OpenScience}
+
+[Screencasted Lecture Link](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=a46a76d9-1d4f-404c-96e9-ac770016d7db) 
+ 
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+```
+
+```{r include=FALSE}
+options(scipen=999)#eliminates scientific notation
+```
+
+This lesson focuses on ...
+
+## Navigating this Lesson
+
+There is just less than 1 hour of lecture.  
+
+### Learning Objectives
+
+Learning objectives from this lecture include the following:
+
+* Distinguish replicability from reproducibility. 
+* Define the replication/reproducibility crisis.
+* Describe how pre-registration can help with the replication/reproducibility crisis.
+* Identify advantages and disadvantages of data sharing 
+  - To the discipline
+  - To the researcher
+  - To the research participant
+* Obtain an ORCID
+
+
+### Readings & Resources
+
+In preparing this chapter, I drew heavily from the following resource(s). Other resources are cited (when possible, linked) in the text with complete citations in the reference list.
+
+* Jhangiani, R. S., Chiang, I.-C. A., Cuttler, C., & Leighton, D. C. (2019). *Research Methods in Psychology*. https://doi.org/10.17605/OSF.IO/HF7DQ
+  - Chapter XIII:  From the "replicability crisis” to open science practices (60)
+  - Quick, efficient summary of the what created the replicability/reproducibility crisis and what psychology is (and isn’t) doing to address it.
+* Alter, G., & Gonzalez, R. (2018). Responsible practices for data sharing. *American Psychologist, 73*(2), 146–156. https://doi.org/10.1037/amp0000258
+  - One of a 4-part special section of the America Psychologist devoted to addressing issues related to data sharing.  All four articles are great – this was one of the two that are very practical.  The others are cited in this lecture and archived in the SP readings folder.
+
+## The Crises
+
+### The Replicability Crisis
+
+**Replicability** is re-performing the experiment with new data.  Summarizing results of replicability studies, Stevens [-@stevens_replicability_2017] noted the following:
+
+* In medicine, only 25% of previously published studies were able to replicate/confirm statistically significant effects.
+* In behavioral economics, 61%
+* In psychology, 36% (when 97% of the original studies did so)
+
+What accounts for these discrepancies?
+
+* Differences in design and methods between the original and replication studies; 
+* False negatives (Type II error) in the replication;
+* False positives (Type I error) in the original study;
+* Confirmation bias at any step in the original study, such as
+  - Developing tests that attempt to confirm rather than disconfirm hypothesis
+  - Perceiving behaviors in a manner that align with expectations (as opposed to outcomes),
+  - Reporting the confirmatory (and ignoring the disconfirmatory) results (p-hacking)
+* The file-drawer problem:  inability to publish results (original or replication) with non-significant results.
+  - 24% of all NIH-funded trials aimed at evaluating the efficacy of psychological treatments for major depression were not published; when included in meta-analyses, this led to a 25% reduction in the estimated effect of psychotherapy (Hengartner, 2018).
+  - For CBT-specific trials, when unpublished trials were included in a meta-analysis, there was a 37% reduction in the estimated efficacy of the intervention.
+
+### The Reproducibility Crisis
+
+“An article […] in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship.  The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures” [@buckheit_wavelab_1995].
+
+Reproducibility is reperforming the same analysis with the same code, using a different analyst.
+
+In most published research, this is not possible.  In a survey of 441 biomedical articles (2000 to 2014), only one was fully reproducible.
+
+## Open Science:  What & Why
+
+Core principles of science (at a time when the integrity of science is being questioned) include [@alter_responsible_2018]:
+
+* **Research transparency**: the methods are described with sufficient detail such that the study can be replicated; also codebooks, analytic/processing scripts (including those used to create tables and figures) are available 
+* **Reproducibility**:  verify the published findings with the same dataset.
+* **Replicability**: find similar share with a different/new data set.
+* **Data sharing**: some version of the data (raw/primary, de-identified, perhaps blurred) available freely or through an application/vetting process
+
+### Research Transparency
+
+Alter and Gonzalez [-@alter_responsible_2018] suggested that research transparency includes more than sharing of data.  Research transparency also includes the procedures used to create and analyze the data.  Why?
+
+* Data are often refined, corrected, and manipulated before analysis. These steps may be part of the process that makes a statistically significant finding possible; that is, other approaches to scrubbing/scoring data will produce different (unstable) results.  
+* Transparency requires that these steps be clearly articulated – in order and with all details of the process.
+
+### Who owns the data? 
+
+It depends – and is worth careful consideration.
+
+* Institutions:
+  –	While the PI is often considered to be the custodian/steward of the data, it is often contractually understood that the institution owns data when it is externally funded (e.g., NIH, NSF).
+* The principal investigator (PI)/lab?  Maybe.  Even in the absence of ownership the P.I. is likely the responsible party.
+* The community?  At least as co-owner? From community participatory action or critical-ideological approaches, the community should likely have a say in data management.
+
+## Open Science:  Where
+
+### Data Repositories:
+
+Institutions that make commitments to preserve, maintain, and distribute data over time. They also make data citable by assigning persistent identifiers (e.g., the DOI in journal articles).
+
+* **Domain specific**:  provide services for a specific field.  Focus on limited types of data and invest heavily in curating it for reuse.  
+  –	Examples:  ICPSR (quantitative data for social and behavioral research), Databrary (videos used by developmental psychologists).
+* **General**: serve a broad range of disciplines and provide fewer data curation services.  Designed to be self-service in that the depositor provides documentation and meta-data (e.g., “data about data” such as details in a codebook).
+  - Mendeley, Figshare, Dataverse
+* **Institutional**:  operated by libraries with a broad mission to document and preserve all the research produced by faculty, staff, students. The scope and services varies by institutions. Large universities hire staff with data management, documentation, and preservation services.
+
+### Journals:  Supplemental files
+
+Many journals provide the option of uploading supplemental files.  These could be a variety of things:  testing/interview protocols, supplemental tables/figures, and data/meta-data.  
+
+## Open Science:  Who are the Stakeholders?
+
+### Groups
+
+Research data have the potential to harm individuals and their communities [@ross_ethical_2018]. We generally apply the ethical principle of beneficence to the individual; but we are wise to think of it as it applies to communities as well.  Consider the case where a research team collected blood samples from members of the Havasupai tribe for a diabetes study.  Later it was discovered that samples had been shared with other researchers to study issues including inbreeding, human migration, and schizophrenia.  Separate from whether individual participants were identified, this resulted in social and psychological harm to the tribe as a whole.
+
+### Individual Research participants
+
+A substantial objection to sharing research data is that confidential information about research participants will be protected.
+
+Evaluating harm from disclosure risks can be considered bidimensionally:
+
+|              |Probability of reidentification   |
+|:-------------|:--------------------------------:|
+
+|Potential harm|Lo             |Hi                |
+|:------------:|:-------------:|:----------------:|
+|Lo            |               |                  |
+|Hi            |               |                  |
+
+Consider the following examples in each of the quadrants.
+
+Low potential for harm:
+
+* Opinions in a national poll, perception tasks in an experimental setting
+
+High potential for harm:
+
+* Mental health, drug use, criminal activity, sexual behavior
+
+Hi probability of re-identification:
+
+* Direct identifiers (name, phone number, SSN)
+* Geospatial locations
+* Longitudinal designs with repeated interviews and contextual info (grade, school)
+
+Some data cannot be completely anonymized without destroying its research value.
+
+### The Common Rule
+
+The *Common Rule* (Federal Policy for the Protection of Human Subjects [@noauthor_federal_2009] is the chartering document guiding IRB activity.
+
+The chartering document for institutional review boards (IRB) defines minimal risk as it relates to research endeavors.  To the degree that the probability and magnitude of harm or discomfort in the research activity does not exceed those ordinarily encountered in daily life or during a routine physical or psychological evaluation, data can be shared without any additional precautions.
+
+Historically, informed consent language said something like, “Your data will only be available to members of our research team…at the end it will be destroyed.”  The new version of the Common Rule [@protections_ohrp_revised_2017] includes guidelines for “broad consent” which covers storage and future secondary research with data that includes identifiable protection.  The Common Rule suggests that participants should be given a general description of the types of research that may be conducted with the information collected from them and informed about the types of identifiable private information that will be kept and the types of researchers who may have access to that information.
+
+This is all emerging – dynamic consent has been suggested as a way to allow patients to decide who can use their health data for research.  Patients who have provided samples (e.g., blood, DNA) get texts/surveys through their phones to grant/deny consent for new uses.
+
+#### Data creators
+
+Among a variety of scientists, an NSF funded study reported that psychologists were the most negative about data sharing (Martone et al., 2018), with 30% indicating that data should be shared. What are the concerns [@martone_data_2018]?
+
+* Fear for reputation:  making errors and being called out.
+* Fear of being scooped:  someone else will beat me to my next question.
+* Fear of liability:  release of primary data for certain participants might lead to prosecution.
+* It’s a lot of work.  I have to do this, too!?!?
+* My data are far too complex/sophisticated to be understood by anyone else on the planet.
+* My data are not useful beyond the purposes I have planned for them.
+* How will the field develop/evolve if we just reanalyze old data?
+
+Yet, there are counterpoints [@martone_data_2018]:
+
+|“The issue of who is harmed by sharing data needs to be balanced against who is harmed by not sharing data?” (p. 117)|
+|:-------------------------------------------------------------------------------------------------------------------:|
+
+|The Issue            |A Counterpoint
+|:--------------------|:----------------------------------------------------------------------------------------------|
+|Reputation/Liability |What if errors (if any) are undiscovered?  Or findings are spurious (and only because of biased ways of data preparation)?|
+|Being Scooped        |Curiously, in microbiology, the original data creators tended to publish two years after the data were made publically available; other authors tended to publish five to six years after the data were made available.
+|Unrewarded effort    |“If data are essential products of scholarship, those who create data must be appropriately acknowledged and rewarded” ([@alter_responsible_2018], p. 153).|
+|Data isn’t useful beyond the single project |Martone [@martone_data_2018] recounted the results of the VISION-SCI project where the scientific community made individual data sets available (even those with NS effect – “file-drawer” and “background” data).  Although individual studies (usually with restricted samples) produced unstable and inconsistent findings, the combined data provided a “fuller sampling of …the ‘syndromic space’” (p. 114) and resulted in robust predictive models.|
+|The field will stagnate with no new data being collected |Even the most amazing, longitudinal sets such as the High School and Beyond longitudinal set that has been used in so many examples [@noauthor_high_nodate](High School & Beyond, National Educational Longitudinal Set) become obsolete and are replaced by newer samples and improved measures/techniques.|
+
+Other practical considerations:
+
+* Authors may request (and journals may grant) an embargo period ranging from a few months to two years (or at least until the article is published) before the data is released [@martone_data_2018].
+* When published data are part of larger data sets, only the variables used in the study are the only ones required to be made available.
+* “Citations” are the basis of scholarly recognition.  PIs are wise to use a depository that will provide a formal citation (5 elements:  author, title, date, publisher/distributor, location; with persistent identifier) such that the data will be included in the reference list.
+  - When we make data (and/or script/code) available in a repository – we should list it on our resume/CV!
+
+Similarly, scripts/code for all aspects of data management, analysis, and manipulation can be formally prepared, archived, and cited.
+
+## Open Science:  How
+
+### Regarding research transparency
+
+Establish (now, while you are just learning) the regular practice of a standard research workflow.  It should 
+
+* Be ordered, such that it maps along with the results section of the published manuscript.
+* Contain all of the script/code/syntax (in our case, the .rmd file) that does everything:  defines variables, cleans data, includes/excludes data, manages missingness, scores scales/subscales, tests assumptions, runs the analyses, creates figures/tables.
+* Include narration of what you are doing and your rationale for doing so. 
+* And also a “bug log”; a document that notes errors and corrections.
+* This should not be a “disorganized set of statistical commands” (Alter & Gonzalez, 2018, p. 148)
+
+Alter and Gonzalez [-@alter_responsible_2018] went further to suggest that the script/code should be keyed to the final publication (e.g., page or paragraph number).
+
+### Regarding data ownership
+
+* Get clarification on responsibilities and restrictions regarding *the* data that was used (note I did not write *your* data) in your projects (institutional, legal [FERPA, HIPAA, The Common Rule]).
+* When starting a new project, include as much detail as possible in the IRB application and informed consent about all the possible uses for data.  
+
+Below is an excerpt from a recent IRB application that projects how data might be used (credit to Tom Carpenter, PhD, for examples of language to use in the informed consent).
+
+|Confidentiality                                                                                      |
+|:----------------------------------------------------------------------------------------------------|
+|The data we are using is completely de-identified and is already available to instructors as well as their chairs, deans, and members of tenure/promotion committees. All data that is retained for the purpose of the study may also be used in future research, presentations, and/or for teaching purposes by the Principal Investigator listed above. 
+|Consistent with both journal/guild expectations and the ethical principles of open science, a fully anonymous and non-identifiable version of the dataset may be posted online (e.g., to the APA-endorsed "Open Science Framework" [www.osf.io] or to the journal, submitted with the research article).  No data posted will contain any information that could identify participants in any way, either directly or indirectly.  All data will be thoroughly inspected by the research prior to posting to confirm that no participant-provided responses could inadvertently identify or expose a participant.|
+|Posting data (commonly referred to as "data sharing") is necessary for reproducibility and replicability in science, allows peer reviewers and meta-analysts to check statistical assumptions, protects the field against data fraud, and is increasingly seen as an ethical obligation within psychological science.|  
+|*Bikos RVT IRB application, November 2020*|
+
+### Regarding Data Sharing
+
+Alter and Gonzalez [-@alter_responsible_2018] recommendeded using domain-specific repositories whenever possible.  Because they are more connected to the research community(ies) that will use them, they will be most likely to provide the discipline-specific curation services that will maintain the value for future reuse.  
+
+Alter and Gonzalez [-@alter_responsible_2018] discouragde attaching research data as part of the supplementary materials associated with the publication because publishers do not manage research data with the same best practices that a data repository would.  For example they may convert research data to text or pdf files and the materials may not be as discoverable as they would in a repository.
+
+Best practices in data sharing are FAIR:  Findable, Accessible, Interoperable, Resuable [@martone_data_2018]. Check out Table 2 in the Martone et al article for the details and implications of these practices.
+
+### More Resources:
+
+Alter and Gonzalez [-@alter_responsible_2018] provided a list of resources about data sharing and open science.  The resources that are websites are likely updating as the field evolves.  The Open Science Framework (OSF) is one that is frequently referenced in psychology.  The help pages have a section devoted to FAQs and best practices – especially about the practical steps/logistics such as version control, file naming, and making a data dictionary:  https://help.osf.io/hc/en-us 
+
+## And also, Preregistration
+
+In pre-registration, researchers describe their hypotheses, methods, and analyses before a piece of research is conducted – in a way that can be externally verified [@van_t_veer_pre-registration_2016].
+
+This is emerging, but there are two general types:
+
+* **Reviewed pre-registration or registered report**:  A cooperative model between reviewers and researchers that involves feedback to the research design that can be incorporated before the study is conducted. This can be accompanied by a guarantee of publication regardless of the outcome.
+* **Unreviewed pre-registration**:  No review prior data collection.  The research plan is written and time-stamped before the study.  The authors can conduct research as usual. 
+
+In both, authors can still follow-up analyses with exploratory research.
+
+Advocates of pre-registration suggest [@van_t_veer_pre-registration_2016]:
+
+* It prioritizes theory and method over results
+* It distinguishes confirmatory from exploratory research
+* It reduces publication bias
+* It reduces reporting bias within a single study
+* It offers researchers additional input and review before they start
+* It can lead to faster dissemination (particularly with registered reports)
+
+Concerns about pre-registration:
+
+* More work?  For researchers and reviewers.
+* Will it dampen exploration? -- van ’t Veer and Giner-Sorolla [-@van_t_veer_pre-registration_2016] have suggested that exploratory work should still be reported.
+* What’s the value of a null literature (i.e., a bunch of studies with non-significance)?  
+  –	It can save the scientific community time and effort.
+  –	It could help identify methodological problems such as being underpowered.
+*	Idea theft – will others steal designs?
+  –	Pre-registered studies can stay private (in OSF up to 4 years) until the project is finished.
+
+van ’t Veer and Giner-Sorolla [-@van_t_veer_pre-registration_2016] provided guidance in the form of templates/instructions for registering a study for social psychology.  Let’s go take a look at the OSF to see their [pre-registration model](https://help.osf.io/hc/en-us).
+
+* Start with the [decision tree](https://help.osf.io/hc/en-us/articles/360019738794-Understand-Registration-Forms)
+* Get your [form](https://osf.io/zab38/wiki/home/); there’s even an .rmd version!   
+* Let’s peek at the [Google doc](https://docs.google.com/document/d/1DaNmJEtBy04bq1l5OxS4JAscdZEkUGATURWwnBKLYxk/edit?pli=1) 
+
+## I'm a Graduate Student -- What does it mean to me?
+
+Most journals now require a persistent identifier (ORCID) for researchers.  These are connected to all published articles.  You can obtain yours at: https://orcid.org/register 
+
+You can talk with your RVT about trying out pre-registration with lab projects.
+APS (Association of Psychological Science) are a signatory to the Transparency and Open Science Guidelines (TOPS).  Let’s take a quick look at what that means for publishing:
+https://www.psychologicalscience.org/publications/open-science 
+
+In participating journals, articles can be awarded badges for:
+https://www.psychologicalscience.org/publications/badges 
+
+* Pre-registered
+* Open Data
+* Open Materials
+
+As you plan your research projects, think ahead to the journals to which you might submit.  See if they are part of such a process.  Although it may delay your start time, if they are part of the registered reports process, you might be guaranteed submission if your pre-registration is reviewed and approved by the journal.
+
+```{r }
+sessionInfo()
+```
+
+
+
+<!--chapter:end:07-OpenScience.Rmd-->
+
 
 # WRITING EMPIRICAL MANUSCRIPTS {-}
 
@@ -298,12 +2129,12 @@ LaTeX equation editor:  https://www.codecogs.com/latex/eqneditor.php
 
 [Screencasted Lecture Link](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=8ca9d96d-0ff6-4068-a570-ac290189a4d4) 
  
-```{r setup, include=FALSE}
+```{r  include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
 ```
 
-```{r eliminates scientific notation}
+```{r include=FALSE}
 options(scipen=999)#eliminates scientific notation
 ```
 
@@ -784,15 +2615,13 @@ Repeated are the characteristics of White supremacy culture.  I have italized th
   - Sense of urgency
 
 
- ## References
-
-```{r sessionInfo APAstyle}
+```{r include=FALSE}
 sessionInfo()
 ```
 
 
 
-<!--chapter:end:02-APAstyle.Rmd-->
+<!--chapter:end:08-APAstyle.Rmd-->
 
 
 # Reference Management with Zotero {#Zotero}
@@ -804,7 +2633,7 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
 ```
 
-```{r }
+```{r include=FALSE}
 options(scipen=999)#eliminates scientific notation
 ```
 
@@ -908,13 +2737,13 @@ At the end of your document (or wherever you want it), return to the Zotero ribb
 
 
 
-```{r }
+```{r include=FALSE}
 sessionInfo()
 ```
 
 
 
-<!--chapter:end:03-Zotero.Rmd-->
+<!--chapter:end:09-Zotero.Rmd-->
 
 
 # Table Magic {#Tables}
@@ -926,7 +2755,7 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
 ```
 
-```{r }
+```{r include=FALSE}
 options(scipen=999)#eliminates scientific notation
 ```
 
@@ -1029,13 +2858,13 @@ The Table Properties window can offer advanced options or rows, columns, cells, 
 
 ![Screenshot of the Table Properties dialogue box](images/TableMagic/TableProperties.png)
 
-```{r }
+```{r include=FALSE}
 sessionInfo()
 ```
 
 
 
-<!--chapter:end:04-TableMagic.Rmd-->
+<!--chapter:end:10-TableMagic.Rmd-->
 
 
 # Writing in Excel {#Excel}
@@ -1047,7 +2876,7 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
 ```
 
-```{r }
+```{r  include=FALSE}
 options(scipen=999)#eliminates scientific notation
 ```
 
@@ -1258,13 +3087,12 @@ Would I do it again? Some years later -- yes, I still write in Excel (even with 
   - You must hit SAVE in order for your changes to be saved.
 * I prefer to work in full Excel and it’s only rarely a problem that teammates have my same schedule and want to work at the same time.  When they do, we just coordinate.
 
-# References
 
-```{r }
+```{r include=FALSE}
 sessionInfo()
 ```
 
+# References
 
-
-<!--chapter:end:05-Excel.Rmd-->
+<!--chapter:end:11-Excel.Rmd-->
 

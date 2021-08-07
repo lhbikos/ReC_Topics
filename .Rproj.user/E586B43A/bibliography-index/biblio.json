@@ -268,6 +268,61 @@
             "volume": "41"
         },
         {
+            "DOI": "10.1177/0894845307304063",
+            "ISSN": "0894-8453",
+            "abstract": "Using a 1-year longitudinal-panel design, 32 American, female expatriate spouses who relocated to Ankara, Turkey, completed measures of global functioning and were interviewed at just-arrived, 3-, 6-, 9-, and 12-month stages. Because of the mixed methods approach of this project, results of the Naturalistic Inquiry are reported in a companion manuscript (Bikos et al., 2007, this issue). Differences in the importance and expectation of life roles (i.e., occupational, parent, marital, homecare) were found. Quantitative results indicated no differences in life roles importance, alcohol use, marital satisfaction, or mental health functioning as a function of time-in-country. Analyses do not support the culture shock/U-curve model as a predictable pattern of adaptation. The authors conclude that time-in-country is only one of a myriad of variables that could be used to predict adaptation. Future expatriate research should use models that offer greater complexity. (PsycINFO Database Record (c) 2017 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Bikos",
+                    "given": "Lynette H."
+                },
+                {
+                    "family": "Çiftçi",
+                    "given": "Ayşe"
+                },
+                {
+                    "family": "Güneri",
+                    "given": "Oya Yerin"
+                },
+                {
+                    "family": "Demir",
+                    "given": "Cennet Engin"
+                },
+                {
+                    "family": "Sümer",
+                    "given": "Zeynep Hatipoglu"
+                },
+                {
+                    "family": "Danielson",
+                    "given": "Sharrie"
+                },
+                {
+                    "family": "DeVries",
+                    "given": "Shelly"
+                },
+                {
+                    "family": "Bilgen",
+                    "given": "Wendy A."
+                }
+            ],
+            "container-title": "Journal of Career Development",
+            "id": "bikos_repeated_2007",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007,
+                        9
+                    ]
+                ]
+            },
+            "keyword": "Adaptation, Expatriates, Human Sex Differences, Marital Satisfaction, Human Females, adaptation experiences, female expatriate spouse, marital satisfaction, Spouses",
+            "page": "5-27",
+            "title": "A repeated measures investigation of the first-year adaptation experiences of the female expatriate spouse living in Turkey",
+            "type": "article-journal",
+            "volume": "34"
+        },
+        {
             "ISBN": "978-1-60623-639-0",
             "abstract": "Walking readers step by step through complex concepts, this book translates missing data techniques into something that applied researchers and graduate students can understand and utilize in their own research. Enders explains the rationale and procedural details for maximum likelihood estimation, Bayesian estimation, multiple imputation, and models for handling missing not at random (MNAR) data. Easy-to-follow examples and small simulated data sets illustrate the techniques and clarify the underlying principles. The companion website (www.appliedmissingdata.com) includes data files and syntax for the examples in the book as well as up-to-date information on software. The book is accessible to substantive researchers while providing a level of detail that will satisfy quantitative specialists. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
             "author": [
@@ -1450,6 +1505,93 @@
             "type": "chapter"
         },
         {
+            "ISBN": "978-1-135-06846-2",
+            "URL": "http://ebookcentral.proquest.com/lib/spu/detail.action?docID=1154313",
+            "abstract": "The goal of the chapters in this SIOP Organizational Frontiers Series volume is to challenge researchers to break away from the rote application of traditional methodologies and to capitalize upon the wealth of data collection and analytic strategies available to them. In that spirit, many of the chapters in this book deal with methodologies that encourage organizational scientists to re-conceptualize phenomena of interest (e.g., experience sampling, catastrophe modeling), employ novel data collection strategies (e.g., data mining, Petri nets), and/or apply sophisticated analytic techniques (e.g., latent class analysis). The editors believe that these chapters provide compelling solutions for the complex problems faced by organizational researchers.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        6,
+                        16
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Gephart",
+                    "given": "Robert P.",
+                    "suffix": "Jr."
+                }
+            ],
+            "container-title": "Modern Research Methods for the Study of Behavior in Organizations",
+            "editor": [
+                {
+                    "family": "Cortina",
+                    "given": "Jose M."
+                },
+                {
+                    "family": "Landis",
+                    "given": "Ronald S."
+                }
+            ],
+            "id": "cortina_doing_2013",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013
+                    ]
+                ]
+            },
+            "keyword": "Psychology, Industrial - Research",
+            "page": "266-318",
+            "publisher": "Taylor & Francis Group",
+            "publisher-place": "London, UNITED KINGDOM",
+            "title": "Doing research with words: Qualitative methodologies and industrial/organizational psychology",
+            "title-short": "Doing research with words",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1037/0022-0167.52.2.126",
+            "ISSN": "0022-0167",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2005-03263-002&site=ehost-live",
+            "abstract": "This article presents an overview of philosophy of science and research paradigms. The philosophy of science parameters of ontology, epistemology, axiology, rhetorical structure, and methodology are discussed across the research paradigms of positivism, postpositivism, constructivism-interpretivism, and the critical-ideological perspective. Counseling researchers are urged to locate their inquiry approaches within identifiable research paradigms, and examples of ’locating’ 2 popular inquiry approaches–consensual qualitative research and grounded theory–are provided. Examples of how counseling research would proceed from varying paradigms are explored, and a call is made for expanding the training students receive in philosophy of science and qualitative approaches to inquiry. (PsycINFO Database Record (c) 2019 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        6,
+                        16
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Ponterotto",
+                    "given": "Joseph G."
+                }
+            ],
+            "collection-title": "Knowledge in Context: Qualitative Methods in Counseling Psychology Research",
+            "container-title": "Journal of Counseling Psychology",
+            "id": "ponterotto_qualitative_2005",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005,
+                        4
+                    ]
+                ]
+            },
+            "keyword": "Qualitative Methods, Counseling Psychology, Experimentation, philosophy of science, counseling psychology, Empirical Methods, Philosophies, qualitative research, research paradigms, Sciences",
+            "note": "Publisher: American Psychological Association",
+            "page": "126-136",
+            "title": "Qualitative research in counseling psychology: A primer on research paradigms and philosophy of science",
+            "title-short": "Qualitative research in counseling psychology",
+            "type": "article-journal",
+            "volume": "52"
+        },
+        {
             "URL": "https://www.dismantlingracism.org/white-supremacy-culture.html",
             "abstract": "Culture refers to the knowledge, experience, beliefs, values, attitudes, meanings, hierarchies, religion, notions of time, roles, spatial relations, concepts of the universe, and material objects and...",
             "accessed": {
@@ -2082,6 +2224,93 @@
             "volume": "29"
         },
         {
+            "DOI": "10.1037/tep0000306",
+            "ISSN": "1931-3918",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2020-16873-001&site=ehost-live",
+            "abstract": "Training in counseling psychology boasts a distinguished history, but not much longitudinal research on its broad parameters. This study tracked doctoral training in APA-accredited counseling psychology across 20 years (1995–2015) in terms of program, student, and faculty characteristics. At each interval, more than 95% of the programs participated. Temporal changes include the emergence of PsyD counseling programs, a gradual decline in the average number of applicants, and pronounced increases in the percentage of women and ethnic minority students. Faculty theoretical orientations remained consistent; about 45% cognitive–behavioral, 30% existential/humanistic, 22% systems, and 20% psychodynamic. Programs’ respective placement along the practice-research continuum (practice oriented, equal emphasis, research oriented) replicated findings that the ’model does matter’ concerning admission requirements and financial assistance. Comparisons between counseling psychology PhD programs (n = 54) and clinical psychology PhD programs (n = 169) indicated proportionally more behavioral and cognitive orientations among clinical faculty and more psychodynamic and humanistic orientations among counseling faculty. Clinical programs featured more student applications and higher Graduate Record Examination (GRE) scores, whereas counseling programs reported proportionally more ethnic minority students. These findings can guide graduate programs, potential applicants, and academic advisors in accurately portraying the multiple training options for health-service psychology. (PsycINFO Database Record (c) 2020 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        5
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Norcross",
+                    "given": "John C."
+                },
+                {
+                    "family": "Sayette",
+                    "given": "Michael A."
+                },
+                {
+                    "family": "Martin-Wagar",
+                    "given": "Caitlin A."
+                }
+            ],
+            "container-title": "Training and Education in Professional Psychology",
+            "id": "norcross_doctoral_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        3
+                    ]
+                ]
+            },
+            "keyword": "Graduate Students, Student Characteristics, College Teachers, Counseling Psychology, Minority Groups, counseling psychology, Counselor Trainees, Student Admission Criteria, clinical psychology, Clinical Psychology, clinical training, Cognitive Behavior Therapy, Existential Therapy, graduate admission requirements, graduate student characteristics, Humanistic Psychotherapy, Psychodynamic Psychotherapy, Theoretical Orientation, theoretical orientations",
+            "note": "Publisher: Educational Publishing Foundation",
+            "title": "Doctoral training in counseling psychology: Analyses of 20-year trends, differences across the practice-research continuum, and comparisons with clinical psychology",
+            "title-short": "Doctoral training in counseling psychology",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1080/09515070.2015.1047440",
+            "ISSN": "0951-5070",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2015-38088-003&site=ehost-live",
+            "abstract": "The scientist–practitioner model dominates as the premier training model for graduate training in applied psychology. Despite its widespread use, almost no research has focused critically on the model’s operationalized definition or its implementation and evaluation in training programs. This study provides an overview of how training directors in counseling psychology currently define, implement, and evaluate the scientist–practitioner model within their respective programs. A multi-methods online survey was distributed to 50 counseling psychology training directors. Qualitative responses from 32 respondents were analyzed using thematic content analysis. Non-thematic observations on response form/style were also summarized. Key findings suggest that counseling psychology training directors define the model in at least three broad ways. Some definitions are inconsistent with each other. Furthermore, basic program requirements are often used as the basis for both implementing and evaluating graduate programs’ use of the training model. Lastly, many training directors rely on previous responses or published program descriptions in their answers. Implications include the ethics regarding the lack of clarity and consistency of the model’s current use, advancement of the model beyond an abstraction to concrete operationalization, and concern about other applied specialties in psychology potentially having similar problems with the model. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Ridley",
+                    "given": "Charles"
+                },
+                {
+                    "family": "Laird",
+                    "given": "Vanessa"
+                }
+            ],
+            "container-title": "Counselling Psychology Quarterly",
+            "id": "ridley_scientistpractitioner_2015",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        7
+                    ]
+                ]
+            },
+            "keyword": "Methodology, Counseling, Counseling Psychology, Counselor Education, scientist–practitioner model, Clinical Psychology Graduate Training, integration of science and practice, multi-methods research, psychology training, training directors",
+            "note": "Publisher: Taylor & Francis",
+            "page": "235-263",
+            "title": "The scientist–practitioner model in counseling psychology programs: A survey of training directors",
+            "title-short": "The scientist–practitioner model in counseling psychology programs",
+            "type": "article-journal",
+            "volume": "28"
+        },
+        {
             "DOI": "10.1037/tep0000045",
             "ISSN": "1931-3918",
             "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2014-25072-001&site=ehost-live",
@@ -2127,6 +2356,618 @@
             "title-short": "The scientist-practitioner-advocate model",
             "type": "article-journal",
             "volume": "8"
+        },
+        {
+            "DOI": "10.1037/0003-066X.52.4.442",
+            "ISSN": "0003-066X",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=1997-03698-016&site=ehost-live",
+            "abstract": "The scientist-practitioner model assumes a commensurability between science and practice that often is absent in academic and practice settings. One approach to T. S. Kuhn’s (1962) concept of paradigm involves communities of social discourse, and within this approach, science and practice may be incommensurable. Current political forces appear to be increasing the distance between the 2 areas. However, another approach to paradigm sees it as a disciplinary matrix of shared understanding, and within this approach, science and practice can be complementary and synergistic. Theories such as behaviorism and psychoanalysis may be incommensurable, but science and practice are each components of both theories. However, for science and practice to be commensurable, the same theoretical matrix must generate both science and practice activities. Psychotherapy integration and the local clinical scientist model are seen as 2 developments that reduce the barriers between theories and activities and contribute to the commensurability of science and practice. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Stricker",
+                    "given": "George"
+                }
+            ],
+            "container-title": "American Psychologist",
+            "id": "stricker_are_1997",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        1997,
+                        4
+                    ]
+                ]
+            },
+            "keyword": "Psychology Education, Clinical Psychology, polarization between psychology training & clinical psychology practice",
+            "note": "Publisher: American Psychological Association",
+            "page": "442-448",
+            "title": "Are science and practice commensurable?",
+            "type": "article-journal",
+            "volume": "52"
+        },
+        {
+            "DOI": "10.1037/0003-066X.50.12.995",
+            "ISSN": "0003-066X",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=1996-15662-001&site=ehost-live",
+            "abstract": "The local clinical scientist brings the attitudes and knowledge base of the scientist to bear on the problems that must be addressed by the clinician in the consulting room. The problems of inadequate generalizability are reduced by a recognition of the value of local observations and local solutions to problems. However, these observations and solutions benefit by the scientific attitude of the clinician and are subjected to the same need for verifiability that greets all scientific enterprises. The clinical setting is viewed as analogous to a scientific laboratory, and, by doing so, the scientist-practitioner model is enacted. (PsycINFO Database Record (c) 2020 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Stricker",
+                    "given": "George"
+                },
+                {
+                    "family": "Trierweiler",
+                    "given": "Steven J."
+                }
+            ],
+            "container-title": "American Psychologist",
+            "id": "stricker_local_1995",
+            "issue": "12",
+            "issued": {
+                "date-parts": [
+                    [
+                        1995,
+                        12
+                    ]
+                ]
+            },
+            "keyword": "Humans, Research, Models, Experimentation, Communication, Psychologist Attitudes, Psychotherapy, Clinical Psychology, Psychology, Clinical, clinical psychologists, Interprofessional Relations, local clinical scientist model, Professional Practice, science & attitudes & clinical practice",
+            "note": "Publisher: American Psychological Association",
+            "page": "995-1002",
+            "title": "The local clinical scientist: A bridge between science and practice",
+            "title-short": "The local clinical scientist",
+            "type": "article-journal",
+            "volume": "50"
+        },
+        {
+            "DOI": "10.1037/0735-7028.31.5.562",
+            "ISSN": "0735-7028",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2000-02441-019&site=ehost-live",
+            "abstract": "Are the outcomes of clinical psychology training related to training model affiliation, and, if so, how? An examination of 134 accredited clinical psychology programs, espousing a clinical scientist, scientist–practitioner, or practitioner–scholar training philosophy as defined by training group membership, uncovered significant differences among training models across student and faculty activities as well as across employment setting and weekly employment activity outcomes. Suggestions for educators and consumers in their analyses of programs’ training activities and outcomes are offered. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Cherry",
+                    "given": "Donald K."
+                },
+                {
+                    "family": "Messenger",
+                    "given": "Laura C."
+                },
+                {
+                    "family": "Jacoby",
+                    "given": "Aaron M."
+                }
+            ],
+            "container-title": "Professional Psychology: Research and Practice",
+            "id": "cherry_examination_2000",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000,
+                        10
+                    ]
+                ]
+            },
+            "keyword": "Models, Program Evaluation, Clinical Psychology, Clinical Psychology Graduate Training, evaluation of training model in clinical psychology programs",
+            "note": "Publisher: American Psychological Association",
+            "page": "562-568",
+            "title": "An examination of training model outcomes in clinical psychology programs",
+            "type": "article-journal",
+            "volume": "31"
+        },
+        {
+            "DOI": "10.1177/0011000009339342",
+            "ISSN": "0011-0000, 1552-3861",
+            "URL": "http://journals.sagepub.com/doi/10.1177/0011000009339342",
+            "abstract": "This study collected information on the acceptance rates, admission standards, financial assistance, student characteristics, theoretical orientations, and select outcomes of American Psychological Association–accredited counseling psychology programs (99% response rate). Results are presented collectively for all 66 counseling programs as well as separately for practice-oriented PhD, equal-emphasis PhD, and research-oriented PhD programs. Practiceoriented programs accepted more applicants (29%) than equal-emphasis or research-oriented programs (19% and 17%); however, they offered less full funding (30%) than equal-emphasis (72%) or research-oriented programs (83%). Average Graduate Record Examination scores (594 quantitative, 552 verbal) and average grade point averages (3.57) were strong and similar across programs. Approximately 70% of incoming students were women, 29% ethnic and racial minorities, and 8% international students. On average, 89% of students secured an accredited internship as part of their 5.5-year-long program. The researchdriven portrait of doctoral training in counseling psychology is of highly competitive, multiculturally diverse, and theoretically pluralistic programs in which the training model does matter in several respects.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Norcross",
+                    "given": "John C."
+                },
+                {
+                    "family": "Evans",
+                    "given": "Krystle L."
+                },
+                {
+                    "family": "Ellis",
+                    "given": "Jeannette L."
+                }
+            ],
+            "container-title": "The Counseling Psychologist",
+            "id": "norcross_model_2010",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010,
+                        2
+                    ]
+                ]
+            },
+            "page": "257-268",
+            "title": "The Model Does Matter II: Admissions and Training in APA–Accredited Counseling Psychology Programs",
+            "title-short": "The Model Does Matter II",
+            "type": "article-journal",
+            "volume": "38"
+        },
+        {
+            "author": [
+                {
+                    "family": "Raimy",
+                    "given": "Victor C"
+                }
+            ],
+            "editor": [
+                {
+                    "literal": "Conference on Graduate Education in Clinical Psychology"
+                }
+            ],
+            "id": "conference_on_graduate_education_in_clinical_psychology_training_1950",
+            "issued": {
+                "date-parts": [
+                    [
+                        1950
+                    ]
+                ]
+            },
+            "note": "OCLC: 643632",
+            "publisher": "Prentice-Hall",
+            "publisher-place": "New York",
+            "title": "Training in clinical psychology,",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1037/0003-066X.47.1.71",
+            "ISSN": "0003-066X",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=1992-21285-001&site=ehost-live",
+            "abstract": "Reports on the National Conference on Scientist–Practitioner (SP) Education and Training for the Professional Practice of Psychology held January 16–20, 1990. The conference was held to define the essential characteristics of the SP model, which has served as the framework for many training programs in clinical psychology. Themes of the conference included necessity of the model, integration, and identification of SPs. A 9-point professional practice experiential core was proposed, and the integration of the basic scientific core with all coursework and other didactic and experiential components of the program was proved essential. The conference policy standard is appended. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Belar",
+                    "given": "Cynthia D."
+                },
+                {
+                    "family": "Perry",
+                    "given": "Nathan W."
+                }
+            ],
+            "container-title": "American Psychologist",
+            "id": "belar_national_1992",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        1992,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Psychology Education, Policy Making, summary & themes of & policy statement from National Conference on Scientist Practitioner Education & Training for Professional Practice of Psychology",
+            "note": "Publisher: American Psychological Association",
+            "page": "71-75",
+            "title": "The National Conference on Scientist-Practitioner Education and Training for the Professional Practice of Psychology",
+            "type": "article-journal",
+            "volume": "47"
+        },
+        {
+            "DOI": "10.1037/10103-029",
+            "ISBN": "978-1-55798-143-1",
+            "abstract": "The San Antonio conference on the core curriculum in professional psychology, sponsored by the National Council of Schools of Professional Psychology (NCSPP), adopted a detailed set of resolutions that appear in this chapter after some introductory comments. Four curricular values were explicitly identified: a broadened view of the educational domain of professional psychology; the existence of multiple ways of knowing; necessary mastery of professional knowledge, skills, and attitudes; and the preparation for lifelong learning. (PsycInfo Database Record (c) 2020 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "McHolland",
+                    "given": "James D."
+                }
+            ],
+            "container-title": "The core curriculum in professional psychology.",
+            "editor": [
+                {
+                    "family": "Peterson",
+                    "given": "Roger L."
+                },
+                {
+                    "family": "McHolland",
+                    "given": "James D."
+                },
+                {
+                    "family": "Bent",
+                    "given": "Russell J."
+                },
+                {
+                    "family": "Davis-Russell",
+                    "given": "Elizabeth"
+                },
+                {
+                    "family": "Edwall",
+                    "given": "Glenace E."
+                },
+                {
+                    "family": "Polite",
+                    "given": "Kenneth"
+                },
+                {
+                    "family": "Singer",
+                    "given": "David L."
+                },
+                {
+                    "family": "Stricker",
+                    "given": "George"
+                }
+            ],
+            "id": "mcholland_national_1992",
+            "issued": {
+                "date-parts": [
+                    [
+                        1992
+                    ]
+                ]
+            },
+            "keyword": "Curriculum, Scientific Communication, Clinical Psychology Graduate Training, conference, core curriculum, professional psychology training",
+            "page": "155-166",
+            "publisher": "American Psychological Association",
+            "publisher-place": "Washington, DC",
+            "title": "National Council of Schools of Professional Psychology core curriculum conference resolutions",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1002/j.2164-4918.1975.tb04075.x",
+            "ISSN": "0031-5737",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=1976-02847-001&site=ehost-live",
+            "abstract": "Discusses the recommendations of the 1973 conference on the future of applied psychology sponsored by the American Psychological Association and the National Institute of Mental Health. Areas considered include the importance of professionals being aware of and owning their value positions, the encouragement of additional professional training to meet the service needs of the diverse cultural populations served, the creation of service-oriented as well as research-oriented professional training programs, the conduct of both individual and program accreditation, the continuation of professional development, the identification and assessment of psychologists’ competencies, and emphasis on primary prevention. (23 ref) (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Ivey",
+                    "given": "Allen E."
+                },
+                {
+                    "family": "Leppaluoto",
+                    "given": "Jean R."
+                }
+            ],
+            "container-title": "Personnel & Guidance Journal",
+            "id": "ivey_changes_1975",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        1975,
+                        6
+                    ]
+                ]
+            },
+            "keyword": "Professional Standards, Applied Psychology, Professional Organizations, recommendations of 1973 Vail Conference & implications for professional counseling practice, role of applied psychologist",
+            "note": "Publisher: American Personnel & Guidance Association",
+            "page": "747-752",
+            "title": "Changes ahead Implications of the Vail Conference",
+            "type": "article-journal",
+            "volume": "53"
+        },
+        {
+            "DOI": "10.1037/h0036469",
+            "ISSN": "0003-066X",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=1974-30221-001&site=ehost-live",
+            "abstract": "Describes the major topics of discussion and resolutins of the National Conference on Levels and Patterns of Professional Training in Psychology held in Vail, Colorado, in July 1973. An attempt was made to define a professional training model, and relevant issues discussed include the priority of multilevel training programs, desirable characteristics of professional training, consumer needs, admission strategies, content of programs at the bachelor’s, master’s, and doctoral levels, faculty qualifications, evaluation and accreditation procedures, continuing education programs, minority recruitment and training, and social delivery systems. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Korman",
+                    "given": "Maurice"
+                }
+            ],
+            "container-title": "American Psychologist",
+            "id": "korman_national_1974",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        1974,
+                        6
+                    ]
+                ]
+            },
+            "keyword": "United States, Graduate Psychology Education, levels & patterns of professional training in psychology, National Conference",
+            "note": "Publisher: American Psychological Association",
+            "page": "441-449",
+            "title": "National conference on levels and patterns of professional training in psychology: The major themes",
+            "title-short": "National conference on levels and patterns of professional training in psychology",
+            "type": "article-journal",
+            "volume": "29"
+        },
+        {
+            "DOI": "10.1037/12068-007",
+            "ISBN": "978-1-4338-0458-8",
+            "abstract": "This chapter discusses the research and evaluation competency. In 2007, the National Council of Schools and Programs of Professional Psychology (NCSPP) created developmental achievement levels (DALs) for each core competency. Table 7.1 describes the domains of the research and evaluation competency and the knowledge, skills, and attitudes needed for each domain at the prepracticum, preintemship, and degree completion levels. This chapter focuses on the local clinical scientist and related training models for the research and evaluation competency and discusses some of the issues raised by this conceptualization. In particular, we focus on the ways the model has been misunderstood by contrasting it with its alternatives, highlighting some of the promising ways it has been implemented, and discussing the extensive work still needed to realize its potential. (PsycInfo Database Record (c) 2020 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Trierweiler",
+                    "given": "Steven J."
+                },
+                {
+                    "family": "Stricker",
+                    "given": "George"
+                },
+                {
+                    "family": "Peterson",
+                    "given": "Roger L."
+                }
+            ],
+            "container-title": "Competency-based education for professional psychology.",
+            "editor": [
+                {
+                    "family": "Kenkel",
+                    "given": "Mary Beth"
+                },
+                {
+                    "family": "Peterson",
+                    "given": "Roger L."
+                }
+            ],
+            "id": "trierweiler_research_2010",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010
+                    ]
+                ]
+            },
+            "keyword": "Models, Psychology Education, Academic Achievement, Professional Competence, Clinical Psychology Graduate Training, Achievement Potential, core competency, development achievement levels, Evaluation, research & evaluation competency, training models",
+            "page": "125-141",
+            "publisher": "American Psychological Association",
+            "publisher-place": "Washington, DC",
+            "title": "The research and evaluation competency: The local clinical scientist—Review, current status, future directions",
+            "title-short": "The research and evaluation competency",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1007/978-1-4899-1944-1",
+            "ISBN": "978-0-306-45654-1",
+            "abstract": "A workable vision of scientific practice has proven to be an elusive goal for professional psychology. Though outcome evaluation and the direct application of scientific findings are two notable examples of science’s influence, there remain great benefits to be had from the extension of specific scientific forms of thought directly into clinical practice. Unfortunately, despite organized psychology’s long-standing commitment to science, scientific methods are usually described in ways that discourage practitioners from incorporating them into their repertoire. To remedy the situation, the authors have written ’The Scientific Practice of Professional Psychology,’ a primer on the application of scientific logic to professional psychological practice. Their work introduces a major conceptual innovation: the local clinical scientist model. By demonstrating how scientific reliance on aggregate data can be reconciled with the unique and immediate demands of the clinic, this model brings the ideal of the scientist-practitioner within reach. This book will be of interest to clinicians, researchers, and students in clinical psychology, psychotherapy, counseling psychology, psychiatry, the philosophy of science, and social work. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Trierweiler",
+                    "given": "Steven J."
+                },
+                {
+                    "family": "Stricker",
+                    "given": "George"
+                }
+            ],
+            "collection-title": "Applied clinical psychology",
+            "id": "trierweiler_scientific_1998",
+            "issued": {
+                "date-parts": [
+                    [
+                        1998
+                    ]
+                ]
+            },
+            "keyword": "Methodology, Sciences, Clinical Psychology, application of traditional & nontraditional scientific methods & local clinical scientist model to practice of professional psychology",
+            "publisher": "Plenum Press",
+            "publisher-place": "New York, NY",
+            "title": "The scientific practice of professional psychology",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1037/10103-012",
+            "ISBN": "978-1-55798-143-1",
+            "abstract": "discuss the place of research training in the professional psychology curriculum / address two classes of concerns / first, we pay heed to traditional concerns about the professional’s ability to generate, interpret, and integrate scientific findings into professional practice / second, we attempt . . . to develop an image of the professional psychologist as a local clinical scientist, an individual whose task is to develop localized descriptions of clinical case phenomena that are scientifically accurate and that facilitate decisions about the relevance (fit) of various theoretical and research findings to that case the chapter is divided into four sections: the notion of local clinical scientific inquiry, research training goals, knowledge base in scientific and research methodology and practice, and pedagogy / our intention is not to develop a definitive argument for any given proposition but rather to raise issues for discussion in the professional community (PsycInfo Database Record (c) 2020 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Trierweiler",
+                    "given": "Steven J."
+                },
+                {
+                    "family": "Stricker",
+                    "given": "George"
+                }
+            ],
+            "container-title": "The core curriculum in professional psychology.",
+            "editor": [
+                {
+                    "family": "Peterson",
+                    "given": "Roger L."
+                },
+                {
+                    "family": "McHolland",
+                    "given": "James D."
+                },
+                {
+                    "family": "Bent",
+                    "given": "Russell J."
+                },
+                {
+                    "family": "Davis-Russell",
+                    "given": "Elizabeth"
+                },
+                {
+                    "family": "Edwall",
+                    "given": "Glenace E."
+                },
+                {
+                    "family": "Polite",
+                    "given": "Kenneth"
+                },
+                {
+                    "family": "Singer",
+                    "given": "David L."
+                },
+                {
+                    "family": "Stricker",
+                    "given": "George"
+                }
+            ],
+            "id": "trierweiler_research_1992",
+            "issued": {
+                "date-parts": [
+                    [
+                        1992
+                    ]
+                ]
+            },
+            "keyword": "Experimentation, Graduate Psychology Education, Clinical Methods Training, Evaluation, discusses training in research & evaluation competence",
+            "page": "103-113",
+            "publisher": "American Psychological Association",
+            "publisher-place": "Washington, DC",
+            "title": "Research and evaluation competency: Training the local clinical scientist",
+            "title-short": "Research and evaluation competency",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1093/oxfordhb/9780199874019.013.012",
+            "ISBN": "978-0-19-987401-9",
+            "URL": "https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199874019.001.0001/oxfordhb-9780199874019-e-012",
+            "abstract": "\"Training Models in Professional Psychology Doctoral Programs\" published on by Oxford University Press.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        10
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Bell",
+                    "given": "Debora J."
+                },
+                {
+                    "family": "Hausman",
+                    "given": "Estee M."
+                }
+            ],
+            "collection-title": "Oxford library of Psychology",
+            "container-title": "The Oxford Handbook of Education and Training in Professional Psychology",
+            "editor": [
+                {
+                    "family": "Johnson",
+                    "given": "W. Brad"
+                },
+                {
+                    "family": "Kaslow",
+                    "given": "Nadine"
+                }
+            ],
+            "id": "bell_training_2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        3
+                    ]
+                ]
+            },
+            "note": "ISBN: 9780199874019",
+            "title": "Training Models in Professional Psychology Doctoral Programs (Chapter 3)",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1177/0894845320957086",
+            "ISSN": "0894-8453, 1556-0856",
+            "URL": "http://journals.sagepub.com/doi/10.1177/0894845320957086",
+            "abstract": "Given the importance of career discernment in emerging adulthood, we evaluated an understudied career development approach for higher education students. Specifically, we tested the relationship between spiritual discernment exercises and sense of purpose and calling through the indirect effects of self-concept clarity, career decision self-efficacy, and knowledge of occupational information. Participants (N ¼ 127) were randomly assigned to one of the three conditions and were surveyed at a 10week interval. Results indicated significantly higher posttest scores for purpose (B ¼ .169, p ¼ .026) and calling (B ¼ .134, p ¼ .013) in the spiritual discernment condition compared to the general adjustment (i.e., control) and traditional career development conditions. Mediation analyses also revealed a significant indirect effect of self-concept clarity on sense of purpose (Bab ¼ .059, p ¼ .033). These findings suggest that spiritual discernment practices can significantly enhance the effectiveness of career development interventions for discerning purpose and calling.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        11
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Campanario",
+                    "given": "Scott C."
+                },
+                {
+                    "family": "Bikos",
+                    "given": "Lynette H."
+                },
+                {
+                    "family": "Kendall",
+                    "given": "Dana L."
+                }
+            ],
+            "container-title": "Journal of Career Development",
+            "id": "campanario_ignatian_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        9
+                    ]
+                ]
+            },
+            "page": "089484532095708",
+            "title": "Ignatian Spirituality and Career Development: New Evidence for Age-Old Practices",
+            "title-short": "Ignatian Spirituality and Career Development",
+            "type": "article-journal"
         },
         {
             "URL": "https://rpubs.com/tomhopper/r_intro_measurement",
@@ -2893,6 +3734,37 @@
             },
             "title": "New law lets Washington cyclists treat stop signs as yield signs. It’s not a crazy idea",
             "type": "article-journal"
+        },
+        {
+            "URL": "https://www.seattlebikeblog.com/2020/03/05/with-bipartisan-house-vote-washington-on-verge-of-joining-idaho-and-oregon-by-allowing-people-biking-to-treat-stop-signs-as-yield-signs/",
+            "abstract": "The “safety stop,” also known as the “Idaho stop,” is on the verge of becoming law in Washington State. That means people biking will soon be able to legally treat stop sign…",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        9,
+                        22
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Fucoloro",
+                    "given": "Tom"
+                }
+            ],
+            "container-title": "Seattle Bike Blog",
+            "id": "fucoloro_bipartisan_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        3
+                    ]
+                ]
+            },
+            "title": "With bipartisan House vote, Washington on verge of joining Idaho and Oregon by allowing people biking to treat stop signs as yield signs",
+            "type": ""
         },
         {
             "URL": "https://www.bellinghamherald.com/news/traffic/rules-of-the-road/article245802390.html",
@@ -4780,6 +5652,295 @@
             "publisher-place": "Boston",
             "title": "One-Way Analysis of Covariance (Lesson 27)",
             "type": "chapter"
+        },
+        {
+            "DOI": "10.1037/e501962018-001",
+            "URL": "https://www.apa.org/about/policy/multicultural-guidelines.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        11,
+                        10
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "dropping-particle": "on",
+                    "family": "Re-envisioning the Multicultural Guidelines for the 21st Century",
+                    "given": "Task Force"
+                }
+            ],
+            "id": "task_force_on_re-envisioning_the_multicultural_guidelines_for_the_21st_century_multicultural_2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "note": "type: dataset",
+            "number": "501962018-001",
+            "publisher": "American Psychological Association",
+            "title": "Multicultural Guidelines: An Ecological Approach to Context, Identity, and Intersectionality",
+            "title-short": "Multicultural Guidelines",
+            "type": "report"
+        },
+        {
+            "DOI": "10.1037/a0024659",
+            "ISSN": "1935-990X, 0003-066X",
+            "URL": "http://doi.apa.org/getdoi.cfm?doi=10.1037/a0024659",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        11,
+                        11
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "American Psychological Association"
+                }
+            ],
+            "container-title": "American Psychologist",
+            "id": "american_psychological_association_guidelines_2012",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        1
+                    ]
+                ]
+            },
+            "page": "10-42",
+            "title": "Guidelines for psychological practice with lesbian, gay, and bisexual clients.",
+            "type": "article-journal",
+            "volume": "67"
+        },
+        {
+            "DOI": "10.1037/a0039906",
+            "ISSN": "1935-990X, 0003-066X",
+            "URL": "http://doi.apa.org/getdoi.cfm?doi=10.1037/a0039906",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        11,
+                        11
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "American Psychological Association"
+                }
+            ],
+            "container-title": "American Psychologist",
+            "id": "american_psychological_association_guidelines_2015",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        12
+                    ]
+                ]
+            },
+            "page": "832-864",
+            "title": "Guidelines for psychological practice with transgender and gender nonconforming people.",
+            "type": "article-journal",
+            "volume": "70"
+        },
+        {
+            "DOI": "10.1037/amp0000240",
+            "ISSN": "0003-066X",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2018-06770-003&site=ehost-live",
+            "abstract": "Open access is fast becoming the norm across science. Sharing research data broadly has the potential to accelerate scientific progress, optimize the value of data, and promote scientific integrity. However, data sharing also poses new practical and ethical challenges to the conduct of research with human participants. This article provides an overview of how open access to research data has impacted the core principles of research ethics—respect for persons, beneficence, and justice—and, in turn, how a reinterpretation of these principles translates to procedures for the protection of the rights and wellbeing of human research participants. (PsycINFO Database Record (c) 2018 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        11,
+                        15
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Ross",
+                    "given": "Michael W."
+                },
+                {
+                    "family": "Iguchi",
+                    "given": "Martin Y."
+                },
+                {
+                    "family": "Panicker",
+                    "given": "Sangeeta"
+                }
+            ],
+            "collection-title": "Data Sharing in Psychology",
+            "container-title": "American Psychologist",
+            "id": "ross_ethical_2018",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        2
+                    ]
+                ]
+            },
+            "keyword": "Psychology, Well Being, Experimental Subjects, data sharing, Data Sharing, 2018, data access, Ethics, group harms, Justice, research participant protections, Respect",
+            "note": "Place: US Publisher: American Psychological Association",
+            "page": "138-145",
+            "title": "Ethical aspects of data sharing and research participant protections",
+            "type": "article-journal",
+            "volume": "73"
+        },
+        {
+            "URL": "https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html",
+            "abstract": "Federal Policy for the Protection of Human Subjects or the “Common Rule”",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        11,
+                        17
+                    ]
+                ]
+            },
+            "container-title": "HHS.gov",
+            "genre": "Text",
+            "id": "noauthor_federal_2009",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009,
+                        6
+                    ]
+                ]
+            },
+            "note": "Last Modified: 2016-03-18 00:00:00",
+            "title": "Federal Policy for the Protection of Human Subjects (’Common Rule",
+            "type": ""
+        },
+        {
+            "DOI": "10.3389/fpsyg.2018.00256",
+            "ISSN": "1664-1078",
+            "PMCID": "PMC5835722",
+            "PMID": "29541051",
+            "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5835722/",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        11,
+                        17
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Hengartner",
+                    "given": "Michael P."
+                }
+            ],
+            "container-title": "Frontiers in Psychology",
+            "id": "hengartner_raising_2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        2
+                    ]
+                ]
+            },
+            "title": "Raising Awareness for the Replication Crisis in Clinical Psychology by Focusing on Inconsistencies in Psychotherapy Research: How Much Can We Rely on Published Findings from Efficacy Trials?",
+            "title-short": "Raising Awareness for the Replication Crisis in Clinical Psychology by Focusing on Inconsistencies in Psychotherapy Research",
+            "type": "article-journal",
+            "volume": "9"
+        },
+        {
+            "DOI": "10.1016/j.jesp.2016.03.004",
+            "ISSN": "0022-1031",
+            "URL": "http://www.sciencedirect.com/science/article/pii/S0022103116301925",
+            "abstract": "Pre-registration of studies before they are conducted has recently become more feasible for researchers, and is encouraged by an increasing number of journals. However, because the practice of pre-registration is relatively new to psychological science, specific guidelines for the content of registrations are still in a formative stage. After giving a brief history of pre-registration in medical and psychological research, we outline two different models that can be applied—reviewed and unreviewed pre-registration—and discuss the advantages of each model to science as a whole and to the individual scientist, as well as some of their drawbacks and limitations. Finally, we present and justify a proposed standard template that can facilitate pre-registration. Researchers can use the template before and during the editorial process to meet article requirements and enhance the robustness of their scholarly efforts.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        11,
+                        17
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "dropping-particle": "van ’t",
+                    "family": "Veer",
+                    "given": "Anna Elisabeth"
+                },
+                {
+                    "family": "Giner-Sorolla",
+                    "given": "Roger"
+                }
+            ],
+            "collection-title": "Special issue: Confirmatory",
+            "container-title": "Journal of Experimental Social Psychology",
+            "id": "van_t_veer_pre-registration_2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        11
+                    ]
+                ]
+            },
+            "keyword": "Pre-registration, Research methods, Reviewed pre-registration (RPR), Solid science, Unreviewed pre-registration (UPR)",
+            "page": "2-12",
+            "title": "Pre-registration in social psychology—A discussion and suggested template",
+            "type": "article-journal",
+            "volume": "67"
+        },
+        {
+            "DOI": "10.3389/fpsyg.2017.00862",
+            "ISSN": "1664-1078",
+            "URL": "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00862/full",
+            "abstract": "Replicability and Reproducibility in Comparative Psychology",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        11,
+                        17
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Stevens",
+                    "given": "Jeffrey R."
+                }
+            ],
+            "container-title": "Frontiers in Psychology",
+            "id": "stevens_replicability_2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "keyword": "Pre-registration, animal research, comparative psychology, Replication, Reproducible Research",
+            "note": "Publisher: Frontiers",
+            "title": "Replicability and Reproducibility in Comparative Psychology",
+            "type": "article-journal",
+            "volume": "8"
         },
         {
             "DOI": "10.1037/1082-989X.12.2.121",
@@ -8078,7 +9239,7 @@
                     ]
                 ]
             },
-            "keyword": "Community college, Critical entrepreneurship, Social cognitive career theory, STEM education, Underrepresented students",
+            "keyword": "Social cognitive career theory, Community college, Critical entrepreneurship, STEM education, Underrepresented students",
             "page": "103350",
             "title": "A programmatic intervention to promote entrepreneurial self-efficacy, critical behavior, and technology readiness among underrepresented college students",
             "type": "article-journal",
@@ -8130,10 +9291,341 @@
                     ]
                 ]
             },
-            "keyword": "Behavioral intention, No terms assigned, Social distance, Theory of planned behavior, Withdrawn behavior",
+            "keyword": "No terms assigned, Behavioral intention, Social distance, Theory of planned behavior, Withdrawn behavior",
             "note": "Publisher: Springer",
             "title": "Impact of inclusive soccer program on psychosocial development of children with and without intellectual disabilities",
             "type": "article-journal"
+        },
+        {
+            "DOI": "10.1037/1931-3918.S.1.37",
+            "ISSN": "1931-3918",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2006-10050-004&site=ehost-live",
+            "abstract": "This reprinted article originally appeared in American Psychologist, 1995, Vol 50(12), 995-1002 (see record [rid]1996-15662-001[/rid]). The local clinical scientist brings the attitudes and knowledge base of the scientist to bear on the problems that must be addressed by the clinician in the consulting room. The problems of inadequate generalizability are reduced by a recognition of the value of local observations and local solutions to problems. However, these observations and solutions benefit by the scientific attitude of the clinician and are subjected to the same need for verifiability that greets all scientific enterprises. The clinical setting is viewed as analogous to a scientific laboratory, and, by doing so, the scientist-practitioner model is enacted. (PsycINFO Database Record (c) 2017 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Stricker",
+                    "given": "George"
+                },
+                {
+                    "family": "Trierweiler",
+                    "given": "Steven J."
+                }
+            ],
+            "container-title": "Training and Education in Professional Psychology",
+            "id": "stricker_local_2006",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006,
+                        8
+                    ]
+                ]
+            },
+            "keyword": "Models, Sciences, Psychologist Attitudes, Psychologists, Clinical Psychology, science, Scientists, clinical psychologists, Clinicians, attitudes, clinical practice, local clinical scientist, model",
+            "note": "Publisher: Educational Publishing Foundation",
+            "page": "37-46",
+            "title": "The local clinical scientist: A bridge between science and practice",
+            "title-short": "The local clinical scientist",
+            "type": "article-journal",
+            "volume": "S"
+        },
+        {
+            "DOI": "10.1037/11281-000",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2006-21565-000&site=ehost-live",
+            "abstract": "This monograph is an expansion of lectures given in the years 1947-1950 to graduate colloquia at the universities of Chicago, Iowa, and Wisconsin, and of a lecture series delivered to staff and trainees at the Veterans Administration Mental Hygiene Clinic at Ft. Snelling, Minnesota. Perhaps a general remark in clarification of my own position is in order. Students in my class in clinical psychology have often reacted to the lectures on this topic as to a protective technique, complaining that I was biased either for or against statistics (or the clinician), depending mainly on where the student himself stood! This I have, of course, found very reassuring. One clinical student suggested that I tally the pro-con ratio for the list of honorific and derogatory adjectives in Chapter 1 (page 4), and the reader will discover that this unedited sample of my verbal behavior puts my bias squarely at the midline. The style and sequence of the paper reflect my own ambivalence and real puzzlement, and I have deliberately left the document in this discursive form to retain the flavor of the mental conflict that besets most of us who do clinical work but try to be scientists. I have read and heard too many rapid-fire, once-over-lightly ’resolutions’ of this controversy to aim at contributing another such. The thing is just not that simple. I was therefore not surprised to discover that the same sections which one reader finds obvious and over-elaborated, another singles out as especially useful for his particular difficulties. My thesis in a nutshell: ’There is no convincing reason to assume that explicitly formalized mathematical rules and the clinician’s creativity are equally suited for any given kind of task, or that their comparative effectiveness is the same for different tasks. Current clinical practice should be much more critically examined with this in mind than it has been.’ (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Meehl",
+                    "given": "Paul E."
+                }
+            ],
+            "id": "meehl_clinical_1954",
+            "issued": {
+                "date-parts": [
+                    [
+                        1954
+                    ]
+                ]
+            },
+            "keyword": "Statistics, Clinical Psychology, clinical predictions, Prediction, statistical predictions",
+            "publisher": "University of Minnesota Press",
+            "publisher-place": "Minneapolis, MN",
+            "title": "Clinical versus statistical prediction: A theoretical analysis and a review of the evidence",
+            "title-short": "Clinical versus statistical prediction",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "McFall",
+                    "given": "Richard M."
+                }
+            ],
+            "container-title": "Clinical Psychologist",
+            "id": "mcfall_manifesto_1991",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        1991
+                    ]
+                ]
+            },
+            "page": "75-88",
+            "title": "Manifesto for a Science of Clinical Psychology",
+            "type": "article-journal",
+            "volume": "44"
+        },
+        {
+            "DOI": "10.1111/j.1539-6053.2009.01036.x",
+            "ISSN": "1529-1006, 1539-6053",
+            "URL": "http://journals.sagepub.com/doi/10.1111/j.1539-6053.2009.01036.x",
+            "abstract": "The escalating costs of health care and other recent trends have made health care decisions of great societal import, with decision-making responsibility often being transferred from practitioners to health economists, health plans, and insurers. Health care decision making increasingly is guided by evidence that a treatment is efﬁcacious, effective–disseminable, cost-effective, and scientiﬁcally plausible. Under these conditions of heightened cost concerns and institutional–economic decision making, psychologists are losing the opportunity to play a leadership role in mental and behavioral health care: Other types of practitioners are providing an increasing proportion of delivered treatment, and the use of psychiatric medication has increased dramatically relative to the provision of psychological interventions.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Baker",
+                    "given": "Timothy B."
+                },
+                {
+                    "family": "McFall",
+                    "given": "Richard M."
+                },
+                {
+                    "family": "Shoham",
+                    "given": "Varda"
+                }
+            ],
+            "container-title": "Psychological Science in the Public Interest",
+            "id": "baker_current_2008",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008,
+                        11
+                    ]
+                ]
+            },
+            "page": "67-103",
+            "title": "Current Status and Future Prospects of Clinical Psychology: Toward a Scientifically Principled Approach to Mental and Behavioral Health Care",
+            "title-short": "Current Status and Future Prospects of Clinical Psychology",
+            "type": "article-journal",
+            "volume": "9"
+        },
+        {
+            "URL": "https://digitalcommons.spu.edu/iop_etd/18",
+            "author": [
+                {
+                    "family": "Campanario",
+                    "given": "Scott"
+                }
+            ],
+            "genre": "Dissertation",
+            "id": "campanario_ignatian_2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        7
+                    ]
+                ]
+            },
+            "title": "Ignatian Spirituality in Vocational Career Development: An Experimental Study of Emerging Adults",
+            "title-short": "Ignatian Spirituality in Vocational Career Development",
+            "type": "thesis"
+        },
+        {
+            "URL": "https://conjointly.com/kb/multitrait-multimethod-matrix/",
+            "abstract": "The Multitrait-Multimethod Matrix (hereafter labeled MTMM) is an approach to assessing the construct validity of a set of measures in a study.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Trochim",
+                    "given": "William M. K."
+                }
+            ],
+            "id": "trochim_multitrait-multimethod_nodate",
+            "title": "Multitrait-Multimethod Matrix",
+            "type": ""
+        },
+        {
+            "URL": "https://www.apa.org/about/policy/multicultural-guidelines-archived.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Association",
+                    "given": "American Psychological"
+                }
+            ],
+            "id": "american_psychological_association_guidelines_2002",
+            "issued": {
+                "date-parts": [
+                    [
+                        2002
+                    ]
+                ]
+            },
+            "title": "Guidelines on Multicultural Education, Training, Research, Practice, and Organizational Change for Psychologists",
+            "type": "report"
+        },
+        {
+            "URL": "https://www.apa.org/about/policy/guidelines-race-ethnicity.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "dropping-particle": "on",
+                    "family": "Race and Ethnicity Guidelines in Psychology",
+                    "given": "APA Task Force"
+                }
+            ],
+            "id": "apa_task_force_on_race_and_ethnicity_guidelines_in_psychology_apa_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "publisher": "American Psychological Association",
+            "title": "APA Guidelines on Race and Ethnicity in Psychology",
+            "type": "report"
+        },
+        {
+            "URL": "https://statistics.stanford.edu/sites/g/files/sbiybj6031/f/EFS%20NSF%20474.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Buckheit",
+                    "given": "Jonathan B."
+                },
+                {
+                    "family": "Donoho",
+                    "given": "David L."
+                }
+            ],
+            "id": "buckheit_wavelab_1995",
+            "issued": {
+                "date-parts": [
+                    [
+                        1995
+                    ]
+                ]
+            },
+            "number": "Technical Report No. 474",
+            "publisher": "Stanford University",
+            "publisher-place": "Stanford California",
+            "title": "Wavelab and Reproducible Research",
+            "type": "report"
+        },
+        {
+            "URL": "https://www.hhs.gov/ohrp/regulations-and-policy/regulations/finalized-revisions-common-rule/index.html",
+            "abstract": "Revised Common Rule",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Protections (OHRP)",
+                    "given": "Office for Human Research"
+                }
+            ],
+            "container-title": "HHS.gov",
+            "genre": "Text",
+            "id": "protections_ohrp_revised_2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        1
+                    ]
+                ]
+            },
+            "note": "Last Modified: 2021-06-16T15:20:24-0400",
+            "title": "Revised Common Rule",
+            "type": ""
+        },
+        {
+            "URL": "https://nces.ed.gov/surveys/hsb/",
+            "abstract": "The HS&B descriptive report describes the educational attainment, employment outcomes, and family formation of the 1980 sophomore class in 1992, ten years after most of the students in that cohort graduated from high school",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        7
+                    ]
+                ]
+            },
+            "id": "noauthor_high_nodate",
+            "note": "Publisher: National Center for Education Statistics",
+            "title": "High School & Beyond (HS&B) - Overview",
+            "type": ""
         }
     ],
     "project_biblios": [
