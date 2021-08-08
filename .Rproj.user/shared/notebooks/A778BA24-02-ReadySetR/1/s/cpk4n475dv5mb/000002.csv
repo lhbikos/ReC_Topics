@@ -1,0 +1,2 @@
+"0","#opening an Excel file (which must, first, be saved as a .csv file)"
+"0","from_CSV <- read.csv (""to_CSV.csv"", header = TRUE)"
