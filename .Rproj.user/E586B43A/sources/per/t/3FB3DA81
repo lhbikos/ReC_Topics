@@ -3,9 +3,9 @@
     "path": "C:/Users/lhbikos/OneDrive - Seattle Pacific University/ReCenterPsychStats/ReCenterPsychStats/03-waRmup.Rmd",
     "project_path": null,
     "type": "r_markdown",
-    "hash": "277525944",
+    "hash": "278987382",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1628373820375.0,
     "source_on_save": false,
     "relative_order": 7,
@@ -16,11 +16,11 @@
         "scrollLine": "184"
     },
     "folds": "",
-    "lastKnownWriteTime": 1628382578,
+    "lastKnownWriteTime": 1628553727,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1628382630616,
+    "last_content_update": 1628985268937,
     "read_only": false,
     "read_only_alternatives": []
 }
