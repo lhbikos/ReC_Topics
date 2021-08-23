@@ -1283,6 +1283,518 @@ sessionInfo()
 
 <!--chapter:end:04-Experimentation.Rmd-->
 
+# The Case Study and Single Case Design {#SingleCase}
+
+[Screencasted Lecture Link](HTTPS://SPU.HOSTED.PANOPTO.COM/PANOPTO/PAGES/VIEWER.ASPX?PID=5876A17E-CAF9-4E67-BA30-AAD2016A7C9C) 
+ 
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+options(scipen=999)#eliminates scientific notation
+```
+
+This lesson provides an overview of the case study approach to research ranging from the anecdotal/uncontrolled case study to experimentation in *N* of 1 studies. We also spend a moment considering how we might integrate some of these methodologies in practice.
+
+## Navigating this Lesson
+
+There is about 45 minutes of lecture.  
+
+### Learning Objectives
+
+Learning objectives from this lecture include the following:
+
+* Evaluate *N* of 1 experiments with statistical criteria
+* List strengths and weaknesses of single case designs
+* Describe potential application of the *N* of 1 approach to practice
+* Perspectives from philosophy of science
+
+
+### Readings & Resources
+
+In preparing this chapter, I drew heavily from the following resource(s). Other resources are cited (when possible, linked) in the text with complete citations in the reference list.
+
+* Jhangiani et al. (2019): 
+  - Overview of single-subject research (44), 
+  - Single-subject research designs (45),
+  - The single-subject versus group “debate” (46);
+* Borckardt, J. J., Nash, M. R., Murphy, M. D., Moore, M., Shaw, D., & O’Neil, P. (2008). Clinical practice as natural laboratory for psychotherapy research. American Psychologist, 63, 77-95. doi:10.1037/0003-066X.63.2.77
+  - An example of a statistical advance in N of 1 approaches .  Consider this to be an introduction to save in your backpocket…you won’t have to do it while you are in grad school (but you could if you wanted to do an N of 1 research project or dissertation).
+  
+
+## The Anecdotal and Uncontrolled Case Study
+
+Has a rich and deep place in history and offers a continuum between anecdotal and uncontrolled to true experiments.
+
+### Why Bother with the Anecdotal/Uncontrolled Case Study?
+
+* source of hypotheses 
+* source for developing therapy/treatment techniques
+* study of rare phenomena
+  - Consider the [story](http://www.slate.com/articles/health_and_science/science/2014/05/phineas_gage_neuroscience_case_true_story_of_famous_frontal_lobe_patient.html) of Phineas Gage  
+  - As well as [emerging opportunities](http://www.npr.org/templates/story/story.php?storyId=113834285) for discovery
+* providing a counter-instance for notions that are considered to be universally applicable
+* selected systematically to prove a point (also a weakness)
+
+### Limitations of the (uncontrolled, anecdotal) Case Study
+
+* self-report, anecdotal nature questions objectivity
+* threats to internal validity
+  - history, maturation, testing, instrumentation, statistical regression, selection biases, attrition, combo, diffusion or imitation of treatment
+* threats to external validity
+  - absence of standard or replicable procedures.
+
+## Single Case Designs
+
+"As true experiments, single-case designs can demonstrate causal relations and can rule out or make implausible threats to validity with the same elegance of group research" [@kazdin_research_2017, p. 273]. 
+
+Three elements to the single case experiment:
+
+* **Continuous Assessment**:  Observations on multiple occasions over time prior to and during the period in which the intervention is administered.
+  - a distinguishing difference between group (between-group) and single-case research. In the between-group research, there is usually a pre- and post- test given to a treatment and control group.
+  - provides several observations over time to allow the comparisons of interest.
+* **Baseline Assessment**:  Assessment for a period of time prior to implementation of the intervention.
+  - allows *descriptive* (provides info about the extent of the client’s problem) and *predictive* (serves as basis for establishing predictions for performance) functions.
+* **Continuous Assessment**:  Observations on multiple occasions over time prior to and during the period in which the intervention is administered.
+  - a distinguishing difference between group (between-group) and single-case research. In the between-group research, there is usually a pre- and post- test given to a treatment and control group.
+  - provides several observations over time to allow the comparisons of interest.
+
+## Experimental Design Strategies
+
+### ABAB Designs
+
+A family of experimental arrangements in which continuous observations of performance are made over time for a given client (or group of clients). Over the course of the investigation, changes are made in the experimental conditions to which the client is exposed.
+
+* sometimes termed a reversal design because the phases are reversed to demonstrate the effect of the program.
+* causality is demonstrated by showing that the behavior reverts to or approaches the original baseline after the intervention is withdrawn or altered (during the second A phase).
+  - no reversal, no causality
+* ethical issues:  
+  - Do we withdraw a treatment that’s working well? 
+  - Do we really shout for joy when withdrawal of the treatment results in deterioration of behavior?
+
+### Multiple Baseline Designs
+
+Demonstrates the effectiveness of an intervention by showing that the behavior change accompanies introduction of the intervention at different points in time.
+
+* That is, once the intervention is presented, it need not be withdrawn or altered to reverse behavior to or near baseline levels. Thus, the clinical utility of the design is not limited by the problems of reverting behavior to pretreatment levels.
+* Key feature: evaluation of change across different baselines. The intervention is introduced to the different baselines at different points in time. Ideally, change occurs when the intervention is introduced in sequence to each of the baselines.
+* Each behavior is observed and graphed separately.
+* Many versions:  Sometimes baselines may represent different behaviors, individuals, situations.
+* Ideally behaviors still exposed to the baseline condition do not change until the intervention is applied. If they do, it suggests that the intervention may not have been responsible for change. Rather, extraneous factors (history, testing) may have led to the change.  Sometimes there are generalized effects; not ideal.
+
+
+### Changing-Criteria Designs
+
+* Demonstrates the effect of an intervention by showing that behavior changes in increments to match a performance criterion. 
+* A causal relation between an intervention and behavior is demonstrated if behavior matches a constantly changing criterion for performance over the course of treatment.
+* Once performance consistently meets the criterion, the criterion is made more stringent. The effect of the intervention is demonstrated if behavior matches a criterion as the criterion is changed.
+* Kazdin writes that the changing-criterion design is less powerful because the effects of extraneous events could account for a general increase or decrease in behavior. If the researcher can show a unilateral change in behavior over time, causality is better supported.
+
+## The Big Debate:  Evaluating Data in Single-Case Designs
+
+|Visual Inspection       |Statistical Evaluation          
+|:-----------------------|:-------------------------|
+|(traditional) preference of *n* = 1 investigators | available |
+|seems sacrilegious to many | provides greater assurance of objectivity (at least on the face of it) | 
+|more consistent with the clinical picture|  | 
+
+Kazdin's text identified four criteria for evaluating the single-case design [-@kazdin_research_2017].
+
+
+
+|Criteria for Data Evaluation in Single-Case Designs 
+|:--------------------------|:------------------------------------------------|
+|Changes in means (averages)|The mean rate of the behavior shows a change from phase to phase in the expected direction.| 
+|Change in level |When one phase changes to another, a level refers to the change in behavior from the last day of one phase (baseline) and the first day of the next phase (intervention). An abrupt shift facilitates data interpretation.|
+|Change in slope (trend) |The speed with which change occurs once the conditions are changed (baseline to intervention, intervention back to baseline).|
+|Latency of change | The speed with which change occurs once the conditions are changed (baseline to intervention, intervention back to baseline).|
+
+### Evaluating Single Case Study Designs
+
+The lecture reviews a series of graphs and describes how they connect back to the criteria. Owing to concerns of including copyrighted material in this printed copy, I am omitting those from this portion of the lesson.
+
+These, though, are the notesthat go with each of the examples:
+
+In the weight loss example (a graph showing a steady deline of weight over 5 weeks):
+
+* Data is objective
+* Not continuous
+* Stability of problem not demonstrated with abaseline period of observation
+* Lacks multiple cases
+* Cannot rule out:  history, maturation, testing, instrumentation, statistical regression toward the mean.
+
+
+In the "flatulent thoughts" example, there is a period of baseline characterized by 12-21 thoughts per day with a good deal of variability. Once treatment starts, there is a variable progression downard.  There is a break and then follow up observation where the thoughts remain low (5-7 a day).
+
+* Data is objective
+* Continuous observation
+* Stability of problem is demonstrated
+* Immediate and marked effects demonstrated
+* Lacks multiple cases
+* Cannot rule out:  history, maturation
+* Good controls for testing, instrumentation, statistical regression toward the mean
+
+In the agoraphobia example there is a period of baseline where there was no actiity spent outside the house.  There is a period of intervention where there is a substantial increase.  Then aperiod of two-month followup with increased activy and agreat deal of variability.  Then 18-months follow-up.
+
+* Data is objective
+* Continuous observation
+* Stability of problem demonstrated
+* Lacks multiple cases
+* Cannot rule out:  history, maturation, 
+* Controls for testing, instrumentation, statistical regression toward the mean.
+
+In the bedwetting example there is pretraining during the baseline period.  There is an substantial and immediate drop in level when trainng begins and continued success that follows.
+
+* Data is objective
+* Continuous observation
+* Stability of problem demonstrated
+* Contains multiple cases
+* Controls for history, maturation, testing, instrumentation, statistical regression toward the mean
+
+## Case-Based Time-Series Analysis
+
+"…the *practitioner-generated* case-based time-series design with baseline measurement fully qualifies as a true experiment and that it ought to stand alongside the more common group designs (e.g., RCT) as a viable approach to expanding our knowledge about whether, how, and for whom psychotherapy works." [@borckardt_clinical_2008, p. 77].
+
+### The Trouble with Interpreting *N* = 1
+
+* Neither visual inspection nor conventional statistics are to be relied on for analyzing single-patient time-series studies” (p. 82).
+* The problem:  auto-correlation
+  - Observations are auto-correlated if the value of one observation depends (at least in part) on the value of one or more of the immediately preceding observations. 
+* *Simulation-modeling analysis* (SMA) as a technique for analyzing N = 1, time-series data
+
+Borckardt et al. [-@borckardt_clinical_2008] provided an example of pain intervention. Please refer to the tables and figures in the Borckardt et al. article.
+
+* Use Pearson r to calculate the Lag 1 autocorrelation. Result for baseline & treatment:  r = .85.
+  - A Lag 1 correlation is the degree to which an observation at Time K predicts the observation that comes immediately after it (at Time K + 1). The Lag 1 correlation is simply the correlation between each data point and the point immediately following it.
+* The research question: Is the decrease in pain from baseline (M = 7.78) through tx (M = 3.29) statistically significant?
+* SMA says yes: r (44) = -.69, p = .049, even after controlling for autocorrelation. 
+
+SMA answers the question, “mere random variation of pain reports is an unlikely explanation of the phase difference from baseline to treatment, EVEN AFTER controlling for autocorrelation (that is, even after autocorrelation, there is systematic variation in the data and we will attribute it to our intervention).
+
+Another example:  What would behavioral activation theory suggest about the relationship between mood and social engagement?  Cross-lagged correlations can be used to determine the direction of change. In this case, does change in mood precede behavioral activation, or vice versa?  The article includes three examples, an instructional appendix, and a [link](http://clinicalresearcher.org) to free SMA software.
+
+## Incorporating Systematic Evaluation into Clinical Practice
+
+* Assess and establish treatment goals[@morgan_single-participant_2001]
+  - Clear, specific, explicit.
+* Specify and assess procedures and processes
+  - Name the means and processes that are expected to lead to therapeutic change.
+* Select credible measures
+  - Identify or develop instruments, scales, measures. 
+* Regular, continuous, ongoing assessment 
+  - Any concerns from internal/external threats to validity? Testing effects?  Not an issue if they are part-n-parcel to treatment.
+* Evaluate data/outcomes
+  - Maybe SHARE it with client. 
+  - Linda McDaniels’ example of the Parent Trust client who was so excited to rate herself at the next level.
+
+### Kazdin's [-@kazdin_research_2017] *Gloria Case*
+
+Kazdin retells the case of clinical that asked clients to self-assess at each visit. Kazdin's text had three graphs -- two of established measures and a third of the "G-scale," which represented Gloria's self-rating of progress.
+
+A copy of the scale is shown in the lecture and available in  Kazdin's text.  Consider these questions:
+
+* How did the Clinician attempt to systematic ally evaluate the Clinical Practice?
+* How are evaluation/methods issues similar/different to clinical/case conceptualization issues.
+* How credible is the G scale? 
+* Can you imagine doing this in YOUR practice?
+* With what types of clients/circumstances might this work or not work?
+* Looking at Figure 11.5, what can you say about means, level, slope, and latency of change?
+
+## From the Perspective of Philosophy of Science
+
+Morgan and Morgan [-@morgan_single-participant_2001] addressed the push and pull between statistical/group designs and the single case design.
+
+* Role of *variability* is the key. 
+* *Variability* is an irreducible property of natural phenomena (Gould 1996).
+  - Empirical statistical studies seek to neutralize variance.  We owe this to Plato who saw variation as accidental; ideals lived on a higher plane. 
+	- *N* = 1 studies *exploit variability*, to provide pivotal information about the impact of the IV over time.  We owe this to Darwin’s grand unification theory (genetic variation serves as the raw materials on which selective pressures can operate over time).
+
+"It is difficult to envision a clinical application, at least within psychology, medicine, or other service –oriented disciplines, for which the purported goal is the alteration of group means. [-@morgan_single-participant_2001], p. 123].
+
+```{r include=FALSE}
+sessionInfo()
+```
+
+
+
+<!--chapter:end:05-SingleCase.Rmd-->
+
+# Quick Qualitative Introduction {#Qualitative}
+
+[Screencasted Lecture Link](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=fe82fd33-43da-4ad6-afeb-aad2016db360) 
+ 
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(comment = NA) #keeps out the hashtags in the knits
+options(scipen=999)#eliminates scientific notation
+```
+
+Qualitative research methods is a huge topic. There are a number of different approaches (that span an array of philosophies of science) and so is impossible to address properly in an hour-long review.  In this short time, we will start with a bit of qualitative history that applies directly to pscyhology. I will demonstrate one qualitative method -- *Naturalistic Inquiry* (which was an early method whose ideas are reflected in other approaches) in a study I led a few years ago.
+
+## Navigating this Lesson
+
+There is about 1 hour of lecture.  
+
+### Learning Objectives
+
+Learning objectives from this lecture include the following:
+
+* Contrast key elements of qualitative and quantitative research methods.
+* Distinguish between a priori and grounded theory.
+* Identify criteria that lead to the trustworthiness of a qualitative study.
+ 
+### Readings & Resources
+
+In preparing this chapter, I drew heavily from the following resource(s). Other resources are cited (when possible, linked) in the text with complete citations in the reference list.
+
+* Jhangiani, R. S., Chiang, I.-C. A., Cuttler, C., & Leighton, D. C. (2019). Research Methods in Psychology. https://doi.org/10.17605/OSF.IO/HF7DQ 
+  - Chapter VI: Qualitative research (31)
+  - Observational research (32)
+* Bikos, L. H.,  Çiftçi, A., Güneri, O. Y., Demir, C. E., Sümer, Z. H., Danielson, S., DeVries, S., & Bilgen, W. (2007). A longitudinal, Naturalistic Inquiry of the adaptation experiences of the female expatriate spouse living in Turkey. Journal of Career Development, 34, 28-58zq.
+  - In this study, we used the qualitative method, Naturalistic Inquiry (Lincoln & Guba, 1985; Erlandson, Harris, & Skipper, 1993). As you read, note the theoretical foundation for launching the project. Read heavily the method, making particular note of what makes this study trustworthy. The ms is long. I'm more interested in you making mental (and marginal) notes about design issues and less interested in you knowing the outcomes of the study. Take a quick look at the Results/Discussion. Here, I'm more interested in you taking note of the style of writing and the integration with the literature. In class I'll share all the behind-the-scenes stories.
+  
+
+## The Qual v Quant Contrast
+
+When I include a qualitative lecture in the context of a research design class, the qualitative component becomes inevitably contrasted with the quantitative background. As one who conducts (and values) the contributions of qualitative, this is not at all to diminish its contributions.
+
+|**Quantitative**                           |**Qualitative**
+|:------------------------------------------|:------------------------------------------|
+|Philosophy of science is “positivist” to “post-positivist” |Philosophy of science is somewhere else:  postpositivistic, constructivist-interpretivist, naturalistic, critical-idiological|
+|Laboratory, controlled setting.|Natural setting.|
+|Use of valid and reliable scales and instruments. |Human instrument.|
+|Use of implicit knowledge. |Use of tacit knowledge.|
+|Sampling methods are typically random or representative.|Sampling methods are “purposive.”|
+|Deductive data analysis: explanation guides the development of the study.|Inductive data analysis: explanation grows out of the data.|
+|A priori theory.|Grounded theory.|
+|Research design is predetermined. |Research design is emergent.|
+|Experimenter determined outcomes.|Negotiated outcomes.|
+|Scientific and technical reporting. |Case study reporting mode.|
+|Concerned with generalization of results. |Idiographic interpretation of data.|
+|Credibility determined by internal and external validity, reliability, objectivity. |Trustworthiness of the results established by other criteria such as an “audit trail.”|
+
+## From Whence we Came
+
+Qualitative research methods have long and historied rootes.  I was originally trained in the Lincoln, Guba, and Denzin tradition of *naturalistic inquiry*.
+
+![Image of bookcovers of qualitative research handbooks that have guided the methodology](images/Qualitative/handbooks.jpg)
+
+* Dr. Norman K. Denzin is Distinguished Professor of Communications, College of Communications Scholar, and Research Professor of Communications, Sociology, and Humanities at the University of Illinois, Urbana-Champaign. He has described himself as an ethnographer, an interpretive interactionist, a cultural critic, and an occasional social theorist. 
+* Dr. Yvonna S. Lincoln is a Professor in the Department of Educational Administration at Texas A&M University. She has been with the institution since 1991. Prior to that time, Dr. Lincoln held teaching positions at the University of Kansas and Vanderbilt University.
+* Dr. Egon G. Guba, retired, Professor Emeritus in Education, University of Indiana-Bloomington.
+
+You can see that these individuals are from education and disciplinary communications. As we get closer to psychology, there have been several important publications that have influenced our processes.  In an editorial in the *Academy of Management Journal*, Gephart [-@gephart_qualitative_2004] provided some guidelines for those conducting qualitative research in Industrial-Organizational psychology. As a one who reviews a number of qualitative methods, I agree with these and have added one additional guidelines:
+
+* "one off” --  embedded in a larger research program?
+* Adequate lit review?
+* Explicit statement of goals, objectives, research questions?
+* Clear & thorough construct definition?
+* Sufficiently specified methodology?
+* Narrative thread evident in discussion/conclusion?
+
+**Plus** (mine):
+
+* A clear location in philosophy of science that drives the method?
+
+## Critical Qualitative Foundation
+
+### The Qulitative Orientation
+
+* Phenomenological, -emic
+  - Seeking to understand the phenomenon from a position on the inside
+* Inductive
+  - Constructing meaning from heterogeneous data
+* Emergent design
+  - How comfortable will your dissertation committee be (& IRB) if you don’t precisely specify all of your method?
+
+### Methods of Observation:  Role of the observer
+
+* Covert participant observation
+* Concealed observation
+* Unconcealed participant observation
+* Nonparticipant observation
+
+### Gathering and Analyzing Data
+
+* Informant selection: purposive, stakeholders
+* Analytic induction
+* Grounded (vs. apriori) theory
+* Constant comparison
+* Gather/analyze until saturation
+* Negative case analysis (i.e., a different utilization of outliers)
+
+### Data Collection
+
+* Field notes and logs
+* Memos/reflexive journal
+* Documents
+* Artifacts
+* Triangulation
+
+
+### Data Analysis
+
+* Unitizing data
+* Coding
+* Emergent category/designation
+* Negative case analysis
+
+## Establishing the Credibility of a Qualitaive Study:  Trustworthiness
+
+Although the history (as documented in some of the Handbooks noted earlier) has moved away from directly comparing qualitative and quantitative approaches, I still find this adapted from Lincoln and Guba's *Naturalistic Inquiry* [-@lincoln_naturalistic_1985] to be useful in framing the differences.
+
+|Criterion   |Conventional Term |Naturalistic (Qualitative) Term) |Naturalistic (Qualitative) Techniques
+|:-----------|:-----------------|:-----------------|:---------------------------|
+|Truth value |Internal validity |Credibility |Prolonged engagement, Persistent observation, Triangulation, Referential adequacy, Peer debriefing, Member checks, Reflexive journal|
+|Applicability|External validity |Transferability |Thick descriptions, Purposive sampling, Reflexive journal|
+|Consistency |Reliability |Dependability |Dependability audit, Reflexive journal|
+|            |Objectivity |Confirmability |Confirmability audit, Reflexive journal|
+
+
+## EXAMPLE:  Adjustment of the Female, Expatriate Spouse -- A longitudinal investigation [@bikos_repeated_2007]
+
+### Beginnings of the Project
+
+Below is a sketch of the culture shock model that is often used to prepare individuals for study, work, and relocation abroad. My husband and I were exposed to this model in pre-departure preparation for our expatriation. Curious about it, I began a longitudinal (5 waves across 1 year) examination of the first-year adaptation of female, expatriate spouses, in Ankara, Turkey.
+
+![A sketch of the culture shock model](images/Qualitative/Wcurve.png)
+
+In this figure I have superimposed the struggles that my family faced:
+
+![A sketch of the culture shock model superimposed with my personal experience](images/Qualitative/myWcurve.jpg)
+
+As I describe in the lecture, the study was mixed methods. The participants (*N* = 32) completed measures and interviews at each of the waves.  Our quantitative analyses suggested no predictable change over time.
+
+This was true for mental health, alcohol use, and marital satisfaction.
+
+![A figure illustrating no predictable change in mental health over time](images/Qualitative/expatMHI.jpg)
+
+![A figure illustrating no predictable change in alcohol use](images/Qualitative/expatAlcohol.jpg)
+
+![A figure illustrating no predictable change in marital satisfaction over time](images/Qualitative/expatKMS.jpg)
+
+## Naturalistic Inquiry Methods
+
+* Lincoln and Guba [-@lincoln_naturalistic_1985] and Erlandson, Harris, Skipper, and Allen [-@erlandson_doing_1993] 
+  - Research Team
+* Americans Team Members (*n* = 4)
+  - 1 held doctorate degree
+  - 3 held masters degrees in helping professions
+  - All were trailing, expatriate spouses
+* Turkish Team Members (*n* = 4)
+  - 3 held doctorates and had lived abroad for extended periods (nine months or more) of time
+  - 1 held masters degree and was anticipating study abroad
+
+## Establishing Trustworthiness
+
+* Individual member checks 
+  - 24% of interviews. 
+* Persistent observation & prolonged engagement 
+  - 131 interviews, averaging 25 interviews per time-in-country stage
+* Grand member-check 
+  - offered to 32 stakeholders; 47% participated.
+* Reflexive journal entries 
+  - completed by research team at seven points in the project.
+* Audit trail
+* Confirmability audit 
+  - completed by an external expert in qualitative methods.
+
+### Interviews
+
+* 131 interviews between December 5, 2000 & November 18, 2002 
+  - Interviews (and measures) completed within 2 week interval around each 3-month anniversary date
+  - 91 after September 11, 2001
+* Open-ended and informal 
+  - *Transcribed* from notes taken with paper/pencil or laptop 
+* Examples items
+  - If you wrote a book, what “big stories” would you include? 
+  - What things/people/events have helped your stay go more smoothly (more difficult)? 
+  - What could your company have done (could do) differently?
+  - What changes have you noticed in yourself in the variety of roles and aspects of your life? 
+  - After September 11, 2001: How have the terrorist attacks against the U.S. changed the way you think or feel about living in Turkey?
+
+### Data Analysis and Interpretation
+
+* Interview elements unitized into the smallest complete thought. 
+  - interviews for each stage ranged from 390 to 818 units 
+* Theming parties (2) held at the conclusion of each time-in-country interview stage.
+  - large sheets of newsprint, divided into 6 X 8 grids, teams separately categorized the units
+  - categorized data for each stage ranged from 30 to 55 themes 
+* Salient themes identified by  
+  - frequency of cards in each theme 
+  - common/overlapping themes between the two theming parties 
+  - knowledge of the expatriate literature 
+* Case studies (5) completed at the end of each time-in-country stage.
+* Grand Case Study Report (60 pages) integrated the five staged reports. Includes in-depth coverage of 13 major themes.
+
+### Reflexive Journal Entry
+
+Below is an example of a reflexive journal entry of one of the members of the team. Here's where research team members record their impressions, speculations, and experiences.  It "brackets" researcher bias by acknowledging it.  It is then part of the audit trail.
+
+![An image of a reflexive journal entry](images/Qualitative/ReflexiveJournal.png)
+
+### Interviewing Example:  Unitizing
+
+Transcripts of the interviews are *unitized* into complete thoughts. These days, I use Microsoft Excel for the entire analysis process.
+
+![An image of a unitized portion of a case record](images/Qualitative/unitizing.png)
+### Theming
+
+In this project we probably leaned a little *positivist* in that we had two teams who themed the data separately. These themes are captured in the spreadsheet.  The spreadsheet also captures the participant ID number, the place in the transcript, and the wave (alphabetical).
+
+
+![An image of a the units sorted by themes from the two teams.](images/Qualitative/theming.png)
+
+### The Case Study
+
+The case study captures the source of the data by identifying the participant number, wave letter, and place in the transcript. Because of the numerous participants and waves, we also used color-coded script to help in writing it up.
+
+
+![An image of an excerpt from the case study](images/Qualitative/case_report.jpg)
+### Grand Member Check
+
+After the case study was drafted (not final, just drafted), we sent it to *stakeholders* (some of the research participants and others with a "stake in the phenomena") to get their impressions.  We asked, "What sounds right?"  "What did we miss?"  "Is this true to your experience?"  We would have liked to have held these meetings in person, but due to the nature of repatriation, we asked for feedback in e-mail responses.
+
+![An image of stakeholder feedback.](images/Qualitative/MemberCheck.jpg)
+### Audit Trail and Audit
+
+Finally, we sent all of our materials to an expert in qualitative research methods who was aware of the study, but neither a research participant nor member of the research team.  This individual examined our *audit trail* including interviews, documented processes, citations, and conclusions.  This is an excerpt of their review.
+
+![An image of feedback from the audit.](images/Qualitative/audit.jpg)
+
+### Evaluating Bikos et al. [-@bikos_longitudinal_2007]
+
+|Strengths                          |Curiosities
+|:----------------------------------|:---------------------------------|
+|The article clearly identified philosophy of science (constructivist-interpretivist) |In practice, there was a great deal of post-positivist influence|
+|Clearly specified qualitative method (*Naturalistic Inquiry*) |Atypically large # participants (8-15 is more common) and phenomenally huge # interviews.
+|Clear specification of the credibility criteria and how they were implemented. |Team analysis (NI allows for individual theming as well)|
+
+## How Would I Select a Qualitative Method for my Dissertation?
+
+* Use Gephart’s criteria as a guide.
+* Special qualitative issue in Journal of Counseling Psychology (2005 v.52, #2) devoted to most utilized qualitative methods. 
+* It’s easier when the steps are clearly specified.
+  - Consensual Qualitative Research [@hill_consensual_2005; @hill_consensual_2012].
+  - Naturalistic Inquiry [@erlandson_doing_1993; @lincoln_naturalistic_1985].
+  - Grounded theory [@fassinger_paradigms_2005].
+  - Less clear steps in broadly defined methods like phenomenology, ethnography
+* Will your advisor/committee use a group?
+  - Group required:  Consensual Qualitative Research
+  - No group required:  Naturalistic Inquiry, Grounded Theory
+* Should I use mixed methods?
+  - I'm a big fan of mixed methods, but you don't have to do it all at once!
+  - At least in our program, "one-half" would be sufficient for the dissertation; you could collect both and save the other half for the subsequent publication.
+
+
+
+```{r include=FALSE}
+sessionInfo()
+```
+
+
+
+<!--chapter:end:06-Qualitative.Rmd-->
+
 # Psychometrics Crash Course:  A quick and dirty review of the primary elements of reliability and validity {#Psychometrix}
 
 [Screencasted Lecture Link](https://spu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=0a485840-5caa-484b-ba16-ac37017d6b05) 
@@ -1655,7 +2167,7 @@ sessionInfo()
 
 
 
-<!--chapter:end:05-PsychoM.Rmd-->
+<!--chapter:end:07-PsychoM.Rmd-->
 
 
 # A JEDI Lecture:  Promoting Justice, Equity, Diversity, and Inclusion in Research {#JEDI}
@@ -1822,7 +2334,7 @@ sessionInfo()
 
 
 
-<!--chapter:end:06-JEDI.Rmd-->
+<!--chapter:end:08-JEDI.Rmd-->
 
 # Orientation to Open Science {#OpenScience}
 
@@ -2120,7 +2632,7 @@ sessionInfo()
 
 
 
-<!--chapter:end:07-OpenScience.Rmd-->
+<!--chapter:end:09-OpenScience.Rmd-->
 
 
 # WRITING EMPIRICAL MANUSCRIPTS {-}
@@ -2621,7 +3133,7 @@ sessionInfo()
 
 
 
-<!--chapter:end:08-APAstyle.Rmd-->
+<!--chapter:end:10-APAstyle.Rmd-->
 
 
 # Reference Management with Zotero {#Zotero}
@@ -2743,7 +3255,7 @@ sessionInfo()
 
 
 
-<!--chapter:end:09-Zotero.Rmd-->
+<!--chapter:end:11-Zotero.Rmd-->
 
 
 # Table Magic {#Tables}
@@ -2864,7 +3376,7 @@ sessionInfo()
 
 
 
-<!--chapter:end:10-TableMagic.Rmd-->
+<!--chapter:end:12-TableMagic.Rmd-->
 
 
 # Writing in Excel {#Excel}
@@ -3094,5 +3606,5 @@ sessionInfo()
 
 # References
 
-<!--chapter:end:11-Excel.Rmd-->
+<!--chapter:end:13-Excel.Rmd-->
 

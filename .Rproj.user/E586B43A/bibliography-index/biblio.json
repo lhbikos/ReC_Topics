@@ -323,6 +323,61 @@
             "volume": "34"
         },
         {
+            "DOI": "10.1177/0894845307304064",
+            "ISSN": "0894-8453",
+            "abstract": "Using a one-year longitudinal-panel design, 32 American, female, expatriate spouses who relocated to Ankara, Turkey, were interviewed at just-arrived, 3-, 6-, 9-, and 12-months stages. This project utilized mixed methods research design. Results of the quantitative, repeated measures component is reported in Bikos et al. (2007, this issue). Results of the Naturalistic Inquiry provided rich, thick descriptions of eight themes as they unfolded through the first year of this expatriate assignment. The resulting themes included predeparture preparation, settling in, impact of expatriation on the wife’s life roles, social emotional functioning, approaches to coping, supportive systems, language, and interaction with the host culture. The authors interpreted the results in light of the life role salience and career adaptability constructs of Super’s Life-Span, Life-Space approach to career development. In addition, results of this project integrated well with previous research about expatriate spouse adjustment. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Bikos",
+                    "given": "Lynette H."
+                },
+                {
+                    "family": "Çiftçi",
+                    "given": "Ayşe"
+                },
+                {
+                    "family": "Güneri",
+                    "given": "Oya Yerin"
+                },
+                {
+                    "family": "Demir",
+                    "given": "Cennet Engin"
+                },
+                {
+                    "family": "Sümer",
+                    "given": "Zeynep Hatipoglu"
+                },
+                {
+                    "family": "Danielson",
+                    "given": "Sharrie"
+                },
+                {
+                    "family": "De Vries",
+                    "given": "Shelly"
+                },
+                {
+                    "family": "Bilgen",
+                    "given": "Wendy A."
+                }
+            ],
+            "container-title": "Journal of Career Development",
+            "id": "bikos_longitudinal_2007",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007,
+                        9
+                    ]
+                ]
+            },
+            "keyword": "Adaptation, Expatriates, Human Females, adaptation experiences, female expatriate spouse, Spouses, Life Experiences, naturalistic inquiry",
+            "page": "28-58",
+            "title": "A Longitudinal, naturalistic inquiry of the adaptation experiences of the female expatriate spouse living in Turkey",
+            "type": "article-journal",
+            "volume": "34"
+        },
+        {
             "ISBN": "978-1-60623-639-0",
             "abstract": "Walking readers step by step through complex concepts, this book translates missing data techniques into something that applied researchers and graduate students can understand and utilize in their own research. Enders explains the rationale and procedural details for maximum likelihood estimation, Bayesian estimation, multiple imputation, and models for handling missing not at random (MNAR) data. Easy-to-follow examples and small simulated data sets illustrate the techniques and clarify the underlying principles. The companion website (www.appliedmissingdata.com) includes data files and syntax for the examples in the book as well as up-to-date information on software. The book is accessible to substantive researchers while providing a level of detail that will satisfy quantitative specialists. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
             "author": [
@@ -1505,6 +1560,34 @@
             "type": "chapter"
         },
         {
+            "ISBN": "978-1-4833-4981-7",
+            "abstract": "The substantially updated and revised Fifth Edition of The SAGE Handbook of Qualitative Research by editors Norman K. Denzin and Yvonna S. Lincoln presents the state-of-the-art theory and practice of qualitative inquiry. Representing top scholars from around the world, the editors and contributors continue the tradition of synthesizing existing literature, defining the present, and shaping the future of qualitative research. The Fifth Edition contains 19 new chapters, with 16 revised—making it virtually a new volume—while retaining six classic chapters from previous editions. New contributors to this edition include Jamel K. Donnor and Gloria Ladson-Billings; Margaret Kovach; Paula Saukko; Bryant Keith Alexander; Thomas A. Schwandt and Emily F. Gates; Johnny Saldaña; Uwe Flick; Mirka Koro-Ljungberg, Maggie MacLure, and Jasmine Ulmer; Maria Elena Torre, Brett G. Stoudt, Einat Manoff, and Michelle Fine; Jack Bratich; Svend Brinkmann; Eric Margolis and Renu Zunjarwad; Annette N. Markham; Alecia Y. Jackson and Lisa A. Mazzei; Jonathan Wyatt, Ken Gale, Susanne Gannon, and Bronwyn Davies; Janice Morse; Peter Dahler-Larsen; Mark Spooner; and David A. Westbrook.",
+            "author": [
+                {
+                    "family": "Denzin",
+                    "given": "Norman K."
+                },
+                {
+                    "family": "Lincoln",
+                    "given": "Yvonna S."
+                }
+            ],
+            "id": "denzin_sage_2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Reference / Research, Social Science / Research",
+            "note": "Google-Books-ID: AmPgDQAAQBAJ",
+            "publisher": "SAGE Publications",
+            "title": "The SAGE Handbook of Qualitative Research",
+            "type": "book"
+        },
+        {
             "ISBN": "978-1-135-06846-2",
             "URL": "http://ebookcentral.proquest.com/lib/spu/detail.action?docID=1154313",
             "abstract": "The goal of the chapters in this SIOP Organizational Frontiers Series volume is to challenge researchers to break away from the rote application of traditional methodologies and to capitalize upon the wealth of data collection and analytic strategies available to them. In that spirit, many of the chapters in this book deal with methodologies that encourage organizational scientists to re-conceptualize phenomena of interest (e.g., experience sampling, catastrophe modeling), employ novel data collection strategies (e.g., data mining, Petri nets), and/or apply sophisticated analytic techniques (e.g., latent class analysis). The editors believe that these chapters provide compelling solutions for the complex problems faced by organizational researchers.",
@@ -1590,6 +1673,144 @@
             "title-short": "Qualitative research in counseling psychology",
             "type": "article-journal",
             "volume": "52"
+        },
+        {
+            "DOI": "10.1037/0022-0167.52.2.156",
+            "ISSN": "0022-0167",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2005-03263-005&site=ehost-live",
+            "abstract": "In this article, the author presents an overview of the qualitative research approach termed grounded theory (B. G. Glaser, 1978, 1992; B. G. Glaser & A. L. Strauss, 1967; A. L. Strauss, 1987; A. L. Strauss & J. Corbin, 1990, 1998). The author first locates the method conceptually and paradigmatically (paradigms) and then outlines the procedures for implementing it and judging its quality (praxis). The author follows with a discussion of selected issues that arise in using the approach (problems) and concludes by noting the appropriateness of grounded theory for counseling psychology research (promise). (PsycINFO Database Record (c) 2019 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        6,
+                        16
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Fassinger",
+                    "given": "Ruth E."
+                }
+            ],
+            "collection-title": "Knowledge in Context: Qualitative Methods in Counseling Psychology Research",
+            "container-title": "Journal of Counseling Psychology",
+            "id": "fassinger_paradigms_2005",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005,
+                        4
+                    ]
+                ]
+            },
+            "keyword": "Qualitative Methods, Counseling Psychology, counseling psychology, Empirical Methods, qualitative research, grounded theory, Grounded Theory",
+            "note": "Publisher: American Psychological Association",
+            "page": "156-166",
+            "title": "Paradigms, praxis, problems, and promise: Grounded theory in counseling psychology research",
+            "title-short": "Paradigms, praxis, problems, and promise",
+            "type": "article-journal",
+            "volume": "52"
+        },
+        {
+            "DOI": "10.1037/0022-0167.52.2.196",
+            "ISSN": "0022-0167",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2005-03263-009&site=ehost-live",
+            "abstract": "The authors reviewed the application of consensual qualitative research (CQR) in 27 studies published since the method’s introduction to the field in 1997 by C. E. Hill, B. J. Thompson, and E. N. Williams (1997). After first describing the core components and the philosophical underpinnings of CQR, the authors examined how it has been applied in terms of the consensus process, biases, research teams, data collection, data analysis, and writing up the results and discussion sections of articles. On the basis of problems that have arisen in each of these areas, the authors made recommendations for modifications of the method. The authors concluded that CQR is a viable qualitative method and suggest several ideas for research on the method itself. (PsycINFO Database Record (c) 2019 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        6,
+                        16
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Hill",
+                    "given": "Clara E."
+                },
+                {
+                    "family": "Knox",
+                    "given": "Sarah"
+                },
+                {
+                    "family": "Thompson",
+                    "given": "Barbara J."
+                },
+                {
+                    "family": "Williams",
+                    "given": "Elizabeth Nutt"
+                },
+                {
+                    "family": "Hess",
+                    "given": "Shirley A."
+                },
+                {
+                    "family": "Ladany",
+                    "given": "Nicholas"
+                }
+            ],
+            "collection-title": "Knowledge in Context: Qualitative Methods in Counseling Psychology Research",
+            "container-title": "Journal of Counseling Psychology",
+            "id": "hill_consensual_2005",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005,
+                        4
+                    ]
+                ]
+            },
+            "keyword": "Qualitative Methods, consensual qualitative research, Counseling Psychology, Data Collection, counseling psychology, Empirical Methods, data collection, data analysis",
+            "note": "Publisher: American Psychological Association",
+            "page": "196-205",
+            "title": "Consensual qualitative research: An update",
+            "title-short": "Consensual qualitative research",
+            "type": "article-journal",
+            "volume": "52"
+        },
+        {
+            "DOI": "10.5465/AMJ.2004.14438580",
+            "ISSN": "0001-4273",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2004-18190-001&site=ehost-live",
+            "abstract": "For this issue’s ’From the Editors,’ in the ’Academy of Management Journal,’ (AMJ) the author invited Robert Gephart of the University of Alberta to reflect on his observations as a long-serving, award-winning reviewer of qualitative research for AMJ. In his editorial column, Robert expresses gratitude for this opportunity encouraging scholars to submit their qualitative research to the AMJ. Qualitative research is important to AMJ. Qualitative research is actively sought and supported by the Journal, its editors, and its editorial review board. Qualitative research is important for management scholarship for many reasons. It provides insights that are difficult to produce with quantitative research. For example, qualitative research can provide thick, detailed descriptions of actual actions in real-life contexts that recover and preserve the actual meanings that actors ascribe to these actions and settings. Qualitative research can thus provide bases for understanding social processes that underlie management. Qualitative research can also provide memorable examples of important management issues and concepts that enrich the field. Finally, qualitative research has potential to rehumanize research and theory by highlighting the human interactions and meanings that underlie phenomena and relationships among variables that are often addressed in the field.. (PsycINFO Database Record (c) 2019 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2020,
+                        6,
+                        16
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Gephart",
+                    "given": "Robert P. Jr."
+                }
+            ],
+            "container-title": "Academy of Management Journal",
+            "id": "gephart_qualitative_2004",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2004,
+                        8
+                    ]
+                ]
+            },
+            "keyword": "Qualitative Methods, management, Management, qualiative research",
+            "note": "Publisher: Academy of Management",
+            "page": "454-462",
+            "title": "Qualitative Research and the Academy of Management Journal",
+            "type": "article-journal",
+            "volume": "47"
         },
         {
             "URL": "https://www.dismantlingracism.org/white-supremacy-culture.html",
@@ -6104,7 +6325,8 @@
                     "given": "Matthew J. C."
                 }
             ],
-            "id": "crump_programming_2018",
+            "container-title": "Programming for Psychologists: Data Creation and Analysis",
+            "id": "crump_simulating_2018",
             "issued": {
                 "date-parts": [
                     [
@@ -6112,9 +6334,8 @@
                     ]
                 ]
             },
-            "title": "Programming for Psychologists: Data Creation and Analysis",
-            "title-short": "Programming for Psychologists",
-            "type": "book"
+            "title": "Simulating and analyzing data in R (Chapter 5)",
+            "type": "chapter"
         },
         {
             "DOI": "10.11919/j.issn.1002-0829.218014",
@@ -6134,23 +6355,23 @@
             },
             "author": [
                 {
-                    "family": "CHEN",
+                    "family": "Chen",
                     "given": "Tian"
                 },
                 {
-                    "family": "XU",
+                    "family": "Xu",
                     "given": "Manfei"
                 },
                 {
-                    "family": "TU",
+                    "family": "Tu",
                     "given": "Justin"
                 },
                 {
-                    "family": "WANG",
+                    "family": "Wang",
                     "given": "Hongyue"
                 },
                 {
-                    "family": "NIU",
+                    "family": "Niu",
                     "given": "Xiaohui"
                 }
             ],
@@ -6462,6 +6683,46 @@
             "title": "Black students’ narratives of diversity and inclusion initiatives and the campus racial climate: An interest-convergence analysis",
             "title-short": "Black students’ narratives of diversity and inclusion initiatives and the campus racial climate",
             "type": "article-journal"
+        },
+        {
+            "ISBN": "978-1-4338-1007-7",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2011-09578-000&site=ehost-live",
+            "abstract": "This lively and practical text presents a fresh and comprehensive approach to conducting consensual qualitative research (CQR). CQR is an inductive method that is characterized by open-ended interview questions, small samples, a reliance on words over numbers, the importance of context, an integration of multiple viewpoints, and consensus of the research team. It is especially well-suited to research that requires rich descriptions of inner experiences, attitudes, and convictions. Written to help researchers navigate their way through qualitative techniques and methodology, leading expert Clara E. Hill and her associates provide readers with step-by-step practical guidance during each stage of the research process. Readers learn about adaptive ways of designing studies; collecting, coding, and analyzing data; and reporting findings. Key aspects of the researcher’s craft are addressed, such as establishing the research team, recruiting and interviewing participants, adhering to ethical standards, raising cultural awareness, auditing within case analyses and cross analyses, and writing up the study. Intended as a user-friendly manual for graduate-level research courses and beyond, the text will be a valuable resource for both budding and experienced qualitative researchers for many years to come. (PsycINFO Database Record (c) 2019 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        3,
+                        13
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Hill",
+                    "given": "Clara E."
+                }
+            ],
+            "editor": [
+                {
+                    "family": "Hill",
+                    "given": "Clara E."
+                }
+            ],
+            "id": "hill_consensual_2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "keyword": "Qualitative Methods, consensual qualitative research, social science phenomena, Social Sciences",
+            "publisher": "American Psychological Association",
+            "publisher-place": "Washington, DC",
+            "title": "Consensual qualitative research: A practical resource for investigating social science phenomena",
+            "title-short": "Consensual qualitative research",
+            "type": "book"
         },
         {
             "DOI": "10.2307/2673270",
@@ -7759,13 +8020,8 @@
                     ]
                 ]
             },
-            "author": [
-                {
-                    "family": "Data@Urban"
-                }
-            ],
             "container-title": "Medium",
-            "id": "dataurban_applying_2020",
+            "id": "noauthor_applying_2020",
             "issued": {
                 "date-parts": [
                     [
@@ -9626,6 +9882,225 @@
             "note": "Publisher: National Center for Education Statistics",
             "title": "High School & Beyond (HS&B) - Overview",
             "type": ""
+        },
+        {
+            "ISSN": "1061-3749",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=1996-05738-006&site=ehost-live",
+            "abstract": "Describes the development and initial psychometric evaluation of the 25-item Resilience Scale (RS) in a random sample of 810 community-dwelling older adults (aged 53–95 yrs). Ss completed several measures including a demographic information questionnaire, the RS, and instruments to assess concurrent validity by exploring the relationships between RS and measures of adaptation (i.e., morale, life satisfaction, depression, and physical health). Positive correlations with adaptational outcomes (physical health, morale, and life satisfaction), and a negative correlation with depression, supported concurrent validity of the RS. Results support the internal consistency reliability and concurrent validity of the RS as an instrument to measure resilience. (PsycINFO Database Record (c) 2019 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        10
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Wagnild",
+                    "given": "Gail M."
+                },
+                {
+                    "family": "Young",
+                    "given": "Heather M."
+                }
+            ],
+            "container-title": "Journal of Nursing Measurement",
+            "id": "wagnild_development_1993",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1993
+                    ]
+                ]
+            },
+            "keyword": "Psychometrics, Humans, Test Construction, Test Reliability, Female, Male, Rating Scales, Adaptation, Psychological, Statistical Validity, Middle Aged, Aged, Personal Satisfaction, Health Status, Self Concept, Aged, 80 and over, Factor Analysis, Statistical, Personality Inventory, Reproducibility of Results, Resilience (Psychological), 53–95 yr olds, Adaptability (Personality), Concurrent Validity, development & reliability & concurrent validity of Resilience Scale, Life Change Events, measurement of positive personality characteristic enhancing individual adaptation, Morale, Nursing Evaluation Research",
+            "note": "Publisher: Springer Publishing",
+            "page": "165-178",
+            "title": "Development and psychometric evaluation of the Resilience Scale",
+            "type": "article-journal",
+            "volume": "1"
+        },
+        {
+            "URL": "https://spu.edu/",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        22
+                    ]
+                ]
+            },
+            "id": "noauthor_seattle_nodate",
+            "title": "Seattle Pacific University",
+            "type": ""
+        },
+        {
+            "URL": "https://spu.edu/",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        22
+                    ]
+                ]
+            },
+            "id": "noauthor_seattle_nodate-1",
+            "title": "Seattle Pacific University",
+            "type": ""
+        },
+        {
+            "DOI": "10.1037/0003-066X.63.2.77",
+            "ISSN": "0003-066X",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2008-01689-001&site=ehost-live",
+            "abstract": "Both researchers and practitioners need to know more about how laboratory treatment protocols translate to real-world practice settings and how clinical innovations can be systematically tested and communicated to a skeptical scientific community. The single-case time-series study is well suited to opening a productive discourse between practice and laboratory. The appeal of case-based time-series studies, with multiple observations both before and after treatment, is that they enrich our design palette by providing the discipline another way to expand its empirical reach to practice settings and its subject matter to the contingencies of individual change. This article is a user’s guide to conducting empirically respectable case-based time-series studies in a clinical practice or laboratory setting. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        23
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Borckardt",
+                    "given": "Jeffrey J."
+                },
+                {
+                    "family": "Nash",
+                    "given": "Michael R."
+                },
+                {
+                    "family": "Murphy",
+                    "given": "Martin D."
+                },
+                {
+                    "family": "Moore",
+                    "given": "Mark"
+                },
+                {
+                    "family": "Shaw",
+                    "given": "Darlene"
+                },
+                {
+                    "family": "O’Neil",
+                    "given": "Patrick"
+                }
+            ],
+            "container-title": "American Psychologist",
+            "id": "borckardt_clinical_2008",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008,
+                        2
+                    ]
+                ]
+            },
+            "keyword": "Humans, Research Design, Methodology, Statistical Analysis, Experimentation, Experimental Subjects, Psychotherapy, Experimental Design, Clinical Practice, Treatment Effectiveness Evaluation, clinical practice, Evidence Based Practice, Health Planning Guidelines, Observation, Practice Patterns, Physicians’, Psychotherapeutic Outcomes, psychotherapy research, single-subject research, time series, Time Series, time-series analysis",
+            "note": "Publisher: American Psychological Association",
+            "page": "77-95",
+            "title": "Clinical practice as natural laboratory for psychotherapy research: A guide to case-based time-series analysis",
+            "title-short": "Clinical practice as natural laboratory for psychotherapy research",
+            "type": "article-journal",
+            "volume": "63"
+        },
+        {
+            "DOI": "10.1037/0003-066X.56.2.119",
+            "ISSN": "0003-066X",
+            "URL": "https://ezproxy.spu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=psyh&AN=2001-00159-002&site=ehost-live",
+            "abstract": "The ongoing transition to managed health care continues to have repercussions for health care providers, perhaps the most important of which is an emphasis on accountability for demonstrating the usefulness of clinical interventions. This requirement places a premium on intervention research and highlights the historically strained relationship between psychological research and professional practice. In the midst of this challenge, researchers have increasingly criticized the logic and practice of traditional null hypothesis significance testing. This article describes the history, epistemology, and advantages of single-participant research designs for behavioral scientists and professionals in clinical settings. Although its lack of correspondence with the Fisherian tradition has precluded widespread adoption, the single-participant alternative features a design power and flexibility well suited to both basic science and applied research. (PsycINFO Database Record (c) 2016 APA, all rights reserved)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        23
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Morgan",
+                    "given": "David L."
+                },
+                {
+                    "family": "Morgan",
+                    "given": "Robin K."
+                }
+            ],
+            "container-title": "American Psychologist",
+            "id": "morgan_single-participant_2001",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2001,
+                        2
+                    ]
+                ]
+            },
+            "keyword": "Humans, Research Design, Data Collection, Experimental Subjects, History, Behavioral Sciences, Experimental Design, Psychology, Clinical, Epistemology, Behaviorism, Cross-Over Studies, Evidence-Based Medicine, history & epistemology & advantages of single-participant research designs for behavioral scientists & clinical professionals & managed care providers, History, 20th Century, Managed Care, Managed Care Programs",
+            "note": "Publisher: American Psychological Association",
+            "page": "119-127",
+            "title": "Single-participant research design: Bringing science to managed care",
+            "title-short": "Single-participant research design",
+            "type": "article-journal",
+            "volume": "56"
+        },
+        {
+            "ISBN": "978-0-8039-2431-4",
+            "abstract": "Includes bibliographical references (pages 393-408) and index.",
+            "author": [
+                {
+                    "family": "Lincoln",
+                    "given": "Yvonna S."
+                }
+            ],
+            "id": "lincoln_naturalistic_1985",
+            "issued": {
+                "date-parts": [
+                    [
+                        1985
+                    ]
+                ]
+            },
+            "keyword": "Naturalism",
+            "publisher": "Sage Publications",
+            "publisher-place": "Beverly Hills, Calif.",
+            "title": "Naturalistic inquiry",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-0-8039-4937-9",
+            "abstract": "Includes bibliographical references (pages 180-185) and index.",
+            "author": [
+                {
+                    "family": "Erlandson",
+                    "given": "David A."
+                }
+            ],
+            "id": "erlandson_doing_1993",
+            "issued": {
+                "date-parts": [
+                    [
+                        1993
+                    ]
+                ]
+            },
+            "keyword": "Methodology; Paradigms (Social sciences), Social sciences",
+            "publisher": "Sage",
+            "publisher-place": "Newbury Park, Calif.",
+            "title": "Doing naturalistic inquiry: A guide to methods",
+            "title-short": "Doing naturalistic inquiry",
+            "type": "book"
         }
     ],
     "project_biblios": [
