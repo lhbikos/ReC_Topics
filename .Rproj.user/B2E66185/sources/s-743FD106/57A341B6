@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1632163341351.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2665359865",
+    "id" : "57A341B6",
+    "lastKnownWriteTime" : 1632163742,
+    "last_content_update" : 1632163742843,
+    "path" : "C:/Users/lhbikos/OneDrive - Seattle Pacific University/ReCenterPsychStats/ReC_Topics/03-PHoS.Rmd",
+    "project_path" : "03-PHoS.Rmd",
+    "properties" : {
+        "cursorPosition" : "207,41",
+        "scrollLine" : "201"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

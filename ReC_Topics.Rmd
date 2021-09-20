@@ -522,7 +522,8 @@ There is about 45 minutes of lecture.
 
 Learning objectives from this lecture include the following:
 
-* Identify, define, and provide examples of the standard ways of knowing. * Describe how a race-based epistemology (e.g., Black feminist epistemology) could add value to a research study.
+* Identify, define, and provide examples of the standard ways of knowing. 
+* Describe how a race-based epistemology (e.g., Black feminist epistemology) could add value to a research study.
 * Distinguish between emic and etic.
 * Define critical research concepts:  components of science, methodology, research design, parsimony, plausible rival hypotheses, statistical inference.
 * Define four primary philosophies of science, being able to identify the epistemology, axiology, rhetorical structure, and methodology for each.
@@ -589,7 +590,7 @@ Cohen and Nagel's [-@cohen_introduction_1934] *Sources of Knowledge* included:
 
 There’s more to this story.
 
-As of October 1st, 2020, cyclists in Washington State have been able to treat stop signs (not stoplights, railway crossings, or stop signal displayed by school busses) as yield signs (Dahl, 2020, 2020).  The two articles from the Bellingham Herald walk us through some of the ways of knowing that led the Washington legislature to its widely passing margins (77 to 20 House; 44 to 1 Senate; [@fucoloro_bipartisan_2020]).  
+As of October 1st, 2020, cyclists in Washington State have been able to treat stop signs (not stoplights, railway crossings, or stop signal displayed by school busses) as yield signs [@dahl_heres_2020; @dahl_new_2020].  The two articles from the Bellingham Herald walk us through some of the ways of knowing that led the Washington legislature to its widely passing margins (77 to 20 House; 44 to 1 Senate; [@fucoloro_bipartisan_2020]).  
 
 Let’s think through the ways of knowing to understand the components that brought about this new law.
 
@@ -632,6 +633,7 @@ Proponents of race-based epistemologies argue:
 * “Outsiders” who are researching the other are wise to maintain a critical relationship to the research topic (and population) through self-reflexivity (self-reflection by the researchers and acknowledgement that there are differences between the researcher and those being studied).
 
 One distinction is the difference in insider and outsider perspectives:
+
 * **etic**: 
   - standing far enough away, on the outside,
   - with the purpose of observing similarities/differences from other cultures;
@@ -651,7 +653,7 @@ One distinction is the difference in insider and outsider perspectives:
 * An ethic of caring is developed
 * An ethic of personal accountability is accepted
 
-## Defining Research (And [Some Of]) Its Key Concepts
+## Defining Research and (Some of) Its Key Concepts
 
 *Science* is generally characterized by three components [@jhangiani_research_2019]:
 
@@ -695,7 +697,7 @@ At the completion of a study the explanation one wishes to provide ought to be t
 
 * Considers the logical and epistemological underpinnings of the scientific method in general.
 * Historically, experimentation has been closely tied to philosophical thought. The very notion of hypothesis derives from philosophy.
-* (among other things) reveals fundamental limitations in the logical underpinnings of observational and experimental methods.
+* (among other things) Reveals fundamental limitations in the logical underpinnings of observational and experimental methods.
 
 Two great articles that were written about qualitative methods, provide an accessible and concise review of philosophy of science as it connects to research in clinical [@ponterotto_qualitative_2005] and industrial-organizational [@cortina_doing_2013] psychology. Much of this chapter is based on these articles. 
 
@@ -713,7 +715,7 @@ Two great articles that were written about qualitative methods, provide an acces
 
 **Postpositivism**
 
-* Acknowledge an objective reality that is only imperfectly apprehendable; thus we can never fully capture a “true” reality (although it exists).
+* Acknowledges an objective reality that is only imperfectly apprehendable; thus we can never fully capture a “true” reality (although it exists).
 * While positivists stress “theory verification,” postpositivists engage in “theory falsification.”
 
 **Positivism & Postpositivism shared variance**

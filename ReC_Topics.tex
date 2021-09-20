@@ -5,8 +5,8 @@
 \documentclass[
   english,
 ]{book}
-\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
+\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -39,7 +39,6 @@
 \hypersetup{
   pdftitle={ReCentering Psych Stats: Topics in Research Methods},
   pdfauthor={Lynette H Bikos, PhD, ABPP},
-  pdflang={en},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
@@ -83,8 +82,7 @@
 \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\usepackage{longtable,booktabs,array}
-\usepackage{calc} % for calculating minipage widths
+\usepackage{longtable,booktabs}
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -93,7 +91,7 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx}
+\usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -116,13 +114,7 @@
   \usepackage{polyglossia}
   \setmainlanguage[]{english}
 \else
-  \usepackage[main=english]{babel}
-% get rid of language-specific shorthands (see #6817):
-\let\LanguageShortHands\languageshorthands
-\def\languageshorthands#1{}
-\fi
-\ifluatex
-  \usepackage{selnolig}  % disable illegal ligatures
+  \usepackage[shorthands=off,main=english]{babel}
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
@@ -152,7 +144,7 @@
 \chapter*{PREFACE}\label{preface}}
 \addcontentsline{toc}{chapter}{PREFACE}
 
-\textbf{If you are viewing this document, you should know that this is a book-in-progress. Early drafts are released for the purpose teaching my classes and gaining formative feedback from a host of stakeholders. The document was last updated on 24 Aug 2021}
+\textbf{If you are viewing this document, you should know that this is a book-in-progress. Early drafts are released for the purpose teaching my classes and gaining formative feedback from a host of stakeholders. The document was last updated on 20 Sep 2021}
 
 \textbf{There are lectures accompanying each lesson. At present, these screencast of these lectures are from prior lecture notes and not directly from this OER. While the content should be parallel, you might find it to be somewhat discordant. I do plan to relecture these using the formatting of the OER; I just can't get to it this year. Please accept my apologies.}
 
@@ -400,9 +392,9 @@ The easiest way to insert a chunk is to use the INSERT/R command at the top of t
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{\#hashtags let me write comments to remind myself what I did}
-\CommentTok{\#here I am simply demonstrating arithmetic (but I would normally be running code)}
-\DecValTok{2021} \SpecialCharTok{{-}} \DecValTok{1966}
+\CommentTok{#hashtags let me write comments to remind myself what I did}
+\CommentTok{#here I am simply demonstrating arithmetic (but I would normally be running code)}
+\DecValTok{2021} \OperatorTok{-}\StringTok{ }\DecValTok{1966}
 \end{Highlighting}
 \end{Shaded}
 
@@ -425,7 +417,7 @@ Researchers treat packages differently. In these lectures, I list all the packag
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\ControlFlowTok{if}\NormalTok{(}\SpecialCharTok{!}\FunctionTok{require}\NormalTok{(psych))\{}\FunctionTok{install.packages}\NormalTok{(}\StringTok{"psych"}\NormalTok{)\}}
+\ControlFlowTok{if}\NormalTok{(}\OperatorTok{!}\KeywordTok{require}\NormalTok{(psych))\{}\KeywordTok{install.packages}\NormalTok{(}\StringTok{"psych"}\NormalTok{)\}}
 \end{Highlighting}
 \end{Shaded}
 
@@ -441,8 +433,8 @@ To make a package operable, you need to open it through the library. This proces
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{\#install.packages ("psych")}
-\FunctionTok{library}\NormalTok{ (psych)}
+\CommentTok{#install.packages ("psych")}
+\KeywordTok{library}\NormalTok{ (psych)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -829,7 +821,7 @@ Regarding differences between counseling psychology and clinical psychology prog
 
 Regarding theoretical orientation, counseling psychology programs were more likely to be psychodynamic/psychoanalytic, family systems/systems, and existential/humanistic. Clinical psychology programs were more likely to be applied behavioral analysis/radical behavioral and cognitive/cognitive-behavioral.Clinical psychology programs reported a stronger research-practice emphasis.
 
-Cherry et al. \citeyearpar{cherry_examination_2000} examined outcomes related to training model. Perhaps not surprisingly, research and publication productivity was highest among programs with a clinical scientist training model, followed by the scientist-practitioner training model, followed by the scholar-practitioner model. Service delivery was the the opposite order. Regarding post-doctoral employment settings, graduates from clinical psychology programs often held employment in academic settings. Graduates of scholar-practitioner programs most often held employment in community mental health centers and other/multiple settings. Graduates from scientist-practitioner programs had more of a diverse profile in post-doctoral employment.
+Cherry et al.~\citeyearpar{cherry_examination_2000} examined outcomes related to training model. Perhaps not surprisingly, research and publication productivity was highest among programs with a clinical scientist training model, followed by the scientist-practitioner training model, followed by the scholar-practitioner model. Service delivery was the the opposite order. Regarding post-doctoral employment settings, graduates from clinical psychology programs often held employment in academic settings. Graduates of scholar-practitioner programs most often held employment in community mental health centers and other/multiple settings. Graduates from scientist-practitioner programs had more of a diverse profile in post-doctoral employment.
 
 \begin{figure}
 \centering
@@ -840,7 +832,7 @@ Cherry et al. \citeyearpar{cherry_examination_2000} examined outcomes related to
 \hypertarget{what-lies-ahead}{%
 \subsection{What Lies Ahead?}\label{what-lies-ahead}}
 
-Mallinckrodt et al. \citeyearpar{mallinckrodt_scientist-practitioner-advocate_2014} has proposed a scientist-practitioner-advocate training model for doctoral training in professional psychology, ``designed to more effectively meet the needs of clients whose presenting problems are rooted in a sociocultural context of oppression and unjust distribution of resources and opportunities.'' This model has been represented with three intersecting circles:
+Mallinckrodt et al.~\citeyearpar{mallinckrodt_scientist-practitioner-advocate_2014} has proposed a scientist-practitioner-advocate training model for doctoral training in professional psychology, ``designed to more effectively meet the needs of clients whose presenting problems are rooted in a sociocultural context of oppression and unjust distribution of resources and opportunities.'' This model has been represented with three intersecting circles:
 
 \begin{itemize}
 \tightlist
@@ -896,7 +888,7 @@ If you are in a graduate training program in psychology (or considering the poss
   \begin{itemize}
   \tightlist
   \item
-    Do the programmatic characteristics and outcomes align with those reported in Norcross et al. \citeyearpar{norcross_doctoral_2020} and Cherry et al \citeyearpar{cherry_examination_2000}?
+    Do the programmatic characteristics and outcomes align with those reported in Norcross et al.~\citeyearpar{norcross_doctoral_2020} and Cherry et al \citeyearpar{cherry_examination_2000}?
   \end{itemize}
 \end{enumerate}
 
@@ -920,7 +912,9 @@ Learning objectives from this lecture include the following:
 \begin{itemize}
 \tightlist
 \item
-  Identify, define, and provide examples of the standard ways of knowing. * Describe how a race-based epistemology (e.g., Black feminist epistemology) could add value to a research study.
+  Identify, define, and provide examples of the standard ways of knowing.
+\item
+  Describe how a race-based epistemology (e.g., Black feminist epistemology) could add value to a research study.
 \item
   Distinguish between emic and etic.
 \item
@@ -1068,7 +1062,7 @@ Cohen and Nagel's \citeyearpar{cohen_introduction_1934} \emph{Sources of Knowled
 
 There's more to this story.
 
-As of October 1st, 2020, cyclists in Washington State have been able to treat stop signs (not stoplights, railway crossings, or stop signal displayed by school busses) as yield signs (Dahl, 2020, 2020). The two articles from the Bellingham Herald walk us through some of the ways of knowing that led the Washington legislature to its widely passing margins (77 to 20 House; 44 to 1 Senate; \citep{fucoloro_bipartisan_2020}).
+As of October 1st, 2020, cyclists in Washington State have been able to treat stop signs (not stoplights, railway crossings, or stop signal displayed by school busses) as yield signs \citep{dahl_heres_2020, dahl_new_2020}. The two articles from the Bellingham Herald walk us through some of the ways of knowing that led the Washington legislature to its widely passing margins (77 to 20 House; 44 to 1 Senate; \citep{fucoloro_bipartisan_2020}).
 
 Let's think through the ways of knowing to understand the components that brought about this new law.
 
@@ -1114,7 +1108,7 @@ These traditions are clearly White, Western, and male. There are, of course, oth
 \hypertarget{race-based-epistemologies}{%
 \subsection{Race-Based Epistemologies}\label{race-based-epistemologies}}
 
-Rajack-Talley et al. \citeyearpar{rajack-talley_epistemological_2017} address this in a paper describing how they were intentional to include researchers with different epistemologies (``race-based epistemologies'') in an NIH-funded study of three Black communities in Kentucky.
+Rajack-Talley et al.~\citeyearpar{rajack-talley_epistemological_2017} address this in a paper describing how they were intentional to include researchers with different epistemologies (``race-based epistemologies'') in an NIH-funded study of three Black communities in Kentucky.
 
 The NIH-study \citep{della_modeling_2016} was a multi-staged, mixed methods, NIH-funded study examining individual, community, and cultural-level determinants of increasing fruit and vegetable consumption in Black residents in two low-income cities in Kentucky (Louisville, Hopkinsville).
 
@@ -1131,17 +1125,40 @@ Proponents of race-based epistemologies argue:
 \end{itemize}
 
 One distinction is the difference in insider and outsider perspectives:
-* \textbf{etic}:
-- standing far enough away, on the outside,
-- with the purpose of observing similarities/differences from other cultures;
-- the primary interest is in testing hypotheses, identifying common/universal aspects of human behavior that transcend cultural differences.
-- assumes all cultures can be observed as generalizable phenomena with comparable features and universalistic measures
-* \textbf{emic}:
-- standing on the inside
-- with the purpose of identifying culture-specific elements or human behavior that are not comparable across cultures
-- measures are relative
-- argues that meaningful distinctions can only be made by people within the cultures
-- assumes that the best way to understand a culture is from the perspectives and values of those being observed
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{etic}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    standing far enough away, on the outside,
+  \item
+    with the purpose of observing similarities/differences from other cultures;
+  \item
+    the primary interest is in testing hypotheses, identifying common/universal aspects of human behavior that transcend cultural differences.
+  \item
+    assumes all cultures can be observed as generalizable phenomena with comparable features and universalistic measures
+  \end{itemize}
+\item
+  \textbf{emic}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    standing on the inside
+  \item
+    with the purpose of identifying culture-specific elements or human behavior that are not comparable across cultures
+  \item
+    measures are relative
+  \item
+    argues that meaningful distinctions can only be made by people within the cultures
+  \item
+    assumes that the best way to understand a culture is from the perspectives and values of those being observed
+  \end{itemize}
+\end{itemize}
 
 \textbf{Black feminist epistemology} (as cited in \citep{hill_collins_black_2000}) as an example of a race-based epistemology
 
@@ -1158,7 +1175,7 @@ One distinction is the difference in insider and outsider perspectives:
 \end{itemize}
 
 \hypertarget{defining-research-and-some-of-its-key-concepts}{%
-\section{Defining Research (And {[}Some Of{]}) Its Key Concepts}\label{defining-research-and-some-of-its-key-concepts}}
+\section{Defining Research and (Some of) Its Key Concepts}\label{defining-research-and-some-of-its-key-concepts}}
 
 \emph{Science} is generally characterized by three components \citep{jhangiani_research_2019}:
 
@@ -1238,7 +1255,7 @@ At the completion of a study the explanation one wishes to provide ought to be t
 \item
   Historically, experimentation has been closely tied to philosophical thought. The very notion of hypothesis derives from philosophy.
 \item
-  (among other things) reveals fundamental limitations in the logical underpinnings of observational and experimental methods.
+  (among other things) Reveals fundamental limitations in the logical underpinnings of observational and experimental methods.
 \end{itemize}
 
 Two great articles that were written about qualitative methods, provide an accessible and concise review of philosophy of science as it connects to research in clinical \citep{ponterotto_qualitative_2005} and industrial-organizational \citep{cortina_doing_2013} psychology. Much of this chapter is based on these articles.
@@ -1272,7 +1289,7 @@ Two great articles that were written about qualitative methods, provide an acces
 \begin{itemize}
 \tightlist
 \item
-  Acknowledge an objective reality that is only imperfectly apprehendable; thus we can never fully capture a ``true'' reality (although it exists).
+  Acknowledges an objective reality that is only imperfectly apprehendable; thus we can never fully capture a ``true'' reality (although it exists).
 \item
   While positivists stress ``theory verification,'' postpositivists engage in ``theory falsification.''
 \end{itemize}
@@ -1408,7 +1425,7 @@ It is important that counseling researchers understand and clearly explicate the
   \item
     ``Although these recommendations can be seen as `simply good field research,' they are particularly important in researching the African American community because of the group's history and because more recent data collection has been used to negatively depict this racial group'' (\citep{rajack-talley_epistemological_2017} p.~413).
   \item
-    The Rajack-Talley et al. \citeyearpar{rajack-talley_epistemological_2017} manuscript demonstrates how a multi-ethnic and multi-disciplinary team worked together to develop approaches that contributed to success in a complex NIH-funded research project from participation, engagement, and interpretation of results. Techniques included self-reflexivity, transect walks, conducting interviews in participants' homes or familiar places with Black team members, collecting data in community locations including other trusted members of the community (e.g., family, friend, pastor, barber).
+    The Rajack-Talley et al.~\citeyearpar{rajack-talley_epistemological_2017} manuscript demonstrates how a multi-ethnic and multi-disciplinary team worked together to develop approaches that contributed to success in a complex NIH-funded research project from participation, engagement, and interpretation of results. Techniques included self-reflexivity, transect walks, conducting interviews in participants' homes or familiar places with Black team members, collecting data in community locations including other trusted members of the community (e.g., family, friend, pastor, barber).
   \item
     Finally, let me recommend a very cool (38-minute) \href{https://www.npr.org/2020/07/27/895858974/creativity-and-diversity-how-exposure-to-different-people-affects-our-thinking}{episode of Hidden Brain} where Shankar Vedantam talks with researchers about the benefits of diversity on outcomes -- including scientific research:
   \end{itemize}
@@ -1527,19 +1544,54 @@ There were multiple outcome evaluations in the study:
   Additional talk time: how much longer they would continue the interaction
 \end{itemize}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.12}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.20}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.25}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.17}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.25}}@{}}
+\begin{longtable}[]{@{}lllll@{}}
 \toprule
-Group & Assignment & Pre-test observation & Manipulation & Post-test observation \\
+\begin{minipage}[b]{0.10\columnwidth}\raggedright
+Group\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Assignment\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright
+Pre-test observation\strut
+\end{minipage} & \begin{minipage}[b]{0.15\columnwidth}\raggedright
+Manipulation\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright
+Post-test observation\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Low racial loading & Random & Evaluation, Perceived Acceptance, Enjoyable, Similar & Yes: ``Nice talking to you. You speak English well.'' & Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time \\
-High racial loading & Random & Evaluation, Perceived Acceptance, Enjoyable, Similar & Yes: ``Nice talking to you. You speak English well for an Asian.'' & Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time \\
-Control & Random & Evaluation, Perceived Acceptance, Enjoyable, Similar & Yes: ``Nice talking to you.'' & Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time \\
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+Low racial loading\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Random\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, Perceived Acceptance, Enjoyable, Similar\strut
+\end{minipage} & \begin{minipage}[t]{0.15\columnwidth}\raggedright
+Yes: ``Nice talking to you. You speak English well.''\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+High racial loading\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Random\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, Perceived Acceptance, Enjoyable, Similar\strut
+\end{minipage} & \begin{minipage}[t]{0.15\columnwidth}\raggedright
+Yes: ``Nice talking to you. You speak English well for an Asian.''\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+Control\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Random\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, Perceived Acceptance, Enjoyable, Similar\strut
+\end{minipage} & \begin{minipage}[t]{0.15\columnwidth}\raggedright
+Yes: ``Nice talking to you.''\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -1555,17 +1607,32 @@ A treatment is implemented (or an IV is manipulated) and a dependent variable (D
 
 \textbf{Hypothetical scenario}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.12}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.20}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.25}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.17}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.25}}@{}}
+\begin{longtable}[]{@{}lllll@{}}
 \toprule
-Group & Assignment & Pre-test observation & Manipulation & Post-test observation \\
+\begin{minipage}[b]{0.10\columnwidth}\raggedright
+Group\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Assignment\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright
+Pre-test observation\strut
+\end{minipage} & \begin{minipage}[b]{0.15\columnwidth}\raggedright
+Manipulation\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright
+Post-test observation\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Low racial loading & Not applicable & None & Yes: ``Nice talking to you. You speak English well.'' & Accuracy, Additional talk time \\
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+Low racial loading\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Not applicable\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+None\strut
+\end{minipage} & \begin{minipage}[t]{0.15\columnwidth}\raggedright
+Yes: ``Nice talking to you. You speak English well.''\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Accuracy, Additional talk time\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -1586,17 +1653,32 @@ How does this change if we add a pretest?
 
 The DV is measured once before the treatment/intervention/manipulation is implemented and once after the treatment/intervention/manipulation.
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.12}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.20}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.25}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.17}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.25}}@{}}
+\begin{longtable}[]{@{}lllll@{}}
 \toprule
-Group & Assignment & Pre-test observation & Manipulation & Post-test observation \\
+\begin{minipage}[b]{0.10\columnwidth}\raggedright
+Group\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Assignment\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright
+Pre-test observation\strut
+\end{minipage} & \begin{minipage}[b]{0.15\columnwidth}\raggedright
+Manipulation\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright
+Post-test observation\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Low racial loading & Not applicable & Evaluation, Perceived Acceptance, Enjoyable, Similar & Yes: ``Nice talking to you. You speak English well.'' & Evaluation, Perceived Acceptance, Enjoyable, Similar \\
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+Low racial loading\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Not applicable\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, Perceived Acceptance, Enjoyable, Similar\strut
+\end{minipage} & \begin{minipage}[t]{0.15\columnwidth}\raggedright
+Yes: ``Nice talking to you. You speak English well.''\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, Perceived Acceptance, Enjoyable, Similar\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -1673,20 +1755,65 @@ Our inability to draw causal inferences has to do with threats to internal valid
   Remedy: no-treatment control group with the same schedule would allow its measurement; a Solomon 4-square (where a treatment and non-treatment group does not get a pre-test would provide even greater control).
 \end{itemize}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.12}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.20}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.25}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.17}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.25}}@{}}
+\begin{longtable}[]{@{}lllll@{}}
 \toprule
-Group & Assignment & Pre-test observation & Manipulation & Post-test observation \\
+\begin{minipage}[b]{0.10\columnwidth}\raggedright
+Group\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+Assignment\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright
+Pre-test observation\strut
+\end{minipage} & \begin{minipage}[b]{0.15\columnwidth}\raggedright
+Manipulation\strut
+\end{minipage} & \begin{minipage}[b]{0.22\columnwidth}\raggedright
+Post-test observation\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-High racial loading & Random & Evaluation, Perceived Acceptance, Enjoyable, Similar & Yes: ``Nice talking to you. You speak English well for an Asian.'' & Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time \\
-Control & Random & Evaluation, Perceived Acceptance, Enjoyable, Similar & Yes: ``Nice talking to you.'' & Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time \\
-High racial loading & Random & none & Yes: ``Nice talking to you. You speak English well for an Asian.'' & Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time \\
-Control & Random & none & Yes: ``Nice talking to you.'' & Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time \\
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+High racial loading\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Random\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, Perceived Acceptance, Enjoyable, Similar\strut
+\end{minipage} & \begin{minipage}[t]{0.15\columnwidth}\raggedright
+Yes: ``Nice talking to you. You speak English well for an Asian.''\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+Control\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Random\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, Perceived Acceptance, Enjoyable, Similar\strut
+\end{minipage} & \begin{minipage}[t]{0.15\columnwidth}\raggedright
+Yes: ``Nice talking to you.''\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+High racial loading\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Random\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+none\strut
+\end{minipage} & \begin{minipage}[t]{0.15\columnwidth}\raggedright
+Yes: ``Nice talking to you. You speak English well for an Asian.''\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.10\columnwidth}\raggedright
+Control\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+Random\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+none\strut
+\end{minipage} & \begin{minipage}[t]{0.15\columnwidth}\raggedright
+Yes: ``Nice talking to you.''\strut
+\end{minipage} & \begin{minipage}[t]{0.22\columnwidth}\raggedright
+Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -1776,18 +1903,46 @@ Within this broad category of a variety of designs consider the following:
 
 Each person is randomly assigned and tested in only one condition. This would have been the case for Tran and Lee \citeyearpar{tran_you_2014}, had there not been a pre-test observation.
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.16}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.27}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.23}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.34}}@{}}
+\begin{longtable}[]{@{}llll@{}}
 \toprule
-Group & Assignment & Manipulation & Post-test observation \\
+\begin{minipage}[b]{0.14\columnwidth}\raggedright
+Group\strut
+\end{minipage} & \begin{minipage}[b]{0.24\columnwidth}\raggedright
+Assignment\strut
+\end{minipage} & \begin{minipage}[b]{0.20\columnwidth}\raggedright
+Manipulation\strut
+\end{minipage} & \begin{minipage}[b]{0.30\columnwidth}\raggedright
+Post-test observation\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Low racial loading & Random & Yes: ``Nice talking to you. You speak English well.'' & Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time \\
-High racial loading & Random & Yes: ``Nice talking to you. You speak English well for an Asian.'' & Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time \\
-Control & Random & Yes: ``Nice talking to you.'' & Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time \\
+\begin{minipage}[t]{0.14\columnwidth}\raggedright
+Low racial loading\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+Random\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
+Yes: ``Nice talking to you. You speak English well.''\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
+Evaluation, Perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright
+High racial loading\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+Random\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
+Yes: ``Nice talking to you. You speak English well for an Asian.''\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
+Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright
+Control\strut
+\end{minipage} & \begin{minipage}[t]{0.24\columnwidth}\raggedright
+Random\strut
+\end{minipage} & \begin{minipage}[t]{0.20\columnwidth}\raggedright
+Yes: ``Nice talking to you.''\strut
+\end{minipage} & \begin{minipage}[t]{0.30\columnwidth}\raggedright
+Evaluation, perceived acceptance, Enjoyable, Similar, Accuracy, Additional talk time\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -1799,18 +1954,18 @@ For example, if Tran and Lee had used a block randomization, the first nine assi
 
 \begin{longtable}[]{@{}lc@{}}
 \toprule
-Participant & Condition \\
+Participant & Condition\tabularnewline
 \midrule
 \endhead
-1 & Low \\
-2 & High \\
-3 & Control \\
-4 & High \\
-5 & Low \\
-6 & Control \\
-7 & Control \\
-8 & Low \\
-9 & High \\
+1 & Low\tabularnewline
+2 & High\tabularnewline
+3 & Control\tabularnewline
+4 & High\tabularnewline
+5 & Low\tabularnewline
+6 & Control\tabularnewline
+7 & Control\tabularnewline
+8 & Low\tabularnewline
+9 & High\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -1853,29 +2008,51 @@ Hypothetical Tran and Lee \citeyearpar{tran_you_2014}, within-subjects, counterb
 
 \begin{longtable}[]{@{}llllllll@{}}
 \toprule
-ID & Pre-test & Manip \#1 & Measures\#2 & Manip \#2 & Measures\#3 & Manip \#3 & Measures \#4 \\
+ID & Pre-test & Manip \#1 & Measures\#2 & Manip \#2 & Measures\#3 & Manip \#3 & Measures \#4\tabularnewline
 \midrule
 \endhead
-1 & yes & High & yes & Low & yes & Control & yes \\
-2 & yes & Low & yes & Control & yes & High & yes \\
-3 & yes & Control & yes & High & yes & Low & yes \\
+1 & yes & High & yes & Low & yes & Control & yes\tabularnewline
+2 & yes & Low & yes & Control & yes & High & yes\tabularnewline
+3 & yes & Control & yes & High & yes & Low & yes\tabularnewline
 \bottomrule
 \end{longtable}
 
 When I teach ANOVA, we progress through a series of ANOVA designs that correspond with the following research designs:
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.46}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.54}}@{}}
+\begin{longtable}[]{@{}ll@{}}
 \toprule
-Research Design & Corresponding ANOVA \\
+\begin{minipage}[b]{0.43\columnwidth}\raggedright
+Research Design\strut
+\end{minipage} & \begin{minipage}[b]{0.51\columnwidth}\raggedright
+Corresponding ANOVA\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Post-only (or single time point) group design & One-way ANOVA \\
-Increasing control over an extraneous variable by including it as a covariate & ANCOVA (analysis of covariance) \\
-Factorial design (between subjects) & Factorial (between-subjects) ANOVA \\
-Pre-post group design & One-way repeated measures ANOVA \\
-Pre/post factorial design (the classic RCT model) & Mixed design ANOVA \\
+\begin{minipage}[t]{0.43\columnwidth}\raggedright
+Post-only (or single time point) group design\strut
+\end{minipage} & \begin{minipage}[t]{0.51\columnwidth}\raggedright
+One-way ANOVA\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.43\columnwidth}\raggedright
+Increasing control over an extraneous variable by including it as a covariate\strut
+\end{minipage} & \begin{minipage}[t]{0.51\columnwidth}\raggedright
+ANCOVA (analysis of covariance)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.43\columnwidth}\raggedright
+Factorial design (between subjects)\strut
+\end{minipage} & \begin{minipage}[t]{0.51\columnwidth}\raggedright
+Factorial (between-subjects) ANOVA\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.43\columnwidth}\raggedright
+Pre-post group design\strut
+\end{minipage} & \begin{minipage}[t]{0.51\columnwidth}\raggedright
+One-way repeated measures ANOVA\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.43\columnwidth}\raggedright
+Pre/post factorial design (the classic RCT model)\strut
+\end{minipage} & \begin{minipage}[t]{0.51\columnwidth}\raggedright
+Mixed design ANOVA\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -1958,7 +2135,7 @@ Therefore, we should ask, ``Do we have hidden variables?''
 
 *Remedy: know your pop/lit, start huge, do everything you can to keep your participants (within ethical limitations)
 
-Boggs et al. \citeyearpar{boggs_outcomes_2005} examined outcomes of Parent-Child Interaction Therapy (PCIT) participants on the basis of their completion status (i.e., if they dropped out of treatment) one and three years later.
+Boggs et al.~\citeyearpar{boggs_outcomes_2005} examined outcomes of Parent-Child Interaction Therapy (PCIT) participants on the basis of their completion status (i.e., if they dropped out of treatment) one and three years later.
 
 The narration of the article makes clear the problem of attrition in (a) the original study, (b) the follow-up study, and (c) treatment in general (hence they wanted to study the effect of attrition)!
 
@@ -1982,7 +2159,7 @@ So what to do about attrition:
   Address it in the statistical analysis.
 \end{itemize}
 
-West et al. \citeyearpar{reis_causal_2000}(pp.~50-51) had a complete data set (simulated) where half of the participants were assigned to control and treatment conditions. The estimated \emph{true} difference was .5. The data was further simulated to assign some of the cases to be missing. Knowing the \emph{true} difference, the researchers analyzed the data with three different approaches to managing the missingness.
+West et al.~\citeyearpar{reis_causal_2000}(pp.~50-51) had a complete data set (simulated) where half of the participants were assigned to control and treatment conditions. The estimated \emph{true} difference was .5. The data was further simulated to assign some of the cases to be missing. Knowing the \emph{true} difference, the researchers analyzed the data with three different approaches to managing the missingness.
 
 \begin{itemize}
 \tightlist
@@ -2012,7 +2189,7 @@ West et al. \citeyearpar{reis_causal_2000}(pp.~50-51) had a complete data set (s
   \end{itemize}
 \end{itemize}
 
-If you have access to the West et al. \citeyearpar{reis_causal_2000} chapter, it is worth looking at the table where this is demonstrated. In other lessons in the OER I offer additional approaches (i.e., multiple imputation, available item analysis) to managing missing data.
+If you have access to the West et al.~\citeyearpar{reis_causal_2000} chapter, it is worth looking at the table where this is demonstrated. In other lessons in the OER I offer additional approaches (i.e., multiple imputation, available item analysis) to managing missing data.
 
 It happened to us!
 
@@ -2079,19 +2256,45 @@ When we used multiple imputation to preserve case with missingness, it brought t
 
 To offer a change from the lecture/chapter format, match the definition to the type (term) of control group.
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.30}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.70}}@{}}
+\begin{longtable}[]{@{}ll@{}}
 \toprule
-A Matching Exercise (answers provided at the end of the lesson) & \\
+\begin{minipage}[b]{0.28\columnwidth}\raggedright
+A Matching Exercise (answers provided at the end of the lesson)\strut
+\end{minipage} & \begin{minipage}[b]{0.66\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Term & Definition \\
-a. Control Group & \_\_\_A group that does not (ever) receive the experimental condition or intervention. \\
-b. Patched-up Control Group & \_\_\_A control condition designed to ensure that groups are equal with respect to potentially important but conceptually and procedurally irrelevant variables. Groups are equalized with regard to a particular variable(s) \\
-c.~Yoked-control Group & \_\_\_Experimental condition/intervention that is not provided during the period that experimental subjects receive the intervention \\
-d.~Wait-list Control Group & \_\_\_A group that is not randomly composed from the pool of subjects in the study. While its intent is to address some issues of internal validty, its composition is derived from issues of convenience. \\
-e. No-treatment Control Group & \_\_\_Experimental condition or intervention is not provided during the period that experimental subjects receive the intervention. After this period, subjects in this group receive the intervention. \\
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+Term\strut
+\end{minipage} & \begin{minipage}[t]{0.66\columnwidth}\raggedright
+Definition\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+a. Control Group\strut
+\end{minipage} & \begin{minipage}[t]{0.66\columnwidth}\raggedright
+\_\_\_A group that does not (ever) receive the experimental condition or intervention.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+b. Patched-up Control Group\strut
+\end{minipage} & \begin{minipage}[t]{0.66\columnwidth}\raggedright
+\_\_\_A control condition designed to ensure that groups are equal with respect to potentially important but conceptually and procedurally irrelevant variables. Groups are equalized with regard to a particular variable(s)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+c.~Yoked-control Group\strut
+\end{minipage} & \begin{minipage}[t]{0.66\columnwidth}\raggedright
+\_\_\_Experimental condition/intervention that is not provided during the period that experimental subjects receive the intervention\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+d.~Wait-list Control Group\strut
+\end{minipage} & \begin{minipage}[t]{0.66\columnwidth}\raggedright
+\_\_\_A group that is not randomly composed from the pool of subjects in the study. While its intent is to address some issues of internal validty, its composition is derived from issues of convenience.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+e. No-treatment Control Group\strut
+\end{minipage} & \begin{minipage}[t]{0.66\columnwidth}\raggedright
+\_\_\_Experimental condition or intervention is not provided during the period that experimental subjects receive the intervention. After this period, subjects in this group receive the intervention.\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -2478,32 +2681,64 @@ Demonstrates the effectiveness of an intervention by showing that the behavior c
 \hypertarget{the-big-debate-evaluating-data-in-single-case-designs}{%
 \section{The Big Debate: Evaluating Data in Single-Case Designs}\label{the-big-debate-evaluating-data-in-single-case-designs}}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.48}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.52}}@{}}
+\begin{longtable}[]{@{}ll@{}}
 \toprule
-Visual Inspection & Statistical Evaluation \\
+\begin{minipage}[b]{0.45\columnwidth}\raggedright
+Visual Inspection\strut
+\end{minipage} & \begin{minipage}[b]{0.49\columnwidth}\raggedright
+Statistical Evaluation\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-(traditional) preference of \emph{n} = 1 investigators & available \\
-seems sacrilegious to many & provides greater assurance of objectivity (at least on the face of it) \\
-more consistent with the clinical picture & \\
+\begin{minipage}[t]{0.45\columnwidth}\raggedright
+(traditional) preference of \emph{n} = 1 investigators\strut
+\end{minipage} & \begin{minipage}[t]{0.49\columnwidth}\raggedright
+available\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.45\columnwidth}\raggedright
+seems sacrilegious to many\strut
+\end{minipage} & \begin{minipage}[t]{0.49\columnwidth}\raggedright
+provides greater assurance of objectivity (at least on the face of it)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.45\columnwidth}\raggedright
+more consistent with the clinical picture\strut
+\end{minipage} & \begin{minipage}[t]{0.49\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
 Kazdin's text identified four criteria for evaluating the single-case design \citeyearpar{kazdin_research_2017}.
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.36}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.64}}@{}}
+\begin{longtable}[]{@{}ll@{}}
 \toprule
-Criteria for Data Evaluation in Single-Case Designs & \\
+\begin{minipage}[b]{0.33\columnwidth}\raggedright
+Criteria for Data Evaluation in Single-Case Designs\strut
+\end{minipage} & \begin{minipage}[b]{0.61\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Changes in means (averages) & The mean rate of the behavior shows a change from phase to phase in the expected direction. \\
-Change in level & When one phase changes to another, a level refers to the change in behavior from the last day of one phase (baseline) and the first day of the next phase (intervention). An abrupt shift facilitates data interpretation. \\
-Change in slope (trend) & The speed with which change occurs once the conditions are changed (baseline to intervention, intervention back to baseline). \\
-Latency of change & The speed with which change occurs once the conditions are changed (baseline to intervention, intervention back to baseline). \\
+\begin{minipage}[t]{0.33\columnwidth}\raggedright
+Changes in means (averages)\strut
+\end{minipage} & \begin{minipage}[t]{0.61\columnwidth}\raggedright
+The mean rate of the behavior shows a change from phase to phase in the expected direction.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.33\columnwidth}\raggedright
+Change in level\strut
+\end{minipage} & \begin{minipage}[t]{0.61\columnwidth}\raggedright
+When one phase changes to another, a level refers to the change in behavior from the last day of one phase (baseline) and the first day of the next phase (intervention). An abrupt shift facilitates data interpretation.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.33\columnwidth}\raggedright
+Change in slope (trend)\strut
+\end{minipage} & \begin{minipage}[t]{0.61\columnwidth}\raggedright
+The speed with which change occurs once the conditions are changed (baseline to intervention, intervention back to baseline).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.33\columnwidth}\raggedright
+Latency of change\strut
+\end{minipage} & \begin{minipage}[t]{0.61\columnwidth}\raggedright
+The speed with which change occurs once the conditions are changed (baseline to intervention, intervention back to baseline).\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -2608,7 +2843,7 @@ In the bedwetting example there is pretraining during the baseline period. There
   \emph{Simulation-modeling analysis} (SMA) as a technique for analyzing N = 1, time-series data
 \end{itemize}
 
-Borckardt et al. \citeyearpar{borckardt_clinical_2008} provided an example of pain intervention. Please refer to the tables and figures in the Borckardt et al.~article.
+Borckardt et al.~\citeyearpar{borckardt_clinical_2008} provided an example of pain intervention. Please refer to the tables and figures in the Borckardt et al.~article.
 
 \begin{itemize}
 \tightlist
@@ -2788,25 +3023,75 @@ In preparing this chapter, I drew heavily from the following resource(s). Other 
 
 When I include a qualitative lecture in the context of a research design class, the qualitative component becomes inevitably contrasted with the quantitative background. As one who conducts (and values) the contributions of qualitative, this is not at all to diminish its contributions.
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.50}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.50}}@{}}
+\begin{longtable}[]{@{}ll@{}}
 \toprule
-\textbf{Quantitative} & \textbf{Qualitative} \\
+\begin{minipage}[b]{0.47\columnwidth}\raggedright
+\textbf{Quantitative}\strut
+\end{minipage} & \begin{minipage}[b]{0.47\columnwidth}\raggedright
+\textbf{Qualitative}\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Philosophy of science is ``positivist'' to ``post-positivist'' & Philosophy of science is somewhere else: postpositivistic, constructivist-interpretivist, naturalistic, critical-idiological \\
-Laboratory, controlled setting. & Natural setting. \\
-Use of valid and reliable scales and instruments. & Human instrument. \\
-Use of implicit knowledge. & Use of tacit knowledge. \\
-Sampling methods are typically random or representative. & Sampling methods are ``purposive.'' \\
-Deductive data analysis: explanation guides the development of the study. & Inductive data analysis: explanation grows out of the data. \\
-A priori theory. & Grounded theory. \\
-Research design is predetermined. & Research design is emergent. \\
-Experimenter determined outcomes. & Negotiated outcomes. \\
-Scientific and technical reporting. & Case study reporting mode. \\
-Concerned with generalization of results. & Idiographic interpretation of data. \\
-Credibility determined by internal and external validity, reliability, objectivity. & Trustworthiness of the results established by other criteria such as an ``audit trail.'' \\
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Philosophy of science is ``positivist'' to ``post-positivist''\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Philosophy of science is somewhere else: postpositivistic, constructivist-interpretivist, naturalistic, critical-idiological\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Laboratory, controlled setting.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Natural setting.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Use of valid and reliable scales and instruments.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Human instrument.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Use of implicit knowledge.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Use of tacit knowledge.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Sampling methods are typically random or representative.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Sampling methods are ``purposive.''\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Deductive data analysis: explanation guides the development of the study.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Inductive data analysis: explanation grows out of the data.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+A priori theory.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Grounded theory.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Research design is predetermined.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Research design is emergent.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Experimenter determined outcomes.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Negotiated outcomes.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Scientific and technical reporting.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Case study reporting mode.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Concerned with generalization of results.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Idiographic interpretation of data.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Credibility determined by internal and external validity, reliability, objectivity.\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Trustworthiness of the results established by other criteria such as an ``audit trail.''\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -2962,19 +3247,55 @@ You can see that these individuals are from education and disciplinary communica
 
 Although the history (as documented in some of the Handbooks noted earlier) has moved away from directly comparing qualitative and quantitative approaches, I still find this adapted from Lincoln and Guba's \emph{Naturalistic Inquiry} \citeyearpar{lincoln_naturalistic_1985} to be useful in framing the differences.
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.16}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.24}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.24}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.37}}@{}}
+\begin{longtable}[]{@{}llll@{}}
 \toprule
-Criterion & Conventional Term & Naturalistic (Qualitative) Term) & Naturalistic (Qualitative) Techniques \\
+\begin{minipage}[b]{0.14\columnwidth}\raggedright
+Criterion\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+Conventional Term\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+Naturalistic (Qualitative) Term)\strut
+\end{minipage} & \begin{minipage}[b]{0.33\columnwidth}\raggedright
+Naturalistic (Qualitative) Techniques\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Truth value & Internal validity & Credibility & Prolonged engagement, Persistent observation, Triangulation, Referential adequacy, Peer debriefing, Member checks, Reflexive journal \\
-Applicability & External validity & Transferability & Thick descriptions, Purposive sampling, Reflexive journal \\
-Consistency & Reliability & Dependability & Dependability audit, Reflexive journal \\
-& Objectivity & Confirmability & Confirmability audit, Reflexive journal \\
+\begin{minipage}[t]{0.14\columnwidth}\raggedright
+Truth value\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+Internal validity\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+Credibility\strut
+\end{minipage} & \begin{minipage}[t]{0.33\columnwidth}\raggedright
+Prolonged engagement, Persistent observation, Triangulation, Referential adequacy, Peer debriefing, Member checks, Reflexive journal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright
+Applicability\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+External validity\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+Transferability\strut
+\end{minipage} & \begin{minipage}[t]{0.33\columnwidth}\raggedright
+Thick descriptions, Purposive sampling, Reflexive journal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright
+Consistency\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+Reliability\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+Dependability\strut
+\end{minipage} & \begin{minipage}[t]{0.33\columnwidth}\raggedright
+Dependability audit, Reflexive journal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.14\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+Objectivity\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+Confirmability\strut
+\end{minipage} & \begin{minipage}[t]{0.33\columnwidth}\raggedright
+Confirmability audit, Reflexive journal\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -3239,18 +3560,32 @@ Finally, we sent all of our materials to an expert in qualitative research metho
 \end{figure}
 
 \hypertarget{evaluating-bikos-et-al.--bikos_longitudinal_2007}{%
-\subsection{\texorpdfstring{Evaluating Bikos et al. \citeyearpar{bikos_longitudinal_2007}}{Evaluating Bikos et al. {[}-@bikos\_longitudinal\_2007{]}}}\label{evaluating-bikos-et-al.--bikos_longitudinal_2007}}
+\subsection{\texorpdfstring{Evaluating Bikos et al.~\citeyearpar{bikos_longitudinal_2007}}{Evaluating Bikos et al.~{[}-@bikos\_longitudinal\_2007{]}}}\label{evaluating-bikos-et-al.--bikos_longitudinal_2007}}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.51}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.49}}@{}}
+\begin{longtable}[]{@{}ll@{}}
 \toprule
-Strengths & Curiosities \\
+\begin{minipage}[b]{0.48\columnwidth}\raggedright
+Strengths\strut
+\end{minipage} & \begin{minipage}[b]{0.46\columnwidth}\raggedright
+Curiosities\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-The article clearly identified philosophy of science (constructivist-interpretivist) & In practice, there was a great deal of post-positivist influence \\
-Clearly specified qualitative method (\emph{Naturalistic Inquiry}) & Atypically large \# participants (8-15 is more common) and phenomenally huge \# interviews. \\
-Clear specification of the credibility criteria and how they were implemented. & Team analysis (NI allows for individual theming as well) \\
+\begin{minipage}[t]{0.48\columnwidth}\raggedright
+The article clearly identified philosophy of science (constructivist-interpretivist)\strut
+\end{minipage} & \begin{minipage}[t]{0.46\columnwidth}\raggedright
+In practice, there was a great deal of post-positivist influence\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.48\columnwidth}\raggedright
+Clearly specified qualitative method (\emph{Naturalistic Inquiry})\strut
+\end{minipage} & \begin{minipage}[t]{0.46\columnwidth}\raggedright
+Atypically large \# participants (8-15 is more common) and phenomenally huge \# interviews.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.48\columnwidth}\raggedright
+Clear specification of the credibility criteria and how they were implemented.\strut
+\end{minipage} & \begin{minipage}[t]{0.46\columnwidth}\raggedright
+Team analysis (NI allows for individual theming as well)\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -3621,23 +3956,98 @@ Content validty asks, ``Does the content of the items reflect the domain to be a
 
 Let's pretend that we were going to create a table of specifications for this particular lecture, it might look like this.
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.43}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.13}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.12}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.12}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.20}}@{}}
+\begin{longtable}[]{@{}lllll@{}}
 \toprule
-Objective & Knowledge & Skills & Attitudes & \% of test; \# items \\
+\begin{minipage}[b]{0.37\columnwidth}\raggedright
+Objective\strut
+\end{minipage} & \begin{minipage}[b]{0.11\columnwidth}\raggedright
+Knowledge\strut
+\end{minipage} & \begin{minipage}[b]{0.10\columnwidth}\raggedright
+Skills\strut
+\end{minipage} & \begin{minipage}[b]{0.10\columnwidth}\raggedright
+Attitudes\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\raggedright
+\% of test; \# items\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Memorize the true-score formula & 10\%; 1 item & & & 10\%; 1 item \\
-Define types of reliability & 20\%; 2 items & & & 20\%; 2 items \\
-Define types of validity & 20\%; 2 items & & & 20\%; 2 items \\
-Retrieve and interpret reliability and validity coefficients from published articles & & 20\%; 2 items & & 20\%; 2 items \\
-Write an APA-style instrument entry & & 20\%; 1 item & & 20\%; 1 big item \\
-Describe why psychometric evaluation is important & & & 10\%; 1 item & 10\%; 1 item \\
-\textbf{Totals} & 50\%; 5 items & 40\%; 4 items & 20\%; 1 item & 100\%; 9 items \\
+\begin{minipage}[t]{0.37\columnwidth}\raggedright
+Memorize the true-score formula\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright
+10\%; 1 item\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+10\%; 1 item\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.37\columnwidth}\raggedright
+Define types of reliability\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright
+20\%; 2 items\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+20\%; 2 items\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.37\columnwidth}\raggedright
+Define types of validity\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright
+20\%; 2 items\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+20\%; 2 items\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.37\columnwidth}\raggedright
+Retrieve and interpret reliability and validity coefficients from published articles\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+20\%; 2 items\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+20\%; 2 items\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.37\columnwidth}\raggedright
+Write an APA-style instrument entry\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+20\%; 1 item\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+20\%; 1 big item\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.37\columnwidth}\raggedright
+Describe why psychometric evaluation is important\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+10\%; 1 item\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+10\%; 1 item\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.37\columnwidth}\raggedright
+\textbf{Totals}\strut
+\end{minipage} & \begin{minipage}[t]{0.11\columnwidth}\raggedright
+50\%; 5 items\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+40\%; 4 items\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\raggedright
+20\%; 1 item\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
+100\%; 9 items\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -3885,7 +4295,7 @@ Please locate 12 write-ups of measures used in research projects.
 
 This assignment happens in two stages. First, you will map each of the measures you select (i.e., parallel to diagramming a sentence). Second, looking across the write-ups of those measures, you will create your own template (i.e., a recipe card) for how you will write up a measures in your own papers.
 
-Here's an example of how I would map the following write-up of the Mental Health Inventory used in Bikos et al. \citeyearpar{bikos_repeated_2007}
+Here's an example of how I would map the following write-up of the Mental Health Inventory used in Bikos et al.~\citeyearpar{bikos_repeated_2007}
 
 First, the screenshot:
 \includegraphics{images/PsychoM/MHI.png}
@@ -3955,18 +4365,45 @@ Heading: name of construct
   \end{itemize}
 \end{enumerate}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.80}}
-  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.10}}
-  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.10}}@{}}
+\begin{longtable}[]{@{}lcc@{}}
 \toprule
-Assignment Component & & \\
+\begin{minipage}[b]{0.73\columnwidth}\raggedright
+Assignment Component\strut
+\end{minipage} & \begin{minipage}[b]{0.09\columnwidth}\centering
+\strut
+\end{minipage} & \begin{minipage}[b]{0.09\columnwidth}\centering
+\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-1. Screen shots, the APA style citation (7th ed), and an outline of 12 measure write-ups are required. & 20 & \_\_\_\_\_ \\
-2. Your psychometric template. Map out an APA-style/JARS-consistent formula/recipe for writing up a \emph{measures} section in an empirical manuscript. This sh ould be an ideal-scenario kind of writeup for a full-length manuscript or dissertation. & 15 & \_\_\_\_\_ \\
-3. Explanation to a grader & 5 & \_\_\_\_\_ \\
-\textbf{Totals} & 40 & \_\_\_\_\_ \\
+\begin{minipage}[t]{0.73\columnwidth}\raggedright
+1. Screen shots, the APA style citation (7th ed), and an outline of 12 measure write-ups are required.\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+20\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\_\_\_\_\_\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.73\columnwidth}\raggedright
+2. Your psychometric template. Map out an APA-style/JARS-consistent formula/recipe for writing up a \emph{measures} section in an empirical manuscript. This sh ould be an ideal-scenario kind of writeup for a full-length manuscript or dissertation.\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+15\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\_\_\_\_\_\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.73\columnwidth}\raggedright
+3. Explanation to a grader\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+5\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\_\_\_\_\_\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.73\columnwidth}\raggedright
+\textbf{Totals}\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+40\strut
+\end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\centering
+\_\_\_\_\_\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -4457,7 +4894,7 @@ Evaluating harm from disclosure risks can be considered bidimensionally:
 
 \begin{longtable}[]{@{}lc@{}}
 \toprule
-& Probability of reidentification \\
+& Probability of reidentification\tabularnewline
 \midrule
 \endhead
 \bottomrule
@@ -4465,11 +4902,11 @@ Evaluating harm from disclosure risks can be considered bidimensionally:
 
 \begin{longtable}[]{@{}ccc@{}}
 \toprule
-Potential harm & Lo & Hi \\
+Potential harm & Lo & Hi\tabularnewline
 \midrule
 \endhead
-Lo & & \\
-Hi & & \\
+Lo & &\tabularnewline
+Hi & &\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -4541,27 +4978,50 @@ Among a variety of scientists, an NSF funded study reported that psychologists w
 
 Yet, there are counterpoints \citep{martone_data_2018}:
 
-\begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\begin{longtable}[]{@{}c@{}}
 \toprule
-``The issue of who is harmed by sharing data needs to be balanced against who is harmed by not sharing data?'' (p.~117) \\
+\begin{minipage}[b]{0.97\columnwidth}\centering
+``The issue of who is harmed by sharing data needs to be balanced against who is harmed by not sharing data?'' (p.~117)\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
 \bottomrule
 \end{longtable}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.18}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.82}}@{}}
+\begin{longtable}[]{@{}ll@{}}
 \toprule
-The Issue & A Counterpoint \\
+\begin{minipage}[b]{0.17\columnwidth}\raggedright
+The Issue\strut
+\end{minipage} & \begin{minipage}[b]{0.77\columnwidth}\raggedright
+A Counterpoint\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Reputation/Liability & What if errors (if any) are undiscovered? Or findings are spurious (and only because of biased ways of data preparation)? \\
-Being Scooped & Curiously, in microbiology, the original data creators tended to publish two years after the data were made publically available; other authors tended to publish five to six years after the data were made available. \\
-Unrewarded effort & ``If data are essential products of scholarship, those who create data must be appropriately acknowledged and rewarded'' (\citep{alter_responsible_2018}, p.~153). \\
-Data isn't useful beyond the single project & Martone \citep{martone_data_2018} recounted the results of the VISION-SCI project where the scientific community made individual data sets available (even those with NS effect -- ``file-drawer'' and ``background'' data). Although individual studies (usually with restricted samples) produced unstable and inconsistent findings, the combined data provided a ``fuller sampling of \ldots the `syndromic space'\,'' (p.~114) and resulted in robust predictive models. \\
-The field will stagnate with no new data being collected & Even the most amazing, longitudinal sets such as the High School and Beyond longitudinal set that has been used in so many examples \citep{noauthor_high_nodate}(High School \& Beyond, National Educational Longitudinal Set) become obsolete and are replaced by newer samples and improved measures/techniques. \\
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+Reputation/Liability\strut
+\end{minipage} & \begin{minipage}[t]{0.77\columnwidth}\raggedright
+What if errors (if any) are undiscovered? Or findings are spurious (and only because of biased ways of data preparation)?\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+Being Scooped\strut
+\end{minipage} & \begin{minipage}[t]{0.77\columnwidth}\raggedright
+Curiously, in microbiology, the original data creators tended to publish two years after the data were made publically available; other authors tended to publish five to six years after the data were made available.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+Unrewarded effort\strut
+\end{minipage} & \begin{minipage}[t]{0.77\columnwidth}\raggedright
+``If data are essential products of scholarship, those who create data must be appropriately acknowledged and rewarded'' (\citep{alter_responsible_2018}, p.~153).\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+Data isn't useful beyond the single project\strut
+\end{minipage} & \begin{minipage}[t]{0.77\columnwidth}\raggedright
+Martone \citep{martone_data_2018} recounted the results of the VISION-SCI project where the scientific community made individual data sets available (even those with NS effect -- ``file-drawer'' and ``background'' data). Although individual studies (usually with restricted samples) produced unstable and inconsistent findings, the combined data provided a ``fuller sampling of \ldots the `syndromic space'\,'' (p.~114) and resulted in robust predictive models.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\raggedright
+The field will stagnate with no new data being collected\strut
+\end{minipage} & \begin{minipage}[t]{0.77\columnwidth}\raggedright
+Even the most amazing, longitudinal sets such as the High School and Beyond longitudinal set that has been used in so many examples \citep{noauthor_high_nodate}(High School \& Beyond, National Educational Longitudinal Set) become obsolete and are replaced by newer samples and improved measures/techniques.\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -4622,16 +5082,25 @@ Alter and Gonzalez \citeyearpar{alter_responsible_2018} went further to suggest 
 
 Below is an excerpt from a recent IRB application that projects how data might be used (credit to Tom Carpenter, PhD, for examples of language to use in the informed consent).
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.00}}@{}}
+\begin{longtable}[]{@{}l@{}}
 \toprule
-Confidentiality \\
+\begin{minipage}[b]{0.97\columnwidth}\raggedright
+Confidentiality\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-The data we are using is completely de-identified and is already available to instructors as well as their chairs, deans, and members of tenure/promotion committees. All data that is retained for the purpose of the study may also be used in future research, presentations, and/or for teaching purposes by the Principal Investigator listed above. \\
-Consistent with both journal/guild expectations and the ethical principles of open science, a fully anonymous and non-identifiable version of the dataset may be posted online (e.g., to the APA-endorsed ``Open Science Framework'' {[}www.osf.io{]} or to the journal, submitted with the research article). No data posted will contain any information that could identify participants in any way, either directly or indirectly. All data will be thoroughly inspected by the research prior to posting to confirm that no participant-provided responses could inadvertently identify or expose a participant. \\
-Posting data (commonly referred to as ``data sharing'') is necessary for reproducibility and replicability in science, allows peer reviewers and meta-analysts to check statistical assumptions, protects the field against data fraud, and is increasingly seen as an ethical obligation within psychological science. \\
-\emph{Bikos RVT IRB application, November 2020} \\
+\begin{minipage}[t]{0.97\columnwidth}\raggedright
+The data we are using is completely de-identified and is already available to instructors as well as their chairs, deans, and members of tenure/promotion committees. All data that is retained for the purpose of the study may also be used in future research, presentations, and/or for teaching purposes by the Principal Investigator listed above.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.97\columnwidth}\raggedright
+Consistent with both journal/guild expectations and the ethical principles of open science, a fully anonymous and non-identifiable version of the dataset may be posted online (e.g., to the APA-endorsed ``Open Science Framework'' {[}www.osf.io{]} or to the journal, submitted with the research article). No data posted will contain any information that could identify participants in any way, either directly or indirectly. All data will be thoroughly inspected by the research prior to posting to confirm that no participant-provided responses could inadvertently identify or expose a participant.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.97\columnwidth}\raggedright
+Posting data (commonly referred to as ``data sharing'') is necessary for reproducibility and replicability in science, allows peer reviewers and meta-analysts to check statistical assumptions, protects the field against data fraud, and is increasingly seen as an ethical obligation within psychological science.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.97\columnwidth}\raggedright
+\emph{Bikos RVT IRB application, November 2020}\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -4739,14 +5208,14 @@ As you plan your research projects, think ahead to the journals to which you mig
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\FunctionTok{sessionInfo}\NormalTok{()}
+\KeywordTok{sessionInfo}\NormalTok{()}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{verbatim}
-R version 4.0.4 (2021-02-15)
+R version 4.0.0 (2020-04-24)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
-Running under: Windows 10 x64 (build 18362)
+Running under: Windows 10 x64 (build 18363)
 
 Matrix products: default
 
@@ -4761,15 +5230,15 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] psych_2.1.3
+[1] psych_2.1.6
 
 loaded via a namespace (and not attached):
- [1] bookdown_0.22     lattice_0.20-41   digest_0.6.27     grid_4.0.4       
- [5] nlme_3.1-151      magrittr_2.0.1    evaluate_0.14     rlang_0.4.11     
- [9] stringi_1.5.3     rstudioapi_0.13   rmarkdown_2.7     tools_4.0.4      
-[13] stringr_1.4.0     parallel_4.0.4    xfun_0.22         yaml_2.2.1       
-[17] compiler_4.0.4    mnormt_2.0.2      tmvnsim_1.0-2     htmltools_0.5.1.1
-[21] knitr_1.33       
+ [1] bookdown_0.24   lattice_0.20-41 digest_0.6.27   grid_4.0.0     
+ [5] nlme_3.1-147    magrittr_2.0.1  evaluate_0.14   rlang_0.4.11   
+ [9] stringi_1.7.4   rstudioapi_0.13 rmarkdown_2.10  tools_4.0.0    
+[13] stringr_1.4.0   parallel_4.0.0  xfun_0.25       yaml_2.2.1     
+[17] fastmap_1.1.0   compiler_4.0.0  mnormt_2.0.2    tmvnsim_1.0-2  
+[21] htmltools_0.5.2 knitr_1.34     
 \end{verbatim}
 
 \hypertarget{writing-empirical-manuscripts}{%
@@ -4915,7 +5384,7 @@ A 1995 article \citep{madigan_language_1995} in the American Psychologist compar
   Language that ``does not call attention to itself.'' It can be described as: self-effacing and low-profile.
 \end{itemize}
 
-The style manual has grown from its 7-page writers guide in the Psychological Bulletin (1929) to 427 in the 7th edition (2019), today. Madigan et al. \citeyearpar{madigan_language_1995} suggests that the process of mastering APA style, one is enculturated into psychology. That is, we learn APA style -- we inculcate empiricist values (i.e., ``unarticulated practices that reflect fundamental attitudes and values of psychologists'' (p.~428). As such, APA style is epistemological.
+The style manual has grown from its 7-page writers guide in the Psychological Bulletin (1929) to 427 in the 7th edition (2019), today. Madigan et al.~\citeyearpar{madigan_language_1995} suggests that the process of mastering APA style, one is enculturated into psychology. That is, we learn APA style -- we inculcate empiricist values (i.e., ``unarticulated practices that reflect fundamental attitudes and values of psychologists'' (p.~428). As such, APA style is epistemological.
 
 Nearly a decade later, Thompson \citeyearpar{thompson_gentlemanly_2004} examined APA style through the lens of critical race feminism and Whiteness Theory. Thompson argued that the expectations regarding clarity precision, appropriateness, sensitivity, and objectivity likely contribute to the academy's investments in Whiteness and patriarchy. While her focus was on APA Style, she suspected that her critique would generalize to other style guides (e.g., Chicago, MLA).
 
@@ -5055,7 +5524,7 @@ Let's also look at the characteristics of White Supremacy Culture in organizatio
 \hypertarget{the-jars-the-core-of-apa-style}{%
 \section{The JARS: The Core of APA Style}\label{the-jars-the-core-of-apa-style}}
 
-The JARS {[}Journal Article Reporting Standards; \citet{appelbaum_journal_2018}{]} were first introduced in a 2008 feature in the American Psychologist \citep{noauthor_reporting_2008} and were included in the 6th edition of the style manual. The updated JARS, published in 2018, expanded the types of quantitative research (JARS-Quant) and included standards for reporting qualitative (JARS-Qual) and mixed methods (JARS-Mixed). Chapter 3 of the 7th edition is devoted to JARS. It contains numerous tables, definitions/explanations, and a flowchart.
+The JARS \citep[Journal Article Reporting Standards;][]{appelbaum_journal_2018} were first introduced in a 2008 feature in the American Psychologist \citep{noauthor_reporting_2008} and were included in the 6th edition of the style manual. The updated JARS, published in 2018, expanded the types of quantitative research (JARS-Quant) and included standards for reporting qualitative (JARS-Qual) and mixed methods (JARS-Mixed). Chapter 3 of the 7th edition is devoted to JARS. It contains numerous tables, definitions/explanations, and a flowchart.
 
 The JARS are an attempt to represent what is common across approaches. There is a recognition that specialties/sub-specialties use different terminology. The terms, therefore, should be treated as placeholders and be updated to reflect the various research traditions.
 

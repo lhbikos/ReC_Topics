@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Epistemology and Philosophy of Science | ReCentering Psych Stats: Topics in Research Methods</title>
   <meta name="description" content="This is an open-access, book-in-progress. My goal in offering it is to re-center the materials used in training statistics and research methods in graduate and post-graduate psychology programs." />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Epistemology and Philosophy of Science | ReCentering Psych Stats: Topics in Research Methods" />
   <meta property="og:type" content="book" />
@@ -32,8 +32,8 @@
   
 <link rel="prev" href="TrainMod.html"/>
 <link rel="next" href="Experimental.html"/>
-<script src="libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,33 +49,30 @@
 
 
 
-
 <link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
 
 <style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -84,9 +81,9 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  {  }
 @media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -119,28 +116,6 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
-<style type="text/css">
-/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}
-</style>
 
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
@@ -159,21 +134,17 @@ div.csl-indent {
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>BOOK COVER</a></li>
-<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>PREFACE</a>
-<ul>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>PREFACE</a><ul>
 <li class="chapter" data-level="" data-path="preface.html"><a href="preface.html#copyright-with-open-access"><i class="fa fa-check"></i>Copyright with Open Access</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>ACKNOWLEDGEMENTS</a></li>
-<li class="chapter" data-level="1" data-path="ReCintro.html"><a href="ReCintro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
-<ul>
+<li class="chapter" data-level="1" data-path="ReCintro.html"><a href="ReCintro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
 <li class="chapter" data-level="1.1" data-path="ReCintro.html"><a href="ReCintro.html#what-to-expect-in-each-chapter"><i class="fa fa-check"></i><b>1.1</b> What to expect in each chapter</a></li>
 <li class="chapter" data-level="1.2" data-path="ReCintro.html"><a href="ReCintro.html#strategies-for-accessing-and-using-this-oer"><i class="fa fa-check"></i><b>1.2</b> Strategies for Accessing and Using this OER</a></li>
-<li class="chapter" data-level="1.3" data-path="ReCintro.html"><a href="ReCintro.html#if-you-are-new-to-r"><i class="fa fa-check"></i><b>1.3</b> If You are New to R</a>
-<ul>
+<li class="chapter" data-level="1.3" data-path="ReCintro.html"><a href="ReCintro.html#if-you-are-new-to-r"><i class="fa fa-check"></i><b>1.3</b> If You are New to R</a><ul>
 <li class="chapter" data-level="1.3.1" data-path="ReCintro.html"><a href="ReCintro.html#base-r"><i class="fa fa-check"></i><b>1.3.1</b> Base R</a></li>
 <li class="chapter" data-level="1.3.2" data-path="ReCintro.html"><a href="ReCintro.html#r-studio"><i class="fa fa-check"></i><b>1.3.2</b> R Studio</a></li>
-<li class="chapter" data-level="1.3.3" data-path="ReCintro.html"><a href="ReCintro.html#r-hygiene"><i class="fa fa-check"></i><b>1.3.3</b> R Hygiene</a>
-<ul>
+<li class="chapter" data-level="1.3.3" data-path="ReCintro.html"><a href="ReCintro.html#r-hygiene"><i class="fa fa-check"></i><b>1.3.3</b> R Hygiene</a><ul>
 <li class="chapter" data-level="1.3.3.1" data-path="ReCintro.html"><a href="ReCintro.html#everything-is-documented-in-the-.rmd-file"><i class="fa fa-check"></i><b>1.3.3.1</b> Everything is documented in the .rmd file</a></li>
 <li class="chapter" data-level="1.3.3.2" data-path="ReCintro.html"><a href="ReCintro.html#file-organization"><i class="fa fa-check"></i><b>1.3.3.2</b> File organization</a></li>
 <li class="chapter" data-level="1.3.3.3" data-path="ReCintro.html"><a href="ReCintro.html#chunks"><i class="fa fa-check"></i><b>1.3.3.3</b> Chunks</a></li>
@@ -185,16 +156,13 @@ div.csl-indent {
 <li class="chapter" data-level="1.3.6" data-path="ReCintro.html"><a href="ReCintro.html#resources-for-getting-started"><i class="fa fa-check"></i><b>1.3.6</b> Resources for getting staRted</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="TrainMod.html"><a href="TrainMod.html"><i class="fa fa-check"></i><b>2</b> Training Models in Professional Psychology</a>
-<ul>
-<li class="chapter" data-level="2.1" data-path="TrainMod.html"><a href="TrainMod.html#navigating-this-lesson"><i class="fa fa-check"></i><b>2.1</b> Navigating this Lesson</a>
-<ul>
+<li class="chapter" data-level="2" data-path="TrainMod.html"><a href="TrainMod.html"><i class="fa fa-check"></i><b>2</b> Training Models in Professional Psychology</a><ul>
+<li class="chapter" data-level="2.1" data-path="TrainMod.html"><a href="TrainMod.html#navigating-this-lesson"><i class="fa fa-check"></i><b>2.1</b> Navigating this Lesson</a><ul>
 <li class="chapter" data-level="2.1.1" data-path="TrainMod.html"><a href="TrainMod.html#learning-objectives"><i class="fa fa-check"></i><b>2.1.1</b> Learning Objectives</a></li>
 <li class="chapter" data-level="2.1.2" data-path="TrainMod.html"><a href="TrainMod.html#readings-resources"><i class="fa fa-check"></i><b>2.1.2</b> Readings &amp; Resources</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="TrainMod.html"><a href="TrainMod.html#the-push-and-pull-of-science-and-practice"><i class="fa fa-check"></i><b>2.2</b> The Push and Pull of Science and Practice</a></li>
-<li class="chapter" data-level="2.3" data-path="TrainMod.html"><a href="TrainMod.html#training-models-accreditation"><i class="fa fa-check"></i><b>2.3</b> Training Models &amp; Accreditation</a>
-<ul>
+<li class="chapter" data-level="2.3" data-path="TrainMod.html"><a href="TrainMod.html#training-models-accreditation"><i class="fa fa-check"></i><b>2.3</b> Training Models &amp; Accreditation</a><ul>
 <li class="chapter" data-level="2.3.1" data-path="TrainMod.html"><a href="TrainMod.html#scientistpractitioner-sp-model"><i class="fa fa-check"></i><b>2.3.1</b> Scientist~Practitioner (SP) Model</a></li>
 <li class="chapter" data-level="2.3.2" data-path="TrainMod.html"><a href="TrainMod.html#scholar-practitioner-sch-p-model"><i class="fa fa-check"></i><b>2.3.2</b> Scholar-Practitioner (SCH-P) Model</a></li>
 <li class="chapter" data-level="2.3.3" data-path="TrainMod.html"><a href="TrainMod.html#clinical-scientist-model"><i class="fa fa-check"></i><b>2.3.3</b> Clinical Scientist Model</a></li>
@@ -204,123 +172,97 @@ div.csl-indent {
 </ul></li>
 <li class="chapter" data-level="2.4" data-path="TrainMod.html"><a href="TrainMod.html#suggestions-for-practice"><i class="fa fa-check"></i><b>2.4</b> Suggestions for Practice</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="PHoS.html"><a href="PHoS.html"><i class="fa fa-check"></i><b>3</b> Epistemology and Philosophy of Science</a>
-<ul>
-<li class="chapter" data-level="3.1" data-path="PHoS.html"><a href="PHoS.html#navigating-this-lesson-1"><i class="fa fa-check"></i><b>3.1</b> Navigating this Lesson</a>
-<ul>
+<li class="chapter" data-level="3" data-path="PHoS.html"><a href="PHoS.html"><i class="fa fa-check"></i><b>3</b> Epistemology and Philosophy of Science</a><ul>
+<li class="chapter" data-level="3.1" data-path="PHoS.html"><a href="PHoS.html#navigating-this-lesson-1"><i class="fa fa-check"></i><b>3.1</b> Navigating this Lesson</a><ul>
 <li class="chapter" data-level="3.1.1" data-path="PHoS.html"><a href="PHoS.html#learning-objectives-1"><i class="fa fa-check"></i><b>3.1.1</b> Learning Objectives</a></li>
 <li class="chapter" data-level="3.1.2" data-path="PHoS.html"><a href="PHoS.html#readings-resources-1"><i class="fa fa-check"></i><b>3.1.2</b> Readings &amp; Resources</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="PHoS.html"><a href="PHoS.html#core-themes-in-research-methodology"><i class="fa fa-check"></i><b>3.2</b> Core Themes in Research Methodology</a>
-<ul>
+<li class="chapter" data-level="3.2" data-path="PHoS.html"><a href="PHoS.html#core-themes-in-research-methodology"><i class="fa fa-check"></i><b>3.2</b> Core Themes in Research Methodology</a><ul>
 <li class="chapter" data-level="3.2.1" data-path="PHoS.html"><a href="PHoS.html#ways-of-knowing"><i class="fa fa-check"></i><b>3.2.1</b> Ways of Knowing</a></li>
 <li class="chapter" data-level="3.2.2" data-path="PHoS.html"><a href="PHoS.html#a-faith-based-model"><i class="fa fa-check"></i><b>3.2.2</b> A Faith-Based Model</a></li>
 <li class="chapter" data-level="3.2.3" data-path="PHoS.html"><a href="PHoS.html#race-based-epistemologies"><i class="fa fa-check"></i><b>3.2.3</b> Race-Based Epistemologies</a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="PHoS.html"><a href="PHoS.html#defining-research-and-some-of-its-key-concepts"><i class="fa fa-check"></i><b>3.3</b> Defining Research (And [Some Of]) Its Key Concepts</a></li>
-<li class="chapter" data-level="3.4" data-path="PHoS.html"><a href="PHoS.html#philosophy-of-science-as-it-relates-to-research-methodology"><i class="fa fa-check"></i><b>3.4</b> Philosophy of Science as it Relates to Research Methodology</a>
-<ul>
+<li class="chapter" data-level="3.3" data-path="PHoS.html"><a href="PHoS.html#defining-research-and-some-of-its-key-concepts"><i class="fa fa-check"></i><b>3.3</b> Defining Research and (Some of) Its Key Concepts</a></li>
+<li class="chapter" data-level="3.4" data-path="PHoS.html"><a href="PHoS.html#philosophy-of-science-as-it-relates-to-research-methodology"><i class="fa fa-check"></i><b>3.4</b> Philosophy of Science as it Relates to Research Methodology</a><ul>
 <li class="chapter" data-level="3.4.1" data-path="PHoS.html"><a href="PHoS.html#paradigmatic-impact-on-onology-epistemology-axiology-rhetorical-structure-and-methodology"><i class="fa fa-check"></i><b>3.4.1</b> Paradigmatic Impact on Onology, Epistemology, Axiology, Rhetorical Structure, and Methodology</a></li>
 <li class="chapter" data-level="3.4.2" data-path="PHoS.html"><a href="PHoS.html#things-im-thinking-about"><i class="fa fa-check"></i><b>3.4.2</b> Things I’m Thinking About</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="Experimental.html"><a href="Experimental.html"><i class="fa fa-check"></i><b>4</b> Experimental Design</a>
-<ul>
-<li class="chapter" data-level="4.1" data-path="Experimental.html"><a href="Experimental.html#navigating-this-lesson-2"><i class="fa fa-check"></i><b>4.1</b> Navigating this Lesson</a>
-<ul>
+<li class="chapter" data-level="4" data-path="Experimental.html"><a href="Experimental.html"><i class="fa fa-check"></i><b>4</b> Experimental Design</a><ul>
+<li class="chapter" data-level="4.1" data-path="Experimental.html"><a href="Experimental.html#navigating-this-lesson-2"><i class="fa fa-check"></i><b>4.1</b> Navigating this Lesson</a><ul>
 <li class="chapter" data-level="4.1.1" data-path="Experimental.html"><a href="Experimental.html#learning-objectives-2"><i class="fa fa-check"></i><b>4.1.1</b> Learning Objectives</a></li>
 <li class="chapter" data-level="4.1.2" data-path="Experimental.html"><a href="Experimental.html#readings-resources-2"><i class="fa fa-check"></i><b>4.1.2</b> Readings &amp; Resources</a></li>
 </ul></li>
 <li class="chapter" data-level="4.2" data-path="Experimental.html"><a href="Experimental.html#in-the-beginning-there-was"><i class="fa fa-check"></i><b>4.2</b> In the Beginning There Was…</a></li>
-<li class="chapter" data-level="4.3" data-path="Experimental.html"><a href="Experimental.html#quasi-experimental-designs"><i class="fa fa-check"></i><b>4.3</b> Quasi-Experimental Designs</a>
-<ul>
+<li class="chapter" data-level="4.3" data-path="Experimental.html"><a href="Experimental.html#quasi-experimental-designs"><i class="fa fa-check"></i><b>4.3</b> Quasi-Experimental Designs</a><ul>
 <li class="chapter" data-level="4.3.1" data-path="Experimental.html"><a href="Experimental.html#one-group-posttest-only-design"><i class="fa fa-check"></i><b>4.3.1</b> One-group posttest only design:</a></li>
 <li class="chapter" data-level="4.3.2" data-path="Experimental.html"><a href="Experimental.html#one-group-pretest-posttest-design"><i class="fa fa-check"></i><b>4.3.2</b> One-group pretest-posttest design:</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="Experimental.html"><a href="Experimental.html#threats-to-internal-validity"><i class="fa fa-check"></i><b>4.4</b> Threats to Internal Validity</a>
-<ul>
+<li class="chapter" data-level="4.4" data-path="Experimental.html"><a href="Experimental.html#threats-to-internal-validity"><i class="fa fa-check"></i><b>4.4</b> Threats to Internal Validity</a><ul>
 <li class="chapter" data-level="4.4.1" data-path="Experimental.html"><a href="Experimental.html#defining-internal-validity"><i class="fa fa-check"></i><b>4.4.1</b> Defining Internal Validity</a></li>
 <li class="chapter" data-level="4.4.2" data-path="Experimental.html"><a href="Experimental.html#threats-to-internal-validity-as-a-function-of-one-sample-designs"><i class="fa fa-check"></i><b>4.4.2</b> Threats to Internal Validity as a Function of One-Sample Designs</a></li>
 </ul></li>
-<li class="chapter" data-level="4.5" data-path="Experimental.html"><a href="Experimental.html#experimental-designs"><i class="fa fa-check"></i><b>4.5</b> Experimental Designs</a>
-<ul>
+<li class="chapter" data-level="4.5" data-path="Experimental.html"><a href="Experimental.html#experimental-designs"><i class="fa fa-check"></i><b>4.5</b> Experimental Designs</a><ul>
 <li class="chapter" data-level="4.5.1" data-path="Experimental.html"><a href="Experimental.html#between-subject-experiments"><i class="fa fa-check"></i><b>4.5.1</b> Between-Subject Experiments</a></li>
 <li class="chapter" data-level="4.5.2" data-path="Experimental.html"><a href="Experimental.html#within-subject-experiments"><i class="fa fa-check"></i><b>4.5.2</b> Within-Subject Experiments</a></li>
 </ul></li>
-<li class="chapter" data-level="4.6" data-path="Experimental.html"><a href="Experimental.html#the-validity-family"><i class="fa fa-check"></i><b>4.6</b> The Validity Family</a>
-<ul>
-<li class="chapter" data-level="4.6.1" data-path="Experimental.html"><a href="Experimental.html#defining-internal-validity-1"><i class="fa fa-check"></i><b>4.6.1</b> Defining “Internal Validity”</a>
-<ul>
+<li class="chapter" data-level="4.6" data-path="Experimental.html"><a href="Experimental.html#the-validity-family"><i class="fa fa-check"></i><b>4.6</b> The Validity Family</a><ul>
+<li class="chapter" data-level="4.6.1" data-path="Experimental.html"><a href="Experimental.html#defining-internal-validity-1"><i class="fa fa-check"></i><b>4.6.1</b> Defining “Internal Validity”</a><ul>
 <li class="chapter" data-level="4.6.1.1" data-path="Experimental.html"><a href="Experimental.html#threats-to-internal-validity-1"><i class="fa fa-check"></i><b>4.6.1.1</b> Threats to Internal Validity</a></li>
 </ul></li>
 <li class="chapter" data-level="4.6.2" data-path="Experimental.html"><a href="Experimental.html#a-bit-about-the-remedies"><i class="fa fa-check"></i><b>4.6.2</b> A Bit about the Remedies</a></li>
 <li class="chapter" data-level="4.6.3" data-path="Experimental.html"><a href="Experimental.html#strategies-or-equating-non-equivalent-groups"><i class="fa fa-check"></i><b>4.6.3</b> Strategies or Equating Non-Equivalent Groups</a></li>
 </ul></li>
-<li class="chapter" data-level="4.7" data-path="Experimental.html"><a href="Experimental.html#defining-external-validity"><i class="fa fa-check"></i><b>4.7</b> Defining External Validity</a>
-<ul>
-<li class="chapter" data-level="4.7.1" data-path="Experimental.html"><a href="Experimental.html#threats-to-external-validty"><i class="fa fa-check"></i><b>4.7.1</b> Threats to External Validty</a>
-<ul>
+<li class="chapter" data-level="4.7" data-path="Experimental.html"><a href="Experimental.html#defining-external-validity"><i class="fa fa-check"></i><b>4.7</b> Defining External Validity</a><ul>
+<li class="chapter" data-level="4.7.1" data-path="Experimental.html"><a href="Experimental.html#threats-to-external-validty"><i class="fa fa-check"></i><b>4.7.1</b> Threats to External Validty</a><ul>
 <li class="chapter" data-level="4.7.1.1" data-path="Experimental.html"><a href="Experimental.html#re-enter-parsimony-and-plausibility"><i class="fa fa-check"></i><b>4.7.1.1</b> Re-Enter Parsimony and Plausibility</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="4.8" data-path="Experimental.html"><a href="Experimental.html#balancing-internal-and-external-validity"><i class="fa fa-check"></i><b>4.8</b> Balancing Internal and External Validity</a>
-<ul>
+<li class="chapter" data-level="4.8" data-path="Experimental.html"><a href="Experimental.html#balancing-internal-and-external-validity"><i class="fa fa-check"></i><b>4.8</b> Balancing Internal and External Validity</a><ul>
 <li class="chapter" data-level="4.8.1" data-path="Experimental.html"><a href="Experimental.html#the-bubble-hypothesis"><i class="fa fa-check"></i><b>4.8.1</b> The Bubble Hypothesis</a></li>
 </ul></li>
-<li class="chapter" data-level="4.9" data-path="Experimental.html"><a href="Experimental.html#defining-construct-validity"><i class="fa fa-check"></i><b>4.9</b> Defining Construct Validity</a>
-<ul>
+<li class="chapter" data-level="4.9" data-path="Experimental.html"><a href="Experimental.html#defining-construct-validity"><i class="fa fa-check"></i><b>4.9</b> Defining Construct Validity</a><ul>
 <li class="chapter" data-level="4.9.1" data-path="Experimental.html"><a href="Experimental.html#threats-to-construct-validity"><i class="fa fa-check"></i><b>4.9.1</b> Threats to Construct Validity</a></li>
 </ul></li>
-<li class="chapter" data-level="4.10" data-path="Experimental.html"><a href="Experimental.html#statistical-conclusion-validity"><i class="fa fa-check"></i><b>4.10</b> Statistical Conclusion Validity</a>
-<ul>
+<li class="chapter" data-level="4.10" data-path="Experimental.html"><a href="Experimental.html#statistical-conclusion-validity"><i class="fa fa-check"></i><b>4.10</b> Statistical Conclusion Validity</a><ul>
 <li class="chapter" data-level="4.10.1" data-path="Experimental.html"><a href="Experimental.html#threats-to-statistical-conclusion-validity"><i class="fa fa-check"></i><b>4.10.1</b> Threats to Statistical Conclusion Validity</a></li>
 </ul></li>
 <li class="chapter" data-level="4.11" data-path="Experimental.html"><a href="Experimental.html#answer-key"><i class="fa fa-check"></i><b>4.11</b> Answer Key</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="SingleCase.html"><a href="SingleCase.html"><i class="fa fa-check"></i><b>5</b> The Case Study and Single Case Design</a>
-<ul>
-<li class="chapter" data-level="5.1" data-path="SingleCase.html"><a href="SingleCase.html#navigating-this-lesson-3"><i class="fa fa-check"></i><b>5.1</b> Navigating this Lesson</a>
-<ul>
+<li class="chapter" data-level="5" data-path="SingleCase.html"><a href="SingleCase.html"><i class="fa fa-check"></i><b>5</b> The Case Study and Single Case Design</a><ul>
+<li class="chapter" data-level="5.1" data-path="SingleCase.html"><a href="SingleCase.html#navigating-this-lesson-3"><i class="fa fa-check"></i><b>5.1</b> Navigating this Lesson</a><ul>
 <li class="chapter" data-level="5.1.1" data-path="SingleCase.html"><a href="SingleCase.html#learning-objectives-3"><i class="fa fa-check"></i><b>5.1.1</b> Learning Objectives</a></li>
 <li class="chapter" data-level="5.1.2" data-path="SingleCase.html"><a href="SingleCase.html#readings-resources-3"><i class="fa fa-check"></i><b>5.1.2</b> Readings &amp; Resources</a></li>
 </ul></li>
-<li class="chapter" data-level="5.2" data-path="SingleCase.html"><a href="SingleCase.html#the-anecdotal-and-uncontrolled-case-study"><i class="fa fa-check"></i><b>5.2</b> The Anecdotal and Uncontrolled Case Study</a>
-<ul>
+<li class="chapter" data-level="5.2" data-path="SingleCase.html"><a href="SingleCase.html#the-anecdotal-and-uncontrolled-case-study"><i class="fa fa-check"></i><b>5.2</b> The Anecdotal and Uncontrolled Case Study</a><ul>
 <li class="chapter" data-level="5.2.1" data-path="SingleCase.html"><a href="SingleCase.html#why-bother-with-the-anecdotaluncontrolled-case-study"><i class="fa fa-check"></i><b>5.2.1</b> Why Bother with the Anecdotal/Uncontrolled Case Study?</a></li>
 <li class="chapter" data-level="5.2.2" data-path="SingleCase.html"><a href="SingleCase.html#limitations-of-the-uncontrolled-anecdotal-case-study"><i class="fa fa-check"></i><b>5.2.2</b> Limitations of the (uncontrolled, anecdotal) Case Study</a></li>
 </ul></li>
 <li class="chapter" data-level="5.3" data-path="SingleCase.html"><a href="SingleCase.html#single-case-designs"><i class="fa fa-check"></i><b>5.3</b> Single Case Designs</a></li>
-<li class="chapter" data-level="5.4" data-path="SingleCase.html"><a href="SingleCase.html#experimental-design-strategies"><i class="fa fa-check"></i><b>5.4</b> Experimental Design Strategies</a>
-<ul>
+<li class="chapter" data-level="5.4" data-path="SingleCase.html"><a href="SingleCase.html#experimental-design-strategies"><i class="fa fa-check"></i><b>5.4</b> Experimental Design Strategies</a><ul>
 <li class="chapter" data-level="5.4.1" data-path="SingleCase.html"><a href="SingleCase.html#abab-designs"><i class="fa fa-check"></i><b>5.4.1</b> ABAB Designs</a></li>
 <li class="chapter" data-level="5.4.2" data-path="SingleCase.html"><a href="SingleCase.html#multiple-baseline-designs"><i class="fa fa-check"></i><b>5.4.2</b> Multiple Baseline Designs</a></li>
 <li class="chapter" data-level="5.4.3" data-path="SingleCase.html"><a href="SingleCase.html#changing-criteria-designs"><i class="fa fa-check"></i><b>5.4.3</b> Changing-Criteria Designs</a></li>
 </ul></li>
-<li class="chapter" data-level="5.5" data-path="SingleCase.html"><a href="SingleCase.html#the-big-debate-evaluating-data-in-single-case-designs"><i class="fa fa-check"></i><b>5.5</b> The Big Debate: Evaluating Data in Single-Case Designs</a>
-<ul>
+<li class="chapter" data-level="5.5" data-path="SingleCase.html"><a href="SingleCase.html#the-big-debate-evaluating-data-in-single-case-designs"><i class="fa fa-check"></i><b>5.5</b> The Big Debate: Evaluating Data in Single-Case Designs</a><ul>
 <li class="chapter" data-level="5.5.1" data-path="SingleCase.html"><a href="SingleCase.html#evaluating-single-case-study-designs"><i class="fa fa-check"></i><b>5.5.1</b> Evaluating Single Case Study Designs</a></li>
 </ul></li>
-<li class="chapter" data-level="5.6" data-path="SingleCase.html"><a href="SingleCase.html#case-based-time-series-analysis"><i class="fa fa-check"></i><b>5.6</b> Case-Based Time-Series Analysis</a>
-<ul>
+<li class="chapter" data-level="5.6" data-path="SingleCase.html"><a href="SingleCase.html#case-based-time-series-analysis"><i class="fa fa-check"></i><b>5.6</b> Case-Based Time-Series Analysis</a><ul>
 <li class="chapter" data-level="5.6.1" data-path="SingleCase.html"><a href="SingleCase.html#the-trouble-with-interpreting-n-1"><i class="fa fa-check"></i><b>5.6.1</b> The Trouble with Interpreting <em>N</em> = 1</a></li>
 </ul></li>
-<li class="chapter" data-level="5.7" data-path="SingleCase.html"><a href="SingleCase.html#incorporating-systematic-evaluation-into-clinical-practice"><i class="fa fa-check"></i><b>5.7</b> Incorporating Systematic Evaluation into Clinical Practice</a>
-<ul>
+<li class="chapter" data-level="5.7" data-path="SingleCase.html"><a href="SingleCase.html#incorporating-systematic-evaluation-into-clinical-practice"><i class="fa fa-check"></i><b>5.7</b> Incorporating Systematic Evaluation into Clinical Practice</a><ul>
 <li class="chapter" data-level="5.7.1" data-path="SingleCase.html"><a href="SingleCase.html#kazdins--kazdin_research_2017-gloria-case"><i class="fa fa-check"></i><b>5.7.1</b> Kazdin’s <span class="citation">(<span>2017</span>)</span> <em>Gloria Case</em></a></li>
 </ul></li>
 <li class="chapter" data-level="5.8" data-path="SingleCase.html"><a href="SingleCase.html#from-the-perspective-of-philosophy-of-science"><i class="fa fa-check"></i><b>5.8</b> From the Perspective of Philosophy of Science</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="Qualitative.html"><a href="Qualitative.html"><i class="fa fa-check"></i><b>6</b> Quick Qualitative Introduction</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="Qualitative.html"><a href="Qualitative.html#navigating-this-lesson-4"><i class="fa fa-check"></i><b>6.1</b> Navigating this Lesson</a>
-<ul>
+<li class="chapter" data-level="6" data-path="Qualitative.html"><a href="Qualitative.html"><i class="fa fa-check"></i><b>6</b> Quick Qualitative Introduction</a><ul>
+<li class="chapter" data-level="6.1" data-path="Qualitative.html"><a href="Qualitative.html#navigating-this-lesson-4"><i class="fa fa-check"></i><b>6.1</b> Navigating this Lesson</a><ul>
 <li class="chapter" data-level="6.1.1" data-path="Qualitative.html"><a href="Qualitative.html#learning-objectives-4"><i class="fa fa-check"></i><b>6.1.1</b> Learning Objectives</a></li>
 <li class="chapter" data-level="6.1.2" data-path="Qualitative.html"><a href="Qualitative.html#readings-resources-4"><i class="fa fa-check"></i><b>6.1.2</b> Readings &amp; Resources</a></li>
 </ul></li>
 <li class="chapter" data-level="6.2" data-path="Qualitative.html"><a href="Qualitative.html#the-qual-v-quant-contrast"><i class="fa fa-check"></i><b>6.2</b> The Qual v Quant Contrast</a></li>
 <li class="chapter" data-level="6.3" data-path="Qualitative.html"><a href="Qualitative.html#from-whence-we-came"><i class="fa fa-check"></i><b>6.3</b> From Whence we Came</a></li>
-<li class="chapter" data-level="6.4" data-path="Qualitative.html"><a href="Qualitative.html#critical-qualitative-foundation"><i class="fa fa-check"></i><b>6.4</b> Critical Qualitative Foundation</a>
-<ul>
+<li class="chapter" data-level="6.4" data-path="Qualitative.html"><a href="Qualitative.html#critical-qualitative-foundation"><i class="fa fa-check"></i><b>6.4</b> Critical Qualitative Foundation</a><ul>
 <li class="chapter" data-level="6.4.1" data-path="Qualitative.html"><a href="Qualitative.html#the-qulitative-orientation"><i class="fa fa-check"></i><b>6.4.1</b> The Qulitative Orientation</a></li>
 <li class="chapter" data-level="6.4.2" data-path="Qualitative.html"><a href="Qualitative.html#methods-of-observation-role-of-the-observer"><i class="fa fa-check"></i><b>6.4.2</b> Methods of Observation: Role of the observer</a></li>
 <li class="chapter" data-level="6.4.3" data-path="Qualitative.html"><a href="Qualitative.html#gathering-and-analyzing-data"><i class="fa fa-check"></i><b>6.4.3</b> Gathering and Analyzing Data</a></li>
@@ -328,36 +270,30 @@ div.csl-indent {
 <li class="chapter" data-level="6.4.5" data-path="Qualitative.html"><a href="Qualitative.html#data-analysis"><i class="fa fa-check"></i><b>6.4.5</b> Data Analysis</a></li>
 </ul></li>
 <li class="chapter" data-level="6.5" data-path="Qualitative.html"><a href="Qualitative.html#establishing-the-credibility-of-a-qualitaive-study-trustworthiness"><i class="fa fa-check"></i><b>6.5</b> Establishing the Credibility of a Qualitaive Study: Trustworthiness</a></li>
-<li class="chapter" data-level="6.6" data-path="Qualitative.html"><a href="Qualitative.html#example-adjustment-of-the-female-expatriate-spouse-a-longitudinal-investigation-bikos_repeated_2007"><i class="fa fa-check"></i><b>6.6</b> EXAMPLE: Adjustment of the Female, Expatriate Spouse – A longitudinal investigation <span class="citation">(<span>Bikos, Çiftçi, Güneri, Demir, Sümer, Danielson, DeVries, et al., 2007</span>)</span></a>
-<ul>
+<li class="chapter" data-level="6.6" data-path="Qualitative.html"><a href="Qualitative.html#example-adjustment-of-the-female-expatriate-spouse-a-longitudinal-investigation-bikos_repeated_2007"><i class="fa fa-check"></i><b>6.6</b> EXAMPLE: Adjustment of the Female, Expatriate Spouse – A longitudinal investigation <span class="citation">(Bikos, Çiftçi, Güneri, Demir, Sümer, Danielson, DeVries, et al., <span>2007</span>)</span></a><ul>
 <li class="chapter" data-level="6.6.1" data-path="Qualitative.html"><a href="Qualitative.html#beginnings-of-the-project"><i class="fa fa-check"></i><b>6.6.1</b> Beginnings of the Project</a></li>
 </ul></li>
 <li class="chapter" data-level="6.7" data-path="Qualitative.html"><a href="Qualitative.html#naturalistic-inquiry-methods"><i class="fa fa-check"></i><b>6.7</b> Naturalistic Inquiry Methods</a></li>
-<li class="chapter" data-level="6.8" data-path="Qualitative.html"><a href="Qualitative.html#establishing-trustworthiness"><i class="fa fa-check"></i><b>6.8</b> Establishing Trustworthiness</a>
-<ul>
+<li class="chapter" data-level="6.8" data-path="Qualitative.html"><a href="Qualitative.html#establishing-trustworthiness"><i class="fa fa-check"></i><b>6.8</b> Establishing Trustworthiness</a><ul>
 <li class="chapter" data-level="6.8.1" data-path="Qualitative.html"><a href="Qualitative.html#interviews"><i class="fa fa-check"></i><b>6.8.1</b> Interviews</a></li>
 <li class="chapter" data-level="6.8.2" data-path="Qualitative.html"><a href="Qualitative.html#data-analysis-and-interpretation"><i class="fa fa-check"></i><b>6.8.2</b> Data Analysis and Interpretation</a></li>
 <li class="chapter" data-level="6.8.3" data-path="Qualitative.html"><a href="Qualitative.html#reflexive-journal-entry"><i class="fa fa-check"></i><b>6.8.3</b> Reflexive Journal Entry</a></li>
 <li class="chapter" data-level="6.8.4" data-path="Qualitative.html"><a href="Qualitative.html#interviewing-example-unitizing"><i class="fa fa-check"></i><b>6.8.4</b> Interviewing Example: Unitizing</a></li>
 <li class="chapter" data-level="6.8.5" data-path="Qualitative.html"><a href="Qualitative.html#the-case-study"><i class="fa fa-check"></i><b>6.8.5</b> The Case Study</a></li>
-<li class="chapter" data-level="6.8.6" data-path="Qualitative.html"><a href="Qualitative.html#evaluating-bikos-et-al.--bikos_longitudinal_2007"><i class="fa fa-check"></i><b>6.8.6</b> Evaluating Bikos et al. <span class="citation">(<span>2007</span>)</span></a></li>
+<li class="chapter" data-level="6.8.6" data-path="Qualitative.html"><a href="Qualitative.html#evaluating-bikos-et-al.--bikos_longitudinal_2007"><i class="fa fa-check"></i><b>6.8.6</b> Evaluating Bikos et al. <span class="citation">(<span>2007</span>)</span></a></li>
 </ul></li>
 <li class="chapter" data-level="6.9" data-path="Qualitative.html"><a href="Qualitative.html#how-would-i-select-a-qualitative-method-for-my-dissertation"><i class="fa fa-check"></i><b>6.9</b> How Would I Select a Qualitative Method for my Dissertation?</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="Psychometrix.html"><a href="Psychometrix.html"><i class="fa fa-check"></i><b>7</b> Psychometrics Crash Course: A quick and dirty review of the primary elements of reliability and validity</a>
-<ul>
-<li class="chapter" data-level="7.1" data-path="Psychometrix.html"><a href="Psychometrix.html#navigating-this-lesson-5"><i class="fa fa-check"></i><b>7.1</b> Navigating this Lesson</a>
-<ul>
+<li class="chapter" data-level="7" data-path="Psychometrix.html"><a href="Psychometrix.html"><i class="fa fa-check"></i><b>7</b> Psychometrics Crash Course: A quick and dirty review of the primary elements of reliability and validity</a><ul>
+<li class="chapter" data-level="7.1" data-path="Psychometrix.html"><a href="Psychometrix.html#navigating-this-lesson-5"><i class="fa fa-check"></i><b>7.1</b> Navigating this Lesson</a><ul>
 <li class="chapter" data-level="7.1.1" data-path="Psychometrix.html"><a href="Psychometrix.html#learning-objectives-5"><i class="fa fa-check"></i><b>7.1.1</b> Learning Objectives</a></li>
 <li class="chapter" data-level="7.1.2" data-path="Psychometrix.html"><a href="Psychometrix.html#readings-resources-5"><i class="fa fa-check"></i><b>7.1.2</b> Readings &amp; Resources</a></li>
 <li class="chapter" data-level="7.1.3" data-path="Psychometrix.html"><a href="Psychometrix.html#planning-for-practice"><i class="fa fa-check"></i><b>7.1.3</b> Planning for Practice</a></li>
 </ul></li>
 <li class="chapter" data-level="7.2" data-path="Psychometrix.html"><a href="Psychometrix.html#classical-test-theory"><i class="fa fa-check"></i><b>7.2</b> Classical Test Theory</a></li>
-<li class="chapter" data-level="7.3" data-path="Psychometrix.html"><a href="Psychometrix.html#traditional-estimates-of-reliability"><i class="fa fa-check"></i><b>7.3</b> Traditional Estimates of Reliability</a>
-<ul>
+<li class="chapter" data-level="7.3" data-path="Psychometrix.html"><a href="Psychometrix.html#traditional-estimates-of-reliability"><i class="fa fa-check"></i><b>7.3</b> Traditional Estimates of Reliability</a><ul>
 <li class="chapter" data-level="7.3.1" data-path="Psychometrix.html"><a href="Psychometrix.html#test-retest-reliability"><i class="fa fa-check"></i><b>7.3.1</b> Test Retest Reliability</a></li>
-<li class="chapter" data-level="7.3.2" data-path="Psychometrix.html"><a href="Psychometrix.html#internal-consistency"><i class="fa fa-check"></i><b>7.3.2</b> Internal Consistency</a>
-<ul>
+<li class="chapter" data-level="7.3.2" data-path="Psychometrix.html"><a href="Psychometrix.html#internal-consistency"><i class="fa fa-check"></i><b>7.3.2</b> Internal Consistency</a><ul>
 <li class="chapter" data-level="7.3.2.1" data-path="Psychometrix.html"><a href="Psychometrix.html#alternate-equivalent-form-reliability"><i class="fa fa-check"></i><b>7.3.2.1</b> Alternate (Equivalent)-Form Reliability</a></li>
 <li class="chapter" data-level="7.3.2.2" data-path="Psychometrix.html"><a href="Psychometrix.html#split-half-method"><i class="fa fa-check"></i><b>7.3.2.2</b> Split-Half Method</a></li>
 <li class="chapter" data-level="7.3.2.3" data-path="Psychometrix.html"><a href="Psychometrix.html#internal-consistency-1"><i class="fa fa-check"></i><b>7.3.2.3</b> Internal consistency</a></li>
@@ -365,10 +301,8 @@ div.csl-indent {
 <li class="chapter" data-level="7.3.2.5" data-path="Psychometrix.html"><a href="Psychometrix.html#on-reliability"><i class="fa fa-check"></i><b>7.3.2.5</b> On Reliability</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7.4" data-path="Psychometrix.html"><a href="Psychometrix.html#defining-validity"><i class="fa fa-check"></i><b>7.4</b> Defining Validity</a>
-<ul>
-<li class="chapter" data-level="7.4.1" data-path="Psychometrix.html"><a href="Psychometrix.html#traditional-estimates-of-validty"><i class="fa fa-check"></i><b>7.4.1</b> Traditional Estimates of Validty</a>
-<ul>
+<li class="chapter" data-level="7.4" data-path="Psychometrix.html"><a href="Psychometrix.html#defining-validity"><i class="fa fa-check"></i><b>7.4</b> Defining Validity</a><ul>
+<li class="chapter" data-level="7.4.1" data-path="Psychometrix.html"><a href="Psychometrix.html#traditional-estimates-of-validty"><i class="fa fa-check"></i><b>7.4.1</b> Traditional Estimates of Validty</a><ul>
 <li class="chapter" data-level="7.4.1.1" data-path="Psychometrix.html"><a href="Psychometrix.html#face-validty-the-un-validty"><i class="fa fa-check"></i><b>7.4.1.1</b> Face Validty: The Un-Validty</a></li>
 <li class="chapter" data-level="7.4.1.2" data-path="Psychometrix.html"><a href="Psychometrix.html#content-validity"><i class="fa fa-check"></i><b>7.4.1.2</b> Content Validity</a></li>
 <li class="chapter" data-level="7.4.1.3" data-path="Psychometrix.html"><a href="Psychometrix.html#construct-validty"><i class="fa fa-check"></i><b>7.4.1.3</b> Construct Validty</a></li>
@@ -377,8 +311,7 @@ div.csl-indent {
 <li class="chapter" data-level="7.4.1.6" data-path="Psychometrix.html"><a href="Psychometrix.html#structural-validity"><i class="fa fa-check"></i><b>7.4.1.6</b> “Structural” Validity</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7.5" data-path="Psychometrix.html"><a href="Psychometrix.html#locating-and-interpreting-reliability-and-validity-in-publications"><i class="fa fa-check"></i><b>7.5</b> Locating and Interpreting Reliability and Validity in Publications</a>
-<ul>
+<li class="chapter" data-level="7.5" data-path="Psychometrix.html"><a href="Psychometrix.html#locating-and-interpreting-reliability-and-validity-in-publications"><i class="fa fa-check"></i><b>7.5</b> Locating and Interpreting Reliability and Validity in Publications</a><ul>
 <li class="chapter" data-level="7.5.1" data-path="Psychometrix.html"><a href="Psychometrix.html#from-tran-and-lee-2014"><i class="fa fa-check"></i><b>7.5.1</b> From Tran and Lee (2014)</a></li>
 <li class="chapter" data-level="7.5.2" data-path="Psychometrix.html"><a href="Psychometrix.html#from-lui-2020"><i class="fa fa-check"></i><b>7.5.2</b> From Lui (2020)</a></li>
 <li class="chapter" data-level="7.5.3" data-path="Psychometrix.html"><a href="Psychometrix.html#exerpt-from-nadal-2011"><i class="fa fa-check"></i><b>7.5.3</b> Exerpt from Nadal (2011)</a></li>
@@ -386,10 +319,8 @@ div.csl-indent {
 <li class="chapter" data-level="7.6" data-path="Psychometrix.html"><a href="Psychometrix.html#practice-problem"><i class="fa fa-check"></i><b>7.6</b> Practice Problem</a></li>
 <li class="chapter" data-level="7.7" data-path="Psychometrix.html"><a href="Psychometrix.html#answer-key-1"><i class="fa fa-check"></i><b>7.7</b> Answer Key</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="JEDI.html"><a href="JEDI.html"><i class="fa fa-check"></i><b>8</b> A JEDI Lecture: Promoting Justice, Equity, Diversity, and Inclusion in Research</a>
-<ul>
-<li class="chapter" data-level="8.1" data-path="JEDI.html"><a href="JEDI.html#navigating-this-lesson-6"><i class="fa fa-check"></i><b>8.1</b> Navigating this Lesson</a>
-<ul>
+<li class="chapter" data-level="8" data-path="JEDI.html"><a href="JEDI.html"><i class="fa fa-check"></i><b>8</b> A JEDI Lecture: Promoting Justice, Equity, Diversity, and Inclusion in Research</a><ul>
+<li class="chapter" data-level="8.1" data-path="JEDI.html"><a href="JEDI.html#navigating-this-lesson-6"><i class="fa fa-check"></i><b>8.1</b> Navigating this Lesson</a><ul>
 <li class="chapter" data-level="8.1.1" data-path="JEDI.html"><a href="JEDI.html#learning-objectives-6"><i class="fa fa-check"></i><b>8.1.1</b> Learning Objectives</a></li>
 <li class="chapter" data-level="8.1.2" data-path="JEDI.html"><a href="JEDI.html#readings-resources-6"><i class="fa fa-check"></i><b>8.1.2</b> Readings &amp; Resources</a></li>
 </ul></li>
@@ -397,39 +328,31 @@ div.csl-indent {
 <li class="chapter" data-level="8.3" data-path="JEDI.html"><a href="JEDI.html#race-and-ethnicity-guidelines-in-psychology-promoting-responsiveness-and-equity-2019"><i class="fa fa-check"></i><b>8.3</b> Race and Ethnicity Guidelines in Psychology: Promoting Responsiveness and Equity (2019)</a></li>
 <li class="chapter" data-level="8.4" data-path="JEDI.html"><a href="JEDI.html#specific-guidelines-for-research-in-related-guidelines"><i class="fa fa-check"></i><b>8.4</b> Specific Guidelines for Research in Related Guidelines</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="OpenScience.html"><a href="OpenScience.html"><i class="fa fa-check"></i><b>9</b> Orientation to Open Science</a>
-<ul>
-<li class="chapter" data-level="9.1" data-path="OpenScience.html"><a href="OpenScience.html#navigating-this-lesson-7"><i class="fa fa-check"></i><b>9.1</b> Navigating this Lesson</a>
-<ul>
+<li class="chapter" data-level="9" data-path="OpenScience.html"><a href="OpenScience.html"><i class="fa fa-check"></i><b>9</b> Orientation to Open Science</a><ul>
+<li class="chapter" data-level="9.1" data-path="OpenScience.html"><a href="OpenScience.html#navigating-this-lesson-7"><i class="fa fa-check"></i><b>9.1</b> Navigating this Lesson</a><ul>
 <li class="chapter" data-level="9.1.1" data-path="OpenScience.html"><a href="OpenScience.html#learning-objectives-7"><i class="fa fa-check"></i><b>9.1.1</b> Learning Objectives</a></li>
 <li class="chapter" data-level="9.1.2" data-path="OpenScience.html"><a href="OpenScience.html#readings-resources-7"><i class="fa fa-check"></i><b>9.1.2</b> Readings &amp; Resources</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="OpenScience.html"><a href="OpenScience.html#the-crises"><i class="fa fa-check"></i><b>9.2</b> The Crises</a>
-<ul>
+<li class="chapter" data-level="9.2" data-path="OpenScience.html"><a href="OpenScience.html#the-crises"><i class="fa fa-check"></i><b>9.2</b> The Crises</a><ul>
 <li class="chapter" data-level="9.2.1" data-path="OpenScience.html"><a href="OpenScience.html#the-replicability-crisis"><i class="fa fa-check"></i><b>9.2.1</b> The Replicability Crisis</a></li>
 <li class="chapter" data-level="9.2.2" data-path="OpenScience.html"><a href="OpenScience.html#the-reproducibility-crisis"><i class="fa fa-check"></i><b>9.2.2</b> The Reproducibility Crisis</a></li>
 </ul></li>
-<li class="chapter" data-level="9.3" data-path="OpenScience.html"><a href="OpenScience.html#open-science-what-why"><i class="fa fa-check"></i><b>9.3</b> Open Science: What &amp; Why</a>
-<ul>
+<li class="chapter" data-level="9.3" data-path="OpenScience.html"><a href="OpenScience.html#open-science-what-why"><i class="fa fa-check"></i><b>9.3</b> Open Science: What &amp; Why</a><ul>
 <li class="chapter" data-level="9.3.1" data-path="OpenScience.html"><a href="OpenScience.html#research-transparency"><i class="fa fa-check"></i><b>9.3.1</b> Research Transparency</a></li>
 <li class="chapter" data-level="9.3.2" data-path="OpenScience.html"><a href="OpenScience.html#who-owns-the-data"><i class="fa fa-check"></i><b>9.3.2</b> Who owns the data?</a></li>
 </ul></li>
-<li class="chapter" data-level="9.4" data-path="OpenScience.html"><a href="OpenScience.html#open-science-where"><i class="fa fa-check"></i><b>9.4</b> Open Science: Where</a>
-<ul>
+<li class="chapter" data-level="9.4" data-path="OpenScience.html"><a href="OpenScience.html#open-science-where"><i class="fa fa-check"></i><b>9.4</b> Open Science: Where</a><ul>
 <li class="chapter" data-level="9.4.1" data-path="OpenScience.html"><a href="OpenScience.html#data-repositories"><i class="fa fa-check"></i><b>9.4.1</b> Data Repositories:</a></li>
 <li class="chapter" data-level="9.4.2" data-path="OpenScience.html"><a href="OpenScience.html#journals-supplemental-files"><i class="fa fa-check"></i><b>9.4.2</b> Journals: Supplemental files</a></li>
 </ul></li>
-<li class="chapter" data-level="9.5" data-path="OpenScience.html"><a href="OpenScience.html#open-science-who-are-the-stakeholders"><i class="fa fa-check"></i><b>9.5</b> Open Science: Who are the Stakeholders?</a>
-<ul>
+<li class="chapter" data-level="9.5" data-path="OpenScience.html"><a href="OpenScience.html#open-science-who-are-the-stakeholders"><i class="fa fa-check"></i><b>9.5</b> Open Science: Who are the Stakeholders?</a><ul>
 <li class="chapter" data-level="9.5.1" data-path="OpenScience.html"><a href="OpenScience.html#groups"><i class="fa fa-check"></i><b>9.5.1</b> Groups</a></li>
 <li class="chapter" data-level="9.5.2" data-path="OpenScience.html"><a href="OpenScience.html#individual-research-participants"><i class="fa fa-check"></i><b>9.5.2</b> Individual Research participants</a></li>
-<li class="chapter" data-level="9.5.3" data-path="OpenScience.html"><a href="OpenScience.html#the-common-rule"><i class="fa fa-check"></i><b>9.5.3</b> The Common Rule</a>
-<ul>
+<li class="chapter" data-level="9.5.3" data-path="OpenScience.html"><a href="OpenScience.html#the-common-rule"><i class="fa fa-check"></i><b>9.5.3</b> The Common Rule</a><ul>
 <li class="chapter" data-level="9.5.3.1" data-path="OpenScience.html"><a href="OpenScience.html#data-creators"><i class="fa fa-check"></i><b>9.5.3.1</b> Data creators</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="9.6" data-path="OpenScience.html"><a href="OpenScience.html#open-science-how"><i class="fa fa-check"></i><b>9.6</b> Open Science: How</a>
-<ul>
+<li class="chapter" data-level="9.6" data-path="OpenScience.html"><a href="OpenScience.html#open-science-how"><i class="fa fa-check"></i><b>9.6</b> Open Science: How</a><ul>
 <li class="chapter" data-level="9.6.1" data-path="OpenScience.html"><a href="OpenScience.html#regarding-research-transparency"><i class="fa fa-check"></i><b>9.6.1</b> Regarding research transparency</a></li>
 <li class="chapter" data-level="9.6.2" data-path="OpenScience.html"><a href="OpenScience.html#regarding-data-ownership"><i class="fa fa-check"></i><b>9.6.2</b> Regarding data ownership</a></li>
 <li class="chapter" data-level="9.6.3" data-path="OpenScience.html"><a href="OpenScience.html#regarding-data-sharing"><i class="fa fa-check"></i><b>9.6.3</b> Regarding Data Sharing</a></li>
@@ -439,32 +362,26 @@ div.csl-indent {
 <li class="chapter" data-level="9.8" data-path="OpenScience.html"><a href="OpenScience.html#im-a-graduate-student-what-does-it-mean-to-me"><i class="fa fa-check"></i><b>9.8</b> I’m a Graduate Student – What does it mean to me?</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="writing-empirical-manuscripts.html"><a href="writing-empirical-manuscripts.html"><i class="fa fa-check"></i>WRITING EMPIRICAL MANUSCRIPTS</a></li>
-<li class="chapter" data-level="10" data-path="APAstyle.html"><a href="APAstyle.html"><i class="fa fa-check"></i><b>10</b> The APA Style Manuscript</a>
-<ul>
-<li class="chapter" data-level="10.1" data-path="APAstyle.html"><a href="APAstyle.html#navigating-this-lesson-8"><i class="fa fa-check"></i><b>10.1</b> Navigating this Lesson</a>
-<ul>
+<li class="chapter" data-level="10" data-path="APAstyle.html"><a href="APAstyle.html"><i class="fa fa-check"></i><b>10</b> The APA Style Manuscript</a><ul>
+<li class="chapter" data-level="10.1" data-path="APAstyle.html"><a href="APAstyle.html#navigating-this-lesson-8"><i class="fa fa-check"></i><b>10.1</b> Navigating this Lesson</a><ul>
 <li class="chapter" data-level="10.1.1" data-path="APAstyle.html"><a href="APAstyle.html#learning-objectives-8"><i class="fa fa-check"></i><b>10.1.1</b> Learning Objectives</a></li>
 <li class="chapter" data-level="10.1.2" data-path="APAstyle.html"><a href="APAstyle.html#readings-resources-8"><i class="fa fa-check"></i><b>10.1.2</b> Readings &amp; Resources</a></li>
 </ul></li>
 <li class="chapter" data-level="10.2" data-path="APAstyle.html"><a href="APAstyle.html#apa-style-as-epistemology-or-worse"><i class="fa fa-check"></i><b>10.2</b> APA Style as Epistemology (or Worse)</a></li>
 <li class="chapter" data-level="10.3" data-path="APAstyle.html"><a href="APAstyle.html#as-we-dive-into-the-specifics"><i class="fa fa-check"></i><b>10.3</b> As We Dive into the Specifics</a></li>
-<li class="chapter" data-level="10.4" data-path="APAstyle.html"><a href="APAstyle.html#the-jars-the-core-of-apa-style"><i class="fa fa-check"></i><b>10.4</b> The JARS: The Core of APA Style</a>
-<ul>
-<li class="chapter" data-level="10.4.1" data-path="APAstyle.html"><a href="APAstyle.html#title-authorship-author-note-apa-2.3"><i class="fa fa-check"></i><b>10.4.1</b> Title, Authorship, Author Note (APA 2.3)</a>
-<ul>
+<li class="chapter" data-level="10.4" data-path="APAstyle.html"><a href="APAstyle.html#the-jars-the-core-of-apa-style"><i class="fa fa-check"></i><b>10.4</b> The JARS: The Core of APA Style</a><ul>
+<li class="chapter" data-level="10.4.1" data-path="APAstyle.html"><a href="APAstyle.html#title-authorship-author-note-apa-2.3"><i class="fa fa-check"></i><b>10.4.1</b> Title, Authorship, Author Note (APA 2.3)</a><ul>
 <li class="chapter" data-level="10.4.1.1" data-path="APAstyle.html"><a href="APAstyle.html#title-apa-2.4"><i class="fa fa-check"></i><b>10.4.1.1</b> Title (APA 2.4)</a></li>
 <li class="chapter" data-level="10.4.1.2" data-path="APAstyle.html"><a href="APAstyle.html#authorshipbyline-apa-2.5-affiliation-apa-2.6"><i class="fa fa-check"></i><b>10.4.1.2</b> Authorship/Byline (APA 2.5) &amp; Affiliation (APA 2.6)</a></li>
 <li class="chapter" data-level="10.4.1.3" data-path="APAstyle.html"><a href="APAstyle.html#author-note-apa-2.7"><i class="fa fa-check"></i><b>10.4.1.3</b> Author Note (APA 2.7)</a></li>
 <li class="chapter" data-level="10.4.1.4" data-path="APAstyle.html"><a href="APAstyle.html#running-head-apa-2.8"><i class="fa fa-check"></i><b>10.4.1.4</b> Running Head (APA 2.8)</a></li>
 <li class="chapter" data-level="10.4.1.5" data-path="APAstyle.html"><a href="APAstyle.html#manuscript-page-headerspage-numbers-apa-8.03"><i class="fa fa-check"></i><b>10.4.1.5</b> Manuscript Page Headers/Page Numbers (APA 8.03)</a></li>
 </ul></li>
-<li class="chapter" data-level="10.4.2" data-path="APAstyle.html"><a href="APAstyle.html#abstract-apa-2.8-3.3"><i class="fa fa-check"></i><b>10.4.2</b> Abstract (APA 2.8, 3.3)</a>
-<ul>
+<li class="chapter" data-level="10.4.2" data-path="APAstyle.html"><a href="APAstyle.html#abstract-apa-2.8-3.3"><i class="fa fa-check"></i><b>10.4.2</b> Abstract (APA 2.8, 3.3)</a><ul>
 <li class="chapter" data-level="10.4.2.1" data-path="APAstyle.html"><a href="APAstyle.html#recipe-for-an-abstract"><i class="fa fa-check"></i><b>10.4.2.1</b> Recipe for an Abstract</a></li>
 <li class="chapter" data-level="10.4.2.2" data-path="APAstyle.html"><a href="APAstyle.html#keywords"><i class="fa fa-check"></i><b>10.4.2.2</b> Keywords</a></li>
 </ul></li>
-<li class="chapter" data-level="10.4.3" data-path="APAstyle.html"><a href="APAstyle.html#introduction-apa-2.11"><i class="fa fa-check"></i><b>10.4.3</b> Introduction (APA 2.11)</a>
-<ul>
+<li class="chapter" data-level="10.4.3" data-path="APAstyle.html"><a href="APAstyle.html#introduction-apa-2.11"><i class="fa fa-check"></i><b>10.4.3</b> Introduction (APA 2.11)</a><ul>
 <li class="chapter" data-level="10.4.3.1" data-path="APAstyle.html"><a href="APAstyle.html#the-brief-introduction"><i class="fa fa-check"></i><b>10.4.3.1</b> The Brief Introduction</a></li>
 <li class="chapter" data-level="10.4.3.2" data-path="APAstyle.html"><a href="APAstyle.html#bikos-developmental-perspective-on-learning-to-write-the-empirical-manuscript"><i class="fa fa-check"></i><b>10.4.3.2</b> Bikos’ Developmental Perspective on Learning to Write the Empirical Manuscript</a></li>
 <li class="chapter" data-level="10.4.3.3" data-path="APAstyle.html"><a href="APAstyle.html#perennial-notes-from-research-project-faculty-graders"><i class="fa fa-check"></i><b>10.4.3.3</b> Perennial Notes from Research-Project Faculty Graders</a></li>
@@ -478,10 +395,8 @@ div.csl-indent {
 <li class="chapter" data-level="10.4.10" data-path="APAstyle.html"><a href="APAstyle.html#closing-thoughts"><i class="fa fa-check"></i><b>10.4.10</b> Closing Thoughts</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="Zotero.html"><a href="Zotero.html"><i class="fa fa-check"></i><b>11</b> Reference Management with Zotero</a>
-<ul>
-<li class="chapter" data-level="11.1" data-path="Zotero.html"><a href="Zotero.html#navigating-this-lessonette"><i class="fa fa-check"></i><b>11.1</b> Navigating this Lessonette</a>
-<ul>
+<li class="chapter" data-level="11" data-path="Zotero.html"><a href="Zotero.html"><i class="fa fa-check"></i><b>11</b> Reference Management with Zotero</a><ul>
+<li class="chapter" data-level="11.1" data-path="Zotero.html"><a href="Zotero.html#navigating-this-lessonette"><i class="fa fa-check"></i><b>11.1</b> Navigating this Lessonette</a><ul>
 <li class="chapter" data-level="11.1.1" data-path="Zotero.html"><a href="Zotero.html#learning-objectives-9"><i class="fa fa-check"></i><b>11.1.1</b> Learning Objectives</a></li>
 </ul></li>
 <li class="chapter" data-level="11.2" data-path="Zotero.html"><a href="Zotero.html#go-get-it"><i class="fa fa-check"></i><b>11.2</b> Go Get It!</a></li>
@@ -491,34 +406,27 @@ div.csl-indent {
 <li class="chapter" data-level="11.6" data-path="Zotero.html"><a href="Zotero.html#creating-the-reference-list"><i class="fa fa-check"></i><b>11.6</b> Creating the Reference List</a></li>
 <li class="chapter" data-level="11.7" data-path="Zotero.html"><a href="Zotero.html#other-reasons-i-love-it-so-much"><i class="fa fa-check"></i><b>11.7</b> Other Reasons I Love it So Much</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="Tables.html"><a href="Tables.html"><i class="fa fa-check"></i><b>12</b> Table Magic</a>
-<ul>
-<li class="chapter" data-level="12.1" data-path="Tables.html"><a href="Tables.html#navigating-this-lessonette-1"><i class="fa fa-check"></i><b>12.1</b> Navigating this Lessonette</a>
-<ul>
+<li class="chapter" data-level="12" data-path="Tables.html"><a href="Tables.html"><i class="fa fa-check"></i><b>12</b> Table Magic</a><ul>
+<li class="chapter" data-level="12.1" data-path="Tables.html"><a href="Tables.html#navigating-this-lessonette-1"><i class="fa fa-check"></i><b>12.1</b> Navigating this Lessonette</a><ul>
 <li class="chapter" data-level="12.1.1" data-path="Tables.html"><a href="Tables.html#learning-objectives-10"><i class="fa fa-check"></i><b>12.1.1</b> Learning Objectives</a></li>
 </ul></li>
-<li class="chapter" data-level="12.2" data-path="Tables.html"><a href="Tables.html#magic-happens-when-you"><i class="fa fa-check"></i><b>12.2</b> Magic Happens When You…</a>
-<ul>
+<li class="chapter" data-level="12.2" data-path="Tables.html"><a href="Tables.html#magic-happens-when-you"><i class="fa fa-check"></i><b>12.2</b> Magic Happens When You…</a><ul>
 <li class="chapter" data-level="12.2.1" data-path="Tables.html"><a href="Tables.html#starting-the-table"><i class="fa fa-check"></i><b>12.2.1</b> Starting the Table</a></li>
 <li class="chapter" data-level="12.2.2" data-path="Tables.html"><a href="Tables.html#a-few-handy-tools"><i class="fa fa-check"></i><b>12.2.2</b> A Few Handy Tools</a></li>
 <li class="chapter" data-level="12.2.3" data-path="Tables.html"><a href="Tables.html#decimal-magic"><i class="fa fa-check"></i><b>12.2.3</b> Decimal Magic</a></li>
 <li class="chapter" data-level="12.2.4" data-path="Tables.html"><a href="Tables.html#more-help-from-table-properties"><i class="fa fa-check"></i><b>12.2.4</b> More Help from Table Properties</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="Excel.html"><a href="Excel.html"><i class="fa fa-check"></i><b>13</b> Writing in Excel</a>
-<ul>
-<li class="chapter" data-level="13.1" data-path="Excel.html"><a href="Excel.html#navigating-this-lessonette-2"><i class="fa fa-check"></i><b>13.1</b> Navigating this Lessonette</a>
-<ul>
+<li class="chapter" data-level="13" data-path="Excel.html"><a href="Excel.html"><i class="fa fa-check"></i><b>13</b> Writing in Excel</a><ul>
+<li class="chapter" data-level="13.1" data-path="Excel.html"><a href="Excel.html#navigating-this-lessonette-2"><i class="fa fa-check"></i><b>13.1</b> Navigating this Lessonette</a><ul>
 <li class="chapter" data-level="13.1.1" data-path="Excel.html"><a href="Excel.html#learning-objectives-11"><i class="fa fa-check"></i><b>13.1.1</b> Learning Objectives</a></li>
 </ul></li>
-<li class="chapter" data-level="13.2" data-path="Excel.html"><a href="Excel.html#where-to-start"><i class="fa fa-check"></i><b>13.2</b> Where to Start</a>
-<ul>
+<li class="chapter" data-level="13.2" data-path="Excel.html"><a href="Excel.html#where-to-start"><i class="fa fa-check"></i><b>13.2</b> Where to Start</a><ul>
 <li class="chapter" data-level="13.2.1" data-path="Excel.html"><a href="Excel.html#bottom-up"><i class="fa fa-check"></i><b>13.2.1</b> Bottom Up</a></li>
 <li class="chapter" data-level="13.2.2" data-path="Excel.html"><a href="Excel.html#top-down"><i class="fa fa-check"></i><b>13.2.2</b> Top Down</a></li>
 <li class="chapter" data-level="13.2.3" data-path="Excel.html"><a href="Excel.html#mostly-i-start-in-the-middle"><i class="fa fa-check"></i><b>13.2.3</b> Mostly I Start in the Middle</a></li>
 </ul></li>
-<li class="chapter" data-level="13.3" data-path="Excel.html"><a href="Excel.html#in-any-case-i-use-excel"><i class="fa fa-check"></i><b>13.3</b> In Any Case, I Use Excel</a>
-<ul>
+<li class="chapter" data-level="13.3" data-path="Excel.html"><a href="Excel.html#in-any-case-i-use-excel"><i class="fa fa-check"></i><b>13.3</b> In Any Case, I Use Excel</a><ul>
 <li class="chapter" data-level="13.3.1" data-path="Excel.html"><a href="Excel.html#the-structure-of-my-spreadsheet"><i class="fa fa-check"></i><b>13.3.1</b> The Structure of my Spreadsheet</a></li>
 </ul></li>
 <li class="chapter" data-level="13.4" data-path="Excel.html"><a href="Excel.html#lets-tour"><i class="fa fa-check"></i><b>13.4</b> Let’s Tour</a></li>
@@ -547,24 +455,25 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="PHoS" class="section level1" number="3">
+<div id="PHoS" class="section level1">
 <h1><span class="header-section-number">Chapter 3</span> Epistemology and Philosophy of Science</h1>
 <p><a href="HTTPS://SPU.HOSTED.PANOPTO.COM/PANOPTO/PAGES/VIEWER.ASPX?PID=E521F3D0-BE61-4099-A108-AC40003B45E2">Screencasted Lecture Link</a></p>
 <p>This lesson provides a high level review of epistemology (including the contribution of race-based epistemologies) and philosophy of science and considers the differences in these paradigms.</p>
-<div id="navigating-this-lesson-1" class="section level2" number="3.1">
+<div id="navigating-this-lesson-1" class="section level2">
 <h2><span class="header-section-number">3.1</span> Navigating this Lesson</h2>
 <p>There is about 45 minutes of lecture.</p>
-<div id="learning-objectives-1" class="section level3" number="3.1.1">
+<div id="learning-objectives-1" class="section level3">
 <h3><span class="header-section-number">3.1.1</span> Learning Objectives</h3>
 <p>Learning objectives from this lecture include the following:</p>
 <ul>
-<li>Identify, define, and provide examples of the standard ways of knowing. * Describe how a race-based epistemology (e.g., Black feminist epistemology) could add value to a research study.</li>
+<li>Identify, define, and provide examples of the standard ways of knowing.</li>
+<li>Describe how a race-based epistemology (e.g., Black feminist epistemology) could add value to a research study.</li>
 <li>Distinguish between emic and etic.</li>
 <li>Define critical research concepts: components of science, methodology, research design, parsimony, plausible rival hypotheses, statistical inference.</li>
 <li>Define four primary philosophies of science, being able to identify the epistemology, axiology, rhetorical structure, and methodology for each.</li>
 </ul>
 </div>
-<div id="readings-resources-1" class="section level3" number="3.1.2">
+<div id="readings-resources-1" class="section level3">
 <h3><span class="header-section-number">3.1.2</span> Readings &amp; Resources</h3>
 <p>In preparing this chapter, I drew heavily from the following resource(s). Other resources are cited (when possible, linked) in the text with complete citations in the reference list.</p>
 <ul>
@@ -590,11 +499,11 @@ div.csl-indent {
 </ul>
 </div>
 </div>
-<div id="core-themes-in-research-methodology" class="section level2" number="3.2">
+<div id="core-themes-in-research-methodology" class="section level2">
 <h2><span class="header-section-number">3.2</span> Core Themes in Research Methodology</h2>
 <p><strong>But first a bicycling vignette</strong></p>
 <p>What would you think of allowing cyclists to have the option of treating stop signs as yield signs? What are your first impressions? Think for a minute what you know about riding a bicycle, where you know it from, and then what you would think about “freeing up” the stop-sign rule to let cyclists pass through (without a full stop) if it were safe to do so.</p>
-<div id="ways-of-knowing" class="section level3" number="3.2.1">
+<div id="ways-of-knowing" class="section level3">
 <h3><span class="header-section-number">3.2.1</span> Ways of Knowing</h3>
 <p><strong>Epistemology</strong>: the branch of philosophy that studies the nature of knowledge, its presuppositions and foundations, and its extent and validity.</p>
 <p>One epistemological interest is in determining how we know what we know.</p>
@@ -637,12 +546,12 @@ div.csl-indent {
 </ul>
 <p><strong>Back to the bicycling vignette</strong></p>
 <p>There’s more to this story.</p>
-<p>As of October 1st, 2020, cyclists in Washington State have been able to treat stop signs (not stoplights, railway crossings, or stop signal displayed by school busses) as yield signs (Dahl, 2020, 2020). The two articles from the Bellingham Herald walk us through some of the ways of knowing that led the Washington legislature to its widely passing margins (77 to 20 House; 44 to 1 Senate; <span class="citation">(<a href="#ref-fucoloro_bipartisan_2020" role="doc-biblioref">Fucoloro, 2020</a>)</span>).</p>
+<p>As of October 1st, 2020, cyclists in Washington State have been able to treat stop signs (not stoplights, railway crossings, or stop signal displayed by school busses) as yield signs <span class="citation">(Dahl, <a href="#ref-dahl_heres_2020" role="doc-biblioref">2020</a><a href="#ref-dahl_heres_2020" role="doc-biblioref">a</a>, <a href="#ref-dahl_new_2020" role="doc-biblioref">2020</a><a href="#ref-dahl_new_2020" role="doc-biblioref">b</a>)</span>. The two articles from the Bellingham Herald walk us through some of the ways of knowing that led the Washington legislature to its widely passing margins (77 to 20 House; 44 to 1 Senate; <span class="citation">(Fucoloro, <a href="#ref-fucoloro_bipartisan_2020" role="doc-biblioref">2020</a>)</span>).</p>
 <p>Let’s think through the ways of knowing to understand the components that brought about this new law.</p>
 <p><em>Intuition</em>: Depending on your own emotions and instincts, you may have widely-varying impressions. Mine? YES! That will make my life easier – and other drivers won’t be angry when I lose momentum in the slowing and stopping. On the other hand, drivers may get really mad if they think I’m breaking the law.</p>
 <p><em>Experience</em>: It’s my experience that I’m more efficient (faster, smoother) if I can “slow-through” a stop-sign; particularly on right turns. This in turn, would make it faster for drivers.</p>
 <p><em>Authority</em>: Idaho passed a similar in 1982 (dubbed the “Idaho stop”), Delaware in 2017 (the “Delaware Yield), Oregon in 2019.</p>
-<p><em>Empiricism</em>: Many cycling accidents happen in intersections. Traveling quickly through an intersection minimizes risk. Thus, momentum matters. Dahl <span class="citation">(<a href="#ref-dahl_heres_2020" role="doc-biblioref">2020</a>)</span>gathered his own data. After a complete stop, it took 5.4 seconds to clear the intersection; entering at 5mph took only 3.8 seconds. This is 30% of time spent in one of the most probable places for cyclist/driver collisions.</p>
+<p><em>Empiricism</em>: Many cycling accidents happen in intersections. Traveling quickly through an intersection minimizes risk. Thus, momentum matters. Dahl <span class="citation">(<a href="#ref-dahl_heres_2020" role="doc-biblioref">2020</a><a href="#ref-dahl_heres_2020" role="doc-biblioref">a</a>)</span>gathered his own data. After a complete stop, it took 5.4 seconds to clear the intersection; entering at 5mph took only 3.8 seconds. This is 30% of time spent in one of the most probable places for cyclist/driver collisions.</p>
 <p><em>The Scientific Method</em>:</p>
 <ul>
 <li>A year after the Idaho law went into effect, bicycle injuries dropped 14%.</li>
@@ -650,9 +559,9 @@ div.csl-indent {
 </ul>
 <p>Things to ponder: How would you have voted? Are there arguments for fairness/equity/equality in this argument (e.g., bicycles should have to follow same rules as cars)?</p>
 </div>
-<div id="a-faith-based-model" class="section level3" number="3.2.2">
+<div id="a-faith-based-model" class="section level3">
 <h3><span class="header-section-number">3.2.2</span> A Faith-Based Model</h3>
-<p>For a faith-based, Methodist, take, John Wesley built on the Anglican faith tradition by adding a fourth emphases (experience), to create what is now termed the Wesleyan Quadrilateral <span class="citation">(<a href="#ref-noauthor_glossary_nodate" role="doc-biblioref"><span>“Glossary,”</span> n.d.</a>)</span>.</p>
+<p>For a faith-based, Methodist, take, John Wesley built on the Anglican faith tradition by adding a fourth emphases (experience), to create what is now termed the Wesleyan Quadrilateral <span class="citation">(“Glossary,” <a href="#ref-noauthor_glossary_nodate" role="doc-biblioref">n.d.</a>)</span>.</p>
 <ul>
 <li><em>Scripture</em>: defined as the primary source and standard for Christian doctrine</li>
 <li><em>Tradition</em>: experience and the witness of development of growth of the faith through the past centuries and in many nations and cultures</li>
@@ -661,29 +570,35 @@ div.csl-indent {
 </ul>
 <p>These traditions are clearly White, Western, and male. There are, of course, other ways do ask the question How do we know? As well as different answers to the question.</p>
 </div>
-<div id="race-based-epistemologies" class="section level3" number="3.2.3">
+<div id="race-based-epistemologies" class="section level3">
 <h3><span class="header-section-number">3.2.3</span> Race-Based Epistemologies</h3>
-<p>Rajack-Talley et al. <span class="citation">(<a href="#ref-rajack-talley_epistemological_2017" role="doc-biblioref">2017</a>)</span> address this in a paper describing how they were intentional to include researchers with different epistemologies (“race-based epistemologies”) in an NIH-funded study of three Black communities in Kentucky.</p>
-<p>The NIH-study <span class="citation">(<a href="#ref-della_modeling_2016" role="doc-biblioref">Della et al., 2016</a>)</span> was a multi-staged, mixed methods, NIH-funded study examining individual, community, and cultural-level determinants of increasing fruit and vegetable consumption in Black residents in two low-income cities in Kentucky (Louisville, Hopkinsville).</p>
+<p>Rajack-Talley et al. <span class="citation">(<a href="#ref-rajack-talley_epistemological_2017" role="doc-biblioref">2017</a>)</span> address this in a paper describing how they were intentional to include researchers with different epistemologies (“race-based epistemologies”) in an NIH-funded study of three Black communities in Kentucky.</p>
+<p>The NIH-study <span class="citation">(Della et al., <a href="#ref-della_modeling_2016" role="doc-biblioref">2016</a>)</span> was a multi-staged, mixed methods, NIH-funded study examining individual, community, and cultural-level determinants of increasing fruit and vegetable consumption in Black residents in two low-income cities in Kentucky (Louisville, Hopkinsville).</p>
 <p>Proponents of race-based epistemologies argue:</p>
 <ul>
 <li>If the life experiences of African descent are integral to the analysis of research, then there should be some degree of an Afro-centric, Black, or race-based epistemological framework</li>
 <li>This includes the adoption of the <em>emic</em> approach that recognizes there are distinct historical and cultural experiences of African people; the emic approach includes the community’s understandings and interpretations of their conditions and experiences</li>
 <li>“Outsiders” who are researching the other are wise to maintain a critical relationship to the research topic (and population) through self-reflexivity (self-reflection by the researchers and acknowledgement that there are differences between the researcher and those being studied).</li>
 </ul>
-<p>One distinction is the difference in insider and outsider perspectives:
-* <strong>etic</strong>:
-- standing far enough away, on the outside,
-- with the purpose of observing similarities/differences from other cultures;
-- the primary interest is in testing hypotheses, identifying common/universal aspects of human behavior that transcend cultural differences.
-- assumes all cultures can be observed as generalizable phenomena with comparable features and universalistic measures
-* <strong>emic</strong>:
-- standing on the inside
-- with the purpose of identifying culture-specific elements or human behavior that are not comparable across cultures
-- measures are relative
-- argues that meaningful distinctions can only be made by people within the cultures
-- assumes that the best way to understand a culture is from the perspectives and values of those being observed</p>
-<p><strong>Black feminist epistemology</strong> (as cited in <span class="citation">(<a href="#ref-hill_collins_black_2000" role="doc-biblioref">Hill Collins, 2000</a>)</span>) as an example of a race-based epistemology</p>
+<p>One distinction is the difference in insider and outsider perspectives:</p>
+<ul>
+<li><strong>etic</strong>:
+<ul>
+<li>standing far enough away, on the outside,</li>
+<li>with the purpose of observing similarities/differences from other cultures;</li>
+<li>the primary interest is in testing hypotheses, identifying common/universal aspects of human behavior that transcend cultural differences.</li>
+<li>assumes all cultures can be observed as generalizable phenomena with comparable features and universalistic measures</li>
+</ul></li>
+<li><strong>emic</strong>:
+<ul>
+<li>standing on the inside</li>
+<li>with the purpose of identifying culture-specific elements or human behavior that are not comparable across cultures</li>
+<li>measures are relative</li>
+<li>argues that meaningful distinctions can only be made by people within the cultures</li>
+<li>assumes that the best way to understand a culture is from the perspectives and values of those being observed</li>
+</ul></li>
+</ul>
+<p><strong>Black feminist epistemology</strong> (as cited in <span class="citation">(Hill Collins, <a href="#ref-hill_collins_black_2000" role="doc-biblioref">2000</a>)</span>) as an example of a race-based epistemology</p>
 <ul>
 <li>Concrete experiences are treated as a criterion of meaning</li>
 <li>Dialogues are used in assessing knowledge claims</li>
@@ -692,15 +607,15 @@ div.csl-indent {
 </ul>
 </div>
 </div>
-<div id="defining-research-and-some-of-its-key-concepts" class="section level2" number="3.3">
-<h2><span class="header-section-number">3.3</span> Defining Research (And [Some Of]) Its Key Concepts</h2>
-<p><em>Science</em> is generally characterized by three components <span class="citation">(<a href="#ref-jhangiani_research_2019" role="doc-biblioref">Jhangiani et al., 2019</a>)</span>:</p>
+<div id="defining-research-and-some-of-its-key-concepts" class="section level2">
+<h2><span class="header-section-number">3.3</span> Defining Research and (Some of) Its Key Concepts</h2>
+<p><em>Science</em> is generally characterized by three components <span class="citation">(Jhangiani et al., <a href="#ref-jhangiani_research_2019" role="doc-biblioref">2019</a>)</span>:</p>
 <ul>
 <li><strong>Systematic empiricism</strong>: planning, making, recording, analyzing observations of the natural world</li>
 <li><strong>Empirical questions</strong>: concerning the way the world <em>is</em> not the way the world <em>ought to be</em>.</li>
 <li><strong>Public knowledge</strong>: the data contributes to public knowledge; publication in academia (sharing knowledge and self-correcting); open science movement.</li>
 </ul>
-<p>The purpose of research is to draw valid inferences about the relationships between variables <span class="citation">(<a href="#ref-kazdin_research_2017" role="doc-biblioref">Kazdin, 2017</a>)</span></p>
+<p>The purpose of research is to draw valid inferences about the relationships between variables <span class="citation">(Kazdin, <a href="#ref-kazdin_research_2017" role="doc-biblioref">2017</a>)</span></p>
 <p><strong>Methodology</strong></p>
 <ul>
 <li>the diverse principles, procedures, and practices that govern research.</li>
@@ -726,17 +641,17 @@ div.csl-indent {
 <li>statistical controls help to reduce the plausibility of rival interpretations of the results.</li>
 <li>agreed-upon decision rules</li>
 </ul>
-<p>At the completion of a study the explanation one wishes to provide ought to be the most plausible interpretation. This is achieved not by arguing persuasively, but rather by designing the study in such a way that other explanations do not seem very plausible or parsimonious <span class="citation">(<a href="#ref-kazdin_research_2017" role="doc-biblioref">Kazdin, 2017</a>)</span>.</p>
+<p>At the completion of a study the explanation one wishes to provide ought to be the most plausible interpretation. This is achieved not by arguing persuasively, but rather by designing the study in such a way that other explanations do not seem very plausible or parsimonious <span class="citation">(Kazdin, <a href="#ref-kazdin_research_2017" role="doc-biblioref">2017</a>)</span>.</p>
 </div>
-<div id="philosophy-of-science-as-it-relates-to-research-methodology" class="section level2" number="3.4">
+<div id="philosophy-of-science-as-it-relates-to-research-methodology" class="section level2">
 <h2><span class="header-section-number">3.4</span> Philosophy of Science as it Relates to Research Methodology</h2>
 <p><strong>Philosophy of Science</strong></p>
 <ul>
 <li>Considers the logical and epistemological underpinnings of the scientific method in general.</li>
 <li>Historically, experimentation has been closely tied to philosophical thought. The very notion of hypothesis derives from philosophy.</li>
-<li>(among other things) reveals fundamental limitations in the logical underpinnings of observational and experimental methods.</li>
+<li>(among other things) Reveals fundamental limitations in the logical underpinnings of observational and experimental methods.</li>
 </ul>
-<p>Two great articles that were written about qualitative methods, provide an accessible and concise review of philosophy of science as it connects to research in clinical <span class="citation">(<a href="#ref-ponterotto_qualitative_2005" role="doc-biblioref">Ponterotto, 2005</a>)</span> and industrial-organizational <span class="citation">(<a href="#ref-cortina_doing_2013" role="doc-biblioref">R. P. Gephart Jr., 2013</a>)</span> psychology. Much of this chapter is based on these articles.</p>
+<p>Two great articles that were written about qualitative methods, provide an accessible and concise review of philosophy of science as it connects to research in clinical <span class="citation">(Ponterotto, <a href="#ref-ponterotto_qualitative_2005" role="doc-biblioref">2005</a>)</span> and industrial-organizational <span class="citation">(Gephart, <a href="#ref-cortina_doing_2013" role="doc-biblioref">2013</a>)</span> psychology. Much of this chapter is based on these articles.</p>
 <p><strong>Paradigm</strong></p>
 <ul>
 <li>A set of interrelated assumptions about the social world which provides a philosophical and conceptual framework for the organized study of that world.</li>
@@ -751,7 +666,7 @@ div.csl-indent {
 </ul>
 <p><strong>Postpositivism</strong></p>
 <ul>
-<li>Acknowledge an objective reality that is only imperfectly apprehendable; thus we can never fully capture a “true” reality (although it exists).</li>
+<li>Acknowledges an objective reality that is only imperfectly apprehendable; thus we can never fully capture a “true” reality (although it exists).</li>
 <li>While positivists stress “theory verification,” postpositivists engage in “theory falsification.”</li>
 </ul>
 <p><strong>Positivism &amp; Postpositivism shared variance</strong></p>
@@ -779,7 +694,7 @@ div.csl-indent {
 <li>Critical theory is traced to the 1920s at the Institute of Social Research at the University of Frankfurt. In Nazi-controlled Germany, the scholars fled to California to be “shocked by American culture…by the contradictions between progressive American rhetoric of egalitarianism and the reality of racial and class discrimination.”</li>
 <li>There is no single critical theory; a criticalist use his/her work as a form of cultural or social criticism.</li>
 </ul>
-<div id="paradigmatic-impact-on-onology-epistemology-axiology-rhetorical-structure-and-methodology" class="section level3" number="3.4.1">
+<div id="paradigmatic-impact-on-onology-epistemology-axiology-rhetorical-structure-and-methodology" class="section level3">
 <h3><span class="header-section-number">3.4.1</span> Paradigmatic Impact on Onology, Epistemology, Axiology, Rhetorical Structure, and Methodology</h3>
 <p><strong>Ontology</strong>: the nature and reality of being. Answers the questions, “What is the form and nature of reality? What can be known about reality?</p>
 <ul>
@@ -814,14 +729,14 @@ div.csl-indent {
 <p><strong>One of Ponterotto’s (2005) finest moments!</strong>
 It is important that counseling researchers understand and clearly explicate their operating paradigm in the reporting of studies…it is essential that researchers, as well as journal editorial board members and grant reviewers “locate” research studies within a specific research paradigm. (p. 132).</p>
 </div>
-<div id="things-im-thinking-about" class="section level3" number="3.4.2">
+<div id="things-im-thinking-about" class="section level3">
 <h3><span class="header-section-number">3.4.2</span> Things I’m Thinking About</h3>
 <ul>
 <li>Why is it important to include race-based epistemologies?
 <ul>
-<li>Mistrust comes from factual and perceived instances of exploitation and discrimination in a history of medical abuse, racism, failure to provide information/fully-informed-consent, racial stigmas, poor recruitment <span class="citation">(<a href="#ref-rajack-talley_epistemological_2017" role="doc-biblioref">Rajack-Talley et al., 2017</a>)</span></li>
-<li>“Although these recommendations can be seen as ‘simply good field research,’ they are particularly important in researching the African American community because of the group’s history and because more recent data collection has been used to negatively depict this racial group” (<span class="citation">(<a href="#ref-rajack-talley_epistemological_2017" role="doc-biblioref">Rajack-Talley et al., 2017</a>)</span> p. 413).</li>
-<li>The Rajack-Talley et al. <span class="citation">(<a href="#ref-rajack-talley_epistemological_2017" role="doc-biblioref">2017</a>)</span> manuscript demonstrates how a multi-ethnic and multi-disciplinary team worked together to develop approaches that contributed to success in a complex NIH-funded research project from participation, engagement, and interpretation of results. Techniques included self-reflexivity, transect walks, conducting interviews in participants’ homes or familiar places with Black team members, collecting data in community locations including other trusted members of the community (e.g., family, friend, pastor, barber).</li>
+<li>Mistrust comes from factual and perceived instances of exploitation and discrimination in a history of medical abuse, racism, failure to provide information/fully-informed-consent, racial stigmas, poor recruitment <span class="citation">(Rajack-Talley et al., <a href="#ref-rajack-talley_epistemological_2017" role="doc-biblioref">2017</a>)</span></li>
+<li>“Although these recommendations can be seen as ‘simply good field research,’ they are particularly important in researching the African American community because of the group’s history and because more recent data collection has been used to negatively depict this racial group” (<span class="citation">(Rajack-Talley et al., <a href="#ref-rajack-talley_epistemological_2017" role="doc-biblioref">2017</a>)</span> p. 413).</li>
+<li>The Rajack-Talley et al. <span class="citation">(<a href="#ref-rajack-talley_epistemological_2017" role="doc-biblioref">2017</a>)</span> manuscript demonstrates how a multi-ethnic and multi-disciplinary team worked together to develop approaches that contributed to success in a complex NIH-funded research project from participation, engagement, and interpretation of results. Techniques included self-reflexivity, transect walks, conducting interviews in participants’ homes or familiar places with Black team members, collecting data in community locations including other trusted members of the community (e.g., family, friend, pastor, barber).</li>
 <li>Finally, let me recommend a very cool (38-minute) <a href="https://www.npr.org/2020/07/27/895858974/creativity-and-diversity-how-exposure-to-different-people-affects-our-thinking">episode of Hidden Brain</a> where Shankar Vedantam talks with researchers about the benefits of diversity on outcomes – including scientific research:</li>
 </ul></li>
 </ul>
@@ -830,39 +745,42 @@ It is important that counseling researchers understand and clearly explicate the
 </div>
 </div>
 <h3> References</h3>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-cohen_introduction_1934" class="csl-entry">
-Cohen, M. R., &amp; Nagel, E. (1934). <em>An introduction to logic and scientific method</em>. Harcourt Brace.
+<div id="refs" class="references">
+<div id="ref-cohen_introduction_1934">
+<p>Cohen, M. R., &amp; Nagel, E. (1934). <em>An introduction to logic and scientific method</em>. Harcourt Brace.</p>
 </div>
-<div id="ref-dahl_heres_2020" class="csl-entry">
-Dahl, D. (2020). Here’s a second, real-world look at <span>Washington</span>’s new stop-as-yield law for cyclists. <em>Bellingham Herald</em>. <a href="https://www.bellinghamherald.com/news/traffic/rules-of-the-road/article245802390.html">https://www.bellinghamherald.com/news/traffic/rules-of-the-road/article245802390.html</a>
+<div id="ref-dahl_heres_2020">
+<p>Dahl, D. (2020a). Here’s a second, real-world look at Washington’s new stop-as-yield law for cyclists. <em>Bellingham Herald</em>. <a href="https://www.bellinghamherald.com/news/traffic/rules-of-the-road/article245802390.html">https://www.bellinghamherald.com/news/traffic/rules-of-the-road/article245802390.html</a></p>
 </div>
-<div id="ref-della_modeling_2016" class="csl-entry">
-Della, L. J., D’Silva, M. U., Best, L. E., Smith, S. E., Carthan, Q. N., &amp; Rajack-Talley, T. A. (2016). Modeling message preferences: <span>An</span> adaptive conjoint analysis of persuasive messaging to increase fruit and vegetable consumption. <em>Journal of Communication in Healthcare</em>, <em>9</em>(3), 164–177. <a href="https://doi.org/10.1080/17538068.2016.1238179">https://doi.org/10.1080/17538068.2016.1238179</a>
+<div id="ref-dahl_new_2020">
+<p>Dahl, D. (2020b). New law lets Washington cyclists treat stop signs as yield signs. It’s not a crazy idea. <em>Bellingham Herald</em>. <a href="https://www.bellinghamherald.com/news/traffic/rules-of-the-road/article245635760.html">https://www.bellinghamherald.com/news/traffic/rules-of-the-road/article245635760.html</a></p>
 </div>
-<div id="ref-fucoloro_bipartisan_2020" class="csl-entry">
-Fucoloro, T. (2020). With bipartisan <span>House</span> vote, <span>Washington</span> on verge of joining <span>Idaho</span> and <span>Oregon</span> by allowing people biking to treat stop signs as yield signs. In <em>Seattle Bike Blog</em>. <a href="https://www.seattlebikeblog.com/2020/03/05/with-bipartisan-house-vote-washington-on-verge-of-joining-idaho-and-oregon-by-allowing-people-biking-to-treat-stop-signs-as-yield-signs/">https://www.seattlebikeblog.com/2020/03/05/with-bipartisan-house-vote-washington-on-verge-of-joining-idaho-and-oregon-by-allowing-people-biking-to-treat-stop-signs-as-yield-signs/</a>
+<div id="ref-della_modeling_2016">
+<p>Della, L. J., D’Silva, M. U., Best, L. E., Smith, S. E., Carthan, Q. N., &amp; Rajack-Talley, T. A. (2016). Modeling message preferences: An adaptive conjoint analysis of persuasive messaging to increase fruit and vegetable consumption. <em>Journal of Communication in Healthcare</em>, <em>9</em>(3), 164–177. <a href="https://doi.org/10.1080/17538068.2016.1238179">https://doi.org/10.1080/17538068.2016.1238179</a></p>
 </div>
-<div id="ref-cortina_doing_2013" class="csl-entry">
-Gephart, R. P., Jr. (2013). Doing research with words: <span>Qualitative</span> methodologies and industrial/organizational psychology. In J. M. Cortina &amp; R. S. Landis (Eds.), <em>Modern <span>Research</span> <span>Methods</span> for the <span>Study</span> of <span>Behavior</span> in <span>Organizations</span></em> (pp. 266–318). Taylor &amp; Francis Group. <a href="http://ebookcentral.proquest.com/lib/spu/detail.action?docID=1154313">http://ebookcentral.proquest.com/lib/spu/detail.action?docID=1154313</a>
+<div id="ref-fucoloro_bipartisan_2020">
+<p>Fucoloro, T. (2020). With bipartisan House vote, Washington on verge of joining Idaho and Oregon by allowing people biking to treat stop signs as yield signs. In <em>Seattle Bike Blog</em>. <a href="https://www.seattlebikeblog.com/2020/03/05/with-bipartisan-house-vote-washington-on-verge-of-joining-idaho-and-oregon-by-allowing-people-biking-to-treat-stop-signs-as-yield-signs/">https://www.seattlebikeblog.com/2020/03/05/with-bipartisan-house-vote-washington-on-verge-of-joining-idaho-and-oregon-by-allowing-people-biking-to-treat-stop-signs-as-yield-signs/</a></p>
 </div>
-<div id="ref-noauthor_glossary_nodate" class="csl-entry">
-Glossary: <span>Wesleyan</span> <span>Quadrilateral</span>, the. (n.d.). In <em>The United Methodist Church</em>. Retrieved September 22, 2020, from <a href="https://www.umc.org/en/content/glossary-wesleyan-quadrilateral-the">https://www.umc.org/en/content/glossary-wesleyan-quadrilateral-the</a>
+<div id="ref-cortina_doing_2013">
+<p>Gephart, R. P., Jr. (2013). Doing research with words: Qualitative methodologies and industrial/organizational psychology. In J. M. Cortina &amp; R. S. Landis (Eds.), <em>Modern Research Methods for the Study of Behavior in Organizations</em> (pp. 266–318). Taylor &amp; Francis Group. <a href="http://ebookcentral.proquest.com/lib/spu/detail.action?docID=1154313">http://ebookcentral.proquest.com/lib/spu/detail.action?docID=1154313</a></p>
 </div>
-<div id="ref-hill_collins_black_2000" class="csl-entry">
-Hill Collins, P. (2000). <em>Black feminist thought: Knowledge, consciousness, and the politics of empowerment</em> (Revised tenth anniversary edition.; Second edition.). Routledge.
+<div id="ref-noauthor_glossary_nodate">
+<p>Glossary: Wesleyan Quadrilateral, the. (n.d.). In <em>The United Methodist Church</em>. Retrieved September 22, 2020, from <a href="https://www.umc.org/en/content/glossary-wesleyan-quadrilateral-the">https://www.umc.org/en/content/glossary-wesleyan-quadrilateral-the</a></p>
 </div>
-<div id="ref-jhangiani_research_2019" class="csl-entry">
-Jhangiani, R. S., Chiang, I.-C. A., Cuttler, C., &amp; Leighton, D. C. (2019). <em>Research <span>Methods</span> in <span>Psychology</span></em>. <a href="https://doi.org/10.17605/OSF.IO/HF7DQ">https://doi.org/10.17605/OSF.IO/HF7DQ</a>
+<div id="ref-hill_collins_black_2000">
+<p>Hill Collins, P. (2000). <em>Black feminist thought: Knowledge, consciousness, and the politics of empowerment</em> (Revised tenth anniversary edition.; Second edition.). Routledge.</p>
 </div>
-<div id="ref-kazdin_research_2017" class="csl-entry">
-Kazdin, A. E. (2017). <em>Research <span>Design</span> in <span>Clinical</span> <span>Psychology</span>, 5th <span>Edition</span></em>. <a href="https:///content/one-dot-com/one-dot-com/us/en/higher-education/program.html">/content/one-dot-com/one-dot-com/us/en/higher-education/program.html</a>
+<div id="ref-jhangiani_research_2019">
+<p>Jhangiani, R. S., Chiang, I.-C. A., Cuttler, C., &amp; Leighton, D. C. (2019). <em>Research Methods in Psychology</em>. <a href="https://doi.org/10.17605/OSF.IO/HF7DQ">https://doi.org/10.17605/OSF.IO/HF7DQ</a></p>
 </div>
-<div id="ref-ponterotto_qualitative_2005" class="csl-entry">
-Ponterotto, J. G. (2005). Qualitative research in counseling psychology: <span>A</span> primer on research paradigms and philosophy of science. <em>Journal of Counseling Psychology</em>, <em>52</em>(2), 126–136. <a href="https://doi.org/10.1037/0022-0167.52.2.126">https://doi.org/10.1037/0022-0167.52.2.126</a>
+<div id="ref-kazdin_research_2017">
+<p>Kazdin, A. E. (2017). <em>Research Design in Clinical Psychology, 5th Edition</em>. <a href="/content/one-dot-com/one-dot-com/us/en/higher-education/program.html">/content/one-dot-com/one-dot-com/us/en/higher-education/program.html</a></p>
 </div>
-<div id="ref-rajack-talley_epistemological_2017" class="csl-entry">
-Rajack-Talley, T. A., Smith, S. E., Best, L., Della, L. J., D’Silva, M. U., Potter, D. A., &amp; Carthan, Q. (2017). Epistemological inclusiveness in researching the <span>African</span> <span>American</span> community. <em>International Journal of Social Research Methodology: Theory &amp; Practice</em>, <em>20</em>(4), 411–423. <a href="https://doi.org/10.1080/13645579.2016.1187460">https://doi.org/10.1080/13645579.2016.1187460</a>
+<div id="ref-ponterotto_qualitative_2005">
+<p>Ponterotto, J. G. (2005). Qualitative research in counseling psychology: A primer on research paradigms and philosophy of science. <em>Journal of Counseling Psychology</em>, <em>52</em>(2), 126–136. <a href="https://doi.org/10.1037/0022-0167.52.2.126">https://doi.org/10.1037/0022-0167.52.2.126</a></p>
+</div>
+<div id="ref-rajack-talley_epistemological_2017">
+<p>Rajack-Talley, T. A., Smith, S. E., Best, L., Della, L. J., D’Silva, M. U., Potter, D. A., &amp; Carthan, Q. (2017). Epistemological inclusiveness in researching the African American community. <em>International Journal of Social Research Methodology: Theory &amp; Practice</em>, <em>20</em>(4), 411–423. <a href="https://doi.org/10.1080/13645579.2016.1187460">https://doi.org/10.1080/13645579.2016.1187460</a></p>
 </div>
 </div>
             </section>
@@ -875,7 +793,6 @@ Rajack-Talley, T. A., Smith, S. E., Best, L., Della, L. J., D’Silva, M. U., Po
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -915,11 +832,14 @@ gitbook.start({
 "text": null
 },
 "download": ["ReC_Topics.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section",
 "scroll_highlight": true
-},
-"search": true
+}
 });
 });
 </script>
